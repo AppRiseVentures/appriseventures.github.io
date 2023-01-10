@@ -7,11 +7,9 @@
 		   ),
 		
 		url($header-image);
-
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top;
-	border-radius: 0px 0px 40px 40px;
+	background-position: left;
 
 }
 
@@ -312,7 +310,7 @@ nav > ul li a:active {
 } 
 
 .appDescriptionContainer {
-	font-size: 2.5rem;
+	font-size: 2.25rem;
 	font-weight: normal;
 	width: 100%;
 	align-items: flex-start;
@@ -620,7 +618,8 @@ footer {
 	width: 100%;
 	text-align: center;
 	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-bottom: 0px;
+	font-size: 1.75rem;
 }
 
 .footerIcons {
