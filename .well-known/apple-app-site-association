@@ -2,10 +2,10 @@
   "applinks": {
       "details": [
            {
-               "appIDs": [ "XW75F94L2B.com.kkoskenvirta.myFitnessBro" ],
-                  "paths": [
-                     "*"
-                  ],
+               "appIDs": [ "XW75F94L2B.com.kkoskenvirta.myFitnessBroApp" ],
+               "paths": [
+                  "*"
+               ],
                "components": [
                   {
                      "#": "no_universal_links",
@@ -21,6 +21,6 @@
        ]
    },
    "webcredentials": {
-      "apps": [ "XW75F94L2B.com.kkoskenvirta.myFitnessBro" ]
+      "apps": [ "XW75F94L2B.com.kkoskenvirta.myFitnessBroApp" ]
    }
 }
