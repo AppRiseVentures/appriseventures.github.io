@@ -1,0 +1,23 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "6443701726.com.kkoskenvirta.myFitnessBro" ],
+             "components": [
+               {
+                  "#": "no_universal_links",
+                  "exclude": true,
+                  "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+               },
+               {
+                  "/": "/diary?tab=activity",
+                  "comment": "Open activity tab initially"
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "6443701726.com.kkoskenvirta.myFitnessBro" ]
+   }
+}
