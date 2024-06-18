@@ -4,7 +4,7 @@
            {
                "appIDs": [ "XW75F94L2B.com.kkoskenvirta.myFitnessBroApp" ],
                "paths": [
-                  "*"
+                  "/diary/?tab=*"
                ]
            }
        ]
