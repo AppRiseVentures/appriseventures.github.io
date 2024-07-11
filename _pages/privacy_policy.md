@@ -158,33 +158,51 @@ https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI
 
 <br>
 
-## 6 Social Media plugins
+## 6 Google Health Connect:
+Our app collects various types of personal and sensitive user data to provide enhanced features and services. Specifically, we collect the following data:
 
-Based on our legitimate interests in accordance with point (f) of Article 6 (1) of the General Data Protection Regulation (GDPR), we use various Social Media plugins to conduct web analysis, remarketing, and retargeting in order to optimize our online offering and to be able to compile more relevant offers for you.
+* __Active Calories Burned Record__: This includes the amount of calories burned during physical activities.
+* __Body Fat Record__: This includes body fat percentage measurements.
+* __Exercise Session Record__: This includes details of exercise sessions such as duration, type of exercise, and intensity.
+* __Height Record__: This includes user height measurements.
+* __Steps Record__: This includes the number of steps taken by the user.
+* __Total Calories Burned Record__: This includes the total amount of calories burned, combining both active and resting calories.
+* __Weight Record__: This includes body weight measurements.
 
-### 6.1 Facebook
+### 6.1 Usage of Personal and Sensitive User Data:
+The collected data is used solely to provide and improve the app's features, including:
 
-We use the Social Media plugin of Facebook.com, which is operated by Facebook Ireland Ltd., located at 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland ("Facebook"). These plugins may include interactive elements or content (such as videos, graphics, or text) and are marked with one of the Facebook logos (a white "f" in a blue tile, the words "Like," or the "thumbs up" sign) or are labeled "Facebook Social Plugin." For a list and illustrations of the Facebook Social Plugins, please visit: https://developers.facebook.com/docs/plugins
+* __Active Calories Burned Record__: To calculate and display the calories you have burned during physical activities, helping you track your fitness progress.
+* __Body Fat Record__: To help you monitor your body composition and track changes over time.
+* __Exercise Session Record__: To log and display details of your exercise sessions, providing insights into your workout patterns and progress.
+* __Height Record__: To personalize fitness calculations and provide accurate insights related to your health metrics.
+* __Steps Record__: To track and display the number of steps you take, helping you monitor your daily activity levels.
+* __Total Calories Burned Record__: To give you a comprehensive view of your calorie expenditure throughout the day.
+* __Weight Record__: To help you track your body weight changes and trends over time.
 
-When a user accesses a feature on this website that contains one of these plugins, a direct connection is established with the Facebook servers. Facebook transmits the plugin content directly to the user's device, which is then incorporated into the online offering. In this process, data may be used to create user profiles. We have no influence on the scope of data collected by Facebook using this plugin. The information we provide to users is based on what we know.
+### 6.2 Sharing of Personal and Sensitive User Data:
+We do not share your personal and sensitive user data with any third parties. All data collected is stored and used exclusively for providing the app's features to you, the user.
 
-When a plugin is incorporated, Facebook receives the information that a user has accessed the corresponding page of the website. If the user is logged into Facebook, Facebook can associate the website visit with the user's Facebook account. When a user interacts with a plugin, for example by clicking the Like button or leaving a comment, the user's device transmits the corresponding information directly to Facebook, where it is stored. Facebook may even obtain and store the IP addresses of users who are not registered with Facebook.
+### 6.3 Data Storage:
+Your data is stored securely on your device and/or on our servers (if applicable) solely for your usage and to enable the app features effectively.
 
-The Facebook privacy policy is available at: https://www.facebook.com/about/privacy. It provides more information on the purpose and scope of data collection, further data processing and use of data by Facebook, as well as the corresponding rights and settings options to protect your privacy.
+### 6.4 Reading of Personal and Sensitive User Data:
+Our app reads and displays the following data from your device for your use:
 
-Users who are registered with Facebook but do not want Facebook to collect data about them through this website and combine such data with their membership data stored by Facebook should log out of Facebook before using our website and delete their cookies. Additional settings as well as the option to object to the use of data for marketing purposes can be found in the Facebook user settings: https://www.facebook.com/settings?tab=ads or at http://www.aboutads.info/choices for the US and http://www.youronlinechoices.com for the EU.
+* __Active Calories Burned Record__: Read from your device and displayed in the app.
+* __Body Fat Record__: Read from your device and displayed in the app.
+* __Exercise Session Record__: Read from your device and displayed in the app.
+* __Height Record__: Read from your device and displayed in the app, saved and synced to the user profile.
+* __Steps Record__: Read from your device and displayed in the app.
+* __Total Calories Burned Record__: Read from your device and displayed in the app.
+* __Weight Record__: Read from your device and displayed in the app, saved and synced to user profile.
 
-These settings are platform-independent, meaning they apply to all devices, whether desktop computers or mobile devices.
+### 6.5 Writing of Personal and Sensitive User Data:
+Our app allows users to input and update certain personal and sensitive data points, which are then written back to the user's device health data:
 
-Facebook is certified under the Privacy Shield Framework, thus ensuring compliance with European data protection laws: https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC
-
-### 6.2 Instagram
-
-Our website may contain features and content of the Instagram service, which is operated by Instagram Inc., located at 1601 Willow Road, Menlo Park, CA, 94025, USA. This may include, for example, content such as pictures, videos, or text, as well as buttons that users can use to indicate that they like the content or the authors of the content, or to subscribe to our posts.
-
-Instagram can associate the clicking of the aforementioned content or functions with the profiles of registered Instagram users.
-
-For Instagram's privacy policy, please visit: http://instagram.com/about/legal/privacy
+* __Body Fat Record__: Users can input their body fat percentage to monitor changes over time, and this data is written back to the user's device.
+* __Height Record__: Users can enter their height measurements to ensure accurate fitness and health calculations, and this data is written back to the user's device.
+* __Weight Record__: Users can log their body weight measurements to track their weight management progress, and this data is written back to the user's device.
 
 <br>
 
