@@ -1,3 +1,344 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fimbl – Mindful Eating &amp; Calorie Tracker for iPhone</title>
+  <meta name="description" content="Fimbl is a calm, guilt-free food diary for iPhone and iPad. Log meals in seconds, check in on how food makes you feel, track weight and activity, and build gentle habits that last.">
+  <link rel="canonical" href="https://fimbl.app/">
+  <meta name="theme-color" content="#f7f5fd">
+  <meta name="apple-itunes-app" content="app-id=6443701726">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Fimbl">
+  <meta property="og:url" content="https://fimbl.app/">
+  <meta property="og:title" content="Fimbl – Find balance in your eating">
+  <meta property="og:description" content="Mindful nutrition and gentle habits, at your own pace. Free on the App Store.">
+  <meta property="og:image" content="https://fimbl.app/assets/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+
+  <link rel="preload" href="/assets/fonts/figtree-extrabold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/geist-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/img/screen-02-diary.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="/assets/js/main.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Fimbl",
+    "operatingSystem": "iOS, iPadOS",
+    "applicationCategory": "HealthApplication",
+    "description": "A mindful food diary for iPhone and iPad: log meals, check in on feelings, track weight and activity, and build gentle habits.",
+    "url": "https://fimbl.app/",
+    "image": "https://fimbl.app/assets/img/icon-512.png",
+    "installUrl": "https://apps.apple.com/app/id6443701726",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "publisher": { "@type": "Organization", "name": "AppRise Ventures Oy", "url": "https://fimbl.app/" }
+  }
+  </script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-mark" viewBox="100 96 360 391"><path fill="currentColor" d="M100 254.874C100 167.13 171.13 96 258.874 96C259.752 96 260.463 96.7113 260.463 97.5887V426.199C260.463 454.484 260.463 468.626 251.676 477.412C242.889 486.199 228.747 486.199 200.463 486.199H111.365C105.088 486.199 100 481.111 100 474.834V254.874Z"/><path fill="currentColor" d="M303.114 96C389.76 96 460 166.24 460 252.886C460 255.486 457.893 257.593 455.293 257.593L346.477 257.593C318.192 257.593 304.05 257.593 295.263 248.806C286.477 240.019 286.477 225.877 286.477 197.593L286.477 97.718C286.477 96.7692 287.246 96 288.195 96L303.114 96Z"/><circle fill="currentColor" cx="373.2" cy="371.9" r="79.4"/></symbol>
+    <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-utensils" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v6a2 2 0 0 0 4 0V3M8 11v10"/><path d="M18 21V3c-2.2 1.4-3.5 4-3.5 7.2V13H18"/></g></symbol>
+    <symbol id="i-smile" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.2s1.3 1.8 3.5 1.8 3.5-1.8 3.5-1.8M9 9.5h.01M15 9.5h.01" stroke-width="2"/></g></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19.5C4.5 10.5 10 4.5 20 4.5c0 9.5-5.5 15-14.5 15H5Z"/><path d="M5 19.5 13 11.5"/></g></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m11 3 1.9 5.1L18 10l-5.1 1.9L11 17l-1.9-5.1L4 10l5.1-1.9L11 3Z"/><path d="m18.5 15 .9 2.1 2.1.9-2.1.9-.9 2.1-.9-2.1-2.1-.9 2.1-.9.9-2.1Z"/></g></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></g></symbol>
+    <symbol id="i-barcode" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 7.5V6a3 3 0 0 1 3-3h1.5M16.5 3H18a3 3 0 0 1 3 3v1.5M21 16.5V18a3 3 0 0 1-3 3h-1.5M7.5 21H6a3 3 0 0 1-3-3v-1.5M7.5 8v8M10.5 8v8M13.5 8v8M16.5 8v8"/></g></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4.5 8H7l1.8-2.6c.2-.3.5-.4.8-.4h4.8c.3 0 .6.1.8.4L17 8h2.5A1.5 1.5 0 0 1 21 9.5v8a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-8A1.5 1.5 0 0 1 4.5 8Z"/><circle cx="12" cy="13.2" r="3.4"/></g></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></g></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 20s-7.5-4.6-7.5-10.3A4.2 4.2 0 0 1 12 7.2a4.2 4.2 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20Z"/></symbol>
+    <symbol id="i-widgets" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="7.5" height="7.5" rx="2.2"/><rect x="13" y="3.5" width="7.5" height="7.5" rx="3.75"/><rect x="3.5" y="13" width="17" height="7.5" rx="2.2"/></g></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav" data-nav>
+    <div class="container nav-inner">
+      <a class="brand" href="/" aria-label="Fimbl home">
+        <svg viewBox="100 96 360 391" aria-hidden="true"><use href="#i-mark"/></svg>
+        fimbl
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#logging">Logging</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a class="btn btn-primary btn-sm" href="https://apps.apple.com/app/id6443701726" data-store>
+        <svg aria-hidden="true"><use href="#i-apple"/></svg>Get the app
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <span class="nav-sentinel" data-nav-sentinel aria-hidden="true"></span>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow-pill" data-reveal><b>New</b> The all-new Fimbl is here</p>
+          <h1 data-reveal style="--delay:.06s">Find <span class="accent">balance</span> in your eating</h1>
+          <p class="hero-lead" data-reveal style="--delay:.12s">A calm companion for mindful nutrition. Log meals in seconds, notice how food makes you feel, and build gentle habits that last. No guilt, just clarity.</p>
+          <div class="hero-actions" data-reveal style="--delay:.18s">
+            <a class="btn btn-primary btn-store" href="https://apps.apple.com/app/id6443701726" data-store>
+              <svg aria-hidden="true"><use href="#i-apple"/></svg>
+              <span class="btn-label"><small>Download on the</small><strong>App Store</strong></span>
+            </a>
+            <a class="btn btn-ghost" href="#features">See how it works</a>
+          </div>
+          <ul class="hero-meta" data-reveal style="--delay:.24s">
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Free to download</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>No ads</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Works with Apple Health</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" data-reveal style="--delay:.15s">
+          <div class="phone">
+            <img src="/assets/img/screen-02-diary.webp" width="720" height="1564" alt="Fimbl eating diary showing 702 kcal left, macro rings for carbs, fat and protein, and a logged breakfast" fetchpriority="high">
+          </div>
+          <img class="hero-bowl" src="/assets/img/hero-bowl.webp" width="900" height="696" alt="" aria-hidden="true">
+          <span class="chip chip-reflection" aria-hidden="true"><span class="chip-emoji"><svg><use href="#i-sparkle"/></svg></span><span>Weekly reflection<small>You felt more energized on days with a morning walk.</small></span></span>
+          <span class="chip chip-mood" aria-hidden="true"><span class="chip-emoji">😊</span><span>Satisfied<small>After breakfast</small></span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="pillars" aria-label="Why Fimbl">
+      <div class="container">
+        <ul class="pillar-grid">
+          <li class="pillar" data-reveal>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-utensils"/></svg></span>
+            <h3>Mindful eating</h3>
+            <p>Better choices, real satisfaction.</p>
+          </li>
+          <li class="pillar" data-reveal style="--delay:.06s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-smile"/></svg></span>
+            <h3>Track your mood</h3>
+            <p>See how food and feelings connect.</p>
+          </li>
+          <li class="pillar" data-reveal style="--delay:.12s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-leaf"/></svg></span>
+            <h3>Healthy habits</h3>
+            <p>Small steps, big changes.</p>
+          </li>
+          <li class="pillar" data-reveal style="--delay:.18s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-sparkle"/></svg></span>
+            <h3>AI reflections</h3>
+            <p>Personal insights, every week.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">A closer look</span>
+          <h2>Everything you need. <span class="accent">Nothing you don't.</span></h2>
+          <p>A calm, clutter-free app that shows you what matters, so you can focus on feeling good.</p>
+        </header>
+
+        <div class="showcase" data-showcase data-reveal>
+          <div class="tabs" role="tablist" aria-label="App screens">
+            <button class="tab is-active" role="tab" id="tab-food" aria-controls="screen-food" aria-selected="true">
+              <span class="tab-label">Food</span>
+              <span class="tab-title">Every bite, clearly explained</span>
+              <span class="tab-desc"><span>Search over 2 million foods or scan a barcode, then adjust servings and see carbs, fat and protein in seconds.</span></span>
+              <span class="tab-progress" aria-hidden="true"></span>
+            </button>
+            <button class="tab" role="tab" id="tab-feelings" aria-controls="screen-feelings" aria-selected="false" tabindex="-1">
+              <span class="tab-label">Feelings</span>
+              <span class="tab-title">Notice how meals make you feel</span>
+              <span class="tab-desc"><span>A mindful pause before you eat. Check in on hunger and emotions, and watch patterns turn into insight.</span></span>
+              <span class="tab-progress" aria-hidden="true"></span>
+            </button>
+            <button class="tab" role="tab" id="tab-progress" aria-controls="screen-progress" aria-selected="false" tabindex="-1">
+              <span class="tab-label">Progress</span>
+              <span class="tab-title">Gentle progress you can see</span>
+              <span class="tab-desc"><span>Weight trends, BMI and log streaks that keep you going, without obsessing over a single number.</span></span>
+              <span class="tab-progress" aria-hidden="true"></span>
+            </button>
+            <button class="tab" role="tab" id="tab-activity" aria-controls="screen-activity" aria-selected="false" tabindex="-1">
+              <span class="tab-label">Activity</span>
+              <span class="tab-title">Move more, your way</span>
+              <span class="tab-desc"><span>Steps, active and resting energy synced from Apple Health, so your whole day adds up.</span></span>
+              <span class="tab-progress" aria-hidden="true"></span>
+            </button>
+          </div>
+
+          <div class="stage" data-stage>
+            <figure class="phone is-active" role="tabpanel" id="screen-food" aria-labelledby="tab-food">
+              <img src="/assets/img/screen-06-food.webp" width="720" height="1564" alt="Edit food screen for rolled oats with 223 kcal and macro breakdown" loading="lazy">
+            </figure>
+            <figure class="phone" role="tabpanel" id="screen-feelings" aria-labelledby="tab-feelings">
+              <img src="/assets/img/screen-05-feelings.webp" width="720" height="1564" alt="Meal check-in asking what feelings you had before breakfast, with feeling chips" loading="lazy">
+            </figure>
+            <figure class="phone" role="tabpanel" id="screen-progress" aria-labelledby="tab-progress">
+              <img src="/assets/img/screen-03-weight.webp" width="720" height="1564" alt="Weight progress with current weight, goal, BMI, log streak and a 90-day trend chart" loading="lazy">
+            </figure>
+            <figure class="phone" role="tabpanel" id="screen-activity" aria-labelledby="tab-activity">
+              <img src="/assets/img/screen-04-activity.webp" width="720" height="1564" alt="Daily activity with 6,240 steps, distance and calories burned" loading="lazy">
+            </figure>
+          </div>
+
+          <div class="dots" data-dots>
+            <button type="button" aria-label="Show Food" aria-current="true"></button>
+            <button type="button" aria-label="Show Feelings"></button>
+            <button type="button" aria-label="Show Progress"></button>
+            <button type="button" aria-label="Show Activity"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="logging" style="padding-top:0">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">Logging</span>
+          <h2>Log in seconds, <span class="accent">your way</span></h2>
+          <p>However you like to track, Fimbl keeps it quick, so logging never gets in the way of living.</p>
+        </header>
+        <ul class="bento">
+          <li data-reveal>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-search"/></svg></span>
+            <h3>2 million+ foods</h3>
+            <p>Full nutrition details for every item.</p>
+          </li>
+          <li data-reveal style="--delay:.06s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-barcode"/></svg></span>
+            <h3>Barcode scanning</h3>
+            <p>Point, scan, done.</p>
+          </li>
+          <li data-reveal style="--delay:.12s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-camera"/></svg></span>
+            <h3>Photo calorie scan</h3>
+            <p>Snap your plate for an instant estimate.</p>
+            <span class="badge-premium">PREMIUM</span>
+          </li>
+          <li data-reveal>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-mic"/></svg></span>
+            <h3>Voice logging</h3>
+            <p>Just say what you ate.</p>
+            <span class="badge-premium">PREMIUM</span>
+          </li>
+          <li data-reveal style="--delay:.06s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-heart"/></svg></span>
+            <h3>Apple Health sync</h3>
+            <p>Steps, energy and weight, automatically.</p>
+          </li>
+          <li data-reveal style="--delay:.12s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-widgets"/></svg></span>
+            <h3>Widgets</h3>
+            <p>Your day on the Home and Lock Screen.</p>
+            <span class="badge-premium">PREMIUM</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section promise" style="padding-top:0">
+      <div class="container">
+        <div class="promise-card" data-reveal>
+          <div>
+            <span class="eyebrow">Our promise</span>
+            <h2>Progress isn't just numbers</h2>
+            <p>Fimbl was made to break free from calorie-only apps. It's a kind, quiet space that helps you understand your body and mind, at your own pace and on your own terms.</p>
+          </div>
+          <ul class="promise-list">
+            <li><span aria-hidden="true"><svg><use href="#i-check"/></svg></span>No guilt, no diet-culture noise</li>
+            <li><span aria-hidden="true"><svg><use href="#i-check"/></svg></span>Your health data is never shared</li>
+            <li><span aria-hidden="true"><svg><use href="#i-check"/></svg></span>No ads or clutter, ever</li>
+            <li><span aria-hidden="true"><svg><use href="#i-check"/></svg></span>Designed and built in Finland</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq" style="padding-top:0">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">FAQ</span>
+          <h2>Questions, answered</h2>
+        </header>
+        <div class="faq" data-reveal>
+          <details>
+            <summary>Is Fimbl free?</summary>
+            <p>Yes. Fimbl is free to download, and you can log meals, moods, weight and activity at no cost. Fimbl Premium adds extras like macro goals, photo calorie scan, voice logging, weekly AI reflections, widgets and streak restore, and starts with a 7-day free trial.</p>
+          </details>
+          <details>
+            <summary>Is Fimbl a diet app?</summary>
+            <p>Not in the usual sense. You can set a calorie goal if it helps you, but Fimbl is about balance, awareness and habits. It's built to support a healthier relationship with food, never to make you feel bad about it.</p>
+          </details>
+          <details>
+            <summary>Which devices does Fimbl work on?</summary>
+            <p>Fimbl is designed natively for iPhone and iPad, in light and dark mode, with Home and Lock Screen widgets.</p>
+          </details>
+          <details>
+            <summary>Does Fimbl work with Apple Health?</summary>
+            <p>Yes. With your permission, Fimbl reads your steps and active and resting energy, and keeps your weight in sync, so your activity and nutrition live in one place.</p>
+          </details>
+          <details>
+            <summary>What happens to my data?</summary>
+            <p>Your data is encrypted in transit, and your health data is never shared with third parties. You can delete your account and all your data at any time from the app's settings. Read the full <a href="/privacy/">privacy policy</a>.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta" style="padding-top:0">
+      <div class="container">
+        <div class="cta-card" data-reveal>
+          <div class="cta-copy">
+            <img class="cta-icon" src="/assets/img/app-icon.webp" width="256" height="256" alt="" loading="lazy">
+            <h2>Start your wellness journey</h2>
+            <p>Free to download. Gentle from day one.</p>
+            <a class="btn btn-primary btn-store" href="https://apps.apple.com/app/id6443701726" data-store>
+              <svg aria-hidden="true"><use href="#i-apple"/></svg>
+              <span class="btn-label"><small>Download on the</small><strong>App Store</strong></span>
+            </a>
+          </div>
+          <div class="cta-phone" aria-hidden="true">
+            <div class="phone"><img src="/assets/img/screen-01-welcome.webp" width="720" height="1564" alt="" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="/" aria-label="Fimbl home">
+            <svg viewBox="100 96 360 391" aria-hidden="true"><use href="#i-mark"/></svg>
+            fimbl
+          </a>
+          <p class="footer-tagline">Mindful nutrition, gentle progress.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="https://apps.apple.com/app/id6443701726">App Store</a></li>
+          <li><a href="https://aemail.com/1jpj" rel="noopener">Support</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/terms/">Terms of Use</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> AppRise Ventures Oy · Turku, Finland</span>
+        <span>Business ID 3336104-8</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
