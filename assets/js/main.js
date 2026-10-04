@@ -110,9 +110,33 @@ const initShowcase = (root) => {
   syncAutoplay();
 };
 
+const initFilm = (root) => {
+  const video = root.querySelector("video");
+  const play = root.querySelector("[data-film-play]");
+  if (!video || !play) return;
+
+  // With JavaScript the poster carries our own play button; the native controls appear once it's pressed.
+  video.controls = false;
+  const start = () => {
+    root.classList.add("is-playing");
+    video.controls = true;
+    video.play().catch(() => root.classList.remove("is-playing"));
+  };
+  play.addEventListener("click", start);
+  video.addEventListener("click", () => video.paused && !video.controls && start());
+  video.addEventListener("ended", () => {
+    root.classList.remove("is-playing");
+    video.controls = false;
+    video.load();
+  });
+  // Don't keep playing out of sight.
+  new IntersectionObserver(([entry]) => !entry.isIntersecting && !video.paused && video.pause(), { threshold: 0.15 }).observe(root);
+};
+
 const initYear = () => $$("[data-year]").forEach((el) => (el.textContent = String(new Date().getFullYear())));
 
 initNav();
 initReveal();
 $$("[data-showcase]").forEach(initShowcase);
+$$("[data-film]").forEach(initFilm);
 initYear();

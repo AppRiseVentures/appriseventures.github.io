@@ -1220,3 +1220,102 @@ p { margin: 0; text-wrap: pretty; }
   .toc { columns: 1; }
   .ai-card { padding: 22px 20px 24px; }
 }
+
+/* ---------- Film ---------- */
+
+.film {
+  position: relative;
+  isolation: isolate;
+  max-width: 1040px;
+  margin-inline: auto;
+}
+.film::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -14% -8%;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, #e2d8fd, rgba(238, 233, 254, 0) 100%);
+}
+.film-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: clamp(20px, 3.2vw, 40px);
+  background: var(--bg-deep);
+  box-shadow: 0 0 0 clamp(5px, 0.8vw, 9px) rgba(255, 255, 255, 0.75), inset 0 0 0 1px var(--hairline), var(--shadow-lg);
+  overflow: hidden;
+}
+.film video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: var(--bg-deep);
+}
+.film-frame video:not([controls]) { cursor: pointer; }
+
+/* The custom play button only exists with JavaScript; without it the browser's own controls show. */
+.film-play { display: none; }
+.js .film-play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: linear-gradient(180deg, rgba(28, 23, 69, 0) 55%, rgba(28, 23, 69, 0.22) 100%);
+  cursor: pointer;
+  transition: opacity 0.35s ease, visibility 0.35s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.film.is-playing .film-play { opacity: 0; visibility: hidden; pointer-events: none; }
+.film-play-btn {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: clamp(68px, 9vw, 104px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--grad-brand);
+  color: #fff;
+  box-shadow: 0 22px 46px -14px rgba(96, 64, 241, 0.85), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.film-play-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  animation: film-pulse 2.8s ease-out infinite;
+}
+.film-play-btn svg { width: 38%; margin-left: 6%; }
+.film-play:hover .film-play-btn { transform: scale(1.07); }
+.film-play:active .film-play-btn { transform: scale(0.96); }
+.film-play-label {
+  position: absolute;
+  left: clamp(14px, 2.4vw, 28px);
+  bottom: clamp(14px, 2.4vw, 28px);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 16px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  -webkit-backdrop-filter: blur(14px) saturate(1.5);
+  backdrop-filter: blur(14px) saturate(1.5);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), var(--shadow-sm);
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.film-play-label b { color: var(--muted); font-weight: 500; font-variant-numeric: tabular-nums; }
+@keyframes film-pulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  70%, 100% { transform: scale(1.5); opacity: 0; }
+}
+
+@media (max-width: 539px) {
+  .film-play-label { padding: 6px 12px; font-size: 0.78rem; }
+}
