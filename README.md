@@ -12,7 +12,7 @@ Landing page for [Fimbl](https://apps.apple.com/app/id6443701726), served by Git
 | `.well-known/apple-app-site-association` | Universal links and web credentials |
 | `CNAME`, `googledfd3fa1b8efcd494.html` | Custom domain and Google Search Console verification |
 
-Screenshots in `assets/img` come from `fimbl-app/SwiftUI-Rewrite/appstore/screenshots/iphone/en-US`, resized to 720 px wide WebP:
+`screen-07-goals` and `screen-08-meal` come from `SwiftUI-Rewrite/verification_screenshots/iphone` (`tab-goals.png`, `meals/05-meal-detail.png`). The other screenshots in `assets/img` come from `fimbl-app/SwiftUI-Rewrite/appstore/screenshots/iphone/en-US`, resized to 720 px wide WebP:
 
 ```bash
 cwebp -resize 720 0 -q 84 -sharp_yuv 02-diary.png -o assets/img/screen-02-diary.webp
