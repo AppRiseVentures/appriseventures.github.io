@@ -33,12 +33,43 @@ const initShowcase = (root) => {
   const stage = root.querySelector("[data-stage]");
   const pause = { hover: false, offscreen: true };
   let active = 0;
+  let leaveTimer = 0;
+
+  // Desktop: one device frame stays in place and only the screen changes beneath it.
+  const device = document.createElement("div");
+  device.className = "phone stage-device";
+  device.setAttribute("aria-hidden", "true");
+  stage.prepend(device);
+
+  // A single highlight glides to the active tab and follows its height as the description opens.
+  const tablist = root.querySelector("[role=tablist]");
+  const indicator = document.createElement("span");
+  indicator.className = "tab-indicator";
+  indicator.setAttribute("aria-hidden", "true");
+  tablist.prepend(indicator);
+  root.classList.add("has-indicator");
+  const placeIndicator = () => {
+    const tab = tabs[active];
+    indicator.style.transform = `translateY(${tab.offsetTop}px)`;
+    indicator.style.height = `${tab.offsetHeight}px`;
+  };
+  new ResizeObserver(placeIndicator).observe(tablist);
 
   const centerOn = (screen) =>
     stage.scrollTo({ left: screen.offsetLeft - (stage.clientWidth - screen.offsetWidth) / 2, behavior: scrollBehavior() });
 
   const setActive = (index, { scroll = false } = {}) => {
+    const previous = active;
     active = (index + tabs.length) % tabs.length;
+    if (active !== previous) {
+      // Moving down the list (or autoplay wrapping from the last tab to the first) pushes in from the right.
+      const forward = active > previous || (previous === tabs.length - 1 && active === 0);
+      stage.style.setProperty("--dir", forward ? "1" : "-1");
+      screens.forEach((screen) => screen.classList.remove("is-leaving"));
+      screens[previous].classList.add("is-leaving");
+      clearTimeout(leaveTimer);
+      leaveTimer = setTimeout(() => screens[previous].classList.remove("is-leaving"), 800);
+    }
     tabs.forEach((tab, i) => {
       tab.classList.toggle("is-active", i === active);
       tab.setAttribute("aria-selected", String(i === active));
@@ -47,6 +78,7 @@ const initShowcase = (root) => {
     screens.forEach((screen, i) => screen.classList.toggle("is-active", i === active));
     dots.forEach((dot, i) => dot.setAttribute("aria-current", String(i === active)));
     if (scroll && !desktop.matches) centerOn(screens[active]);
+    placeIndicator();
   };
 
   const syncPause = () => root.classList.toggle("is-paused", pause.hover || pause.offscreen);
@@ -108,6 +140,30 @@ const initShowcase = (root) => {
 
   syncPause();
   syncAutoplay();
+  placeIndicator();
+  requestAnimationFrame(() => root.classList.add("is-ready"));
+};
+
+// The hero phone tilts gently towards the pointer; the bowl and chips move at their own depth.
+const initHeroTilt = () => {
+  const hero = document.querySelector(".hero");
+  const visual = hero?.querySelector(".hero-visual");
+  if (!visual || !matchMedia("(hover: hover) and (pointer: fine)").matches) return;
+  const clamp = (value) => Math.max(-1, Math.min(1, value));
+  let frame = 0;
+  hero.addEventListener("pointermove", (event) => {
+    if (reducedMotion.matches || !desktop.matches) return;
+    cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(() => {
+      const box = visual.getBoundingClientRect();
+      visual.style.setProperty("--px", clamp((event.clientX - box.left - box.width / 2) / box.width).toFixed(3));
+      visual.style.setProperty("--py", clamp((event.clientY - box.top - box.height / 2) / box.height).toFixed(3));
+    });
+  });
+  hero.addEventListener("pointerleave", () => {
+    visual.style.setProperty("--px", "0");
+    visual.style.setProperty("--py", "0");
+  });
 };
 
 const initFilm = (root) => {
@@ -271,3 +327,4 @@ initSharedPage();
 initLangHint();
 initToc();
 initTables();
+initHeroTilt();

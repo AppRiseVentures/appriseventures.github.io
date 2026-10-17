@@ -407,14 +407,15 @@ p { margin: 0; text-wrap: pretty; }
   text-align: center;
 }
 .eyebrow {
-  display: inline-block;
-  margin-bottom: 14px;
-  color: var(--brand);
-  font-size: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+  color: var(--brand-deep);
+  font-size: 0.95rem;
   font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
 }
+.eyebrow::before { content: ""; width: 18px; height: 2px; border-radius: 2px; background: currentColor; }
 .section-head h2,
 .promise h2,
 .cta h2 { font-size: clamp(2.1rem, 1.4rem + 2.6vw, 3.4rem); }
@@ -480,10 +481,8 @@ p { margin: 0; text-wrap: pretty; }
 .tab.is-active { background: var(--surface); box-shadow: inset 0 0 0 1px var(--hairline), var(--shadow-md); }
 .tab-label {
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: 0.88rem;
   font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
   transition: color 0.3s ease;
 }
 .tab.is-active .tab-label { color: var(--brand); }
@@ -577,10 +576,9 @@ p { margin: 0; text-wrap: pretty; }
   padding: 4px 10px;
   border-radius: 999px;
   background: #fbf4dc;
-  color: #8a6a12;
-  font-size: 0.72rem;
+  color: #7c5d0c;
+  font-size: 0.76rem;
   font-weight: 600;
-  letter-spacing: 0.04em;
 }
 
 /* ---------- Promise ---------- */
@@ -919,11 +917,7 @@ p { margin: 0; text-wrap: pretty; }
   .pillar-grid, .bento { grid-template-columns: 1fr; }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  *, *::before, *::after { animation: none !important; transition-duration: 0.01ms !important; }
-  .js [data-reveal] { opacity: 1; transform: none; }
-}
+
 
 /* ---------- Tags ---------- */
 
@@ -933,12 +927,10 @@ p { margin: 0; text-wrap: pretty; }
   border-radius: 999px;
   background: var(--brand-soft);
   color: var(--brand-deep);
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
-.tag-premium { background: #fbf4dc; color: #8a6a12; }
+.tag-premium { background: #fbf4dc; color: #7c5d0c; }
 
 /* ---------- What's new spotlights ---------- */
 
@@ -1007,7 +999,7 @@ p { margin: 0; text-wrap: pretty; }
 }
 .vig-card strong { font: 700 1.02rem/1.25 var(--font-display); letter-spacing: -0.01em; }
 .vig-sub, .vig-card small { color: var(--muted); font-size: 0.84rem; }
-.vig-kicker { display: inline-flex; align-items: center; gap: 6px; color: var(--brand); font-size: 0.74rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; }
+.vig-kicker { display: inline-flex; align-items: center; gap: 6px; color: var(--brand-deep); font-size: 0.8rem; font-weight: 600; }
 .vig-kicker svg { width: 15px; height: 15px; }
 
 .vig-link { grid-auto-flow: column; justify-content: start; align-items: center; gap: 10px; font-weight: 600; }
@@ -1894,4 +1886,196 @@ p { margin: 0; text-wrap: pretty; }
 
 @media (max-width: 959px) {
   .post-cards-home { grid-template-columns: 1fr; }
+}
+
+/* ---------- Motion and interaction ----------
+   Motion answers something the visitor did: hovering, pressing, switching. Nothing moves on its own beyond the
+   existing hero float, and prefers-reduced-motion (above) turns all of it off. Lifts are reserved for things you can
+   click; decorative cards respond with colour and icon motion only. */
+
+:root {
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Buttons: a light sweep across the primary gradient, a firm press */
+.btn-primary { position: relative; isolation: isolate; overflow: hidden; }
+.btn-primary::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(105deg, transparent 30%, rgba(255, 255, 255, 0.28) 50%, transparent 70%);
+  transform: translateX(-120%);
+  transition: transform 0.8s var(--ease-out);
+}
+.btn-primary:hover::before { transform: translateX(120%); }
+.btn:active { transform: translateY(0) scale(0.97); transition-duration: 0.12s; }
+.btn-store svg { transition: transform 0.4s var(--ease-spring); }
+.btn-store:hover svg { transform: translateY(-2px) rotate(-6deg); }
+.btn-ghost { transition: transform 0.25s var(--ease-out), background-color 0.25s ease, box-shadow 0.25s ease; }
+.btn-ghost:hover { box-shadow: inset 0 0 0 1px rgba(110, 80, 244, 0.22), var(--shadow-md); }
+
+/* Icon cards: the icon fills with the brand colour and tips, the outline warms */
+.pillar, .bento li, .ai-card, .principles li, .vs-card, .pick, .loop li:not(:last-child), .steps > li {
+  transition: box-shadow 0.35s ease, background-color 0.35s ease;
+}
+.icon-bubble { transition: background-color 0.35s ease, color 0.35s ease, transform 0.5s var(--ease-spring); }
+.pillar:hover, .bento li:hover, .ai-card:hover, .principles li:hover, .pick:not(.is-fimbl):hover, .loop li:not(:last-child):hover {
+  box-shadow: inset 0 0 0 1px rgba(110, 80, 244, 0.24), var(--shadow-md);
+}
+.pillar:hover .icon-bubble, .bento li:hover .icon-bubble, .ai-card:hover .icon-bubble, .principles li:hover .icon-bubble {
+  background: var(--brand);
+  color: #fff;
+  transform: scale(1.08) rotate(-8deg);
+}
+.badge-premium { transition: transform 0.4s var(--ease-spring); }
+.bento li:hover .badge-premium { transform: translateY(-2px); }
+
+/* Feature spotlights: the illustrated cards drift apart a little, like layers */
+.spot { transition: box-shadow 0.4s ease; }
+.spot:hover { box-shadow: inset 0 0 0 1px rgba(110, 80, 244, 0.2), var(--shadow-md); }
+.spot .vig > * { transition: transform 0.6s var(--ease-out), box-shadow 0.6s ease; }
+.spot:hover .vig > :nth-child(1) { transform: translate3d(0, -6px, 0); }
+.spot:hover .vig > :nth-child(2) { transform: translate3d(0, -3px, 0); transition-delay: 0.03s; }
+.spot:hover .vig > :nth-child(3) { transform: translate3d(0, -1px, 0); transition-delay: 0.06s; }
+.spot:hover .vig-row.is-best { box-shadow: inset 0 0 0 2px var(--brand), var(--shadow-md); }
+.spot:hover .vig-chips span { transform: translateX(-4px); }
+.vig-chips span, .vig-chips-list li { transition: transform 0.5s var(--ease-out), box-shadow 0.4s ease; }
+.vig-chips-list li:hover { transform: translateX(6px); box-shadow: inset 0 0 0 1px rgba(110, 80, 244, 0.25), var(--shadow-md); }
+
+/* First week path and promise list */
+.path b { transition: transform 0.45s var(--ease-spring), box-shadow 0.3s ease; }
+.path li:hover b { transform: scale(1.1); }
+.promise-list li { transition: background-color 0.3s ease, transform 0.45s var(--ease-out); }
+.promise-list li:hover { background: rgba(255, 255, 255, 0.2); transform: translateX(4px); }
+
+/* FAQ: answers unfold instead of snapping (where the browser can animate details) */
+:root { interpolate-size: allow-keywords; }
+.faq details { transition: box-shadow 0.3s ease; }
+.faq details:hover { box-shadow: inset 0 0 0 1px rgba(110, 80, 244, 0.22), var(--shadow-sm); }
+.faq details::details-content { block-size: 0; overflow: clip; transition: block-size 0.4s var(--ease-out), content-visibility 0.4s allow-discrete; }
+.faq details[open]::details-content { block-size: auto; }
+.faq summary { transition: color 0.2s ease; }
+.faq summary:hover { color: var(--brand-deep); }
+.faq summary::after { transition: transform 0.4s var(--ease-spring), background-color 0.3s ease; }
+.faq details[open] summary::after { background-color: #e2d9fe; }
+
+/* Language menu opens from its button */
+.lang[open] .lang-menu { animation: menu-in 0.22s var(--ease-out); transform-origin: top right; }
+@keyframes menu-in { from { opacity: 0; transform: translateY(-6px) scale(0.97); } }
+.lang-menu a { transition: background-color 0.2s ease, padding-left 0.25s var(--ease-out); }
+.lang-menu a:hover { padding-left: 16px; }
+.lang-hint { animation: hint-in 0.5s var(--ease-out) 0.8s both; }
+@keyframes hint-in { from { opacity: 0; transform: translate(-50%, 12px); } }
+
+/* Articles: figures respond softly, small cues on interactive bits */
+.fig-media .phone, .fig-row .phone { transition: transform 0.7s var(--ease-out); }
+.fig:hover .fig-media .phone { transform: translateY(-6px) rotate(-1.5deg); }
+.fig-row > li:hover .phone, .fig-row > figure:hover .phone { transform: translateY(-5px); }
+.loop li:not(:last-child)::after { transition: transform 0.4s var(--ease-spring); }
+.loop li:not(:last-child):hover::after { transform: translate(4px, -50%); }
+.steps > li::before { transition: background-color 0.3s ease, color 0.3s ease, transform 0.45s var(--ease-spring); }
+.steps > li:hover::before { background: var(--brand); color: #fff; transform: scale(1.06); }
+.post-toc a { transition: color 0.2s ease, padding-left 0.3s var(--ease-out); }
+.post-toc a:hover { padding-left: 20px; }
+.crumbs a, .footer-links a, .footer-langs a { transition: color 0.2s ease; }
+.post-card { transition: box-shadow 0.35s ease, transform 0.45s var(--ease-out); }
+.cta-contained .cta-phone .phone { transition: transform 0.8s var(--ease-out); }
+.cta-contained:hover .cta-phone .phone { transform: translateY(-6px) rotate(2deg); }
+
+@media (max-width: 719px) {
+  .loop li:not(:last-child):hover::after { transform: translateX(-50%) rotate(90deg) translateX(3px); }
+}
+
+/* Feature showcase: one device stays put while its screen pushes in the direction you travel,
+   and a single highlight glides between the tabs. Phone-sized screens keep the swipe carousel. */
+.tab-indicator { display: none; }
+@media (min-width: 960px) {
+  .showcase .tabs { position: relative; }
+  .tab-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 0;
+    border-radius: var(--r-l);
+    background: var(--surface);
+    box-shadow: inset 0 0 0 1px var(--hairline), var(--shadow-md);
+    pointer-events: none;
+    transition: transform 0.6s var(--ease-out), height 0.45s var(--ease-out);
+  }
+  .js .showcase .tab.is-active { background: transparent; box-shadow: none; }
+  .js .showcase .tab { z-index: 1; }
+  .showcase:not(.is-ready) .tab-indicator { transition: none; }
+
+  .stage-device { grid-area: 1 / 1; }
+  .stage .phone:not(.stage-device) {
+    z-index: 0;
+    visibility: hidden;
+    opacity: 1;
+    transform: none;
+    background: none;
+    box-shadow: none;
+    clip-path: inset(calc(var(--w) * 0.03) round calc(var(--w) * 0.137));
+    transition: none;
+  }
+  .stage .phone:not(.stage-device)::after { display: none; }
+  .stage .phone.is-leaving { z-index: 1; visibility: visible; }
+  .stage .phone.is-active { z-index: 2; visibility: visible; }
+  .showcase.is-ready .stage .phone.is-active img { animation: screen-in 0.75s var(--ease-out) both; }
+  .showcase.is-ready .stage .phone.is-leaving img { animation: screen-out 0.75s var(--ease-out) both; }
+  .stage-device::after { z-index: 3; }
+
+  .hero-visual { perspective: 1400px; }
+  .hero-visual .phone {
+    transform: rotate(3deg) rotateY(calc(var(--px, 0) * 7deg)) rotateX(calc(var(--py, 0) * -6deg));
+    transition: transform 0.9s var(--ease-out);
+  }
+  .hero-bowl { translate: calc(var(--px, 0) * 16px) calc(var(--py, 0) * 10px); transition: translate 0.9s var(--ease-out); }
+  .chip-reflection { translate: calc(var(--px, 0) * -14px) calc(var(--py, 0) * -10px); transition: translate 0.9s var(--ease-out); }
+  .chip-mood { translate: calc(var(--px, 0) * 12px) calc(var(--py, 0) * -8px); transition: translate 0.9s var(--ease-out); }
+}
+.stage-device { display: none; }
+@media (min-width: 960px) {
+  .stage-device { display: block; }
+}
+@keyframes screen-in {
+  0% { opacity: 0; transform: translate3d(calc(var(--dir, 1) * 18%), 0, 0) scale(1.03); }
+  40% { opacity: 1; }
+  100% { opacity: 1; transform: none; }
+}
+@keyframes screen-out {
+  0% { opacity: 1; transform: none; filter: brightness(1); }
+  100% { opacity: 0; transform: translate3d(calc(var(--dir, 1) * -10%), 0, 0) scale(0.96); filter: brightness(0.8); }
+}
+@media (min-width: 960px) {
+  .stage .stage-device { z-index: auto; opacity: 1; transform: none; transition: none; }
+}
+
+/* Reduced motion: no travel, tilt, zoom or float. Colour changes and short crossfades stay, so the site still
+   answers the pointer; the feature screens fade instead of pushing. */
+@keyframes screen-fade { from { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; animation-delay: 0s !important; }
+  .js [data-reveal] { opacity: 1; transform: none; transition: none; }
+  .showcase.is-ready .stage .phone.is-active img { animation: screen-fade 0.4s ease both !important; }
+  .showcase.is-ready .stage .phone.is-leaving img { animation: none !important; }
+  .tab-indicator, .tab-desc, .stage .phone { transition: none !important; }
+  .btn:hover, .btn:active, .btn-store:hover svg, .post-card:hover, .post-card:hover .post-card-media img,
+  .spot:hover .vig > *, .spot:hover .vig-chips span, .vig-chips-list li:hover, .path li:hover b, .promise-list li:hover,
+  .fig:hover .fig-media .phone, .fig-row > li:hover .phone, .fig-row > figure:hover .phone, .steps > li:hover::before,
+  .pillar:hover .icon-bubble, .bento li:hover .icon-bubble, .ai-card:hover .icon-bubble, .principles li:hover .icon-bubble,
+  .bento li:hover .badge-premium, .cta-contained:hover .cta-phone .phone, .read-more::after, .lang-menu a:hover, .post-toc a:hover {
+    transform: none !important;
+  }
+  .lang-menu a:hover { padding-left: 12px; }
+  .post-toc a:hover { padding-left: 16px; }
+  .loop li:not(:last-child):hover::after { transform: translateY(-50%) !important; }
+  .btn-primary::before { display: none; }
+}
+@media (prefers-reduced-motion: reduce) and (max-width: 719px) {
+  .loop li:not(:last-child):hover::after { transform: translateX(-50%) rotate(90deg) !important; }
 }
