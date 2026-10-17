@@ -24,8 +24,8 @@
 
 ## Articles
 
-- [The best calorie tracker apps in 2026, compared honestly](https://fimbl.app/blog/best-calorie-tracker-apps/): Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI compared honestly: what's free, ads, AI logging and who each app suits.
-  - Suomi: [Paras kalorilaskuri vuonna 2026: rehellinen vertailu](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/)
+- [The best calorie tracker apps in 2026, compared side by side](https://fimbl.app/blog/best-calorie-tracker-apps/): Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI side by side: what's free, ads, AI logging and who each app suits.
+  - Suomi: [Paras kalorilaskuri vuonna 2026: sovellukset vertailussa](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/)
 - [Why we built a calorie tracker that doesn't judge you](https://fimbl.app/blog/why-we-built-fimbl/): Why counting alone fails, the six decisions that shaped Fimbl, what we left out on purpose, and our end goal: showing you your own eating patterns.
   - Suomi: [Miksi teimme kalorilaskurin, joka ei tuomitse](https://fimbl.app/fi/blogi/miksi-teimme-fimblin/)
   - Deutsch: [Warum wir einen Kalorienzähler bauen, der nicht urteilt](https://fimbl.app/de/blog/warum-wir-fimbl-bauen/)

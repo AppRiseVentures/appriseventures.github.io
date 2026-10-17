@@ -4,14 +4,14 @@
     <title>The Fimbl blog</title>
     <link>https://fimbl.app/blog/</link>
     <atom:link href="https://fimbl.app/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <description>Honest guides to calorie tracking apps, mindful eating and habits that last, from the team behind Fimbl, the calm food diary for iPhone and iPad.</description>
+    <description>Guides to calorie tracking apps, mindful eating and habits that last, from the team behind Fimbl, the calm food diary for iPhone and iPad.</description>
     <language>en-us</language>
     <item>
-      <title>The best calorie tracker apps in 2026, compared honestly</title>
+      <title>The best calorie tracker apps in 2026, compared side by side</title>
       <link>https://fimbl.app/blog/best-calorie-tracker-apps/</link>
       <guid isPermaLink="true">https://fimbl.app/blog/best-calorie-tracker-apps/</guid>
       <pubDate>Sat, 17 Oct 2026 08:00:00 +0300</pubDate>
-      <description>Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI compared honestly: what&#x27;s free, ads, AI logging and who each app suits.</description>
+      <description>Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI side by side: what&#x27;s free, ads, AI logging and who each app suits.</description>
     </item>
     <item>
       <title>Why we built a calorie tracker that doesn&#x27;t judge you</title>

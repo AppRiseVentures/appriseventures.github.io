@@ -4,10 +4,10 @@
     <title>Fimbl-blogi</title>
     <link>https://fimbl.app/fi/blogi/</link>
     <atom:link href="https://fimbl.app/fi/blogi/feed.xml" rel="self" type="application/rss+xml"/>
-    <description>Rehellisiä oppaita kalorilaskureista, tietoisesta syömisestä ja kestävistä tavoista. Kirjoittajina Fimblin, rauhallisen ruokapäiväkirjan, tekijät.</description>
+    <description>Oppaita kalorilaskureista, tietoisesta syömisestä ja kestävistä tavoista. Kirjoittajina Fimblin, rauhallisen ruokapäiväkirjan, tekijät.</description>
     <language>fi-fi</language>
     <item>
-      <title>Paras kalorilaskuri vuonna 2026: rehellinen vertailu</title>
+      <title>Paras kalorilaskuri vuonna 2026: sovellukset vertailussa</title>
       <link>https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/</link>
       <guid isPermaLink="true">https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/</guid>
       <pubDate>Sat, 17 Oct 2026 08:00:00 +0300</pubDate>
