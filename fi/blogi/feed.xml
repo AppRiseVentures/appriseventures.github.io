@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fimbl-blogi</title>
+    <link>https://fimbl.app/fi/blogi/</link>
+    <atom:link href="https://fimbl.app/fi/blogi/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Rehellisiä oppaita kalorilaskureista, tietoisesta syömisestä ja kestävistä tavoista. Kirjoittajina Fimblin, rauhallisen ruokapäiväkirjan, tekijät.</description>
+    <language>fi-fi</language>
+    <item>
+      <title>Paras kalorilaskuri vuonna 2026: rehellinen vertailu</title>
+      <link>https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/</link>
+      <guid isPermaLink="true">https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/</guid>
+      <pubDate>Sat, 17 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Kalorilaskurivertailu 2026: Fimbl, MyFitnessPal, Cronometer, YAZIO, Lifesum ja muut. Ilmaisominaisuudet, mainokset, suomen kieli ja kenelle mikin sopii.</description>
+    </item>
+    <item>
+      <title>Miksi teimme kalorilaskurin, joka ei tuomitse</title>
+      <link>https://fimbl.app/fi/blogi/miksi-teimme-fimblin/</link>
+      <guid isPermaLink="true">https://fimbl.app/fi/blogi/miksi-teimme-fimblin/</guid>
+      <pubDate>Sat, 17 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Fimblin tarina: miksi pelkkä kalorien laskeminen ei riitä, kuusi päätöstä sovelluksen takana, mitä jätimme pois ja tavoitteemme näyttää omat syömisen kuviosi.</description>
+    </item>
+    <item>
+      <title>Tunnenälkä vai oikea nälkä? Näin tunnistat eron</title>
+      <link>https://fimbl.app/fi/blogi/tunnenalka-vai-oikea-nalka/</link>
+      <guid isPermaLink="true">https://fimbl.app/fi/blogi/tunnenalka-vai-oikea-nalka/</guid>
+      <pubDate>Sat, 17 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Miten erotat tunnenälän fyysisestä nälästä? 7 merkkiä, nälkäasteikko 1–10, kymmenen sekunnin pysähdys ennen ateriaa ja keinot, kun mielihalu ei ole nälkää.</description>
+    </item>
+  </channel>
+</rss>

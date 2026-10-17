@@ -1,6 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://fimbl.app/</loc></url>
-  <url><loc>https://fimbl.app/privacy/</loc></url>
-  <url><loc>https://fimbl.app/terms/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://fimbl.app/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/fi/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/de/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/blog/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/fi/blogi/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/de/blog/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/blog/best-calorie-tracker-apps/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/best-calorie-tracker-apps/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/best-calorie-tracker-apps/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/best-calorie-tracker-apps/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/best-calorie-tracker-apps/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/blog/why-we-built-fimbl/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/why-we-built-fimbl/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/miksi-teimme-fimblin/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/warum-wir-fimbl-bauen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/why-we-built-fimbl/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/fi/blogi/miksi-teimme-fimblin/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/why-we-built-fimbl/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/miksi-teimme-fimblin/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/warum-wir-fimbl-bauen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/why-we-built-fimbl/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/de/blog/warum-wir-fimbl-bauen/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/why-we-built-fimbl/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/miksi-teimme-fimblin/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/warum-wir-fimbl-bauen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/why-we-built-fimbl/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/blog/emotional-vs-physical-hunger/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/emotional-vs-physical-hunger/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/tunnenalka-vai-oikea-nalka/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/emotionaler-hunger-erkennen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/emotional-vs-physical-hunger/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/fi/blogi/tunnenalka-vai-oikea-nalka/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/emotional-vs-physical-hunger/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/tunnenalka-vai-oikea-nalka/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/emotionaler-hunger-erkennen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/emotional-vs-physical-hunger/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/de/blog/emotionaler-hunger-erkennen/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/emotional-vs-physical-hunger/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/tunnenalka-vai-oikea-nalka/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/emotionaler-hunger-erkennen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/emotional-vs-physical-hunger/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/privacy/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://fimbl.app/terms/</loc>
+    <lastmod>2026-10-04</lastmod>
+  </url>
 </urlset>

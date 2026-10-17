@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="{lang}">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Figtree"; src: url("{root}/assets/fonts/figtree-extrabold.woff2") format("woff2"); font-weight: 800; }
+  @font-face { font-family: "Geist"; src: url("{root}/assets/fonts/geist-semibold.woff2") format("woff2"); font-weight: 600; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    position: relative;
+    background: linear-gradient(160deg, #f7f5fd 0%, #ece6fe 100%);
+    font-family: "Geist", sans-serif;
+    color: #1c1745;
+  }
+  body::before { content: ""; position: absolute; width: 900px; height: 900px; right: -300px; top: -380px; border-radius: 50%; background: radial-gradient(closest-side, #e0d5fd, rgba(236, 230, 254, 0)); }
+  body::after { content: ""; position: absolute; width: 700px; height: 700px; left: -260px; bottom: -420px; border-radius: 50%; background: radial-gradient(closest-side, #e4dbfc, rgba(232, 224, 253, 0)); }
+  .copy { position: absolute; z-index: 1; left: 84px; top: 0; bottom: 0; width: 640px; display: flex; flex-direction: column; justify-content: center; }
+  .brand { display: flex; align-items: center; gap: 12px; font: 800 38px/1 "Figtree", sans-serif; letter-spacing: -0.03em; }
+  .brand svg { width: 32px; height: 35px; color: #6e50f4; }
+  .kicker { align-self: flex-start; margin-top: 42px; padding: 9px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.8); box-shadow: inset 0 0 0 1.5px rgba(110, 80, 244, 0.18); color: #6040f1; font-size: 21px; font-weight: 600; letter-spacing: 0.01em; }
+  h1 { margin-top: 22px; overflow-wrap: normal; font: 800 66px/1.04 "Figtree", sans-serif; letter-spacing: -0.035em; text-wrap: balance; }
+  h1 span { background: linear-gradient(135deg, #7b61f6 0%, #6e50f4 50%, #6040f1 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .phones { position: absolute; z-index: 1; right: 40px; top: 48px; width: 420px; height: 620px; }
+  .phone { position: absolute; width: 230px; aspect-ratio: 1320 / 2868; padding: 7px; border-radius: 38px; background: linear-gradient(150deg, #3a3647 0%, #17151f 45%, #2a2735 100%); box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, 0.14), 0 30px 70px -28px rgba(76, 52, 196, 0.55), 0 14px 30px -18px rgba(28, 23, 69, 0.3); }
+  .phone img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 31px; }
+  .phone::after { content: ""; position: absolute; top: 12px; left: 50%; width: 62px; height: 18px; transform: translateX(-50%); border-radius: 999px; background: #050507; }
+  .p1 { left: 0; top: 40px; transform: rotate(-6deg); }
+  .p2 { right: 0; top: 0; transform: rotate(5deg); }
+</style>
+</head>
+<body>
+  <div class="copy">
+    <div class="brand"><svg viewBox="100 96 360 391"><path fill="currentColor" d="M100 254.874C100 167.13 171.13 96 258.874 96C259.752 96 260.463 96.7113 260.463 97.5887V426.199C260.463 454.484 260.463 468.626 251.676 477.412C242.889 486.199 228.747 486.199 200.463 486.199H111.365C105.088 486.199 100 481.111 100 474.834V254.874Z"/><path fill="currentColor" d="M303.114 96C389.76 96 460 166.24 460 252.886C460 255.486 457.893 257.593 455.293 257.593L346.477 257.593C318.192 257.593 304.05 257.593 295.263 248.806C286.477 240.019 286.477 225.877 286.477 197.593L286.477 97.718C286.477 96.7692 287.246 96 288.195 96L303.114 96Z"/><circle fill="currentColor" cx="373.2" cy="371.9" r="79.4"/></svg>fimbl</div>
+    <p class="kicker">{kicker}</p>
+    <h1>{heading}</h1>
+  </div>
+  <div class="phones">
+    <div class="phone p1"><img src="{shot1}" alt=""></div>
+    <div class="phone p2"><img src="{shot2}" alt=""></div>
+  </div>
+  <script>
+    // Long headlines (German compounds) shrink until they fit beside the phones.
+    const h1 = document.querySelector("h1");
+    let size = 66;
+    while (size > 40 && (h1.scrollHeight > 300 || h1.scrollWidth > h1.clientWidth)) h1.style.fontSize = `${(size -= 2)}px`;
+  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Fimbl blog</title>
+    <link>https://fimbl.app/blog/</link>
+    <atom:link href="https://fimbl.app/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Honest guides to calorie tracking apps, mindful eating and habits that last, from the team behind Fimbl, the calm food diary for iPhone and iPad.</description>
+    <language>en-us</language>
+    <item>
+      <title>The best calorie tracker apps in 2026, compared honestly</title>
+      <link>https://fimbl.app/blog/best-calorie-tracker-apps/</link>
+      <guid isPermaLink="true">https://fimbl.app/blog/best-calorie-tracker-apps/</guid>
+      <pubDate>Sat, 17 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI compared honestly: what&#x27;s free, ads, AI logging and who each app suits.</description>
+    </item>
+    <item>
+      <title>Why we built a calorie tracker that doesn&#x27;t judge you</title>
+      <link>https://fimbl.app/blog/why-we-built-fimbl/</link>
+      <guid isPermaLink="true">https://fimbl.app/blog/why-we-built-fimbl/</guid>
+      <pubDate>Sat, 17 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Why counting alone fails, the six decisions that shaped Fimbl, what we left out on purpose, and our end goal: showing you your own eating patterns.</description>
+    </item>
+    <item>
+      <title>Emotional hunger vs physical hunger: how to tell the difference</title>
+      <link>https://fimbl.app/blog/emotional-vs-physical-hunger/</link>
+      <guid isPermaLink="true">https://fimbl.app/blog/emotional-vs-physical-hunger/</guid>
+      <pubDate>Sat, 17 Oct 2026 08:00:00 +0300</pubDate>
+      <description>How to tell emotional hunger from physical hunger: 7 key differences, a 1–10 hunger scale and a 10-second check-in for when a craving isn&#x27;t about food.</description>
+    </item>
+  </channel>
+</rss>

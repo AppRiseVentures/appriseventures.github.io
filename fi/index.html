@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fimbl – Tietoinen kalorilaskuri ja ruokapäiväkirja iPhonelle</title>
+  <meta name="description" content="Rauhallinen ruokapäiväkirja ja kalorilaskuri iPhonelle. Kirjaa ateriat sekunneissa, huomaa miltä ruoka tuntuu ja rakenna lempeitä tapoja. Ilman mainoksia.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://fimbl.app/fi/">
+  <link rel="alternate" hreflang="en" href="https://fimbl.app/">
+  <link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/">
+  <link rel="alternate" hreflang="de" href="https://fimbl.app/de/">
+  <link rel="alternate" hreflang="x-default" href="https://fimbl.app/">
+  <link rel="alternate" type="application/rss+xml" title="Fimbl-blogi" href="/fi/blogi/feed.xml">
+  <meta name="theme-color" content="#f7f5fd">
+  <meta name="apple-itunes-app" content="app-id=6443701726">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Fimbl">
+  <meta property="og:locale" content="fi_FI">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:url" content="https://fimbl.app/fi/">
+  <meta property="og:title" content="Fimbl – Löydä tasapaino syömiseesi">
+  <meta property="og:description" content="Tietoista syömistä ja lempeitä tapoja omaan tahtiisi. Fimbl 2.0 on ilmainen App Storessa.">
+  <meta property="og:image" content="https://fimbl.app/assets/img/og/fi-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fimbl iPhonella: löydä tasapaino syömiseesi">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+
+  <link rel="preload" href="/assets/fonts/figtree-extrabold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/geist-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/img/app/fi/01-diary.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="/assets/js/main.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Fimbl",
+    "applicationCategory": "HealthApplication",
+    "description": "Tietoinen ruokapäiväkirja ja kalorilaskuri iPhonelle ja iPadille: kirjaa ateriat, tee videoista reseptejä, kirjaa tuntemuksesi, seuraa painoa ja aktiivisuutta ja rakenna lempeitä tapoja.",
+    "featureList": ["Ruokapäiväkirja ja viivakoodiskanneri", "Tietoiset ateriakirjaukset", "Reseptit videoista ja linkeistä", "Tekoälyn viikkokatsaukset", "Rauhallinen tila", "Opastettu ensimmäinen viikko", "Terveys-apin synkronointi", "Widgetit, Siri ja Pikakomennot"],
+    "inLanguage": ["en", "de", "fi"],
+    "operatingSystem": "iOS 26, iPadOS 26",
+    "url": "https://fimbl.app/fi/",
+    "image": "https://fimbl.app/assets/img/icon-512.png",
+    "installUrl": "https://apps.apple.com/app/id6443701726",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+    "publisher": { "@id": "https://fimbl.app/#organization" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://fimbl.app/#organization",
+        "name": "AppRise Ventures Oy",
+        "url": "https://fimbl.app/",
+        "logo": { "@type": "ImageObject", "url": "https://fimbl.app/assets/img/icon-512.png", "width": 512, "height": 512 },
+        "email": "appriseven@gmail.com",
+        "address": { "@type": "PostalAddress", "streetAddress": "Sokerilinnantie 1 A", "postalCode": "02600", "addressLocality": "Espoo", "addressCountry": "FI" },
+        "taxID": "3336104-8",
+        "sameAs": ["https://apps.apple.com/app/id6443701726"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://fimbl.app/#website",
+        "name": "Fimbl",
+        "url": "https://fimbl.app/",
+        "inLanguage": ["en", "fi", "de"],
+        "publisher": { "@id": "https://fimbl.app/#organization" }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "Fimbl: kalorien seurantaa, rauhallisesti",
+    "description": "51 sekunnin englanninkielinen elokuva Fimblistä, tietoisesta ruokapäiväkirjasta iPhonelle ja iPadille.",
+    "inLanguage": "en",
+    "thumbnailUrl": "https://fimbl.app/assets/video/fimbl-promo-v2-poster.webp",
+    "uploadDate": "2026-10-04",
+    "duration": "PT51S",
+    "contentUrl": "https://fimbl.app/assets/video/fimbl-promo-v2.mp4"
+  }
+  </script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-mark" viewBox="100 96 360 391"><path fill="currentColor" d="M100 254.874C100 167.13 171.13 96 258.874 96C259.752 96 260.463 96.7113 260.463 97.5887V426.199C260.463 454.484 260.463 468.626 251.676 477.412C242.889 486.199 228.747 486.199 200.463 486.199H111.365C105.088 486.199 100 481.111 100 474.834V254.874Z"/><path fill="currentColor" d="M303.114 96C389.76 96 460 166.24 460 252.886C460 255.486 457.893 257.593 455.293 257.593L346.477 257.593C318.192 257.593 304.05 257.593 295.263 248.806C286.477 240.019 286.477 225.877 286.477 197.593L286.477 97.718C286.477 96.7692 287.246 96 288.195 96L303.114 96Z"/><circle fill="currentColor" cx="373.2" cy="371.9" r="79.4"/></symbol>
+    <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-utensils" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v6a2 2 0 0 0 4 0V3M8 11v10"/><path d="M18 21V3c-2.2 1.4-3.5 4-3.5 7.2V13H18"/></g></symbol>
+    <symbol id="i-smile" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.2s1.3 1.8 3.5 1.8 3.5-1.8 3.5-1.8M9 9.5h.01M15 9.5h.01" stroke-width="2"/></g></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19.5C4.5 10.5 10 4.5 20 4.5c0 9.5-5.5 15-14.5 15H5Z"/><path d="M5 19.5 13 11.5"/></g></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m11 3 1.9 5.1L18 10l-5.1 1.9L11 17l-1.9-5.1L4 10l5.1-1.9L11 3Z"/><path d="m18.5 15 .9 2.1 2.1.9-2.1.9-.9 2.1-.9-2.1-2.1-.9 2.1-.9.9-2.1Z"/></g></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></g></symbol>
+    <symbol id="i-barcode" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 7.5V6a3 3 0 0 1 3-3h1.5M16.5 3H18a3 3 0 0 1 3 3v1.5M21 16.5V18a3 3 0 0 1-3 3h-1.5M7.5 21H6a3 3 0 0 1-3-3v-1.5M7.5 8v8M10.5 8v8M13.5 8v8M16.5 8v8"/></g></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4.5 8H7l1.8-2.6c.2-.3.5-.4.8-.4h4.8c.3 0 .6.1.8.4L17 8h2.5A1.5 1.5 0 0 1 21 9.5v8a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-8A1.5 1.5 0 0 1 4.5 8Z"/><circle cx="12" cy="13.2" r="3.4"/></g></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></g></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 20s-7.5-4.6-7.5-10.3A4.2 4.2 0 0 1 12 7.2a4.2 4.2 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20Z"/></symbol>
+    <symbol id="i-widgets" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="7.5" height="7.5" rx="2.2"/><rect x="13" y="3.5" width="7.5" height="7.5" rx="3.75"/><rect x="3.5" y="13" width="17" height="7.5" rx="2.2"/></g></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3A4 4 0 0 0 11 18.7l1-1"/></g></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M20 12a8 8 0 0 1-11.6 7.1L4 20l1-4A8 8 0 1 1 20 12Z"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="5" y="10.5" width="14" height="10" rx="3"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></g></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></g></symbol>
+    <symbol id="i-swap" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 8h13l-3-3M20 16H7l3 3"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M7 4h10a1 1 0 0 1 1 1v15l-6-4-6 4V5a1 1 0 0 1 1-1Z"/></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 11v2M7.5 8v8M11 5v14M14.5 9v6M18 7v10M21 11v2"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6v5.5c0 4.2 2.9 7.6 7 9 4.1-1.4 7-4.8 7-9V6l-7-2.5Z"/><path d="m9 12 2.2 2.2L15.2 10"/></g></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Siirry sisältöön</a>
+
+  <header class="nav" data-nav>
+    <div class="container nav-inner">
+      <a class="brand" href="/fi/" aria-label="Fimblin etusivu">fimbl</a>
+      <ul class="nav-links">
+        <li><a href="#new">Uutta</a></li>
+        <li><a href="#features">Ominaisuudet</a></li>
+        <li class="nav-opt"><a href="#first-week">Ensimmäinen viikko</a></li>
+        <li class="nav-opt"><a href="#ai">Tekoäly</a></li>
+        <li><a href="#faq">UKK</a></li>
+        <li><a href="/fi/blogi/">Blogi</a></li>
+      </ul>
+      <div class="nav-end">
+        <details class="lang" data-lang>
+          <summary aria-label="Kieli: Suomi"><svg aria-hidden="true"><use href="#i-globe"/></svg>FI</summary>
+          <ul class="lang-menu">
+            <li><a href="/" hreflang="en" lang="en">English <small>EN</small></a></li>
+            <li><a href="/fi/" hreflang="fi" lang="fi" aria-current="page">Suomi <small>FI</small></a></li>
+            <li><a href="/de/" hreflang="de" lang="de">Deutsch <small>DE</small></a></li>
+          </ul>
+        </details>
+        <a class="btn btn-primary btn-sm" href="https://apps.apple.com/app/id6443701726" data-store>
+          <svg aria-hidden="true"><use href="#i-apple"/></svg>Lataa sovellus
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <span class="nav-sentinel" data-nav-sentinel aria-hidden="true"></span>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow-pill" data-reveal><b>Uutta</b> Fimbl 2.0, rakennettu alusta asti uudelleen</p>
+          <h1 data-reveal style="--delay:.06s">Löydä <span class="accent">tasapaino</span> syömiseesi</h1>
+          <p class="hero-lead" data-reveal style="--delay:.12s">Rauhallinen kumppani tietoiseen syömiseen. Kirjaa ateriat sekunneissa, huomaa miltä ruoka sinusta tuntuu ja rakenna lempeitä tapoja, jotka kestävät. Ei syyllisyyttä, vain selkeyttä.</p>
+          <div class="hero-actions" data-reveal style="--delay:.18s">
+            <a class="btn btn-primary btn-store" href="https://apps.apple.com/app/id6443701726" data-store>
+              <svg aria-hidden="true"><use href="#i-apple"/></svg>
+              <span class="btn-label"><small>Lataa</small><strong>App Storesta</strong></span>
+            </a>
+            <a class="btn btn-ghost" href="#new">Katso, mitä uutta</a>
+          </div>
+          <ul class="hero-meta" data-reveal style="--delay:.24s">
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Ilmainen ladata</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Ei mainoksia</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Toimii Terveys-apin kanssa</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Suomi, English &amp; Deutsch</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" data-reveal style="--delay:.15s">
+          <div class="phone">
+            <img src="/assets/img/app/fi/01-diary.webp" width="720" height="1564" alt="Fimblin ruokapäiväkirja: 482 kcal jäljellä, tavoite 1 592 kcal, syöty 1 110 kcal ja kirjattu aamiainen" fetchpriority="high">
+          </div>
+          <img class="hero-bowl" src="/assets/img/hero-bowl.webp" width="900" height="696" alt="" aria-hidden="true">
+          <span class="chip chip-reflection" aria-hidden="true"><span class="chip-emoji"><svg><use href="#i-sparkle"/></svg></span><span>Viikon pohdinta<small>Aamukävelypäivinä olit energisempi.</small></span></span>
+          <span class="chip chip-mood" aria-hidden="true"><span class="chip-emoji">😊</span><span>Tyytyväinen<small>Aamiaisen jälkeen</small></span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="pillars" aria-label="Miksi Fimbl">
+      <div class="container">
+        <ul class="pillar-grid">
+          <li class="pillar" data-reveal>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-utensils"/></svg></span>
+            <h3>Tietoinen syöminen</h3>
+            <p>Parempia valintoja, aitoa tyytyväisyyttä.</p>
+          </li>
+          <li class="pillar" data-reveal style="--delay:.06s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-smile"/></svg></span>
+            <h3>Huomaa tunteesi</h3>
+            <p>Näe, miten ruoka ja mieli liittyvät toisiinsa.</p>
+          </li>
+          <li class="pillar" data-reveal style="--delay:.12s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-leaf"/></svg></span>
+            <h3>Terveet tavat</h3>
+            <p>Pieniä askelia, isoja muutoksia.</p>
+          </li>
+          <li class="pillar" data-reveal style="--delay:.18s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-sparkle"/></svg></span>
+            <h3>Ystävällinen tekoäly</h3>
+            <p>Lempeitä huomioita, ei koskaan tuomitsemista.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="film">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">Elokuva</span>
+          <h2>Kalorien seurantaa, <span class="accent">rauhallisesti</span></h2>
+          <p>Viisikymmentäyksi sekuntia siitä, miltä Fimbl tuntuu: lempeältä, selkeältä ja hiljaisen fiksulta. Ääni päälle. Elokuva on englanninkielinen.</p>
+        </header>
+
+        <div class="film" data-film data-reveal>
+          <div class="film-frame">
+            <video controls preload="none" playsinline poster="/assets/video/fimbl-promo-v2-poster.webp" width="1920" height="1080" aria-label="Fimblin esittelyelokuva englanniksi, 51 sekuntia: kalorien seurantaa, rauhallisesti">
+              <source src="/assets/video/fimbl-promo-v2.mp4" type="video/mp4">
+              <p>Selaimesi ei voi toistaa tätä videota. <a href="/assets/video/fimbl-promo-v2.mp4">Lataa elokuva</a> (MP4, 9 Mt).</p>
+            </video>
+            <button class="film-play" type="button" data-film-play aria-label="Toista Fimbl-elokuva">
+              <span class="film-play-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M8.5 5.6v12.8a1 1 0 0 0 1.5.9l10.4-6.4a1 1 0 0 0 0-1.8L10 4.7a1 1 0 0 0-1.5.9Z"/></svg></span>
+              <span class="film-play-label" aria-hidden="true">Katso elokuva <b>0:51</b></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="new">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">Uutta Fimbl 2.0:ssa</span>
+          <h2>Rauhallisempi tapa <span class="accent">ymmärtää ruokaasi</span></h2>
+          <p>Rakennettu alusta asti uudelleen: kevyempi, nopeampi ja täynnä pieniä, ystävällisiä ideoita, jotka auttavat huomaamaan, mikä toimii juuri sinulle.</p>
+        </header>
+
+        <div class="spots">
+          <article class="spot spot-wide" data-reveal>
+            <div class="spot-copy">
+              <span class="tag tag-premium">Uutta · Premium</span>
+              <h3>Reseptit Reeleistä, TikTokeista ja Shortseista</h3>
+              <p>Jaa video tai reseptilinkki Fimbliin. Tekoäly kirjoittaa reseptin aineksineen, työvaiheineen ja ravintoarvoineen annosta kohden, valmiina tallennettavaksi ja kirjattavaksi. Myös reseptisivut, keittokirjan kuvat ja kuvakaappaukset toimivat.</p>
+              <ul class="spot-list">
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Napauta Safarissa, Instagramissa, TikTokissa tai YouTubessa Jaa ja valitse Fimbl</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Muokkaa mitä tahansa ennen tallennusta</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Tai luo keskustelemalla resepti siitä, mitä jääkaapista löytyy</li>
+              </ul>
+            </div>
+            <div class="vig vig-recipe" aria-hidden="true">
+              <div class="vig-card vig-link"><svg><use href="#i-link"/></svg><span>Jaettu Reelistä</span></div>
+              <ol class="vig-steps">
+                <li class="is-done"><i><svg><use href="#i-check"/></svg></i>Katsotaan videota</li>
+                <li class="is-done"><i><svg><use href="#i-check"/></svg></i>Etsitään aineksia</li>
+                <li class="is-now"><i></i>Arvioidaan ravintoarvoja</li>
+              </ol>
+              <div class="vig-card vig-result">
+                <strong>Arjen tomaattipasta</strong>
+                <span class="vig-sub">538 kcal annosta kohden</span>
+                <span class="vig-macros"><b>Hiilarit 66 g</b><b>Rasva 18 g</b><b>Proteiini 28 g</b></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="spot" data-reveal>
+            <div class="spot-copy">
+              <span class="tag tag-premium">Uutta · Premium</span>
+              <h3>Arvosanoja kalorien sijaan</h3>
+              <p>Etkö halua nähdä numeroita? Rauhallinen tila arvioi jokaisen aterian sen mukaan, miten hyvin se tuki tavoitteitasi, nälkääsi ja mielialaasi. Päiväkirja laskee taustalla hiljaa, joten vaihtaminen ei koskaan hävitä mitään.</p>
+            </div>
+            <div class="vig vig-calm" aria-hidden="true">
+              <div class="vig-card vig-day"><span>Tänään</span><b class="grade g-b">B</b></div>
+              <div class="vig-card vig-row"><b class="grade g-a">A</b><span><strong>Tuorepuuro</strong><small>Osuu hienosti · Kuitu</small></span></div>
+              <div class="vig-card vig-row"><b class="grade g-b">B</b><span><strong>Kanawrap</strong><small>Osuu hyvin · Proteiini</small></span></div>
+              <div class="vig-card vig-row"><b class="grade g-c">C</b><span><strong>Tumma suklaa</strong><small>Kelpo valinta · Herkku</small></span></div>
+            </div>
+          </article>
+
+          <article class="spot" data-reveal style="--delay:.06s">
+            <div class="spot-copy">
+              <span class="tag tag-premium">Premium</span>
+              <h3>Viikkosi, lempeästi katsottuna</h3>
+              <p>Joka maanantai pohdinta viikostasi: onnistumiset, huomatut kuviot ja yksi lempeä painopiste ensi viikolle. Sen jälkeen voit jutella pohdintavalmentajan kanssa. Ei tuomitsemista, vain uteliaisuutta.</p>
+            </div>
+            <div class="vig vig-reflect" aria-hidden="true">
+              <div class="vig-card">
+                <span class="vig-kicker"><svg><use href="#i-sparkle"/></svg>Viikon pohdinta</span>
+                <strong>Huomaamamme kuviot</strong>
+                <span class="vig-sub">Aamukävelypäivinä olit energisempi.</span>
+              </div>
+              <div class="vig-bubble"><svg><use href="#i-chat"/></svg>Hei, autan sinua pohtimaan. Ei tuomitsemista, vain uteliaisuutta.</div>
+              <div class="vig-chips"><span>Miksi napostelen enemmän iltaisin?</span></div>
+            </div>
+          </article>
+
+          <article class="spot" data-reveal>
+            <div class="spot-copy">
+              <span class="tag tag-premium">Premium</span>
+              <h3>Löydä kevyempi vaihtoehto</h3>
+              <p>Kuvaa tuote ja saat rehellisen arvion, pisteet kymmenestä ja terveellisempiä vaihtoehtoja. Näet myös, mistä niitä saa supermarketeista yli 40 maassa.</p>
+            </div>
+            <div class="vig vig-swap" aria-hidden="true">
+              <div class="vig-card vig-row"><b class="grade g-c">5<small>/10</small></b><span><strong>Rapea granola</strong><small>Sinun valintasi</small></span></div>
+              <div class="vig-card vig-row is-best"><b class="grade g-a">8<small>/10</small></b><span><strong>Kaura-marjamysli</strong><small><em>Paras osuma</em> · Mistä ostaa</small></span></div>
+              <div class="vig-card vig-row"><b class="grade g-b">7<small>/10</small></b><span><strong>Siemenkaurakrokantti</strong><small>Myös hyvä valinta</small></span></div>
+            </div>
+          </article>
+
+          <article class="spot" data-reveal style="--delay:.06s">
+            <div class="spot-copy">
+              <span class="tag">Ilmainen</span>
+              <h3>Tehty sinun tavallesi syödä</h3>
+              <p>Tallennetut ateriat kirjaavat tavallisen annoksesi yhdellä napautuksella. Siri ja Pikakomennot hoitavat pikalisäykset ja punnitukset kädet vapaina. Uusi painotavoitewidget näyttää käyräsi matkan varrella, ja Fimbl puhuu suomea, englantia ja saksaa.</p>
+            </div>
+            <ul class="vig vig-chips-list" aria-hidden="true">
+              <li><svg><use href="#i-wave"/></svg>”Kirjaa painoni Fimbliin”</li>
+              <li><svg><use href="#i-wave"/></svg>”Lisää kaloreita Fimbliin”</li>
+              <li><svg><use href="#i-bookmark"/></svg>Tuorepuuro, tallennettu</li>
+              <li><svg><use href="#i-widgets"/></svg>Painotavoitewidget</li>
+              <li><svg><use href="#i-globe"/></svg>Suomi · English · Deutsch</li>
+            </ul>
+          </article>
+        </div>
+        <p class="fine" data-reveal>Yllä olevat kortit havainnollistavat ominaisuuksia esimerkkisisällöllä. Premium-ominaisuudet on merkitty, ja kaikki muu on ilmaista.</p>
+      </div>
+    </section>
+
+    <section class="section" id="features" style="padding-top:0">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">Lähempi katsaus</span>
+          <h2>Kaikki mitä tarvitset. <span class="accent">Ei mitään turhaa.</span></h2>
+          <p>Rauhallinen ja selkeä ruokapäiväkirja, joka näyttää sen, millä on väliä, jotta voit keskittyä hyvään oloon.</p>
+        </header>
+
+        <div class="showcase" data-showcase data-reveal>
+          <div class="tabs" role="tablist" aria-label="Sovelluksen näkymät">
+            <button class="tab is-active" role="tab" id="tab-food" aria-controls="screen-food" aria-selected="true">
+              <span class="tab-label">Ruoka</span>
+              <span class="tab-title">Jokainen suupala selkeästi</span>
+              <span class="tab-desc"><span>Hae nimellä tai tuotemerkillä tai skannaa viivakoodi. Säädä annosta ja näe hiilihydraatit, rasva ja proteiini sekunneissa.</span></span>
+              <span class="tab-progress" aria-hidden="true"></span>
+            </button>
+            <button class="tab" role="tab" id="tab-meals" aria-controls="screen-meals" aria-selected="false" tabindex="-1">
+              <span class="tab-label">Ateriat</span>
+              <span class="tab-title">Tavallinen annoksesi yhdellä napautuksella</span>
+              <span class="tab-desc"><span>Yhdistä usein yhdessä syömäsi ruoat ja kirjaa koko ateria kerralla, tai kopioi eilinen lounas.</span></span>
+              <span class="tab-progress" aria-hidden="true"></span>
+            </button>
+            <button class="tab" role="tab" id="tab-feelings" aria-controls="screen-feelings" aria-selected="false" tabindex="-1">
+              <span class="tab-label">Tuntemukset</span>
+              <span class="tab-title">Huomaa, miltä ateriat tuntuvat</span>
+              <span class="tab-desc"><span>Tietoinen tauko ennen syömistä. Kirjaa nälkä ja tuntemukset, valitse niin monta sanaa kuin haluat ja katso, miten kuviot muuttuvat oivalluksiksi.</span></span>
+              <span class="tab-progress" aria-hidden="true"></span>
+            </button>
+            <button class="tab" role="tab" id="tab-progress" aria-controls="screen-progress" aria-selected="false" tabindex="-1">
+              <span class="tab-label">Edistyminen</span>
+              <span class="tab-title">Lempeää edistystä, jonka näet</span>
+              <span class="tab-desc"><span>Painon kehitys, BMI ja kirjausputket, jotka pitävät liikkeellä ilman yhden luvun tuijottamista.</span></span>
+              <span class="tab-progress" aria-hidden="true"></span>
+            </button>
+            <button class="tab" role="tab" id="tab-activity" aria-controls="screen-activity" aria-selected="false" tabindex="-1">
+              <span class="tab-label">Aktiivisuus</span>
+              <span class="tab-title">Liiku enemmän, omalla tavallasi</span>
+              <span class="tab-desc"><span>Askeleet, matka, aktiivinen energia, lepoenergia ja treenit Terveys-apista, jotta koko päiväsi lasketaan mukaan.</span></span>
+              <span class="tab-progress" aria-hidden="true"></span>
+            </button>
+            <button class="tab" role="tab" id="tab-goals" aria-controls="screen-goals" aria-selected="false" tabindex="-1">
+              <span class="tab-label">Tavoitteet</span>
+              <span class="tab-title">Putket, jotka palkitsevat paikalla olosta</span>
+              <span class="tab-desc"><span>Viisi lempeää putkea, 12 viikon punnituskartta ja treenitavoitteet. Johdonmukaisuutta juhlitaan, täydellisyyttä ei vaadita.</span></span>
+              <span class="tab-progress" aria-hidden="true"></span>
+            </button>
+          </div>
+
+          <div class="stage" data-stage>
+            <figure class="phone is-active" role="tabpanel" id="screen-food" aria-labelledby="tab-food">
+              <img src="/assets/img/app/fi/food.webp" width="720" height="1564" alt="Muokkaa ruokaa -näkymä: kaurahiutaleet, 223 kcal ja makrojakauma" loading="lazy">
+            </figure>
+            <figure class="phone" role="tabpanel" id="screen-meals" aria-labelledby="tab-meals">
+              <img src="/assets/img/app/fi/meal.webp" width="720" height="1564" alt="Tallennettu ateria Overnight oats: 378 kcal, kolme ainesosaa ja makrojakauma" loading="lazy">
+            </figure>
+            <figure class="phone" role="tabpanel" id="screen-feelings" aria-labelledby="tab-feelings">
+              <img src="/assets/img/app/fi/03-feelings.webp" width="720" height="1564" alt="Aterian kirjaus kysyy, mitä tunteita sinulla oli ennen aamiaista, ja tarjoaa valittavia tuntemuksia" loading="lazy">
+            </figure>
+            <figure class="phone" role="tabpanel" id="screen-progress" aria-labelledby="tab-progress">
+              <img src="/assets/img/app/fi/08-progress.webp" width="720" height="1564" alt="Painon edistyminen: nykyinen paino 74,2 kg, tavoite 68 kg, BMI 26,3, viiden päivän kirjausputki ja 90 päivän kehityskäyrä" loading="lazy">
+            </figure>
+            <figure class="phone" role="tabpanel" id="screen-activity" aria-labelledby="tab-activity">
+              <img src="/assets/img/app/fi/activity.webp" width="720" height="1564" alt="Päivän aktiivisuus: 6 240 askelta, 4,6 km ja 281 kcal aktiivista energiaa" loading="lazy">
+            </figure>
+            <figure class="phone" role="tabpanel" id="screen-goals" aria-labelledby="tab-goals">
+              <img src="/assets/img/app/fi/goals.webp" width="720" height="1564" alt="Tavoitteet ja putket: 12 viikon punnituskartta sekä putket aterioille, mielialalle, tietoiselle syömiselle ja askeleille" loading="lazy">
+            </figure>
+          </div>
+
+          <div class="dots" data-dots>
+            <button type="button" aria-label="Näytä Ruoka" aria-current="true"></button>
+            <button type="button" aria-label="Näytä Ateriat"></button>
+            <button type="button" aria-label="Näytä Tuntemukset"></button>
+            <button type="button" aria-label="Näytä Edistyminen"></button>
+            <button type="button" aria-label="Näytä Aktiivisuus"></button>
+            <button type="button" aria-label="Näytä Tavoitteet"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="logging" style="padding-top:0">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">Kirjaaminen</span>
+          <h2>Kirjaa sekunneissa, <span class="accent">omalla tavallasi</span></h2>
+          <p>Seuraatpa ruokailuasi miten tahansa, Fimbl pitää sen nopeana, jotta kirjaaminen ei koskaan tule elämän tielle.</p>
+        </header>
+        <ul class="bento">
+          <li data-reveal>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-search"/></svg></span>
+            <h3>Hae nimellä tai merkillä</h3>
+            <p>Täydet ravintotiedot jokaiselle ruoalle.</p>
+          </li>
+          <li data-reveal style="--delay:.06s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-barcode"/></svg></span>
+            <h3>Viivakoodiskannaus</h3>
+            <p>Osoita, skannaa, valmis. Puuttuuko tuote? Lisää se kerran.</p>
+          </li>
+          <li data-reveal style="--delay:.12s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-camera"/></svg></span>
+            <h3>Kaloriskannaus kuvasta</h3>
+            <p>Ota kuva lautasesta ja saat arvion, jota voit muokata.</p>
+            <span class="badge-premium">PREMIUM</span>
+          </li>
+          <li data-reveal>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-mic"/></svg></span>
+            <h3>Sano tai kirjoita</h3>
+            <p>”Kanavoileipä ja ranskalaiset.” Valmis.</p>
+            <span class="badge-premium">PREMIUM</span>
+          </li>
+          <li data-reveal style="--delay:.06s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-link"/></svg></span>
+            <h3>Reseptit linkeistä</h3>
+            <p>Reelit, TikTokit, Shortsit ja reseptisivut.</p>
+            <span class="badge-premium">PREMIUM</span>
+          </li>
+          <li data-reveal style="--delay:.12s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-bookmark"/></svg></span>
+            <h3>Tallennetut ateriat</h3>
+            <p>Kirjaa tavallisesi yhdellä napautuksella.</p>
+          </li>
+          <li data-reveal>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-heart"/></svg></span>
+            <h3>Terveys-apin synkronointi</h3>
+            <p>Askeleet, energia, treenit ja paino.</p>
+          </li>
+          <li data-reveal style="--delay:.06s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-wave"/></svg></span>
+            <h3>Siri ja Pikakomennot</h3>
+            <p>”Kirjaa painoni Fimbliin.” Kädet vapaina.</p>
+          </li>
+          <li data-reveal style="--delay:.12s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-widgets"/></svg></span>
+            <h3>Widgetit</h3>
+            <p>Päiväsi koti- ja lukitusnäytöllä.</p>
+            <span class="badge-premium">PREMIUM</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="first-week" style="padding-top:0">
+      <div class="container">
+        <div class="journey" data-reveal>
+          <div class="journey-head">
+            <span class="tag">Ilmainen kaikille</span>
+            <h2>Ensimmäinen viikkosi, <span class="accent">yksi pieni askel päivässä</span></h2>
+            <p>Seitsemän päivää. Pieni askel kerrallaan. Fimbl kulkee kanssasi ensimmäisen viikon, ensimmäisestä kirjauksesta mielialan nimeämiseen, ja muistuttaa pehmeästi valitsemaasi aikaan. Jäikö päivä väliin? Ei haittaa. Kunhan kahta ei jää peräkkäin.</p>
+          </div>
+          <ol class="path">
+            <li class="is-done"><b>1</b><span>Ensimmäinen kirjaus</span></li>
+            <li class="is-done"><b>2</b><span>Tuntemukset</span></li>
+            <li class="is-now"><b>3</b><span>Kaksi ateriaa</span></li>
+            <li><b>4</b><span>Nimeä mielialasi</span></li>
+            <li><b>5</b><span>Kirjaa sekunneissa</span></li>
+            <li><b>6</b><span>Koko päivä</span></li>
+            <li><b>7</b><span>Viikon katsaus</span></li>
+          </ol>
+          <p class="journey-foot">Ohita milloin vain tai aloita myöhemmin uudelleen asetuksista. Ei putkihäpeää, koskaan.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ai" style="padding-top:0">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">Tekoälyä, valot päällä</span>
+          <h2>Hyödyllistä tekoälyä, <span class="accent">selkeästi kerrottuna</span></h2>
+          <p>Osa Premium-ominaisuuksista käyttää tekoälyä. Tässä selkokielinen versio siitä, miten. Englanninkielisessä tietosuojaselosteessa on kaikki yksityiskohdat.</p>
+        </header>
+        <ul class="ai-grid">
+          <li class="ai-card" data-reveal>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-shield"/></svg></span>
+            <h3>Valinnainen, ja vain Premiumissa</h3>
+            <p>Päiväkirja, haku, viivakoodiskannaus, paino, mieliala, aktiivisuus ja tavoitteet toimivat täysin ilman tekoälyä. Ilmaiset tilit eivät koskaan lähetä mitään tekoälypalveluun.</p>
+          </li>
+          <li class="ai-card" data-reveal style="--delay:.06s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-eye"/></svg></span>
+            <h3>Se näkee vain sen, mitä ominaisuus tarvitsee</h3>
+            <p>Ottamasi kuvan, kirjoittamasi tai sanomasi sanat tai pohdintoja ja valmentajaa varten viimeaikaisen päiväkirjasi, kirjauksesi ja punnituksesi. Ei koskaan nimeäsi tai sähköpostiosoitettasi.</p>
+          </li>
+          <li class="ai-card" data-reveal>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-globe"/></svg></span>
+            <h3>Kuka sitä käsittelee</h3>
+            <p>Pyynnöt kulkevat sovelluksesta Fimblin palvelimien kautta Googlen Gemini-rajapintaan. Emme kouluta tekoälymalleja tiedoillasi emmekä myy niitä, ja kaikki tilin poistamisen jälkeen säilyttämämme tieto anonymisoidaan.</p>
+          </li>
+          <li class="ai-card" data-reveal style="--delay:.06s">
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-sparkle"/></svg></span>
+            <h3>Arvioita, ei neuvoja</h3>
+            <p>Tekoäly voi joskus mennä hieman ohi, joten voit muokata mitä tahansa merkintää. Fimbl tarjoaa lempeää ohjausta, ei lääketieteellistä neuvontaa tai hoitoa.</p>
+          </li>
+        </ul>
+        <p class="ai-link" data-reveal><a class="btn btn-ghost" href="/privacy/#ai" hreflang="en">Lue, miten tekoäly toimii Fimblissä (englanniksi)</a></p>
+      </div>
+    </section>
+
+    <section class="section promise" style="padding-top:0">
+      <div class="container">
+        <div class="promise-card" data-reveal>
+          <div>
+            <span class="eyebrow">Lupauksemme</span>
+            <h2>Edistys ei ole vain numeroita</h2>
+            <p>Fimbl tehtiin irtiotoksi sovelluksista, jotka laskevat pelkkiä kaloreita. Se on ystävällinen ja hiljainen tila, joka auttaa ymmärtämään kehoasi ja mieltäsi omaan tahtiisi ja omilla ehdoillasi.</p>
+          </div>
+          <ul class="promise-list">
+            <li><span aria-hidden="true"><svg><use href="#i-check"/></svg></span>Ei syyllisyyttä, ei dieettikulttuurin melua</li>
+            <li><span aria-hidden="true"><svg><use href="#i-check"/></svg></span>Ei mainoksia eikä mainosseurantaa</li>
+            <li><span aria-hidden="true"><svg><use href="#i-check"/></svg></span>Tekoäly on valinnainen ja selkeästi kerrottu</li>
+            <li><span aria-hidden="true"><svg><use href="#i-check"/></svg></span>Poista tilisi milloin tahansa</li>
+            <li><span aria-hidden="true"><svg><use href="#i-check"/></svg></span>Suunniteltu ja rakennettu Suomessa</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="blog" style="padding-top:0">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">Blogista</span>
+          <h2>Syö tietoisesti, <span class="accent">ilman syyllisyyttä</span></h2>
+          <p>Rehellisiä oppaita kalorien seurannasta, nälästä ja tavoista sekä ajatuksiamme rauhallisemman ruokapäiväkirjan rakentamisesta.</p>
+        </header>
+        <ul class="post-cards post-cards-home">
+          <li class="post-card">
+            <div class="post-card-visual" aria-hidden="true">
+              <div class="phone"><img src="/assets/img/app/fi/01-diary.webp" width="720" height="1564" alt="" loading="lazy"></div>
+              <div class="phone"><img src="/assets/img/app/fi/03-feelings.webp" width="720" height="1564" alt="" loading="lazy"></div>
+            </div>
+            <div class="post-card-body">
+              <span class="tag">Vertailu</span>
+              <h3><a href="/fi/blogi/paras-kalorilaskuri-sovellus/">Paras kalorilaskuri vuonna 2026: rehellinen vertailu</a></h3>
+              <p>Fimbl, MyFitnessPal, YAZIO, Lifesum ja muut rinnakkain: missä kukin on paras ja mitä saat ilmaiseksi.</p>
+              <span class="read-more" aria-hidden="true">Lue artikkeli</span>
+            </div>
+          </li>
+          <li class="post-card">
+            <div class="post-card-visual" aria-hidden="true">
+              <div class="phone"><img src="/assets/img/app/fi/03-feelings.webp" width="720" height="1564" alt="" loading="lazy"></div>
+              <div class="phone"><img src="/assets/img/app/fi/07-first-week.webp" width="720" height="1564" alt="" loading="lazy"></div>
+            </div>
+            <div class="post-card-body">
+              <span class="tag">Tietoinen syöminen</span>
+              <h3><a href="/fi/blogi/tunnenalka-vai-oikea-nalka/">Tunnenälkä vai oikea nälkä? Näin tunnistat eron</a></h3>
+              <p>Seitsemän eroa, yksinkertainen nälkäasteikko ja kymmenen sekunnin pysähdys, jota voit käyttää jokaisella aterialla.</p>
+              <span class="read-more" aria-hidden="true">Lue artikkeli</span>
+            </div>
+          </li>
+          <li class="post-card">
+            <div class="post-card-visual" aria-hidden="true">
+              <div class="phone"><img src="/assets/img/app/fi/04-meal-grades.webp" width="720" height="1564" alt="" loading="lazy"></div>
+              <div class="phone"><img src="/assets/img/app/fi/09-ai.webp" width="720" height="1564" alt="" loading="lazy"></div>
+            </div>
+            <div class="post-card-body">
+              <span class="tag">Fimblin tarina</span>
+              <h3><a href="/fi/blogi/miksi-teimme-fimblin/">Miksi teimme kalorilaskurin, joka ei tuomitse</a></h3>
+              <p>Fimblin periaatteet, mitä jätimme tarkoituksella pois ja mihin olemme menossa seuraavaksi.</p>
+              <span class="read-more" aria-hidden="true">Lue artikkeli</span>
+            </div>
+          </li>
+        </ul>
+        <p class="ai-link"><a class="btn btn-ghost" href="/fi/blogi/">Kaikki artikkelit</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="faq" style="padding-top:0">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">UKK</span>
+          <h2>Kysymyksiä ja vastauksia</h2>
+        </header>
+        <div class="faq" data-reveal>
+          <details>
+            <summary>Onko Fimbl ilmainen?</summary>
+            <p>On. Fimbl on ilmainen ladata, ja sovelluksen ydin on ilmainen: ruokapäiväkirja, haku ja viivakoodiskannaus, tallennetut ateriat, paino, mieliala ja aterioiden tuntemukset, Terveys-apin aktiivisuustiedot, tavoitteet ja putket sekä opastettu ensimmäinen viikko. Fimbl Premium tuo mukaan makrojen seurannan ja tavoitteet, tekoälyominaisuudet (kaloriskannaus kuvasta, aterian kuvailu tekstillä tai äänellä, reseptit videoista ja linkeistä, viikon pohdinnat ja valmentaja, rauhallinen tila ja terveellisemmät vaihtoehdot), widgetit, lisää ateriapaikkoja ja putken palautuksen. Uusille tilaajille voidaan tarjota ilmainen kokeilujakso, ja hinnat ja kokeilun ehdot näytetään aina ennen tilaamista.</p>
+          </details>
+          <details>
+            <summary>Onko Fimbl dieettisovellus?</summary>
+            <p>Ei tavallisessa mielessä. Voit asettaa kaloritavoitteen, jos siitä on apua, tai vaihtaa rauhalliseen tilaan ja nähdä numeroiden sijaan arvosanoja. Fimbl keskittyy tasapainoon, tietoisuuteen ja tapoihin, ja se on tehty tukemaan terveempää suhdetta ruokaan, ei koskaan saamaan sinua tuntemaan oloasi huonoksi. Se ei ole lääketieteellinen työkalu eikä syömishäiriöiden hoitomuoto. Jos ruoka tuntuu joskus ylivoimaiselta, terveydenhuollon ammattilainen voi auttaa.</p>
+          </details>
+          <details>
+            <summary>Miten tallennan reseptin Instagramista tai TikTokista?</summary>
+            <p>Avaa video, napauta Jaa ja valitse Fimbl. Jos et näe sitä, napauta Lisää ja lisää Fimbl listaan. Fimbl lukee linkin, katsoo videon ja rakentaa reseptin aineksineen, työvaiheineen ja ravintoarvoineen annosta kohden. Voit muokata reseptiä ennen tallennusta. Reseptien tuonti on Premium-ominaisuus.</p>
+          </details>
+          <details>
+            <summary>Miten tekoäly toimii ja mitä se näkee?</summary>
+            <p>Tekoälyominaisuudet kuuluvat Premiumiin, ja niiden käyttö on täysin valinnaista. Kun käytät jotakin niistä, Fimbl lähettää palvelimillemme vain sen, mitä ominaisuus tarvitsee, ja palvelimet kutsuvat Googlen Gemini-rajapintaa: kuvan skannausta varten, tekstin kuvaillusta ateriasta tai pohdintoja ja valmentajaa varten viimeaikaiset päiväkirja-, tuntemus- ja punnitustiedot. Nimeäsi ja sähköpostiosoitettasi ei koskaan lähetetä. Tekoälyn arviot voivat mennä hieman ohi, joten voit aina muokata niitä. Jos poistat tilisi, säilyttämämme tekoälytieto anonymisoidaan, jolloin sitä ei enää voi yhdistää sinuun. Englanninkielinen <a href="/privacy/#ai" hreflang="en">tietosuojaseloste</a> kertoo jokaisesta ominaisuudesta tarkemmin.</p>
+          </details>
+          <details>
+            <summary>Millä laitteilla Fimbl toimii?</summary>
+            <p>Fimbl on suunniteltu natiivisti iPhonelle ja iPadille, joissa on iOS tai iPadOS 26 tai uudempi. Se toimii vaaleassa ja tummassa tilassa, ja siinä on widgetit koti- ja lukitusnäyttöön. Sovellus on saatavilla suomeksi, englanniksi ja saksaksi.</p>
+          </details>
+          <details>
+            <summary>Toimiiko Fimbl Terveys-apin kanssa?</summary>
+            <p>Toimii. Luvallasi Fimbl lukee askeleesi, kävely- ja juoksumatkasi, aktiivisen energian ja lepoenergian sekä treenisi. Jos otat Terveys-synkronoinnin käyttöön, Fimbl tallentaa myös kirjaamasi painon Terveys-appiin. Ruokiasi Fimbl ei kirjoita Terveys-appiin.</p>
+          </details>
+          <details>
+            <summary>Mitä tiedoilleni tapahtuu?</summary>
+            <p>Tietosi salataan siirron aikana ja tallennetaan Fimblin palvelimille, joten ne ovat tallessa, kun vaihdat puhelinta. Emme myy niitä, eikä sovelluksessa ole mainoksia tai mainosseurantaa. Voit poistaa tilisi milloin tahansa asetuksista: henkilötietosi poistetaan, ja säilyttämämme tekoälytieto anonymisoidaan. Lue koko <a href="/privacy/" hreflang="en">tietosuojaseloste</a> (englanniksi).</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta" style="padding-top:0">
+      <div class="container">
+        <div class="cta-card" data-reveal>
+          <div class="cta-copy">
+            <img class="cta-icon" src="/assets/img/app-icon.webp" width="256" height="256" alt="" loading="lazy">
+            <h2>Aloita hyvinvointimatkasi</h2>
+            <p>Ilmainen ladata. Lempeä ensimmäisestä päivästä.</p>
+            <a class="btn btn-primary btn-store" href="https://apps.apple.com/app/id6443701726" data-store>
+              <svg aria-hidden="true"><use href="#i-apple"/></svg>
+              <span class="btn-label"><small>Lataa</small><strong>App Storesta</strong></span>
+            </a>
+          </div>
+          <div class="cta-phone" aria-hidden="true">
+            <div class="phone"><img src="/assets/img/app/fi/welcome.webp" width="720" height="1564" alt="" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="/fi/" aria-label="Fimblin etusivu">fimbl</a>
+          <p class="footer-tagline">Tietoista syömistä, lempeää edistystä.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="/fi/blogi/">Blogi</a></li>
+          <li><a href="https://apps.apple.com/app/id6443701726">App Store</a></li>
+          <li><a href="mailto:appriseven@gmail.com" rel="noopener">Tuki</a></li>
+          <li><a href="/privacy/" hreflang="en">Tietosuojaseloste (englanniksi)</a></li>
+          <li><a href="/terms/" hreflang="en">Käyttöehdot (englanniksi)</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> AppRise Ventures Oy · Espoo</span>
+        <ul class="footer-langs" data-lang aria-label="Kieli">
+          <li><a href="/" hreflang="en" lang="en">English</a></li>
+          <li><a href="/fi/" hreflang="fi" lang="fi" aria-current="page">Suomi</a></li>
+          <li><a href="/de/" hreflang="de" lang="de">Deutsch</a></li>
+        </ul>
+        <span>Y-tunnus 3336104-8</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

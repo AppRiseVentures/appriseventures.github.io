@@ -1,0 +1,63 @@
+{
+  "id": "emotional-hunger",
+  "slug": "tunnenalka-vai-oikea-nalka",
+  "title": "Tunnenälkä vai oikea nälkä? 7 merkkiä, joista tunnistat eron",
+  "headline": "Tunnenälkä vai oikea nälkä? Näin tunnistat eron",
+  "h1": "Tunnenälkä vai oikea nälkä? <span class=\"accent\">Näin tunnistat eron</span>",
+  "dek": "Seitsemän merkkiä, jotka erottavat ne toisistaan, yksinkertainen nälkäasteikko 1–10 ja kymmenen sekunnin pysähdys, jonka voit tehdä ennen mitä tahansa ateriaa. Ei luentoja itsekurista, vain selkeämpi käsitys siitä, mitä oikeasti tarvitset.",
+  "description": "Miten erotat tunnenälän fyysisestä nälästä? 7 merkkiä, nälkäasteikko 1–10, kymmenen sekunnin pysähdys ennen ateriaa ja keinot, kun mielihalu ei ole nälkää.",
+  "tag": "Tietoinen syöminen",
+  "og_title": "Tunnenälkä vai oikea nälkä? Näin tunnistat eron",
+  "og_kicker": "Tietoisen syömisen opas",
+  "og_heading": "Tunnenälkä vai oikea nälkä? <span>Näin tunnistat</span>",
+  "og_alt": "Fimblin tuntemusten kirjaus -näkymiä ja otsikko: tunnenälkä vai oikea nälkä, näin tunnistat eron",
+  "keywords": ["tunnenälkä", "tunnesyöminen", "fyysinen nälkä", "miten lopettaa tunnesyöminen", "nälkäasteikko", "stressisyöminen", "tietoinen syöminen"],
+  "about": ["Tunnesyöminen", "Nälkä", "Tietoinen syöminen", "Nälkä ja kylläisyys"],
+  "mentions": ["Fimbl"],
+  "published": "2026-10-17",
+  "modified": "2026-10-17",
+  "cover": ["03-feelings", "09-ai", "04-meal-grades"],
+  "cover_alt": ["Fimblin aamiaisen tuntemukset -kirjaus, jossa kysytään, mitä tunteita sinulla oli ennen ateriaa", "Fimblin viikon pohdinta Aamut, jotka kantoivat sinua: kuusi kirjattua päivää seitsemästä ja mieliala 3,8/5"],
+  "chips": [
+    { "emoji": "🍫", "title": "Mielihalu", "sub": "klo 16 · stressaantunut" },
+    { "emoji": "😌", "title": "Tyytyväinen", "sub": "Lounaan jälkeen" }
+  ],
+  "faq": [
+    {
+      "q": "Miten tiedän, olenko oikeasti nälkäinen?",
+      "a": "Fyysinen nälkä kasvaa vähitellen ja tuntuu kehossa: vatsa kurisee, energia hiipuu tai keskittyminen herpaantuu, yleensä muutama tunti edellisen aterian jälkeen. Siihen kelpaa moni ruoka, ja se jaksaa odottaa hetken. Jos söit äskettäin, vatsa on hiljaa ja mieli tekee yhtä tiettyä herkkua juuri nyt, halu on todennäköisemmin tunneperäinen."
+    },
+    {
+      "q": "Onko tunnesyöminen haitallista?",
+      "a": "Ei sinänsä. Lohtua tai juhlaa ruoasta silloin tällöin on tavallinen osa elämää. Asiaa kannattaa katsoa tarkemmin, jos ruoasta tulee pääasiallinen tapa käsitellä tunteita tai jos syömisen jälkeen olo on syyllinen tai hallitsematon."
+    },
+    {
+      "q": "Miksi tekee mieli makeaa stressaantuneena tai väsyneenä?",
+      "a": "Makea, suolainen ja rapea ruoka muuttaa oloa nopeasti ja luotettavasti, joten niihin on helppo oppia tarttumaan stressaantuneena, tylsistyneenä tai väsyneenä. Kyse on tottumuksesta, ei luonteenheikkoudesta. Kuvion huomaaminen, esimerkiksi lyhyellä pysähdyksellä ennen syömistä, on ensimmäinen askel tietoiseen valintaan."
+    },
+    {
+      "q": "Mitä HALT tarkoittaa?",
+      "a": "HALT tulee englannin sanoista hungry, angry, lonely, tired eli nälkäinen, vihainen, yksinäinen, väsynyt. Se on pitkään käytetty iskulause riippuvuuksista toipuvien yhteisöistä, ja se toimii hyvänä pikatarkistuksena ennen syömistä: jos olet vihainen, yksinäinen tai väsynyt etkä nälkäinen, ruoka ei ehkä ole se, mitä eniten tarvitset."
+    },
+    {
+      "q": "Mikä ero on tunnesyömisellä ja ahmintahäiriöllä?",
+      "a": "Tunnesyöminen on yleistä ja laaja käsite: syömistä tunteiden eikä nälän vuoksi. Ahmintahäiriö on sairaus, jossa toistuu jaksoja, joiden aikana syödään suuri määrä ruokaa ja koetaan hallinnan menetystä, usein ahdistuksen saattelemana. Jos tämä kuulostaa tutulta, puhu lääkärin kanssa tai ota yhteyttä Syömishäiriöliitto SYLIin."
+    },
+    {
+      "q": "Voiko sovellus auttaa tunnesyömiseen?",
+      "a": "Sovellus voi auttaa huomaamaan. Nälän ja tuntemusten kirjaaminen syödessä on yksi yleisimmistä suosituksista tunnesyömisen ymmärtämiseen, ja Fimblin aterioiden tuntemusten kirjaus on tehty juuri siihen. Sovellus ei kuitenkaan ole hoito eikä korvaa ammattiapua, jos syöminen tuntuu karkaavan hallinnasta."
+    }
+  ],
+  "sources": [
+    { "text": "Mayo Clinic. Weight loss: gain control of emotional eating (englanniksi).", "url": "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/weight-loss/art-20047342" },
+    { "text": "NHS Grampian, Healthy Weight. What is emotional eating? (englanniksi).", "url": "https://www.healthyweightgrampian.scot.nhs.uk/psychological-support/our-relationship-with-food/what-is-emotional-eating/" },
+    { "text": "Katterman SN ym. (2014). Järjestelmällinen katsaus mindfulness-meditaatiosta ahmimisen, tunnesyömisen ja painonpudotuksen tukena. Eating Behaviors 15(2).", "url": "https://pubmed.ncbi.nlm.nih.gov/24854804/" },
+    { "text": "Warren JM, Smith N, Ashwell M (2017). Katsaus mindfulnessin ja tietoisen syömisen vaikutuksista syömiskäyttäytymiseen. Nutrition Research Reviews 30(2).", "url": "https://pubmed.ncbi.nlm.nih.gov/28718396/" },
+    { "text": "Liu J ym. (2025). Meta-analyysi mindfulness-pohjaisista menetelmistä syömiskäyttäytymisessä. Journal of Behavioral Medicine 48(1).", "url": "https://pubmed.ncbi.nlm.nih.gov/39979674/" },
+    { "text": "Kretchman D (2026). HALT-iskulauseen alkuperästä ja käytöstä toipumisessa. Advances in Drug and Alcohol Research 5.", "url": "https://doi.org/10.3389/adar.2025.15477" },
+    { "text": "Syömishäiriöliitto SYLI ry: tukipuhelin ja Syli-chat.", "url": "https://syomishairioliitto.fi/" },
+    { "text": "Beat, brittiläinen syömishäiriöjärjestö: auttavat puhelimet (englanniksi).", "url": "https://www.beateatingdisorders.org.uk/get-information-and-support/get-help-for-myself/support-now/" },
+    { "text": "ANAD:n syömishäiriöpuhelin, Yhdysvallat (englanniksi).", "url": "https://anad.org/get-support/eating-disorders-helpline/" },
+    { "text": "BIÖG:n puhelinneuvonta syömishäiriöistä, Saksa (saksaksi).", "url": "https://essstoerungen.bioeg.de/hilfe-finden/welche-beratung-gibt-es/telefonberatung/" }
+  ]
+}

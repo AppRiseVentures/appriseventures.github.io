@@ -1,0 +1,97 @@
+{
+  "id": "why-we-built-fimbl",
+  "slug": "why-we-built-fimbl",
+  "title": "Why We Built Fimbl: Calorie Tracking Without the Guilt",
+  "headline": "Why we built a calorie tracker that doesn't judge you",
+  "h1": "Why we built a calorie tracker that <span class=\"accent\">doesn't judge you</span>",
+  "dek": "Most calorie apps are brilliant at counting and quietly bad at the days that don't go to plan. Here's what we changed, what we deliberately left out, and where we're taking Fimbl next.",
+  "description": "Why counting alone fails, the six decisions that shaped Fimbl, what we left out on purpose, and our end goal: showing you your own eating patterns.",
+  "tag": "Behind Fimbl",
+  "og_title": "Why we built a calorie tracker that doesn't judge you",
+  "og_kicker": "Behind Fimbl",
+  "og_heading": "A calorie tracker that <span>doesn't judge you</span>",
+  "og_alt": "Fimbl screens showing a gentle meal grade and a weekly reflection, next to the headline: a calorie tracker that doesn't judge you",
+  "keywords": [
+    "guilt-free calorie tracker",
+    "mindful eating app",
+    "calorie tracking without obsession",
+    "intuitive eating app",
+    "food diary app iPhone"
+  ],
+  "about": [
+    "Mindful eating",
+    "Calorie counting",
+    "Habit formation",
+    "Product design"
+  ],
+  "mentions": [
+    "Fimbl"
+  ],
+  "published": "2026-10-17",
+  "modified": "2026-10-17",
+  "cover": [
+    "04-meal-grades",
+    "09-ai",
+    "goals"
+  ],
+  "cover_alt": [
+    "Fimbl Calm mode grading rolled oats with an A for slow, steady morning energy",
+    "Fimbl weekly reflection titled Mornings that carried you"
+  ],
+  "chips": [
+    {
+      "emoji": "🌱",
+      "title": "Missed a day?",
+      "sub": "Just don't miss two"
+    },
+    {
+      "emoji": "✨",
+      "title": "Weekly reflection",
+      "sub": "Mornings that carried you"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who makes Fimbl?",
+      "a": "Fimbl is designed and built by AppRise Ventures Oy, a small company in Espoo, Finland. The app is available for iPhone and iPad in English, German and Finnish."
+    },
+    {
+      "q": "Is Fimbl a diet app?",
+      "a": "Not in the usual sense. You can set a calorie goal if it helps you, or switch to Calm mode and see grades instead of numbers. Fimbl is about balance, awareness and habits, and it's built to support a healthier relationship with food. It isn't a medical tool or a treatment for eating disorders."
+    },
+    {
+      "q": "What's free in Fimbl, and what's Premium?",
+      "a": "The heart of the app is free and has no ads: the food diary, search and barcode scanning, saved meals, weight, mood and meal check-ins, Apple Health activity, goals and streaks, progress photos and the First Week journey. Premium adds macro goals, the AI features (photo scan, describing meals by voice or text, label scan, recipes from videos, weekly reflections and the coach, Calm mode and healthier swaps), widgets, extra meal slots and streak restore."
+    },
+    {
+      "q": "Does Fimbl use my data to train AI?",
+      "a": "No. AI features are optional and part of Premium. When you use one, only what that feature needs is sent through Fimbl's servers to Google's Gemini API, without your name or email. We don't train AI models on your data and we don't sell it. Free accounts never send anything to an AI service."
+    },
+    {
+      "q": "Do my progress photos get uploaded?",
+      "a": "No. Progress photos stay on your iPhone. They are never uploaded to our servers, never used for AI and never included in iCloud backups. You decide what is kept, saved to your library or shared."
+    },
+    {
+      "q": "What's next for Fimbl?",
+      "a": "We're working toward showing you your own patterns: how hunger, feelings, sleep and movement connect with what you eat, for you rather than for an average person. We'll share what we build here on the blog, without promising dates we can't keep."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Honary M et al. (2019). Young people's experiences of healthy-eating and fitness apps. JMIR mHealth and uHealth 7(6).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31215514/"
+    },
+    {
+      "text": "Burke LE, Wang J, Sevick MA (2011). Systematic review of self-monitoring in weight loss. Journal of the American Dietetic Association 111(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
+    },
+    {
+      "text": "Warren JM, Smith N, Ashwell M (2017). Review of mindfulness and mindful eating and their effects on eating behaviour. Nutrition Research Reviews 30(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28718396/"
+    },
+    {
+      "text": "Fimbl privacy policy, section on AI features.",
+      "url": "https://fimbl.app/privacy/#ai"
+    }
+  ]
+}

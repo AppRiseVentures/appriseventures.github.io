@@ -1,0 +1,57 @@
+{
+  "id": "why-we-built-fimbl",
+  "slug": "warum-wir-fimbl-bauen",
+  "title": "Warum wir Fimbl bauen: Kalorien zählen ohne Schuldgefühle",
+  "headline": "Warum wir einen Kalorienzähler bauen, der nicht urteilt",
+  "h1": "Warum wir einen Kalorienzähler bauen, <span class=\"accent\">der nicht urteilt</span>",
+  "dek": "Die meisten Kalorien-Apps zählen brillant und lassen dich an Tagen, die nicht nach Plan laufen, im Stich. Hier erfährst du, was wir anders machen, was wir bewusst weglassen und wohin sich Fimbl entwickelt.",
+  "description": "Die Idee hinter Fimbl, dem ruhigen Ernährungstagebuch fürs iPhone: warum Zählen allein nicht reicht, sechs Entscheidungen, was wir weglassen und unser Ziel.",
+  "tag": "Hinter Fimbl",
+  "og_title": "Warum wir einen Kalorienzähler bauen, der nicht urteilt",
+  "og_kicker": "Hinter Fimbl",
+  "og_heading": "Ein Kalorienzähler, <span>der nicht urteilt</span>",
+  "og_alt": "Fimbl-Screens mit einer sanften Note für eine Mahlzeit und einem Wochenrückblick, daneben die Überschrift: Ein Kalorienzähler, der nicht urteilt",
+  "keywords": ["Kalorienzähler ohne schlechtes Gewissen", "achtsam essen App", "intuitives Essen App", "Ernährungstagebuch iPhone", "Kalorien zählen ohne Zwang"],
+  "about": ["Achtsames Essen", "Kalorien zählen", "Gewohnheiten aufbauen", "Produktdesign"],
+  "mentions": ["Fimbl"],
+  "published": "2026-10-17",
+  "modified": "2026-10-17",
+  "cover": ["04-meal-grades", "09-ai", "goals"],
+  "cover_alt": ["Ruhiger Modus in Fimbl bewertet Haferflocken mit der Note A für langsame, stetige Energie am Morgen", "Wochenrückblick in Fimbl für die vergangene Woche"],
+  "chips": [
+    { "emoji": "🌱", "title": "Einen Tag verpasst?", "sub": "Nur nicht zwei hintereinander" },
+    { "emoji": "✨", "title": "Wochenrückblick", "sub": "Morgen, die dich getragen haben" }
+  ],
+  "faq": [
+    {
+      "q": "Wer steckt hinter Fimbl?",
+      "a": "Fimbl wird von AppRise Ventures Oy entworfen und entwickelt, einem kleinen Unternehmen aus Espoo in Finnland. Die App gibt es für iPhone und iPad auf Deutsch, Englisch und Finnisch."
+    },
+    {
+      "q": "Ist Fimbl eine Diät-App?",
+      "a": "Nicht im üblichen Sinn. Du kannst ein Kalorienziel festlegen, wenn es dir hilft, oder in den Ruhigen Modus wechseln und Noten statt Zahlen sehen. Bei Fimbl geht es um Balance, Achtsamkeit und Gewohnheiten, und die App soll ein entspannteres Verhältnis zum Essen unterstützen. Sie ist kein Medizinprodukt und keine Behandlung von Essstörungen."
+    },
+    {
+      "q": "Was ist bei Fimbl kostenlos und was gehört zu Premium?",
+      "a": "Das Herz der App ist kostenlos und werbefrei: das Ernährungstagebuch, Suche und Barcode-Scanner, gespeicherte Mahlzeiten, Gewicht, Stimmung und Check-ins zu Mahlzeiten, Aktivität aus Apple Health, Ziele und Serien, Fortschrittsfotos und Deine erste Woche. Premium ergänzt Makro-Ziele, die KI-Funktionen (Foto-Scan, Mahlzeiten per Sprache oder Text beschreiben, Etiketten-Scan, Rezepte aus Videos, Wochenrückblicke und den Coach, den Ruhigen Modus und gesündere Alternativen), Widgets, zusätzliche Mahlzeiten und Serie wiederherstellen."
+    },
+    {
+      "q": "Nutzt Fimbl meine Daten für KI-Training?",
+      "a": "Nein. KI-Funktionen sind optional und gehören zu Premium. Wenn du eine nutzt, geht nur das, was diese Funktion braucht, über die Server von Fimbl an die Gemini API von Google, ohne deinen Namen oder deine E-Mail-Adresse. Wir trainieren keine KI-Modelle mit deinen Daten und verkaufen sie nicht. Kostenlose Konten senden nie etwas an einen KI-Dienst."
+    },
+    {
+      "q": "Werden meine Fortschrittsfotos hochgeladen?",
+      "a": "Nein. Fortschrittsfotos bleiben auf deinem iPhone. Sie werden nie auf unsere Server hochgeladen, nie für KI genutzt und nie in iCloud-Backups gespeichert. Du entscheidest, was bleibt, was in deine Mediathek kommt und was du teilst."
+    },
+    {
+      "q": "Was kommt als Nächstes für Fimbl?",
+      "a": "Wir arbeiten daran, dir deine eigenen Muster zu zeigen: wie Hunger, Gefühle, Schlaf und Bewegung mit deinem Essen zusammenhängen, und zwar für dich statt für einen Durchschnittsmenschen. Was wir bauen, teilen wir hier im Blog, ohne Termine zu versprechen, die wir nicht halten können."
+    }
+  ],
+  "sources": [
+    { "text": "Honary M et al. (2019). Erfahrungen junger Menschen mit Ernährungs- und Fitness-Apps. JMIR mHealth and uHealth 7(6).", "url": "https://pubmed.ncbi.nlm.nih.gov/31215514/" },
+    { "text": "Burke LE, Wang J, Sevick MA (2011). Systematische Übersicht zur Selbstbeobachtung beim Abnehmen. Journal of the American Dietetic Association 111(1).", "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/" },
+    { "text": "Warren JM, Smith N, Ashwell M (2017). Übersichtsarbeit zu Achtsamkeit, achtsamem Essen und Essverhalten. Nutrition Research Reviews 30(2).", "url": "https://pubmed.ncbi.nlm.nih.gov/28718396/" },
+    { "text": "Datenschutzerklärung von Fimbl, Abschnitt zu den KI-Funktionen (auf Englisch).", "url": "https://fimbl.app/privacy/#ai" }
+  ]
+}

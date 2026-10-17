@@ -1,0 +1,65 @@
+{
+  "id": "emotional-hunger",
+  "slug": "emotionaler-hunger-erkennen",
+  "title": "Emotionaler Hunger erkennen: 7 Unterschiede & Hungerskala",
+  "headline": "Emotionaler oder körperlicher Hunger? So erkennst du den Unterschied",
+  "h1": "Emotionaler oder körperlicher Hunger? <span class=\"accent\">So erkennst du den Unterschied</span>",
+  "dek": "Sieben Zeichen, die beides unterscheiden, eine einfache Hungerskala von 1 bis 10 und ein Check-in in zehn Sekunden für jede Mahlzeit. Keine Predigt über Willenskraft, nur ein klarerer Blick darauf, was du gerade wirklich brauchst.",
+  "description": "Emotionaler oder echter Hunger? 7 Unterschiede, eine Hungerskala von 1 bis 10 und ein 10-Sekunden-Check-in gegen Frustessen und Stressessen.",
+  "tag": "Achtsam essen",
+  "og_title": "Emotionaler oder körperlicher Hunger? So erkennst du den Unterschied",
+  "og_kicker": "Ratgeber achtsam essen",
+  "og_heading": "Emotionaler oder echter Hunger? <span>So erkennst du ihn</span>",
+  "og_alt": "Fimbl-Check-in-Screens neben der Überschrift: Emotionaler oder echter Hunger? So erkennst du ihn",
+  "keywords": ["emotionaler Hunger", "emotionales Essen", "Frustessen", "Stressessen", "echten Hunger erkennen", "Hungerskala", "achtsam essen"],
+  "about": ["Emotionales Essen", "Hunger", "Achtsames Essen", "Hunger und Sättigung"],
+  "mentions": ["Fimbl"],
+  "published": "2026-10-17",
+  "modified": "2026-10-17",
+  "cover": ["03-feelings", "09-ai", "04-meal-grades"],
+  "cover_alt": ["Fimbl-Check-in „Frühstück – Gefühle“ mit der Frage, welche Gefühle du vor dieser Mahlzeit hattest", "Fimbl-Wochenrückblick mit eingetragenen Tagen, Kalorien, Gewichtsveränderung und Stimmung"],
+  "chips": [
+    { "emoji": "🍫", "title": "Heißhunger", "sub": "16 Uhr · gestresst" },
+    { "emoji": "😌", "title": "Zufrieden", "sub": "Nach dem Mittagessen" }
+  ],
+  "faq": [
+    {
+      "q": "Woran erkenne ich, ob ich wirklich Hunger habe?",
+      "a": "Körperlicher Hunger baut sich allmählich auf und zeigt sich im Körper: knurrender Magen, wenig Energie oder Konzentrationsprobleme, meist einige Stunden nach der letzten Mahlzeit. Er ist offen für viele Lebensmittel und kann ein wenig warten. Wenn du vor Kurzem gegessen hast, dein Magen ruhig ist und du sofort ein ganz bestimmtes Essen willst, ist der Drang eher emotional."
+    },
+    {
+      "q": "Was ist Frustessen?",
+      "a": "Frustessen ist das Alltagswort für emotionales Essen: Du isst, weil du frustriert, gestresst, gelangweilt oder traurig bist, und nicht, weil dein Körper Energie braucht. Das kommt sehr häufig vor und ist kein Zeichen von Schwäche. Ein kurzer Check-in vor dem Essen hilft dir, es zu bemerken."
+    },
+    {
+      "q": "Ist emotionales Essen schlimm?",
+      "a": "Nein. Ab und zu aus Trost oder zum Feiern zu essen, gehört ganz normal zum Leben. Genauer hinzuschauen lohnt sich, wenn Essen zu deinem wichtigsten Weg wird, mit Gefühlen umzugehen, oder wenn du dich danach schuldig oder außer Kontrolle fühlst."
+    },
+    {
+      "q": "Warum habe ich bei Stress Heißhunger auf Süßes?",
+      "a": "Süßes, Salziges und Knuspriges verändert schnell und zuverlässig, wie du dich fühlst. Deshalb lernt man leicht, bei Stress, Langeweile oder Müdigkeit danach zu greifen. Das ist eine Gewohnheit, keine Charakterschwäche. Das Muster zu bemerken, zum Beispiel mit einem kurzen Check-in vor dem Essen, ist der erste Schritt, um bewusst zu entscheiden."
+    },
+    {
+      "q": "Was bedeutet HALT?",
+      "a": "HALT steht für die englischen Wörter hungry, angry, lonely und tired, also hungrig, wütend, einsam und müde. Der Slogan stammt aus Selbsthilfegruppen der Suchthilfe und eignet sich gut als kurzer Check vor dem Essen: Wenn du eher wütend, einsam oder müde als hungrig bist, ist Essen vielleicht nicht das, was du gerade am meisten brauchst."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen emotionalem Essen und Binge-Eating?",
+      "a": "Emotionales Essen ist häufig und ein weiter Begriff: Essen als Reaktion auf Gefühle statt auf Hunger. Die Binge-Eating-Störung ist eine Erkrankung mit wiederkehrenden Essanfällen, bei denen große Mengen mit dem Gefühl von Kontrollverlust gegessen werden, oft gefolgt von großem Leidensdruck. Wenn dir das bekannt vorkommt, sprich bitte mit deiner Ärztin, deinem Arzt oder einer Beratungsstelle für Essstörungen."
+    },
+    {
+      "q": "Kann eine App bei emotionalem Essen helfen?",
+      "a": "Eine App kann dir helfen, etwas zu bemerken. Festzuhalten, wie hungrig du bist und wie du dich beim Essen fühlst, gehört zu den häufigsten Empfehlungen, um emotionales Essen zu verstehen, und genau dafür sind die Check-ins in Fimbl gemacht. Eine App ist aber keine Behandlung und ersetzt keine professionelle Hilfe, wenn sich Essen außer Kontrolle anfühlt."
+    }
+  ],
+  "sources": [
+    { "text": "Mayo Clinic. Weight loss: gain control of emotional eating (englisch).", "url": "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/weight-loss/art-20047342" },
+    { "text": "NHS Grampian, Healthy Weight. What is emotional eating? (englisch).", "url": "https://www.healthyweightgrampian.scot.nhs.uk/psychological-support/our-relationship-with-food/what-is-emotional-eating/" },
+    { "text": "Katterman SN et al. (2014). Systematische Übersicht zu Achtsamkeitsmeditation bei Binge-Eating, emotionalem Essen und Gewichtsabnahme. Eating Behaviors 15(2).", "url": "https://pubmed.ncbi.nlm.nih.gov/24854804/" },
+    { "text": "Warren JM, Smith N, Ashwell M (2017). Übersichtsarbeit zu Achtsamkeit, achtsamem Essen und Essverhalten. Nutrition Research Reviews 30(2).", "url": "https://pubmed.ncbi.nlm.nih.gov/28718396/" },
+    { "text": "Liu J et al. (2025). Metaanalyse zu achtsamkeitsbasierten Interventionen und Essverhalten. Journal of Behavioral Medicine 48(1).", "url": "https://pubmed.ncbi.nlm.nih.gov/39979674/" },
+    { "text": "Kretchman D (2026). Zur Herkunft und Verwendung des Slogans HALT in der Suchthilfe. Advances in Drug and Alcohol Research 5.", "url": "https://doi.org/10.3389/adar.2025.15477" },
+    { "text": "BIÖG, Bundesinstitut für Öffentliche Gesundheit (früher BZgA): Telefonberatung zu Essstörungen.", "url": "https://essstoerungen.bioeg.de/hilfe-finden/welche-beratung-gibt-es/telefonberatung/" },
+    { "text": "ANAD Versorgungszentrum Essstörungen, München.", "url": "https://www.anad.de/" }
+  ]
+}

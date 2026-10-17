@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Why We Built Fimbl: Calorie Tracking Without the Guilt</title>
+  <meta name="description" content="Why counting alone fails, the six decisions that shaped Fimbl, what we left out on purpose, and our end goal: showing you your own eating patterns.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://fimbl.app/blog/why-we-built-fimbl/">
+  <link rel="alternate" hreflang="en" href="https://fimbl.app/blog/why-we-built-fimbl/">
+  <link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/miksi-teimme-fimblin/">
+  <link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/warum-wir-fimbl-bauen/">
+  <link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/why-we-built-fimbl/">
+  <link rel="alternate" type="application/rss+xml" title="The Fimbl blog" href="/blog/feed.xml">
+  <meta name="theme-color" content="#f7f5fd">
+  <meta name="apple-itunes-app" content="app-id=6443701726">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Fimbl">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="fi_FI">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:url" content="https://fimbl.app/blog/why-we-built-fimbl/">
+  <meta property="og:title" content="Why we built a calorie tracker that doesn&#x27;t judge you">
+  <meta property="og:description" content="Why counting alone fails, the six decisions that shaped Fimbl, what we left out on purpose, and our end goal: showing you your own eating patterns.">
+  <meta property="og:image" content="https://fimbl.app/assets/img/og/en-why-we-built-fimbl.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fimbl screens showing a gentle meal grade and a weekly reflection, next to the headline: a calorie tracker that doesn&#x27;t judge you">
+  <meta property="article:published_time" content="2026-10-17T08:00:00+03:00">
+  <meta property="article:modified_time" content="2026-10-17T08:00:00+03:00">
+  <meta property="article:section" content="Behind Fimbl">
+  <meta property="article:tag" content="guilt-free calorie tracker">
+  <meta property="article:tag" content="mindful eating app">
+  <meta property="article:tag" content="calorie tracking without obsession">
+  <meta property="article:tag" content="intuitive eating app">
+  <meta property="article:tag" content="food diary app iPhone">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+
+  <link rel="preload" href="/assets/fonts/figtree-extrabold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/geist-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="/assets/js/main.js" defer></script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://fimbl.app/blog/why-we-built-fimbl/#article",
+      "headline": "Why we built a calorie tracker that doesn't judge you",
+      "description": "Why counting alone fails, the six decisions that shaped Fimbl, what we left out on purpose, and our end goal: showing you your own eating patterns.",
+      "image": [
+        "https://fimbl.app/assets/img/og/en-why-we-built-fimbl.jpg"
+      ],
+      "datePublished": "2026-10-17T08:00:00+03:00",
+      "dateModified": "2026-10-17T08:00:00+03:00",
+      "inLanguage": "en-US",
+      "author": {
+        "@type": "Person",
+        "@id": "https://fimbl.app/#author",
+        "name": "Kasper Koskenvirta",
+        "jobTitle": "Founder of Fimbl",
+        "worksFor": {
+          "@id": "https://fimbl.app/#organization"
+        },
+        "url": "https://fimbl.app/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://fimbl.app/#organization",
+        "name": "AppRise Ventures Oy",
+        "url": "https://fimbl.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://fimbl.app/assets/img/icon-512.png",
+          "width": 512,
+          "height": 512
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Sokerilinnantie 1 A",
+          "postalCode": "02600",
+          "addressLocality": "Espoo",
+          "addressCountry": "FI"
+        },
+        "sameAs": [
+          "https://apps.apple.com/app/id6443701726"
+        ]
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://fimbl.app/blog/why-we-built-fimbl/"
+      },
+      "isPartOf": {
+        "@type": "Blog",
+        "@id": "https://fimbl.app/blog/#blog",
+        "name": "The Fimbl blog"
+      },
+      "articleSection": "Behind Fimbl",
+      "keywords": "guilt-free calorie tracker, mindful eating app, calorie tracking without obsession, intuitive eating app, food diary app iPhone",
+      "wordCount": 1708,
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Mindful eating"
+        },
+        {
+          "@type": "Thing",
+          "name": "Calorie counting"
+        },
+        {
+          "@type": "Thing",
+          "name": "Habit formation"
+        },
+        {
+          "@type": "Thing",
+          "name": "Product design"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Fimbl",
+          "applicationCategory": "HealthApplication"
+        }
+      ],
+      "citation": [
+        "https://pubmed.ncbi.nlm.nih.gov/31215514/",
+        "https://pubmed.ncbi.nlm.nih.gov/21185970/",
+        "https://pubmed.ncbi.nlm.nih.gov/28718396/",
+        "https://fimbl.app/privacy/#ai"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://fimbl.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://fimbl.app/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Why we built a calorie tracker that doesn't judge you",
+          "item": "https://fimbl.app/blog/why-we-built-fimbl/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://fimbl.app/blog/why-we-built-fimbl/#faq",
+      "inLanguage": "en-US",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who makes Fimbl?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fimbl is designed and built by AppRise Ventures Oy, a small company in Espoo, Finland. The app is available for iPhone and iPad in English, German and Finnish."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Fimbl a diet app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not in the usual sense. You can set a calorie goal if it helps you, or switch to Calm mode and see grades instead of numbers. Fimbl is about balance, awareness and habits, and it's built to support a healthier relationship with food. It isn't a medical tool or a treatment for eating disorders."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's free in Fimbl, and what's Premium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The heart of the app is free and has no ads: the food diary, search and barcode scanning, saved meals, weight, mood and meal check-ins, Apple Health activity, goals and streaks, progress photos and the First Week journey. Premium adds macro goals, the AI features (photo scan, describing meals by voice or text, label scan, recipes from videos, weekly reflections and the coach, Calm mode and healthier swaps), widgets, extra meal slots and streak restore."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Fimbl use my data to train AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. AI features are optional and part of Premium. When you use one, only what that feature needs is sent through Fimbl's servers to Google's Gemini API, without your name or email. We don't train AI models on your data and we don't sell it. Free accounts never send anything to an AI service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do my progress photos get uploaded?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Progress photos stay on your iPhone. They are never uploaded to our servers, never used for AI and never included in iCloud backups. You decide what is kept, saved to your library or shared."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's next for Fimbl?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We're working toward showing you your own patterns: how hunger, feelings, sleep and movement connect with what you eat, for you rather than for an average person. We'll share what we build here on the blog, without promising dates we can't keep."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-mark" viewBox="100 96 360 391"><path fill="currentColor" d="M100 254.874C100 167.13 171.13 96 258.874 96C259.752 96 260.463 96.7113 260.463 97.5887V426.199C260.463 454.484 260.463 468.626 251.676 477.412C242.889 486.199 228.747 486.199 200.463 486.199H111.365C105.088 486.199 100 481.111 100 474.834V254.874Z"/><path fill="currentColor" d="M303.114 96C389.76 96 460 166.24 460 252.886C460 255.486 457.893 257.593 455.293 257.593L346.477 257.593C318.192 257.593 304.05 257.593 295.263 248.806C286.477 240.019 286.477 225.877 286.477 197.593L286.477 97.718C286.477 96.7692 287.246 96 288.195 96L303.114 96Z"/><circle fill="currentColor" cx="373.2" cy="371.9" r="79.4"/></symbol>
+    <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M7 7l10 10M17 7 7 17"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" d="M6.5 12h11"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.6v.01" stroke-width="2.2"/></g></symbol>
+    <symbol id="i-utensils" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v6a2 2 0 0 0 4 0V3M8 11v10"/><path d="M18 21V3c-2.2 1.4-3.5 4-3.5 7.2V13H18"/></g></symbol>
+    <symbol id="i-smile" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.2s1.3 1.8 3.5 1.8 3.5-1.8 3.5-1.8M9 9.5h.01M15 9.5h.01" stroke-width="2"/></g></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19.5C4.5 10.5 10 4.5 20 4.5c0 9.5-5.5 15-14.5 15H5Z"/><path d="M5 19.5 13 11.5"/></g></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m11 3 1.9 5.1L18 10l-5.1 1.9L11 17l-1.9-5.1L4 10l5.1-1.9L11 3Z"/><path d="m18.5 15 .9 2.1 2.1.9-2.1.9-.9 2.1-.9-2.1-2.1-.9 2.1-.9.9-2.1Z"/></g></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></g></symbol>
+    <symbol id="i-barcode" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 7.5V6a3 3 0 0 1 3-3h1.5M16.5 3H18a3 3 0 0 1 3 3v1.5M21 16.5V18a3 3 0 0 1-3 3h-1.5M7.5 21H6a3 3 0 0 1-3-3v-1.5M7.5 8v8M10.5 8v8M13.5 8v8M16.5 8v8"/></g></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4.5 8H7l1.8-2.6c.2-.3.5-.4.8-.4h4.8c.3 0 .6.1.8.4L17 8h2.5A1.5 1.5 0 0 1 21 9.5v8a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-8A1.5 1.5 0 0 1 4.5 8Z"/><circle cx="12" cy="13.2" r="3.4"/></g></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></g></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 20s-7.5-4.6-7.5-10.3A4.2 4.2 0 0 1 12 7.2a4.2 4.2 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20Z"/></symbol>
+    <symbol id="i-widgets" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="7.5" height="7.5" rx="2.2"/><rect x="13" y="3.5" width="7.5" height="7.5" rx="3.75"/><rect x="3.5" y="13" width="17" height="7.5" rx="2.2"/></g></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3A4 4 0 0 0 11 18.7l1-1"/></g></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M20 12a8 8 0 0 1-11.6 7.1L4 20l1-4A8 8 0 1 1 20 12Z"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="5" y="10.5" width="14" height="10" rx="3"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></g></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></g></symbol>
+    <symbol id="i-swap" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 8h13l-3-3M20 16H7l3 3"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M7 4h10a1 1 0 0 1 1 1v15l-6-4-6 4V5a1 1 0 0 1 1-1Z"/></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 11v2M7.5 8v8M11 5v14M14.5 9v6M18 7v10M21 11v2"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6v5.5c0 4.2 2.9 7.6 7 9 4.1-1.4 7-4.8 7-9V6l-7-2.5Z"/><path d="m9 12 2.2 2.2L15.2 10"/></g></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6" stroke-width="2.2"/></g></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 19h16M6.5 15l4-4.5 3 3L19 7"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav" data-nav>
+    <div class="container nav-inner">
+      <a class="brand" href="/" aria-label="Fimbl home">fimbl</a>
+      <ul class="nav-links">
+        <li><a href="/#features">Features</a></li>
+        <li class="nav-opt"><a href="/#first-week">First week</a></li>
+        <li class="nav-opt"><a href="/#ai">AI</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li><a href="/blog/" aria-current="page">Blog</a></li>
+      </ul>
+      <div class="nav-end">
+        <details class="lang" data-lang>
+          <summary aria-label="Language: English"><svg aria-hidden="true"><use href="#i-globe"/></svg>EN</summary>
+          <ul class="lang-menu">
+          <li><a href="/blog/why-we-built-fimbl/" hreflang="en" lang="en" aria-current="page">English <small>EN</small></a></li>
+          <li><a href="/fi/blogi/miksi-teimme-fimblin/" hreflang="fi" lang="fi">Suomi <small>FI</small></a></li>
+          <li><a href="/de/blog/warum-wir-fimbl-bauen/" hreflang="de" lang="de">Deutsch <small>DE</small></a></li>
+          </ul>
+        </details>
+        <a class="btn btn-primary btn-sm" href="https://apps.apple.com/app/id6443701726" data-store>
+          <svg aria-hidden="true"><use href="#i-apple"/></svg>Get the app
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <article>
+      <header class="post-hero">
+        <span class="nav-sentinel" data-nav-sentinel aria-hidden="true"></span>
+        <div class="container post-hero-grid">
+          <div class="post-hero-copy">
+            <nav class="crumbs" aria-label="Breadcrumb">
+              <ol>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li aria-current="page">Why we built a calorie tracker that doesn&#x27;t judge you</li>
+              </ol>
+            </nav>
+            <p class="post-meta"><span class="tag">Behind Fimbl</span>7 min read</p>
+            <h1>Why we built a calorie tracker that <span class="accent">doesn't judge you</span></h1>
+            <p class="post-dek">Most calorie apps are brilliant at counting and quietly bad at the days that don&#x27;t go to plan. Here&#x27;s what we changed, what we deliberately left out, and where we&#x27;re taking Fimbl next.</p>
+            <div class="byline">
+              <div class="byline-who">
+                <span class="byline-avatar" aria-hidden="true"><svg><use href="#i-mark"/></svg></span>
+                <div><strong>Kasper Koskenvirta</strong><span>Founder of Fimbl</span></div>
+              </div>
+              <p class="post-meta"><span>Published <time datetime="2026-10-17">October 17, 2026</time></span></p>
+            </div>
+          </div>
+          <div class="post-cover">
+            <div class="phone"><img src="/assets/img/app/en/04-meal-grades.webp" width="720" height="1564" alt="Fimbl Calm mode grading rolled oats with an A for slow, steady morning energy"></div>
+            <div class="phone"><img src="/assets/img/app/en/09-ai.webp" width="720" height="1564" alt="Fimbl weekly reflection titled Mornings that carried you"></div>
+            <span class="chip chip-a" aria-hidden="true"><span class="chip-emoji">🌱</span><span>Missed a day?<small>Just don&#x27;t miss two</small></span></span>
+            <span class="chip chip-b" aria-hidden="true"><span class="chip-emoji">✨</span><span>Weekly reflection<small>Mornings that carried you</small></span></span>
+          </div>
+        </div>
+      </header>
+
+      <div class="container post-wrap">
+        <details class="post-toc" data-toc open>
+          <summary>On this page</summary>
+          <ol>
+            <li><a href="#counting-alone">The problem with counting alone</a></li>
+            <li><a href="#notice-understand-change">Notice, understand, change</a></li>
+            <li><a href="#decisions">Six decisions that shaped Fimbl</a></li>
+            <li><a href="#left-out">What we deliberately left out</a></li>
+            <li><a href="#rebuilt">Rebuilt from the ground up</a></li>
+            <li><a href="#where-next">Where we&#x27;re going: your patterns, not averages</a></li>
+            <li><a href="#who-for">Who Fimbl is for, and who it isn&#x27;t</a></li>
+            <li><a href="#faq">Questions, answered</a></li>
+          </ol>
+        </details>
+        <div class="article">
+        <p class="lede">Anyone who has used a calorie tracker knows the moment. It's nine in the evening, the number has turned red, and the app has only one thing to say: how far over you are. It doesn't ask whether you were stressed, or why lunch never happened. So the next morning you don't open it. Fimbl began with a simple question: what would a food diary look like if it were built for that evening?</p>
+
+        <div class="answer">
+          <span class="answer-label"><svg aria-hidden="true"><use href="#i-sparkle"/></svg>In short</span>
+          <p>Fimbl is a calm food diary for iPhone and iPad built around three steps: <strong>notice</strong> what you eat, <strong>understand</strong> why, and <strong>change</strong> one small thing at a time.</p>
+          <ul>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>It tracks calories like any good counter, then asks about hunger and feelings too.</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Numbers are optional, the free version is a complete diary, and there are no ads.</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Our end goal: show you <em>your</em> patterns, not an average person's.</span></li>
+          </ul>
+        </div>
+
+        <h2 id="counting-alone">The problem with counting alone</h2>
+        <p>Calorie trackers are good at what they were designed for. They answer <em>what</em> you ate and <em>how much</em>. Keeping that kind of record is genuinely useful: reviews of weight-management research link consistent food logging with better results.<sup><a href="#source-2">2</a></sup></p>
+        <p>But "consistent" is doing a lot of work in that sentence. In one study of young adults who used healthy-eating and fitness apps, almost half described negative experiences, including guilt and a sense of being controlled.<sup><a href="#source-1">1</a></sup> An app that makes you feel bad is an app you stop opening, and a diary you don't open can't help you.</p>
+        <p>We think the gap is simple. Most apps only ever ask about the food. Eating is rarely only about food.</p>
+
+        <div class="cmp">
+          <div class="cmp-scroll" tabindex="0" role="region" aria-label="How different kinds of food apps approach tracking, scrolls sideways">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Approach</th>
+                  <th scope="col">Calorie counters</th>
+                  <th scope="col">Coaching programmes</th>
+                  <th scope="col">Photo-AI trackers</th>
+                  <th scope="col" class="is-fimbl"><small>Our approach</small>Fimbl</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">The main question</th>
+                  <td>How much did you eat?</td>
+                  <td>Did you follow the plan?</td>
+                  <td>What's on the plate?</td>
+                  <td class="is-fimbl">How did that meal feel, and why?</td>
+                </tr>
+                <tr>
+                  <th scope="row">On a hard day</th>
+                  <td>A red number</td>
+                  <td>A missed lesson</td>
+                  <td>A photo you didn't take</td>
+                  <td class="is-fimbl">Context, and one small idea for tomorrow</td>
+                </tr>
+                <tr>
+                  <th scope="row">What you learn</th>
+                  <td>Totals</td>
+                  <td>Their method</td>
+                  <td>Estimates</td>
+                  <td class="is-fimbl">Your own patterns</td>
+                </tr>
+                <tr>
+                  <th scope="row">Best for</th>
+                  <td>Precision</td>
+                  <td>Structure</td>
+                  <td>Speed</td>
+                  <td class="is-fimbl">A habit that lasts</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <p>Every approach in that table has its place, and we compare the apps in detail in <a href="/blog/best-calorie-tracker-apps/">our honest guide to calorie trackers</a>. Fimbl simply starts from a different question.</p>
+
+        <h2 id="notice-understand-change">Notice, understand, change</h2>
+        <p>Everything in Fimbl serves one loop. It's small on purpose, because small is what you can repeat on a busy Tuesday.</p>
+        <ol class="loop">
+          <li><strong>Notice</strong>Log a meal in seconds, then a ten-second check-in: how hungry were you, and what were you feeling?</li>
+          <li><strong>Understand</strong>Over days and weeks, those check-ins turn into patterns you can actually see, for you and nobody else.</li>
+          <li><strong>Change</strong>One gentle focus at a time. Not a new diet, just the next small step that fits your week.</li>
+        </ol>
+        <p>Mindful eating research supports the first half of that loop most clearly. Reviews find mindfulness-based approaches are most effective for emotional and external-cue eating, the kind of eating that happens when the reason isn't hunger.<sup><a href="#source-3">3</a></sup> Noticing comes first.</p>
+
+        <h2 id="decisions">Six decisions that shaped Fimbl</h2>
+        <p>Building a calm app is mostly a series of small refusals. These are the decisions we keep coming back to.</p>
+        <ul class="principles">
+          <li>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-smile"/></svg></span>
+            <strong>Feelings belong at the table</strong>
+            <span>Every meal can come with a quick check-in on hunger and feelings, and it's free. Craving, stressed, bored, satisfied: pick as many as you like, or none.</span>
+          </li>
+          <li>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-eye"/></svg></span>
+            <strong>Numbers are optional</strong>
+            <span>Calm mode (Premium) swaps calorie numbers for gentle grades on how well a meal served your goals, hunger and mood, while counting quietly in the background.</span>
+          </li>
+          <li>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-heart"/></svg></span>
+            <strong>Free means a complete diary</strong>
+            <span>Search, barcode scanning, saved meals, check-ins, weight, goals, Apple Health activity and progress photos all work for free. No ads, ever.</span>
+          </li>
+          <li>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-shield"/></svg></span>
+            <strong>AI with the lights on</strong>
+            <span>AI is optional and Premium-only. It sees only what a feature needs, never your name or email, and we don't train models on your data.<sup><a href="#source-4">4</a></sup></span>
+          </li>
+          <li>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-lock"/></svg></span>
+            <strong>Your photos are yours</strong>
+            <span>Progress photos stay on your iPhone. They're never uploaded to our servers, never used for AI and never included in iCloud backups.</span>
+          </li>
+          <li>
+            <span class="icon-bubble"><svg aria-hidden="true"><use href="#i-leaf"/></svg></span>
+            <strong>Consistency, not perfection</strong>
+            <span>Streaks reward showing up, not flawless days. Our rule of thumb is printed right in the app: miss a day? That's fine. Just don't miss two.</span>
+          </li>
+        </ul>
+
+        <figure class="fig">
+          <div class="fig-media"><div class="phone"><img src="/assets/img/app/en/04-meal-grades.webp" width="720" height="1564" alt="Fimbl Calm mode grading rolled oats with an A: slow, steady morning energy, a great fit, with notes on goals, hunger and feelings and a tip for next time" loading="lazy"></div></div>
+          <figcaption>
+            <span class="tag tag-premium">Premium</span>
+            <strong>What a grade looks like</strong>
+            <span>Instead of "223 kcal", you see what the meal did for you: slow, steady morning energy, a great fit for your goal, and a calm check-in afterwards. Then one idea for next time. A treat gets a fair grade too, with context instead of a red number.</span>
+          </figcaption>
+        </figure>
+
+        <ul class="fig-row">
+          <li>
+            <div class="phone"><img src="/assets/img/app/en/07-first-week.webp" width="720" height="1564" alt="Fimbl First Week on day 4 of 7, with the first three steps done" loading="lazy"></div>
+            <p><b>A guided first week</b>Seven days, one small step each, with a nudge at the time you choose.</p>
+          </li>
+          <li>
+            <div class="phone"><img src="/assets/img/app/en/goals.webp" width="720" height="1564" alt="Fimbl Goals and streaks with a 12-week weigh-in heatmap and streaks for meals, mood, mindful eating and steps" loading="lazy"></div>
+            <p><b>Gentle streaks</b>Meals, mood, mindful eating and steps, with consistency celebrated.</p>
+          </li>
+          <li>
+            <div class="phone"><img src="/assets/img/app/en/photos-compare.webp" width="720" height="1564" alt="Fimbl comparing two progress photos 63 days apart, with a weight change of minus 4.6 kg" loading="lazy"></div>
+            <p><b>Private progress photos</b>Lined up the same way every time, kept only on your iPhone.</p>
+          </li>
+        </ul>
+
+        <h2 id="left-out">What we deliberately left out</h2>
+        <p>Some features would probably grow an app faster. We decided they would make Fimbl worse at its job.</p>
+        <div class="vs">
+          <div class="vs-card is-warm">
+            <h3><span aria-hidden="true">🚫</span>Not in Fimbl</h3>
+            <dl>
+              <div><dt>Ads and ad trackers</dt><dd>Your diary is not an ad inventory, in the free version either.</dd></div>
+              <div><dt>Leaderboards and public feeds</dt><dd>Comparing plates with strangers doesn't build a calmer relationship with food.</dd></div>
+              <div><dt>"Bad food" labels</dt><dd>Grades describe how a meal fit your goals and mood, never your worth.</dd></div>
+              <div><dt>Streak shame</dt><dd>No guilt trips for a missed day. You can even restore a streak with Premium.</dd></div>
+            </dl>
+          </div>
+          <div class="vs-card">
+            <h3><span aria-hidden="true">💜</span>What we built instead</h3>
+            <dl>
+              <div><dt>A quiet, private space</dt><dd>Delete your account any time from Settings.</dd></div>
+              <div><dt>Your own story</dt><dd>Weekly reflections about your week: wins, patterns and one gentle focus.</dd></div>
+              <div><dt>Context</dt><dd>Hunger and feelings next to the food, so a hard day makes sense.</dd></div>
+              <div><dt>Kind defaults</dt><dd>Nudges at the time you choose, and a first week you can skip or replay.</dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <h2 id="rebuilt">Rebuilt from the ground up</h2>
+        <p>Fimbl 2.0 was a complete rewrite, built natively for iPhone and iPad. That made room for the things that make a diary feel effortless: Home and Lock Screen widgets, Siri and Shortcuts for hands-free logging ("Log my weight in Fimbl"), Apple Health for steps, energy and workouts, light and dark mode, and a full translation into German and Finnish alongside English. Version 2.1 added guided progress photos that never leave your phone.</p>
+        <p>Fimbl is designed and built in Espoo, Finland. If something feels off, <a href="mailto:appriseven@gmail.com">tell us</a>: feedback genuinely shapes what we build next.</p>
+
+        <h2 id="where-next">Where we're going: your patterns, not averages</h2>
+        <p>Here's the part we're most excited about. Food apps know what you ate. Mood apps know how you felt. Almost nobody connects the two on the same timeline as your weight, your movement and your week.</p>
+        <blockquote class="pull">Almost every app can tell you what you ate. We want to help you understand why, in a way that's true for you.</blockquote>
+        <p>Fimbl already collects the pieces: meals, hunger, feelings, daily mood, weight and activity, all in one calm place. The end goal is to turn them into insight that belongs to you alone. Think of observations like "on days with a morning walk, you felt more energised", or noticing that a rushed lunch tends to come before a hungry evening. Not rules about food, just your own patterns, gently pointed out.</p>
+        <p>From there, the loop closes. Instead of a generic programme, you'd get one tiny experiment for the week, drawn from your own data, and see your own result at the end of it. We'll share that work here on the blog as it ships, without promising dates we can't keep.</p>
+
+        <h2 id="who-for">Who Fimbl is for, and who it isn't</h2>
+        <p><strong>Fimbl is for you if</strong> you've tried counting before and burned out, if you're curious why you reach for food when you're not hungry, or if you simply want a food diary that feels kind. It suits beginners and people who already know their way around macros.</p>
+        <p><strong>It's not the right tool if</strong> you need Android or a web app, if you track specific micronutrients in detail, or if you need clinical support. In those cases, the apps in <a href="/blog/best-calorie-tracker-apps/">our comparison</a> or a healthcare professional will serve you better. And if you're wondering whether a craving is hunger or something else, our guide to <a href="/blog/emotional-vs-physical-hunger/">emotional vs physical hunger</a> is a good place to start.</p>
+
+        <div class="verdict">
+          <div>
+            <span class="eyebrow">Try it your way</span>
+            <h3>Start with one meal and one check-in</h3>
+            <p>Fimbl is free to download, with no ads and no pressure. Log a meal, notice how it felt, and let the first week do the rest.</p>
+            <a class="btn" href="https://apps.apple.com/app/id6443701726" data-store>Get Fimbl free</a>
+          </div>
+          <div class="phone" aria-hidden="true"><img src="/assets/img/app/en/03-feelings.webp" width="720" height="1564" alt="" loading="lazy"></div>
+        </div>
+
+        <h2 id="faq">Questions, answered</h2>
+        <div class="faq">
+          <details>
+            <summary>Who makes Fimbl?</summary>
+            <p>Fimbl is designed and built by AppRise Ventures Oy, a small company in Espoo, Finland. The app is available for iPhone and iPad in English, German and Finnish.</p>
+          </details>
+          <details>
+            <summary>Is Fimbl a diet app?</summary>
+            <p>Not in the usual sense. You can set a calorie goal if it helps you, or switch to Calm mode and see grades instead of numbers. Fimbl is about balance, awareness and habits, and it's built to support a healthier relationship with food. It isn't a medical tool or a treatment for eating disorders.</p>
+          </details>
+          <details>
+            <summary>What&#x27;s free in Fimbl, and what&#x27;s Premium?</summary>
+            <p>The heart of the app is free and has no ads: the food diary, search and barcode scanning, saved meals, weight, mood and meal check-ins, Apple Health activity, goals and streaks, progress photos and the First Week journey. Premium adds macro goals, the AI features (photo scan, describing meals by voice or text, label scan, recipes from videos, weekly reflections and the coach, Calm mode and healthier swaps), widgets, extra meal slots and streak restore.</p>
+          </details>
+          <details>
+            <summary>Does Fimbl use my data to train AI?</summary>
+            <p>No. AI features are optional and part of Premium. When you use one, only what that feature needs is sent through Fimbl's servers to Google's Gemini API, without your name or email. We don't train AI models on your data and we don't sell it. Free accounts never send anything to an AI service.</p>
+          </details>
+          <details>
+            <summary>Do my progress photos get uploaded?</summary>
+            <p>No. Progress photos stay on your iPhone. They are never uploaded to our servers, never used for AI and never included in iCloud backups. You decide what is kept, saved to your library or shared.</p>
+          </details>
+          <details>
+            <summary>What&#x27;s next for Fimbl?</summary>
+            <p>We're working toward showing you your own patterns: how hunger, feelings, sleep and movement connect with what you eat, for you rather than for an average person. We'll share what we build here on the blog, without promising dates we can't keep.</p>
+          </details>
+        </div>
+
+        <section class="sources" aria-labelledby="sources">
+          <h2 id="sources">Sources</h2>
+          <ol>
+            <li id="source-1">Honary M et al. (2019). Young people's experiences of healthy-eating and fitness apps. JMIR mHealth and uHealth 7(6). <a href="https://pubmed.ncbi.nlm.nih.gov/31215514/" rel="noopener">pubmed.ncbi.nlm.nih.gov</a></li>
+            <li id="source-2">Burke LE, Wang J, Sevick MA (2011). Systematic review of self-monitoring in weight loss. Journal of the American Dietetic Association 111(1). <a href="https://pubmed.ncbi.nlm.nih.gov/21185970/" rel="noopener">pubmed.ncbi.nlm.nih.gov</a></li>
+            <li id="source-3">Warren JM, Smith N, Ashwell M (2017). Review of mindfulness and mindful eating and their effects on eating behaviour. Nutrition Research Reviews 30(2). <a href="https://pubmed.ncbi.nlm.nih.gov/28718396/" rel="noopener">pubmed.ncbi.nlm.nih.gov</a></li>
+            <li id="source-4">Fimbl privacy policy, section on AI features. <a href="https://fimbl.app/privacy/#ai" rel="noopener">fimbl.app</a></li>
+          </ol>
+        </section>
+        <aside class="author-card">
+          <span class="byline-avatar" aria-hidden="true"><svg><use href="#i-mark"/></svg></span>
+          <div>
+            <strong>Kasper Koskenvirta</strong>
+            <span>Founder of Fimbl</span>
+            <p>Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a calm food diary for iPhone and iPad. Our articles are general information, not medical advice.</p>
+          </div>
+        </aside>
+        </div>
+      </div>
+    </article>
+
+    <section class="related" aria-labelledby="related-title">
+      <div class="container">
+        <h2 id="related-title">Keep reading</h2>
+        <ul class="post-cards">
+        <li class="post-card">
+          <div class="post-card-visual" aria-hidden="true">
+            <div class="phone"><img src="/assets/img/app/en/01-diary.webp" width="720" height="1564" alt="" loading="lazy"></div>
+            <div class="phone"><img src="/assets/img/app/en/03-feelings.webp" width="720" height="1564" alt="" loading="lazy"></div>
+          </div>
+          <div class="post-card-body">
+            <span class="tag">Comparison</span>
+            <h3><a href="/blog/best-calorie-tracker-apps/">The best calorie tracker apps in 2026, compared honestly</a></h3>
+            <p>Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI compared honestly: what&#x27;s free, ads, AI logging and who each app suits.</p>
+            <p class="post-meta"><time datetime="2026-10-17">October 17, 2026</time><span class="dot" aria-hidden="true"></span>10 min read</p>
+            <span class="read-more" aria-hidden="true">Read the article</span>
+          </div>
+        </li>
+        <li class="post-card">
+          <div class="post-card-visual" aria-hidden="true">
+            <div class="phone"><img src="/assets/img/app/en/03-feelings.webp" width="720" height="1564" alt="" loading="lazy"></div>
+            <div class="phone"><img src="/assets/img/app/en/09-ai.webp" width="720" height="1564" alt="" loading="lazy"></div>
+          </div>
+          <div class="post-card-body">
+            <span class="tag">Mindful eating</span>
+            <h3><a href="/blog/emotional-vs-physical-hunger/">Emotional hunger vs physical hunger: how to tell the difference</a></h3>
+            <p>How to tell emotional hunger from physical hunger: 7 key differences, a 1–10 hunger scale and a 10-second check-in for when a craving isn&#x27;t about food.</p>
+            <p class="post-meta"><time datetime="2026-10-17">October 17, 2026</time><span class="dot" aria-hidden="true"></span>8 min read</p>
+            <span class="read-more" aria-hidden="true">Read the article</span>
+          </div>
+        </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cta" style="padding-top:0">
+      <div class="container">
+        <div class="cta-card">
+          <div class="cta-copy">
+            <img class="cta-icon" src="/assets/img/app-icon.webp" width="256" height="256" alt="" loading="lazy">
+            <h2>Start your wellness journey</h2>
+            <p>Free to download. Gentle from day one.</p>
+            <a class="btn btn-primary btn-store" href="https://apps.apple.com/app/id6443701726" data-store>
+              <svg aria-hidden="true"><use href="#i-apple"/></svg>
+              <span class="btn-label"><small>Download on the</small><strong>App Store</strong></span>
+            </a>
+          </div>
+          <div class="cta-phone" aria-hidden="true">
+            <div class="phone"><img src="/assets/img/app/en/welcome.webp" width="720" height="1564" alt="" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="/" aria-label="Fimbl home">fimbl</a>
+          <p class="footer-tagline">Mindful nutrition, gentle progress.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="https://apps.apple.com/app/id6443701726">App Store</a></li>
+          <li><a href="mailto:appriseven@gmail.com">Support</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/terms/">Terms of Use</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> AppRise Ventures Oy · Espoo, Finland</span>
+        <ul class="footer-langs" data-lang aria-label="Language">
+          <li><a href="/blog/why-we-built-fimbl/" hreflang="en" lang="en" aria-current="page">English</a></li>
+          <li><a href="/fi/blogi/miksi-teimme-fimblin/" hreflang="fi" lang="fi">Suomi</a></li>
+          <li><a href="/de/blog/warum-wir-fimbl-bauen/" hreflang="de" lang="de">Deutsch</a></li>
+        </ul>
+        <span>Business ID 3336104-8</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

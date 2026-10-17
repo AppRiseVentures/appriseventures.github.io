@@ -1,0 +1,122 @@
+{
+  "id": "emotional-hunger",
+  "slug": "emotional-vs-physical-hunger",
+  "title": "Emotional vs Physical Hunger: How to Tell the Difference",
+  "headline": "Emotional hunger vs physical hunger: how to tell the difference",
+  "h1": "Emotional hunger vs physical hunger: <span class=\"accent\">how to tell the difference</span>",
+  "dek": "Seven signs that separate the two, a simple 1 to 10 hunger scale and a ten-second check-in you can use before any meal. No willpower lectures, just a clearer read on what you actually need.",
+  "description": "How to tell emotional hunger from physical hunger: 7 key differences, a 1–10 hunger scale and a 10-second check-in for when a craving isn't about food.",
+  "tag": "Mindful eating",
+  "og_title": "Emotional hunger vs physical hunger: how to tell the difference",
+  "og_kicker": "Mindful eating guide",
+  "og_heading": "Emotional or physical hunger? <span>How to tell</span>",
+  "og_alt": "Fimbl meal check-in screens next to the headline: emotional or physical hunger, how to tell",
+  "keywords": [
+    "emotional hunger vs physical hunger",
+    "emotional eating",
+    "how to stop emotional eating",
+    "hunger scale",
+    "stress eating",
+    "mindful eating"
+  ],
+  "about": [
+    "Emotional eating",
+    "Hunger",
+    "Mindful eating",
+    "Hunger and satiety"
+  ],
+  "mentions": [
+    "Fimbl"
+  ],
+  "published": "2026-10-17",
+  "modified": "2026-10-17",
+  "cover": [
+    "03-feelings",
+    "09-ai",
+    "04-meal-grades"
+  ],
+  "cover_alt": [
+    "Fimbl check-in asking which feelings you had before a meal, with craving and sluggish selected",
+    "Fimbl weekly reflection summarising a week of meals, mood and weight"
+  ],
+  "chips": [
+    {
+      "emoji": "🍫",
+      "title": "Craving",
+      "sub": "4 pm · stressed"
+    },
+    {
+      "emoji": "😌",
+      "title": "Satisfied",
+      "sub": "After lunch"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I know if I'm really hungry?",
+      "a": "Physical hunger builds gradually and shows up in your body: a rumbling stomach, low energy or trouble concentrating, usually a few hours after your last meal. It's open to many foods and can wait a little. If you ate recently, your stomach is quiet and you want one specific food right now, the urge is more likely emotional."
+    },
+    {
+      "q": "Is emotional eating bad?",
+      "a": "No. Eating for comfort or celebration now and then is a normal part of life. It becomes worth looking at when food is your main way of coping with feelings, or when it leaves you feeling guilty or out of control."
+    },
+    {
+      "q": "Why do I crave sweets when I'm stressed or tired?",
+      "a": "Sweet, salty and crunchy foods change how you feel quickly and reliably, so it's easy to learn to reach for them when you're stressed, bored or tired. That's a habit, not a character flaw. Noticing the pattern, for example with a short check-in before you eat, is the first step to choosing on purpose."
+    },
+    {
+      "q": "What does HALT stand for?",
+      "a": "HALT stands for hungry, angry, lonely, tired. It's a long-standing slogan from addiction-recovery communities, and it works well as a quick check before you eat: if you're angry, lonely or tired rather than hungry, food may not be what you need most."
+    },
+    {
+      "q": "What's the difference between emotional eating and binge eating?",
+      "a": "Emotional eating is common and broad: eating in response to feelings rather than hunger. Binge eating disorder is a clinical condition with recurring episodes of eating a large amount while feeling a loss of control, often followed by distress. If that sounds familiar, please talk to a doctor or an eating-disorder service."
+    },
+    {
+      "q": "Can an app help with emotional eating?",
+      "a": "An app can help you notice. Recording how hungry you are and how you feel when you eat is one of the most common recommendations for understanding emotional eating, and Fimbl's meal check-ins are built for exactly that. An app isn't a treatment, though, and it's no substitute for professional help when eating feels out of control."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Mayo Clinic. Weight loss: gain control of emotional eating.",
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/weight-loss/art-20047342"
+    },
+    {
+      "text": "NHS Grampian, Healthy Weight. What is emotional eating?",
+      "url": "https://www.healthyweightgrampian.scot.nhs.uk/psychological-support/our-relationship-with-food/what-is-emotional-eating/"
+    },
+    {
+      "text": "Katterman SN et al. (2014). Systematic review of mindfulness meditation for binge eating, emotional eating and weight loss. Eating Behaviors 15(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24854804/"
+    },
+    {
+      "text": "Warren JM, Smith N, Ashwell M (2017). Review of mindfulness and mindful eating and their effects on eating behaviour. Nutrition Research Reviews 30(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28718396/"
+    },
+    {
+      "text": "Liu J et al. (2025). Meta-analysis of mindfulness-based interventions for eating behaviour. Journal of Behavioral Medicine 48(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39979674/"
+    },
+    {
+      "text": "Kretchman D (2026). On the origins and use of the HALT slogan in recovery. Advances in Drug and Alcohol Research 5.",
+      "url": "https://doi.org/10.3389/adar.2025.15477"
+    },
+    {
+      "text": "Beat, the UK's eating disorder charity: helplines.",
+      "url": "https://www.beateatingdisorders.org.uk/get-information-and-support/get-help-for-myself/support-now/"
+    },
+    {
+      "text": "ANAD eating disorders helpline (US).",
+      "url": "https://anad.org/get-support/eating-disorders-helpline/"
+    },
+    {
+      "text": "Syömishäiriöliitto SYLI ry (Finland).",
+      "url": "https://syomishairioliitto.fi/"
+    },
+    {
+      "text": "BIÖG telephone counselling on eating disorders (Germany).",
+      "url": "https://essstoerungen.bioeg.de/hilfe-finden/welche-beratung-gibt-es/telefonberatung/"
+    }
+  ]
+}

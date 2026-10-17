@@ -1,0 +1,81 @@
+{
+  "id": "calorie-trackers",
+  "slug": "paras-kalorilaskuri-sovellus",
+  "title": "Paras kalorilaskuri 2026: rehellinen sovellusvertailu",
+  "headline": "Paras kalorilaskuri vuonna 2026: rehellinen vertailu",
+  "h1": "Paras kalorilaskuri vuonna 2026: <span class=\"accent\">rehellinen vertailu</span>",
+  "dek": "Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum ja Cal AI rinnakkain: missä kukin on oikeasti paras, mitä saat ilmaiseksi ja miten valitset sovelluksen, jota käytät vielä kuukauden päästä.",
+  "description": "Kalorilaskurivertailu 2026: Fimbl, MyFitnessPal, Cronometer, YAZIO, Lifesum ja muut. Ilmaisominaisuudet, mainokset, suomen kieli ja kenelle mikin sopii.",
+  "tag": "Vertailu",
+  "og_title": "Paras kalorilaskuri vuonna 2026: rehellinen vertailu",
+  "og_kicker": "Vertailu · 2026",
+  "og_heading": "Paras kalorilaskuri, <span>rehellisesti vertailtuna</span>",
+  "og_alt": "Fimblin näkymiä otsikon vieressä: paras kalorilaskuri, rehellisesti vertailtuna",
+  "keywords": ["paras kalorilaskuri", "kalorilaskuri sovellus", "ilmainen kalorilaskuri", "ruokapäiväkirja sovellus", "MyFitnessPal vaihtoehto", "suomenkielinen kalorilaskuri"],
+  "about": ["Kalorien laskeminen", "Ruokapäiväkirjasovellukset", "Tietoinen syöminen"],
+  "mentions": ["Fimbl", "MyFitnessPal", "Cronometer", "MacroFactor", "Lose It!", "YAZIO", "Lifesum", "Cal AI", "Noom", "Keventäjät", "FatSecret"],
+  "published": "2026-10-17",
+  "modified": "2026-10-17",
+  "cover": ["01-diary", "03-feelings", "04-meal-grades"],
+  "cover_alt": ["Fimblin ruokapäiväkirja: 482 kcal jäljellä ja renkaat hiilihydraateille, rasvalle ja proteiinille", "Fimblin aamiaiskirjaus, jossa kysytään, mitä tunteita sinulla oli ennen ateriaa"],
+  "chips": [
+    { "emoji": "🥣", "title": "Aamiainen kirjattu", "sub": "Kaurahiutaleet, mustikat, jogurtti" },
+    { "emoji": "😊", "title": "Tyytyväinen", "sub": "Aamiaisen jälkeen" }
+  ],
+  "faq": [
+    {
+      "q": "Mikä on paras kalorilaskuri vuonna 2026?",
+      "a": "Se riippuu siitä, mitä tarvitset. Useimmille, jotka haluavat kestävän tavan ilman syyllisyyttä, suosittelemme Fimbliä: siinä yhdistyvät nopea kirjaaminen, nälän ja tuntemusten kirjaus aterioiden yhteydessä ja valinnainen Rauhallinen tila ilman kalorilukuja. Cronometer on paras hivenaineiden tarkkaan seurantaan, MacroFactor mukautuviin makrotavoitteisiin ja MyFitnessPal laajimpaan ruokatietokantaan."
+    },
+    {
+      "q": "Mikä on paras ilmainen kalorilaskuri?",
+      "a": "Lokakuussa 2026 Fimbl, Cronometer, YAZIO, Lifesum ja FatSecret tarjoavat viivakoodiskannauksen ilmaisversiossaan. Fimblin ilmaisversiossa ei ole mainoksia, ja siihen kuuluvat ruokapäiväkirja, viivakoodiskannaus, tallennetut ateriat, tuntemusten kirjaukset, paino ja edistymiskuvat. MyFitnessPal siirsi viivakoodiskannauksen Premiumiin vuonna 2022, ja Lose It! listaa sen App Storessa Premium-ominaisuudeksi."
+    },
+    {
+      "q": "Onko olemassa suomenkielistä kalorilaskuria?",
+      "a": "On. Fimbl, YAZIO, Lifesum (joulukuusta 2025) ja FatSecret toimivat suomeksi. Suomalainen Keventäjät (entinen Kiloklubi) on myös suomeksi, mutta sen sovellus vaatii maksullisen jäsenyyden. MyFitnessPal, Cronometer, MacroFactor, Lose It!, Noom ja Cal AI eivät ole saatavilla suomeksi."
+    },
+    {
+      "q": "Missä kalorilaskurissa ei ole mainoksia?",
+      "a": "Fimblissä ei ole mainoksia ilmais- eikä Premium-versiossa. MacroFactor ei käytä mainoksia, mutta siinä ei ole ilmaisversiota, eivätkä Lifesum ja Cal AI ilmoita mainoksista. MyFitnessPalin, Cronometerin, Lose It!:n ja YAZIOn ilmaisversioissa on mainoksia, jotka poistuvat maksullisella tilauksella."
+    },
+    {
+      "q": "Voiko ruokaa seurata näkemättä kaloreita?",
+      "a": "Voi. Fimblin Rauhallinen tila (Premium) korvaa kaloriluvut lempeillä A–C-arvosanoilla sen mukaan, miten hyvin ateria tuki tavoitteitasi, nälkääsi ja mielialaasi. Fimbl laskee taustalla edelleen, joten voit palata lukuihin milloin tahansa. Muut tämän vertailun sovellukset eivät kuvaa vastaavaa tilaa."
+    },
+    {
+      "q": "Mikä on hyvä MyFitnessPal-vaihtoehto?",
+      "a": "iPhonella Fimbl on hyvä vaihtoehto, jos haluat ilmaisen viivakoodiskannauksen, ei mainoksia, suomenkielisen sovelluksen ja rauhallisemman, tuntemukset huomioivan päiväkirjan. Cronometer sopii hivenaineiden tarkkaan seurantaan, ja YAZIO tai Lifesum sopii, jos tarvitset myös Androidia."
+    },
+    {
+      "q": "Onko kalorien laskeminen haitallista mielenterveydelle?",
+      "a": "Monelle se on hyödyllinen ja neutraali työkalu. Osa tutkimuksista yhdistää kalorilaskurien käytön joillakin käyttäjillä lisääntyneeseen syömiseen liittyvään huoleen, kun taas satunnaistetussa tutkimuksessa matalan riskin opiskelijoiden syömishäiriöriski ei kasvanut. Jos seuranta ahdistaa, kokeile tapaa, jossa luvut ovat valinnaisia. Jos ruoka tuntuu ylivoimaiselta, puhu terveydenhuollon ammattilaisen kanssa."
+    },
+    {
+      "q": "Toimiiko Fimbl Androidilla?",
+      "a": "Ei. Fimbl on tehty natiivisti iPhonelle ja iPadille, joissa on iOS tai iPadOS 26 tai uudempi. Jos tarvitset Androidia tai verkkoversiota, MyFitnessPal, Cronometer, Lose It!, YAZIO, Lifesum ja FatSecret ovat saatavilla niille."
+    }
+  ],
+  "sources": [
+    { "text": "MyFitnessPal Premiumin ominaisuudet, mm. viivakoodiskannaus ja mainokseton käyttö.", "url": "https://www.myfitnesspal.com/premium" },
+    { "text": "MyFitnessPal osti Cal AI:n (TechCrunch, maaliskuu 2026).", "url": "https://techcrunch.com/?p=3098039" },
+    { "text": "Cronometer Goldin ominaisuudet ja hinnat.", "url": "https://cronometer.com/gold/" },
+    { "text": "Cronometerin biometriikka, mm. mieliala ja energia.", "url": "https://cronometer.com/blog/biometrics/" },
+    { "text": "MacroFactor-sovelluksen esittely ja kielet.", "url": "https://macrofactor.com/macrofactor/" },
+    { "text": "MacroFactorin tekoälypohjainen ruokakirjaus.", "url": "https://macrofactor.com/ai-food-logging/" },
+    { "text": "Lose It! -sovelluksen App Store -sivu, Premium-ominaisuudet.", "url": "https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629" },
+    { "text": "YAZIO PRO:n ominaisuudet (YAZIOn ohjekeskus).", "url": "https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals" },
+    { "text": "Lifesum: näin sovellus toimii, mm. ilmainen viivakoodiskanneri.", "url": "https://lifesum.com/how-it-works" },
+    { "text": "Lifesum Premiumin ominaisuudet (Lifesumin ohjekeskus).", "url": "https://help.lifesum.com/en/article/what-do-i-get-when-i-buy-premium-1vzq8pz/" },
+    { "text": "Cal AI:n App Store -sivu.", "url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616" },
+    { "text": "Noomin ruokien värijärjestelmä.", "url": "https://www.noom.com/support/faqs/using-the-app/logging-and-tracking/food-and-water/2025/10/how-nooms-food-color-system-works/" },
+    { "text": "Burke LE, Wang J, Sevick MA (2011). Systemaattinen katsaus omaseurannasta laihdutuksessa. Journal of the American Dietetic Association 111(1).", "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/" },
+    { "text": "Patel ML, Wakayama LN, Bennett GG (2021). Systemaattinen katsaus digitaalisesta omaseurannasta laihdutustutkimuksissa. Obesity 29(3).", "url": "https://pubmed.ncbi.nlm.nih.gov/33624440/" },
+    { "text": "Honary M ym. (2019). Nuorten kokemukset terveellisen syömisen ja liikunnan sovelluksista. JMIR mHealth and uHealth 7(6).", "url": "https://pubmed.ncbi.nlm.nih.gov/31215514/" },
+    { "text": "Hahn SL ym. (2021). Satunnaistettu tutkimus kalorilaskurin käytöstä ja syömishäiriöriskistä opiskelijanaisilla. Journal of the Academy of Nutrition and Dietetics 121(12).", "url": "https://pubmed.ncbi.nlm.nih.gov/34427188/" },
+    { "text": "Keventäjät (entinen Kiloklubi): tilausehdot ja jäsenyyshinnat.", "url": "https://keventajat.fi/tilausehdot/" },
+    { "text": "Keventäjät-sovelluksen App Store -sivu ja versiohistoria.", "url": "https://apps.apple.com/fi/app/keventajat/id1284491297" },
+    { "text": "Lifesum: sovelluksen kielen vaihtaminen (Lifesumin ohjekeskus).", "url": "https://help.lifesum.com/en/article/how-can-i-change-the-language-in-the-app-ios-irx33t/" },
+    { "text": "FatSecretin App Store -sivu (Suomi).", "url": "https://apps.apple.com/fi/app/fatsecret-calorie-counter/id347184248" }
+  ]
+}

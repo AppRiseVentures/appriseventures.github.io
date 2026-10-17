@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Der Fimbl Blog</title>
+    <link>https://fimbl.app/de/blog/</link>
+    <atom:link href="https://fimbl.app/de/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Ehrliche Ratgeber zu Kalorienzähler-Apps, achtsamem Essen und Gewohnheiten, die bleiben. Vom Team hinter Fimbl, dem ruhigen Ernährungstagebuch fürs iPhone.</description>
+    <language>de-de</language>
+    <item>
+      <title>Warum wir einen Kalorienzähler bauen, der nicht urteilt</title>
+      <link>https://fimbl.app/de/blog/warum-wir-fimbl-bauen/</link>
+      <guid isPermaLink="true">https://fimbl.app/de/blog/warum-wir-fimbl-bauen/</guid>
+      <pubDate>Sat, 17 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Die Idee hinter Fimbl, dem ruhigen Ernährungstagebuch fürs iPhone: warum Zählen allein nicht reicht, sechs Entscheidungen, was wir weglassen und unser Ziel.</description>
+    </item>
+    <item>
+      <title>Emotionaler oder körperlicher Hunger? So erkennst du den Unterschied</title>
+      <link>https://fimbl.app/de/blog/emotionaler-hunger-erkennen/</link>
+      <guid isPermaLink="true">https://fimbl.app/de/blog/emotionaler-hunger-erkennen/</guid>
+      <pubDate>Sat, 17 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Emotionaler oder echter Hunger? 7 Unterschiede, eine Hungerskala von 1 bis 10 und ein 10-Sekunden-Check-in gegen Frustessen und Stressessen.</description>
+    </item>
+  </channel>
+</rss>
