@@ -2,13 +2,44 @@
   "base": "https://fimbl.app",
   "store": "https://apps.apple.com/app/id6443701726",
   "site_modified": "2026-10-17",
-  "order": ["calorie-trackers", "why-we-built-fimbl", "emotional-hunger"],
-  "untranslated": { "calorie-trackers": ["de"] },
-  "author": { "name": "Kasper Koskenvirta" },
-  "single_pages": { "/privacy/": "2026-10-17", "/terms/": "2026-10-04" },
+  "order": [
+    "calorie-trackers",
+    "why-we-built-fimbl",
+    "emotional-hunger"
+  ],
+  "untranslated": {
+    "calorie-trackers": [
+      "de"
+    ]
+  },
+  "author": {
+    "name": "Kasper Koskenvirta"
+  },
+  "single_pages": {
+    "/privacy/": "2026-10-17",
+    "/terms/": "2026-10-04"
+  },
   "og_pages": [
-    { "name": "fi-home", "lang": "fi", "kicker": "Fimbl · iPhone & iPad", "heading": "Löydä <span>tasapaino</span> syömiseesi", "shots": ["01-diary", "03-feelings"] },
-    { "name": "de-home", "lang": "de", "kicker": "Fimbl · iPhone & iPad", "heading": "Finde <span>Balance</span> beim Essen", "shots": ["01-diary", "03-feelings"] }
+    {
+      "name": "fi-home",
+      "lang": "fi",
+      "kicker": "Fimbl · iPhone & iPad",
+      "heading": "Löydä <span>tasapaino</span> syömiseesi",
+      "shots": [
+        "01-diary",
+        "03-feelings"
+      ]
+    },
+    {
+      "name": "de-home",
+      "lang": "de",
+      "kicker": "Fimbl · iPhone & iPad",
+      "heading": "Finde <span>Balance</span> beim Essen",
+      "shots": [
+        "01-diary",
+        "03-feelings"
+      ]
+    }
   ],
   "llms": {
     "intro": "# Fimbl\n\n> Fimbl is a calm, guilt-free food diary and calorie tracker for iPhone and iPad (iOS and iPadOS 26 or later), made by AppRise Ventures Oy in Espoo, Finland. It helps people notice what they eat, why they eat and how food makes them feel. Available in English, German and Finnish. Free to download with no ads; Fimbl Premium adds AI and depth features.\n\n## What Fimbl does\n\n- Food diary with search, barcode scanning, quick adds and saved meals (free)\n- Meal check-ins on hunger and feelings, plus daily mood (free)\n- Guided First Week: seven days, one small step a day (free)\n- Weight, BMI, streaks, goals and Apple Health activity: steps, active and resting energy, workouts (free)\n- Guided progress photos that stay on the iPhone: never uploaded to Fimbl's servers, never used for AI, never in iCloud backups (free)\n- Premium: photo calorie scan, describing meals by text or voice, nutrition label scan, recipes from Reels, TikToks, YouTube Shorts and recipe sites, macro goals, Calm mode (grades instead of calorie numbers), healthier product swaps, weekly AI reflections and a reflection coach, widgets, extra meal slots and streak restore\n- AI features are optional and Premium-only. Requests go through Fimbl's servers to Google's Gemini API, without name or email. Free accounts never send anything to an AI service.\n\n## Key pages\n\n- [Home (English)](https://fimbl.app/): features, AI transparency, FAQ\n- [Etusivu (Suomi)](https://fimbl.app/fi/)\n- [Startseite (Deutsch)](https://fimbl.app/de/)\n- [Blog (English)](https://fimbl.app/blog/), [Blogi (Suomi)](https://fimbl.app/fi/blogi/), [Blog (Deutsch)](https://fimbl.app/de/blog/)\n- [Privacy policy](https://fimbl.app/privacy/) (English)\n- [Terms of use](https://fimbl.app/terms/) (English)\n- [App Store](https://apps.apple.com/app/id6443701726)",
@@ -24,11 +55,28 @@
       "skip": "Skip to content",
       "home_label": "Fimbl home",
       "nav": [
-        { "label": "Features", "href": "/#features" },
-        { "label": "First week", "href": "/#first-week", "optional": true },
-        { "label": "AI", "href": "/#ai", "optional": true },
-        { "label": "FAQ", "href": "/#faq" },
-        { "label": "Blog", "href": "/blog/" }
+        {
+          "label": "Features",
+          "href": "/#features"
+        },
+        {
+          "label": "First week",
+          "href": "/#first-week",
+          "optional": true
+        },
+        {
+          "label": "AI",
+          "href": "/#ai",
+          "optional": true
+        },
+        {
+          "label": "FAQ",
+          "href": "/#faq"
+        },
+        {
+          "label": "Blog",
+          "href": "/blog/"
+        }
       ],
       "get_app": "Get the app",
       "store_small": "Download on the",
@@ -37,20 +85,48 @@
       "cta_text": "Free to download. Gentle from day one.",
       "tagline": "Mindful nutrition, gentle progress.",
       "footer_links": [
-        { "label": "Blog", "href": "/blog/" },
-        { "label": "App Store", "href": "https://apps.apple.com/app/id6443701726" },
-        { "label": "Support", "href": "mailto:appriseven@gmail.com" },
-        { "label": "Privacy Policy", "href": "/privacy/" },
-        { "label": "Terms of Use", "href": "/terms/" }
+        {
+          "label": "Blog",
+          "href": "/blog/"
+        },
+        {
+          "label": "App Store",
+          "href": "https://apps.apple.com/app/id6443701726"
+        },
+        {
+          "label": "Support",
+          "href": "mailto:appriseven@gmail.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy/"
+        },
+        {
+          "label": "Terms of Use",
+          "href": "/terms/"
+        }
       ],
       "city": "Espoo, Finland",
       "business_id": "Business ID 3336104-8",
-      "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+      "months": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ],
       "toc_title": "On this page",
       "faq_title": "Questions, answered",
       "sources_title": "Sources",
       "related_title": "Keep reading",
-      "read_more": "Read the article",
+      "read_more": "Read",
       "minutes": "{n} min read",
       "published": "Published",
       "updated": "Updated",
@@ -66,11 +142,21 @@
       "blog_h1": "Eat with awareness, <span class=\"accent\">not guilt</span>",
       "blog_lead": "Clear, honest writing on food tracking, hunger and habits: what the research says, what the apps actually do, and how we think about building a calmer one.",
       "blog_topics_label": "Topics",
-      "blog_topics": ["Calorie tracking", "Mindful eating", "Emotional eating", "Habits", "Behind Fimbl"],
+      "blog_topics": [
+        "Calorie tracking",
+        "Mindful eating",
+        "Emotional eating",
+        "Habits",
+        "Behind Fimbl"
+      ],
       "blog_og_title": "The Fimbl blog: eat with awareness, not guilt",
       "blog_og_kicker": "The Fimbl blog",
       "blog_og_heading": "Eat with awareness, <span>not guilt</span>",
-      "blog_og_shots": ["03-feelings", "09-ai"]
+      "blog_og_shots": [
+        "03-feelings",
+        "09-ai"
+      ],
+      "cover_alt": "Three Fimbl app screens on iPhone"
     },
     "fi": {
       "name": "Suomi",
@@ -81,11 +167,28 @@
       "skip": "Siirry sisältöön",
       "home_label": "Fimblin etusivu",
       "nav": [
-        { "label": "Ominaisuudet", "href": "/fi/#features" },
-        { "label": "Ensimmäinen viikko", "href": "/fi/#first-week", "optional": true },
-        { "label": "Tekoäly", "href": "/fi/#ai", "optional": true },
-        { "label": "UKK", "href": "/fi/#faq" },
-        { "label": "Blogi", "href": "/fi/blogi/" }
+        {
+          "label": "Ominaisuudet",
+          "href": "/fi/#features"
+        },
+        {
+          "label": "Ensimmäinen viikko",
+          "href": "/fi/#first-week",
+          "optional": true
+        },
+        {
+          "label": "Tekoäly",
+          "href": "/fi/#ai",
+          "optional": true
+        },
+        {
+          "label": "UKK",
+          "href": "/fi/#faq"
+        },
+        {
+          "label": "Blogi",
+          "href": "/fi/blogi/"
+        }
       ],
       "get_app": "Lataa sovellus",
       "store_small": "Lataa",
@@ -94,20 +197,50 @@
       "cta_text": "Ilmainen ladata. Lempeä ensimmäisestä päivästä.",
       "tagline": "Tietoista syömistä, lempeää edistystä.",
       "footer_links": [
-        { "label": "Blogi", "href": "/fi/blogi/" },
-        { "label": "App Store", "href": "https://apps.apple.com/app/id6443701726" },
-        { "label": "Tuki", "href": "mailto:appriseven@gmail.com" },
-        { "label": "Tietosuojaseloste (englanniksi)", "href": "/privacy/", "hreflang": "en" },
-        { "label": "Käyttöehdot (englanniksi)", "href": "/terms/", "hreflang": "en" }
+        {
+          "label": "Blogi",
+          "href": "/fi/blogi/"
+        },
+        {
+          "label": "App Store",
+          "href": "https://apps.apple.com/app/id6443701726"
+        },
+        {
+          "label": "Tuki",
+          "href": "mailto:appriseven@gmail.com"
+        },
+        {
+          "label": "Tietosuojaseloste (englanniksi)",
+          "href": "/privacy/",
+          "hreflang": "en"
+        },
+        {
+          "label": "Käyttöehdot (englanniksi)",
+          "href": "/terms/",
+          "hreflang": "en"
+        }
       ],
       "city": "Espoo",
       "business_id": "Y-tunnus 3336104-8",
-      "months": ["tammikuuta", "helmikuuta", "maaliskuuta", "huhtikuuta", "toukokuuta", "kesäkuuta", "heinäkuuta", "elokuuta", "syyskuuta", "lokakuuta", "marraskuuta", "joulukuuta"],
+      "months": [
+        "tammikuuta",
+        "helmikuuta",
+        "maaliskuuta",
+        "huhtikuuta",
+        "toukokuuta",
+        "kesäkuuta",
+        "heinäkuuta",
+        "elokuuta",
+        "syyskuuta",
+        "lokakuuta",
+        "marraskuuta",
+        "joulukuuta"
+      ],
       "toc_title": "Tällä sivulla",
       "faq_title": "Usein kysyttyä",
       "sources_title": "Lähteet",
       "related_title": "Lue seuraavaksi",
-      "read_more": "Lue artikkeli",
+      "read_more": "Lue",
       "minutes": "{n} min lukuaika",
       "published": "Julkaistu",
       "updated": "Päivitetty",
@@ -123,11 +256,21 @@
       "blog_h1": "Syö tietoisesti, <span class=\"accent\">ilman syyllisyyttä</span>",
       "blog_lead": "Selkeää ja rehellistä tekstiä ruoan seurannasta, nälästä ja tavoista: mitä tutkimus sanoo, mitä sovellukset oikeasti tekevät ja miten me rakennamme rauhallisemman vaihtoehdon.",
       "blog_topics_label": "Aiheet",
-      "blog_topics": ["Kalorien seuranta", "Tietoinen syöminen", "Tunnesyöminen", "Tavat", "Fimblin tarina"],
+      "blog_topics": [
+        "Kalorien seuranta",
+        "Tietoinen syöminen",
+        "Tunnesyöminen",
+        "Tavat",
+        "Fimblin tarina"
+      ],
       "blog_og_title": "Fimbl-blogi: syö tietoisesti, ilman syyllisyyttä",
       "blog_og_kicker": "Fimbl-blogi",
       "blog_og_heading": "Syö tietoisesti, <span>ilman syyllisyyttä</span>",
-      "blog_og_shots": ["03-feelings", "09-ai"]
+      "blog_og_shots": [
+        "03-feelings",
+        "09-ai"
+      ],
+      "cover_alt": "Kolme Fimbl-sovelluksen näkymää iPhonessa"
     },
     "de": {
       "name": "Deutsch",
@@ -138,11 +281,28 @@
       "skip": "Zum Inhalt springen",
       "home_label": "Fimbl Startseite",
       "nav": [
-        { "label": "Funktionen", "href": "/de/#features" },
-        { "label": "Erste Woche", "href": "/de/#first-week", "optional": true },
-        { "label": "KI", "href": "/de/#ai", "optional": true },
-        { "label": "FAQ", "href": "/de/#faq" },
-        { "label": "Blog", "href": "/de/blog/" }
+        {
+          "label": "Funktionen",
+          "href": "/de/#features"
+        },
+        {
+          "label": "Erste Woche",
+          "href": "/de/#first-week",
+          "optional": true
+        },
+        {
+          "label": "KI",
+          "href": "/de/#ai",
+          "optional": true
+        },
+        {
+          "label": "FAQ",
+          "href": "/de/#faq"
+        },
+        {
+          "label": "Blog",
+          "href": "/de/blog/"
+        }
       ],
       "get_app": "App laden",
       "store_small": "Laden im",
@@ -151,20 +311,50 @@
       "cta_text": "Kostenlos laden. Sanft vom ersten Tag an.",
       "tagline": "Achtsame Ernährung, sanfter Fortschritt.",
       "footer_links": [
-        { "label": "Blog", "href": "/de/blog/" },
-        { "label": "App Store", "href": "https://apps.apple.com/app/id6443701726" },
-        { "label": "Support", "href": "mailto:appriseven@gmail.com" },
-        { "label": "Datenschutz (Englisch)", "href": "/privacy/", "hreflang": "en" },
-        { "label": "Nutzungsbedingungen (Englisch)", "href": "/terms/", "hreflang": "en" }
+        {
+          "label": "Blog",
+          "href": "/de/blog/"
+        },
+        {
+          "label": "App Store",
+          "href": "https://apps.apple.com/app/id6443701726"
+        },
+        {
+          "label": "Support",
+          "href": "mailto:appriseven@gmail.com"
+        },
+        {
+          "label": "Datenschutz (Englisch)",
+          "href": "/privacy/",
+          "hreflang": "en"
+        },
+        {
+          "label": "Nutzungsbedingungen (Englisch)",
+          "href": "/terms/",
+          "hreflang": "en"
+        }
       ],
       "city": "Espoo, Finnland",
       "business_id": "Unternehmens-ID (Y-tunnus) 3336104-8",
-      "months": ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
+      "months": [
+        "Januar",
+        "Februar",
+        "März",
+        "April",
+        "Mai",
+        "Juni",
+        "Juli",
+        "August",
+        "September",
+        "Oktober",
+        "November",
+        "Dezember"
+      ],
       "toc_title": "Auf dieser Seite",
       "faq_title": "Häufige Fragen",
       "sources_title": "Quellen",
       "related_title": "Weiterlesen",
-      "read_more": "Artikel lesen",
+      "read_more": "Lesen",
       "minutes": "{n} Min. Lesezeit",
       "published": "Veröffentlicht am",
       "updated": "Aktualisiert am",
@@ -180,11 +370,47 @@
       "blog_h1": "Achtsam essen, <span class=\"accent\">ohne schlechtes Gewissen</span>",
       "blog_lead": "Klare, ehrliche Texte über Ernährungstracking, Hunger und Gewohnheiten: was die Forschung sagt, was die Apps wirklich können und wie wir eine ruhigere App bauen.",
       "blog_topics_label": "Themen",
-      "blog_topics": ["Kalorien zählen", "Achtsam essen", "Emotionales Essen", "Gewohnheiten", "Hinter Fimbl"],
+      "blog_topics": [
+        "Kalorien zählen",
+        "Achtsam essen",
+        "Emotionales Essen",
+        "Gewohnheiten",
+        "Hinter Fimbl"
+      ],
       "blog_og_title": "Der Fimbl Blog: achtsam essen, ohne schlechtes Gewissen",
       "blog_og_kicker": "Der Fimbl Blog",
       "blog_og_heading": "Achtsam essen, <span>ohne schlechtes Gewissen</span>",
-      "blog_og_shots": ["03-feelings", "09-ai"]
+      "blog_og_shots": [
+        "03-feelings",
+        "09-ai"
+      ],
+      "cover_alt": "Drei Ansichten der Fimbl-App auf dem iPhone"
+    }
+  },
+  "covers": {
+    "calorie-trackers": {
+      "screens": [
+        "02-photo-scan",
+        "01-diary",
+        "03-feelings"
+      ],
+      "theme": "lavender"
+    },
+    "why-we-built-fimbl": {
+      "screens": [
+        "07-first-week",
+        "04-meal-grades",
+        "photos-compare"
+      ],
+      "theme": "deep"
+    },
+    "emotional-hunger": {
+      "screens": [
+        "04-meal-grades",
+        "03-feelings",
+        "09-ai"
+      ],
+      "theme": "warm"
     }
   }
 }

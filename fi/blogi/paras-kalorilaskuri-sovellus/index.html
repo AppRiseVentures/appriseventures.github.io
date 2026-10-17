@@ -323,6 +323,8 @@
     <symbol id="i-eye" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></g></symbol>
     <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6v5.5c0 4.2 2.9 7.6 7 9 4.1-1.4 7-4.8 7-9V6l-7-2.5Z"/><path d="m9 12 2.2 2.2L15.2 10"/></g></symbol>
     <symbol id="i-pause" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6" stroke-width="2.2"/></g></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></symbol>
     <symbol id="i-chart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 19h16M6.5 15l4-4.5 3 3L19 7"/></symbol>
   </svg>
 
@@ -358,33 +360,23 @@
     <article>
       <header class="post-hero">
         <span class="nav-sentinel" data-nav-sentinel aria-hidden="true"></span>
-        <div class="container post-hero-grid">
-          <div class="post-hero-copy">
-            <nav class="crumbs" aria-label="Murupolku">
-              <ol>
-                <li><a href="/fi/">Etusivu</a></li>
-                <li><a href="/fi/blogi/">Blogi</a></li>
-                <li aria-current="page">Paras kalorilaskuri vuonna 2026: rehellinen vertailu</li>
-              </ol>
-            </nav>
-            <p class="post-meta"><span class="tag">Vertailu</span>12 min lukuaika</p>
-            <h1>Paras kalorilaskuri vuonna 2026: <span class="accent">rehellinen vertailu</span></h1>
-            <p class="post-dek">Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum ja Cal AI rinnakkain: missä kukin on oikeasti paras, mitä saat ilmaiseksi ja miten valitset sovelluksen, jota käytät vielä kuukauden päästä.</p>
-            <div class="byline">
-              <div class="byline-who">
-                <span class="byline-avatar" aria-hidden="true"><svg><use href="#i-mark"/></svg></span>
-                <div><strong>Kasper Koskenvirta</strong><span>Fimblin perustaja</span></div>
-              </div>
-              <p class="post-meta"><span>Julkaistu <time datetime="2026-10-17">17. lokakuuta 2026</time></span></p>
-            </div>
-          </div>
-          <div class="post-cover">
-            <div class="phone"><img src="/assets/img/app/fi/01-diary.webp" width="720" height="1564" alt="Fimblin ruokapäiväkirja: 482 kcal jäljellä ja renkaat hiilihydraateille, rasvalle ja proteiinille"></div>
-            <div class="phone"><img src="/assets/img/app/fi/03-feelings.webp" width="720" height="1564" alt="Fimblin aamiaiskirjaus, jossa kysytään, mitä tunteita sinulla oli ennen ateriaa"></div>
-            <span class="chip chip-a" aria-hidden="true"><span class="chip-emoji">🥣</span><span>Aamiainen kirjattu<small>Kaurahiutaleet, mustikat, jogurtti</small></span></span>
-            <span class="chip chip-b" aria-hidden="true"><span class="chip-emoji">😊</span><span>Tyytyväinen<small>Aamiaisen jälkeen</small></span></span>
+        <div class="container post-head">
+          <nav class="crumbs" aria-label="Murupolku">
+            <ol>
+              <li><a href="/fi/">Etusivu</a></li>
+              <li><a href="/fi/blogi/">Blogi</a></li>
+              <li aria-current="page">Paras kalorilaskuri vuonna 2026: rehellinen vertailu</li>
+            </ol>
+          </nav>
+          <p class="post-kicker"><span class="kicker">Vertailu</span><span>12 min lukuaika</span></p>
+          <h1>Paras kalorilaskuri vuonna 2026: <span class="accent">rehellinen vertailu</span></h1>
+          <p class="post-dek">Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum ja Cal AI rinnakkain: missä kukin on oikeasti paras, mitä saat ilmaiseksi ja miten valitset sovelluksen, jota käytät vielä kuukauden päästä.</p>
+          <div class="byline">
+            <span class="avatar" aria-hidden="true">KK</span>
+            <p class="byline-text"><strong>Kasper Koskenvirta</strong><span>Fimblin perustaja · Julkaistu <time datetime="2026-10-17">17. lokakuuta 2026</time></span></p>
           </div>
         </div>
+        <figure class="container post-figure"><img src="/assets/img/covers/fi-calorie-trackers-1200.webp" srcset="/assets/img/covers/fi-calorie-trackers-1200.webp 1200w, /assets/img/covers/fi-calorie-trackers-2400.webp 2400w" sizes="(min-width: 1200px) 1120px, calc(100vw - 40px)" width="2400" height="1200" alt="Kolme Fimbl-sovelluksen näkymää iPhonessa" fetchpriority="high"></figure>
       </header>
 
       <div class="container post-wrap">
@@ -405,14 +397,14 @@
         <p class="lede">Lähes jokainen kalorilaskuri osaa laskea. Hae ruoka, skannaa viivakoodi, katso kun luku pienenee. Todellinen ero näkyy myöhemmin, sinä tiistaina, kun lounas jäi väliin ja illallinen oli muroja. Jotkut sovellukset saavat sen päivän tuntumaan epäonnistumiselta. Toiset auttavat ymmärtämään sitä. Juuri se ratkaisee, seuraatko syömistäsi vielä kuukauden päästä.</p>
 
         <div class="answer">
-          <span class="answer-label"><svg aria-hidden="true"><use href="#i-sparkle"/></svg>Lyhyesti</span>
+          <span class="answer-label">Lyhyesti</span>
           <p>Useimmille, jotka haluavat kestävän tavan, <strong>Fimbl</strong> on suosikkimme: nopea kirjaaminen ilmaisella viivakoodiskannerilla, ei mainoksia, nälän ja tuntemusten kirjaus jokaisen aterian yhteydessä ja valinnainen Rauhallinen tila, joka vaihtaa kaloriluvut lempeisiin arvosanoihin. Kaikki myös suomeksi. Jos tarvitset jotain tiettyä, nämä ovat erinomaisia:</p>
           <ul>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span><strong>Cronometer</strong> hivenaineiden tarkkaan seurantaan (84 ravintoainetta ilmaiseksi).</span></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span><strong>MacroFactor</strong> mukautuviin kalori- ja makrotavoitteisiin.</span></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span><strong>MyFitnessPal</strong> laajimpaan ruokatietokantaan.</span></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span><strong>YAZIO</strong> tai <strong>Lifesum</strong> ilmaiseen viivakoodiskanneriin suomeksi myös Androidilla.</span></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span><strong>Cal AI</strong>, jos haluat vain ottaa kuvan.</span></li>
+            <li><span><strong>Cronometer</strong> hivenaineiden tarkkaan seurantaan (84 ravintoainetta ilmaiseksi).</span></li>
+            <li><span><strong>MacroFactor</strong> mukautuviin kalori- ja makrotavoitteisiin.</span></li>
+            <li><span><strong>MyFitnessPal</strong> laajimpaan ruokatietokantaan.</span></li>
+            <li><span><strong>YAZIO</strong> tai <strong>Lifesum</strong> ilmaiseen viivakoodiskanneriin suomeksi myös Androidilla.</span></li>
+            <li><span><strong>Cal AI</strong>, jos haluat vain ottaa kuvan.</span></li>
           </ul>
         </div>
 
@@ -664,8 +656,8 @@
             <strong>Se kysyy, miltä sinusta tuntuu, ei vain mitä söit</strong>
             <span>Kymmenen sekunnin kirjaus aterian yhteydessä: kuinka nälkäinen olit ja mitä tunsit? Mielihalu, stressi, tylsyys, tyytyväisyys. Valitse niin monta kuin haluat tai ei yhtään. Muutamassa viikossa syömisesi taustalla olevat kuviot alkavat näkyä.</span>
             <ul>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg>Mikään muu vertailun sovellus ei kuvaa kirjausta aterioiden yhteydessä</li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg>Päivän mieliala ja nälkäisyyden kehitys ajan mittaan</li>
+              <li>Mikään muu vertailun sovellus ei kuvaa kirjausta aterioiden yhteydessä</li>
+              <li>Päivän mieliala ja nälkäisyyden kehitys ajan mittaan</li>
             </ul>
           </figcaption>
         </figure>
@@ -677,8 +669,8 @@
             <strong>Luvut kun haluat, arvosanat kun et</strong>
             <span>Rauhallinen tila korvaa kaloriluvut lempeillä arvosanoilla sen mukaan, miten hyvin ateria tuki tavoitteitasi, nälkääsi ja mielialaasi, ja antaa yhden idean seuraavaan kertaan. Fimbl laskee hiljaa taustalla, joten takaisin vaihtaessa mitään ei katoa.</span>
             <ul>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg>Herkkupäivät saavat kontekstia, eivät punaisia lukuja</li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg>Ainoa löytämämme tila, jossa luvut ovat valinnaisia</li>
+              <li>Herkkupäivät saavat kontekstia, eivät punaisia lukuja</li>
+              <li>Ainoa löytämämme tila, jossa luvut ovat valinnaisia</li>
             </ul>
           </figcaption>
         </figure>
@@ -690,8 +682,8 @@
             <strong>Kirjaaminen sekunneissa, juuri sinulle sopivalla tavalla</strong>
             <span>Hae nimellä tai merkillä ja skannaa viivakoodit ilmaiseksi, tallenna tavalliset ateriasi ja kirjaa ne yhdellä napautuksella tai pyydä Siriä. Premiumilla voit kuvata lautasesi, kuvailla aterian äänellä tai tekstillä tai skannata ravintoarvotaulukon. Voit muokata jokaista arviota ennen tallennusta.</span>
             <ul>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg>Viivakoodiskannaus on ilmainen, eikä mainoksia ole</li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg>Tuotteen arvot väärin? Korjaa ne kerran, niin Fimbl muistaa</li>
+              <li>Viivakoodiskannaus on ilmainen, eikä mainoksia ole</li>
+              <li>Tuotteen arvot väärin? Korjaa ne kerran, niin Fimbl muistaa</li>
             </ul>
           </figcaption>
         </figure>
@@ -747,9 +739,9 @@
             <h3>Fimbl: kalorien seuranta, rauhallisesti</h3>
             <p>Jos olet seurannut syömistäsi ennenkin ja se tuntui kokeelta, jossa epäonnistut yhä uudelleen, aloita tästä. Saat kaiken, mitä hyvä kalorilaskuri tekee, ja lisäksi sen, mikä saa tavan pysymään: nälän ja tuntemusten huomaamisen, lempeät arvosanat silloin, kun luvut alkavat huutaa, ja ensimmäisen viikon, joka kohtaa sinut siellä, missä olet.</p>
             <ul>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg>Ilmainen päiväkirja, viivakoodiskanneri ja tuntemusten kirjaus</li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg>Ei mainoksia, ei dieettikulttuurin melua</li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg>Suomeksi, englanniksi ja saksaksi</li>
+              <li>Ilmainen päiväkirja, viivakoodiskanneri ja tuntemusten kirjaus</li>
+              <li>Ei mainoksia, ei dieettikulttuurin melua</li>
+              <li>Suomeksi, englanniksi ja saksaksi</li>
             </ul>
             <a class="btn" href="https://apps.apple.com/app/id6443701726" data-store>Lataa Fimbl ilmaiseksi</a>
           </div>
@@ -827,10 +819,10 @@
           </ol>
         </section>
         <aside class="author-card">
-          <span class="byline-avatar" aria-hidden="true"><svg><use href="#i-mark"/></svg></span>
+          <span class="avatar avatar-lg" aria-hidden="true">KK</span>
           <div>
-            <strong>Kasper Koskenvirta</strong>
-            <span>Fimblin perustaja</span>
+            <p class="author-name">Kasper Koskenvirta</p>
+            <p class="author-role">Fimblin perustaja</p>
             <p>Kasper suunnittelee ja rakentaa Fimbliä AppRise Venturesissa Espoossa. Fimbl on rauhallinen ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.</p>
           </div>
         </aside>
@@ -841,31 +833,23 @@
     <section class="related" aria-labelledby="related-title">
       <div class="container">
         <h2 id="related-title">Lue seuraavaksi</h2>
-        <ul class="post-cards">
+        <ul class="post-cards post-cards-related">
         <li class="post-card">
-          <div class="post-card-visual" aria-hidden="true">
-            <div class="phone"><img src="/assets/img/app/fi/04-meal-grades.webp" width="720" height="1564" alt="" loading="lazy"></div>
-            <div class="phone"><img src="/assets/img/app/fi/09-ai.webp" width="720" height="1564" alt="" loading="lazy"></div>
-          </div>
+          <div class="post-card-media"><img src="/assets/img/covers/fi-why-we-built-fimbl-1200.webp" srcset="/assets/img/covers/fi-why-we-built-fimbl-1200.webp 1200w, /assets/img/covers/fi-why-we-built-fimbl-2400.webp 2400w" sizes="(min-width: 960px) 560px, 100vw" width="2400" height="1200" alt="" loading="lazy" decoding="async"></div>
           <div class="post-card-body">
-            <span class="tag">Fimblin tarina</span>
+            <p class="post-card-meta"><span class="kicker">Fimblin tarina</span><span>8 min lukuaika</span></p>
             <h3><a href="/fi/blogi/miksi-teimme-fimblin/">Miksi teimme kalorilaskurin, joka ei tuomitse</a></h3>
-            <p>Fimblin tarina: miksi pelkkä kalorien laskeminen ei riitä, kuusi päätöstä sovelluksen takana, mitä jätimme pois ja tavoitteemme näyttää omat syömisen kuviosi.</p>
-            <p class="post-meta"><time datetime="2026-10-17">17. lokakuuta 2026</time><span class="dot" aria-hidden="true"></span>8 min lukuaika</p>
-            <span class="read-more" aria-hidden="true">Lue artikkeli</span>
+            <p class="post-card-text">Fimblin tarina: miksi pelkkä kalorien laskeminen ei riitä, kuusi päätöstä sovelluksen takana, mitä jätimme pois ja tavoitteemme näyttää omat syömisen kuviosi.</p>
+            <p class="post-card-foot"><time datetime="2026-10-17">17. lokakuuta 2026</time><span class="read-more" aria-hidden="true">Lue</span></p>
           </div>
         </li>
         <li class="post-card">
-          <div class="post-card-visual" aria-hidden="true">
-            <div class="phone"><img src="/assets/img/app/fi/03-feelings.webp" width="720" height="1564" alt="" loading="lazy"></div>
-            <div class="phone"><img src="/assets/img/app/fi/09-ai.webp" width="720" height="1564" alt="" loading="lazy"></div>
-          </div>
+          <div class="post-card-media"><img src="/assets/img/covers/fi-emotional-hunger-1200.webp" srcset="/assets/img/covers/fi-emotional-hunger-1200.webp 1200w, /assets/img/covers/fi-emotional-hunger-2400.webp 2400w" sizes="(min-width: 960px) 560px, 100vw" width="2400" height="1200" alt="" loading="lazy" decoding="async"></div>
           <div class="post-card-body">
-            <span class="tag">Tietoinen syöminen</span>
+            <p class="post-card-meta"><span class="kicker">Tietoinen syöminen</span><span>9 min lukuaika</span></p>
             <h3><a href="/fi/blogi/tunnenalka-vai-oikea-nalka/">Tunnenälkä vai oikea nälkä? Näin tunnistat eron</a></h3>
-            <p>Miten erotat tunnenälän fyysisestä nälästä? 7 merkkiä, nälkäasteikko 1–10, kymmenen sekunnin pysähdys ennen ateriaa ja keinot, kun mielihalu ei ole nälkää.</p>
-            <p class="post-meta"><time datetime="2026-10-17">17. lokakuuta 2026</time><span class="dot" aria-hidden="true"></span>9 min lukuaika</p>
-            <span class="read-more" aria-hidden="true">Lue artikkeli</span>
+            <p class="post-card-text">Miten erotat tunnenälän fyysisestä nälästä? 7 merkkiä, nälkäasteikko 1–10, kymmenen sekunnin pysähdys ennen ateriaa ja keinot, kun mielihalu ei ole nälkää.</p>
+            <p class="post-card-foot"><time datetime="2026-10-17">17. lokakuuta 2026</time><span class="read-more" aria-hidden="true">Lue</span></p>
           </div>
         </li>
         </ul>
@@ -874,7 +858,7 @@
 
     <section class="section cta" style="padding-top:0">
       <div class="container">
-        <div class="cta-card">
+        <div class="cta-card cta-contained">
           <div class="cta-copy">
             <img class="cta-icon" src="/assets/img/app-icon.webp" width="256" height="256" alt="" loading="lazy">
             <h2>Aloita hyvinvointimatkasi</h2>

@@ -6,7 +6,7 @@ tools/blog/site.json (shared strings per language) and tools/blog/content/<lang>
 The output is plain HTML that gets committed, so GitHub Pages still serves the site without a build step.
 
     python3 tools/blog/build.py          # pages, feeds, sitemap, llms.txt
-    python3 tools/blog/build.py --og     # also renders the 1200x630 share images with Google Chrome
+    python3 tools/blog/build.py --og     # also renders the covers and 1200x630 share images (Google Chrome, cwebp)
 
 Placeholders in article HTML: {img} = /assets/img/app/<lang>, {home} and {blog} = the language's home and
 blog, {post:<id>} = another post in the same language, {store} = the App Store link.
@@ -120,6 +120,8 @@ SPRITE = """<svg width="0" height="0" style="position:absolute" aria-hidden="tru
     <symbol id="i-eye" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></g></symbol>
     <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6v5.5c0 4.2 2.9 7.6 7 9 4.1-1.4 7-4.8 7-9V6l-7-2.5Z"/><path d="m9 12 2.2 2.2L15.2 10"/></g></symbol>
     <symbol id="i-pause" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6" stroke-width="2.2"/></g></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></symbol>
     <symbol id="i-chart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 19h16M6.5 15l4-4.5 3 3L19 7"/></symbol>
   </svg>"""
 
@@ -217,7 +219,7 @@ def store_button(L: dict) -> str:
 def cta(L: dict) -> str:
     return f"""    <section class="section cta" style="padding-top:0">
       <div class="container">
-        <div class="cta-card">
+        <div class="cta-card cta-contained">
           <div class="cta-copy">
             <img class="cta-icon" src="/assets/img/app-icon.webp" width="256" height="256" alt="" loading="lazy">
             <h2>{esc(L['cta_title'])}</h2>
@@ -287,6 +289,16 @@ def phone(src: str, alt: str, *, eager: bool = False) -> str:
     return f'<div class="phone"><img src="{src}" width="720" height="1564"{alt_attr}{loading}></div>'
 
 
+def initials(name: str) -> str:
+    return "".join(part[0] for part in name.split()[:2]).upper()
+
+
+def cover_img(meta: dict, *, alt: str = "", eager: bool = False, sizes: str = "(min-width: 1200px) 560px, (min-width: 960px) 45vw, 100vw") -> str:
+    base = f"/assets/img/covers/{meta['lang']}-{meta['id']}"
+    loading = ' fetchpriority="high"' if eager else ' loading="lazy" decoding="async"'
+    return f'<img src="{base}-1200.webp" srcset="{base}-1200.webp 1200w, {base}-2400.webp 2400w" sizes="{sizes}" width="2400" height="1200" alt="{attr(alt)}"{loading}>'
+
+
 # ---------- Post page ----------
 
 
@@ -334,20 +346,15 @@ def sources_html(meta: dict, L: dict) -> str:
 
 
 def post_card(meta: dict, L: dict, *, featured: bool = False, heading: str = "h3") -> str:
-    shots = meta["cover"][:3] if featured else meta["cover"][:2]
-    phones = "\n".join("            " + phone(f"/assets/img/app/{meta['lang']}/{s}.webp", "") for s in shots)
-    minutes = meta["minutes"]
-    cls = "post-card post-card-featured" if featured else "post-card"
+    cls = "post-card is-featured" if featured else "post-card"
+    sizes = "(min-width: 960px) 640px, 100vw" if featured else "(min-width: 960px) 560px, 100vw"
     return f"""        <li class="{cls}">
-          <div class="post-card-visual" aria-hidden="true">
-{phones}
-          </div>
+          <div class="post-card-media">{cover_img(meta, sizes=sizes)}</div>
           <div class="post-card-body">
-            <span class="tag">{esc(meta['tag'])}</span>
+            <p class="post-card-meta"><span class="kicker">{esc(meta['tag'])}</span><span>{L['minutes'].format(n=meta['minutes'])}</span></p>
             <{heading}><a href="{meta['path']}">{esc(meta['headline'])}</a></{heading}>
-            <p>{esc(meta['description'])}</p>
-            <p class="post-meta"><time datetime="{meta['published']}">{nice_date(meta['published'], meta['lang'])}</time><span class="dot" aria-hidden="true"></span>{L['minutes'].format(n=minutes)}</p>
-            <span class="read-more" aria-hidden="true">{esc(L['read_more'])}</span>
+            <p class="post-card-text">{esc(meta['description'])}</p>
+            <p class="post-card-foot"><time datetime="{meta['published']}">{nice_date(meta['published'], meta['lang'])}</time><span class="read-more" aria-hidden="true">{esc(L['read_more'])}</span></p>
           </div>
         </li>"""
 
@@ -418,14 +425,11 @@ def render_post(meta: dict, siblings: dict[str, dict], posts: dict) -> str:
     }
     meta_head = head(L, title=meta["title"], description=meta["description"], path=path, alternates=alternates, og=og, extra=extra, feed=L["blog"] + "feed.xml")
 
-    cover = "\n".join("            " + phone(f"/assets/img/app/{lang}/{s}.webp", alt, eager=True) for s, alt in zip(meta["cover"][:2], meta["cover_alt"][:2]))
-    chips = ""
-    for i, chip in enumerate(meta.get("chips", [])[:2]):
-        cls = "chip chip-a" if i == 0 else "chip chip-b"
-        chips += f'\n            <span class="{cls}" aria-hidden="true"><span class="chip-emoji">{chip["emoji"]}</span><span>{esc(chip["title"])}<small>{esc(chip["sub"])}</small></span></span>'
+    hero_image = cover_img(meta, alt=L["cover_alt"], eager=True, sizes="(min-width: 1200px) 1120px, calc(100vw - 40px)")
+    avatar = initials(SITE["author"]["name"])
     updated = ""
     if meta["modified"] != meta["published"]:
-        updated = f'<span class="dot" aria-hidden="true"></span><span>{esc(L["updated"])} <time datetime="{meta["modified"]}">{nice_date(meta["modified"], lang)}</time></span>'
+        updated = f' · {esc(L["updated"])} <time datetime="{meta["modified"]}">{nice_date(meta["modified"], lang)}</time>'
 
     related = [posts[pid][lang] for pid in posts if pid != meta["id"] and lang in posts[pid]]
     related_cards = "\n".join(post_card(r, L) for r in related[:2])
@@ -441,30 +445,23 @@ def render_post(meta: dict, siblings: dict[str, dict], posts: dict) -> str:
     <article>
       <header class="post-hero">
         <span class="nav-sentinel" data-nav-sentinel aria-hidden="true"></span>
-        <div class="container post-hero-grid">
-          <div class="post-hero-copy">
-            <nav class="crumbs" aria-label="{attr(L['crumbs_label'])}">
-              <ol>
-                <li><a href="{L['home']}">{esc(L['crumb_home'])}</a></li>
-                <li><a href="{L['blog']}">{esc(L['blog_name'])}</a></li>
-                <li aria-current="page">{esc(meta['headline'])}</li>
-              </ol>
-            </nav>
-            <p class="post-meta"><span class="tag">{esc(meta['tag'])}</span>{L['minutes'].format(n=meta['minutes'])}</p>
-            <h1>{meta['h1']}</h1>
-            <p class="post-dek">{esc(meta['dek'])}</p>
-            <div class="byline">
-              <div class="byline-who">
-                <span class="byline-avatar" aria-hidden="true"><svg><use href="#i-mark"/></svg></span>
-                <div><strong>{esc(SITE['author']['name'])}</strong><span>{esc(L['author_role'])}</span></div>
-              </div>
-              <p class="post-meta"><span>{esc(L['published'])} <time datetime="{meta['published']}">{nice_date(meta['published'], lang)}</time></span>{updated}</p>
-            </div>
-          </div>
-          <div class="post-cover">
-{cover}{chips}
+        <div class="container post-head">
+          <nav class="crumbs" aria-label="{attr(L['crumbs_label'])}">
+            <ol>
+              <li><a href="{L['home']}">{esc(L['crumb_home'])}</a></li>
+              <li><a href="{L['blog']}">{esc(L['blog_name'])}</a></li>
+              <li aria-current="page">{esc(meta['headline'])}</li>
+            </ol>
+          </nav>
+          <p class="post-kicker"><span class="kicker">{esc(meta['tag'])}</span><span>{L['minutes'].format(n=meta['minutes'])}</span></p>
+          <h1>{meta['h1']}</h1>
+          <p class="post-dek">{esc(meta['dek'])}</p>
+          <div class="byline">
+            <span class="avatar" aria-hidden="true">{avatar}</span>
+            <p class="byline-text"><strong>{esc(SITE['author']['name'])}</strong><span>{esc(L['author_role'])} · {esc(L['published'])} <time datetime="{meta['published']}">{nice_date(meta['published'], lang)}</time>{updated}</span></p>
           </div>
         </div>
+        <figure class="container post-figure">{hero_image}</figure>
       </header>
 
       <div class="container post-wrap">
@@ -474,10 +471,10 @@ def render_post(meta: dict, siblings: dict[str, dict], posts: dict) -> str:
 {faq_part}
 {sources_html(meta, L)}
         <aside class="author-card">
-          <span class="byline-avatar" aria-hidden="true"><svg><use href="#i-mark"/></svg></span>
+          <span class="avatar avatar-lg" aria-hidden="true">{avatar}</span>
           <div>
-            <strong>{esc(SITE['author']['name'])}</strong>
-            <span>{esc(L['author_role'])}</span>
+            <p class="author-name">{esc(SITE['author']['name'])}</p>
+            <p class="author-role">{esc(L['author_role'])}</p>
             <p>{L['author_bio']}</p>
           </div>
         </aside>
@@ -488,7 +485,7 @@ def render_post(meta: dict, siblings: dict[str, dict], posts: dict) -> str:
     <section class="related" aria-labelledby="related-title">
       <div class="container">
         <h2 id="related-title">{esc(L['related_title'])}</h2>
-        <ul class="post-cards">
+        <ul class="post-cards post-cards-related">
 {related_cards}
         </ul>
       </div>
@@ -532,7 +529,6 @@ def render_index(lang: str, posts: dict) -> str:
         },
     ]
     og = {"type": "website", "title": L["blog_og_title"], "image": og_image, "image_alt": L["blog_og_title"]}
-    topics = "\n".join(f"          <li>{esc(t)}</li>" for t in L["blog_topics"])
     return f"""{head(L, title=L['blog_title'], description=L['blog_description'], path=L['blog'], alternates=alternates, og=og, extra=ld({'@context': 'https://schema.org', '@graph': graph}), feed=L['blog'] + 'feed.xml')}
 <body>
   {SPRITE}
@@ -549,12 +545,9 @@ def render_index(lang: str, posts: dict) -> str:
             <li aria-current="page">{esc(L['blog_name'])}</li>
           </ol>
         </nav>
-        <span class="eyebrow">{esc(L['blog_eyebrow'])}</span>
+        <p class="kicker">{esc(L['blog_eyebrow'])}</p>
         <h1>{L['blog_h1']}</h1>
         <p class="lead">{esc(L['blog_lead'])}</p>
-        <ul class="blog-topics" aria-label="{attr(L['blog_topics_label'])}">
-{topics}
-        </ul>
       </div>
     </section>
 
@@ -652,6 +645,7 @@ def render_og(posts: dict) -> None:
         jobs.append((f"{lang}-blog", L["blog_og_kicker"], L["blog_og_heading"], L["blog_og_shots"], lang))
     for extra in SITE.get("og_pages", []):
         jobs.append((extra["name"], extra["kicker"], extra["heading"], extra["shots"], extra["lang"]))
+    render_covers(posts)
     out_dir = ROOT / "assets/img/og"
     out_dir.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory() as tmp:
@@ -676,6 +670,31 @@ def render_og(posts: dict) -> None:
             # JPEG keeps each share image around 100 KB instead of 400 KB.
             subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "85", str(png), "--out", str(jpg)], check=True, capture_output=True)
             print("og", jpg.relative_to(ROOT))
+
+
+def render_covers(posts: dict) -> None:
+    """Cover art for each post: three whole devices on a themed backdrop, at 1200 and 2400 px wide."""
+    template = (TOOL / "cover.html").read_text()
+    out_dir = ROOT / "assets/img/covers"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory() as tmp:
+        for pid, langs in posts.items():
+            spec = SITE["covers"][pid]
+            for lang in langs:
+                shots = [f"{ROOT.as_uri()}/assets/img/app/{lang}/{s}.webp" for s in spec["screens"]]
+                page = template.replace("{theme}", spec["theme"]).replace("{left}", shots[0]).replace("{center}", shots[1]).replace("{right}", shots[2])
+                src = Path(tmp) / f"{lang}-{pid}.html"
+                src.write_text(page)
+                png = Path(tmp) / f"{lang}-{pid}.png"
+                subprocess.run(
+                    [CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--allow-file-access-from-files", "--force-device-scale-factor=1", "--window-size=2400,1200", "--virtual-time-budget=3000", f"--screenshot={png}", src.as_uri()],
+                    check=True,
+                    capture_output=True,
+                )
+                for width in (2400, 1200):
+                    out = out_dir / f"{lang}-{pid}-{width}.webp"
+                    subprocess.run(["cwebp", "-quiet", "-q", "82", "-resize", str(width), "0", str(png), "-o", str(out)], check=True)
+                print("cover", f"assets/img/covers/{lang}-{pid}")
 
 
 # ---------- Main ----------

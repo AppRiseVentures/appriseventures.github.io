@@ -243,6 +243,22 @@ const initToc = () => {
   toc.addEventListener("click", (event) => event.target.closest("a") && compact.matches && (toc.open = false));
 };
 
+// Wide tables scroll sideways; fade the right edge while columns are still hidden.
+const initTables = () => {
+  $$(".cmp").forEach((table) => {
+    const scroller = table.querySelector(".cmp-scroll");
+    const foot = table.querySelector(".cmp-legend");
+    if (!scroller) return;
+    const update = () => {
+      table.style.setProperty("--cmp-foot", `${foot ? foot.offsetHeight : 0}px`);
+      table.classList.toggle("can-scroll", scroller.scrollLeft + scroller.clientWidth < scroller.scrollWidth - 2);
+    };
+    scroller.addEventListener("scroll", update, { passive: true });
+    new ResizeObserver(update).observe(scroller);
+    update();
+  });
+};
+
 const initYear = () => $$("[data-year]").forEach((el) => (el.textContent = String(new Date().getFullYear())));
 
 initNav();
@@ -254,3 +270,4 @@ initLangMenu();
 initSharedPage();
 initLangHint();
 initToc();
+initTables();

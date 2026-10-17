@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 2400px; height: 1200px; overflow: hidden; }
+  body { position: relative; }
+  .bg { position: absolute; inset: 0; }
+  .lavender { background: linear-gradient(155deg, #f6f3ff 0%, #ebe4fe 55%, #ddd2fc 100%); }
+  .warm { background: linear-gradient(155deg, #fff6ee 0%, #fbeee6 40%, #ece2fd 100%); }
+  .deep { background: linear-gradient(150deg, #7c62f7 0%, #5b3fe8 55%, #4429c9 100%); }
+  .orb { position: absolute; border-radius: 50%; filter: blur(2px); }
+  .lavender .o1 { width: 1500px; height: 1500px; left: 450px; top: -520px; background: radial-gradient(closest-side, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0)); }
+  .lavender .o2 { width: 900px; height: 900px; right: -200px; bottom: -420px; background: radial-gradient(closest-side, rgba(190, 172, 252, 0.55), rgba(190, 172, 252, 0)); }
+  .warm .o1 { width: 1500px; height: 1500px; left: 450px; top: -560px; background: radial-gradient(closest-side, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)); }
+  .warm .o2 { width: 1000px; height: 1000px; left: -300px; bottom: -520px; background: radial-gradient(closest-side, rgba(255, 196, 140, 0.45), rgba(255, 196, 140, 0)); }
+  .warm .o3 { width: 900px; height: 900px; right: -220px; top: -260px; background: radial-gradient(closest-side, rgba(176, 156, 250, 0.45), rgba(176, 156, 250, 0)); }
+  .deep .o1 { width: 1600px; height: 1600px; left: 400px; top: -700px; background: radial-gradient(closest-side, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0)); }
+  .deep .o2 { width: 1000px; height: 1000px; right: -300px; bottom: -560px; background: radial-gradient(closest-side, rgba(255, 159, 46, 0.22), rgba(255, 159, 46, 0)); }
+  .floor { position: absolute; left: 50%; bottom: 70px; width: 1500px; height: 120px; transform: translateX(-50%); border-radius: 50%; background: radial-gradient(closest-side, rgba(40, 20, 120, 0.22), rgba(40, 20, 120, 0)); }
+  .deep .floor { background: radial-gradient(closest-side, rgba(10, 0, 60, 0.4), rgba(10, 0, 60, 0)); }
+
+  .device { position: absolute; padding: var(--bz); border-radius: calc(var(--w) * 0.142); background: #08080b; box-shadow: inset 0 0 0 2px #9b98a8, inset 0 0 0 3.5px #2b2933, 0 60px 110px -40px rgba(45, 25, 140, 0.5), 0 28px 50px -24px rgba(20, 12, 60, 0.4); }
+  .deep .device { box-shadow: inset 0 0 0 2px #b4b0c4, inset 0 0 0 3.5px #2b2933, 0 70px 120px -40px rgba(8, 0, 50, 0.7), 0 28px 50px -24px rgba(8, 0, 50, 0.55); }
+  .device img { display: block; width: 100%; height: auto; border-radius: calc(var(--w) * 0.142 - var(--bz)); }
+  .device i { position: absolute; top: calc(var(--bz) + var(--w) * 0.034); left: 50%; width: 27%; height: calc(var(--w) * 0.074); transform: translateX(-50%); border-radius: 999px; background: #050507; }
+  .device.has-island i { display: none; }
+  .c { --w: 480px; --bz: 12px; left: 960px; top: 62px; width: var(--w); z-index: 2; }
+  .l, .r { --w: 424px; --bz: 11px; top: 160px; width: var(--w); }
+  .l { left: 490px; }
+  .r { left: 1486px; }
+</style>
+</head>
+<body>
+  <div class="bg {theme}">
+    <span class="orb o1"></span><span class="orb o2"></span><span class="orb o3"></span>
+    <span class="floor"></span>
+    <div class="device l"><img src="{left}" alt=""><i></i></div>
+    <div class="device c"><img src="{center}" alt=""><i></i></div>
+    <div class="device r"><img src="{right}" alt=""><i></i></div>
+  </div>
+  <script>
+    // Screens captured with a Dynamic Island already show one; only draw it on the others.
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d", { willReadFrequently: true });
+    document.querySelectorAll(".device img").forEach((img) => {
+      const check = () => {
+        canvas.width = img.naturalWidth;
+        canvas.height = img.naturalHeight;
+        ctx.drawImage(img, 0, 0);
+        const [r, g, b] = ctx.getImageData(img.naturalWidth / 2, img.naturalHeight * 0.019, 1, 1).data;
+        if (r + g + b < 90) img.parentElement.classList.add("has-island");
+      };
+      img.complete ? check() : img.addEventListener("load", check);
+    });
+  </script>
+</body>
+</html>

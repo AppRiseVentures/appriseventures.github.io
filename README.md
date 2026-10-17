@@ -52,7 +52,7 @@ Posts are written once per language and built into static pages by `tools/blog/b
 
 ```bash
 python3 tools/blog/build.py        # posts, blog indexes, feeds, sitemap.xml, llms.txt
-python3 tools/blog/build.py --og   # also renders the 1200×630 share images with Google Chrome
+python3 tools/blog/build.py --og   # also renders the covers and 1200×630 share images (Google Chrome, cwebp)
 ```
 
 | File | Contents |
@@ -61,6 +61,7 @@ python3 tools/blog/build.py --og   # also renders the 1200×630 share images wit
 | `tools/blog/content/<lang>/<post>.json` | Slug, title tag, headline, description, cover screens, FAQ, sources, keywords |
 | `tools/blog/content/<lang>/<post>.html` | The article body. `{img}` is the language's screenshot folder, `{post:<id>}` links another post in the same language, `{store}` is the App Store link |
 | `tools/blog/og.html` | Template for the share images |
+| `tools/blog/cover.html` | Template for the article covers (three whole devices on a themed backdrop). Screens and theme per post are under `covers` in `site.json`; output is `assets/img/covers/<lang>-<post>-{1200,2400}.webp` |
 
 Each post page gets `BlogPosting`, `BreadcrumbList` and `FAQPage` structured data, a table of contents built from the `<h2 id>` headings, related posts and the localized call to action. To add a post, add the same `id` in all three content folders (the build warns about a missing translation), add the id to `order` in `site.json`, run both commands and check the pages locally. Claims about other apps need a source in the post's `sources` list and a check date; prices change too often to quote.
 
