@@ -27,7 +27,7 @@
 - [The best calorie tracker apps in 2026, compared side by side](https://fimbl.app/blog/best-calorie-tracker-apps/): Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI side by side: what's free, ads, AI logging and who each app suits.
   - Suomi: [Paras kalorilaskuri vuonna 2026: sovellukset vertailussa](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/)
 - [Why we built a calorie tracker that doesn't judge you](https://fimbl.app/blog/why-we-built-fimbl/): Why counting alone fails, the six decisions that shaped Fimbl, what we left out on purpose, and our end goal: showing you your own eating patterns.
-  - Suomi: [Miksi teimme kalorilaskurin, joka ei tuomitse](https://fimbl.app/fi/blogi/miksi-teimme-fimblin/)
+  - Suomi: [Miksi teimme kalorilaskurin, joka ei tuomitse](https://fimbl.app/fi/blogi/miksi-teimme-fimblen/)
   - Deutsch: [Warum wir einen Kalorienzähler bauen, der nicht urteilt](https://fimbl.app/de/blog/warum-wir-fimbl-bauen/)
 - [Emotional hunger vs physical hunger: how to tell the difference](https://fimbl.app/blog/emotional-vs-physical-hunger/): How to tell emotional hunger from physical hunger: 7 key differences, a 1–10 hunger scale and a 10-second check-in for when a craving isn't about food.
   - Suomi: [Tunnenälkä vai oikea nälkä? Näin tunnistat eron](https://fimbl.app/fi/blogi/tunnenalka-vai-oikea-nalka/)

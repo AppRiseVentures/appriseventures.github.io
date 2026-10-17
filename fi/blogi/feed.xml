@@ -4,7 +4,7 @@
     <title>Fimbl-blogi</title>
     <link>https://fimbl.app/fi/blogi/</link>
     <atom:link href="https://fimbl.app/fi/blogi/feed.xml" rel="self" type="application/rss+xml"/>
-    <description>Oppaita kalorilaskureista, tietoisesta syömisestä ja kestävistä tavoista. Kirjoittajina Fimblin, rauhallisen ruokapäiväkirjan, tekijät.</description>
+    <description>Oppaita kalorilaskureista, tietoisesta syömisestä ja kestävistä tavoista. Kirjoittajina Fimblen, rauhallisen ruokapäiväkirjan, tekijät.</description>
     <language>fi-fi</language>
     <item>
       <title>Paras kalorilaskuri vuonna 2026: sovellukset vertailussa</title>
@@ -15,10 +15,10 @@
     </item>
     <item>
       <title>Miksi teimme kalorilaskurin, joka ei tuomitse</title>
-      <link>https://fimbl.app/fi/blogi/miksi-teimme-fimblin/</link>
-      <guid isPermaLink="true">https://fimbl.app/fi/blogi/miksi-teimme-fimblin/</guid>
+      <link>https://fimbl.app/fi/blogi/miksi-teimme-fimblen/</link>
+      <guid isPermaLink="true">https://fimbl.app/fi/blogi/miksi-teimme-fimblen/</guid>
       <pubDate>Sat, 17 Oct 2026 08:00:00 +0300</pubDate>
-      <description>Fimblin tarina: miksi pelkkä kalorien laskeminen ei riitä, kuusi päätöstä sovelluksen takana, mitä jätimme pois ja tavoitteemme näyttää omat syömisen kuviosi.</description>
+      <description>Fimblen tarina: miksi pelkkä kalorien laskeminen ei riitä, kuusi päätöstä sovelluksen takana, mitä jätimme pois ja tavoitteemme näyttää omat syömisen kuviosi.</description>
     </item>
     <item>
       <title>Tunnenälkä vai oikea nälkä? Näin tunnistat eron</title>

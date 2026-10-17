@@ -165,7 +165,7 @@
       "blog": "/fi/blogi/",
       "language_label": "Kieli",
       "skip": "Siirry sisältöön",
-      "home_label": "Fimblin etusivu",
+      "home_label": "Fimblen etusivu",
       "nav": [
         {
           "label": "Ominaisuudet",
@@ -247,11 +247,11 @@
       "crumbs_label": "Murupolku",
       "crumb_home": "Etusivu",
       "blog_name": "Blogi",
-      "author_role": "Fimblin perustaja",
-      "author_bio": "Kasper suunnittelee ja rakentaa Fimbliä AppRise Venturesissa Espoossa. Fimbl on rauhallinen ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.",
+      "author_role": "Fimblen perustaja",
+      "author_bio": "Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on rauhallinen ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.",
       "feed_title": "Fimbl-blogi",
       "blog_title": "Fimbl-blogi: tietoinen syöminen, kalorilaskurit ja tavat",
-      "blog_description": "Oppaita kalorilaskureista, tietoisesta syömisestä ja kestävistä tavoista. Kirjoittajina Fimblin, rauhallisen ruokapäiväkirjan, tekijät.",
+      "blog_description": "Oppaita kalorilaskureista, tietoisesta syömisestä ja kestävistä tavoista. Kirjoittajina Fimblen, rauhallisen ruokapäiväkirjan, tekijät.",
       "blog_eyebrow": "Fimbl-blogi",
       "blog_h1": "Syö tietoisesti, <span class=\"accent\">ilman syyllisyyttä</span>",
       "blog_lead": "Selkeää tekstiä ruoan seurannasta, nälästä ja tavoista: mitä tutkimus sanoo, mitä sovellukset oikeasti tekevät ja miten me rakennamme rauhallisemman vaihtoehdon.",
@@ -261,7 +261,7 @@
         "Tietoinen syöminen",
         "Tunnesyöminen",
         "Tavat",
-        "Fimblin tarina"
+        "Fimblen tarina"
       ],
       "blog_og_title": "Fimbl-blogi: syö tietoisesti, ilman syyllisyyttä",
       "blog_og_kicker": "Fimbl-blogi",

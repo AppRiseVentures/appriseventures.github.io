@@ -10,14 +10,14 @@
   "og_title": "Paras kalorilaskuri vuonna 2026: sovellukset vertailussa",
   "og_kicker": "Vertailu · 2026",
   "og_heading": "Paras kalorilaskuri: <span>sovellukset vertailussa</span>",
-  "og_alt": "Fimblin näkymiä otsikon vieressä: paras kalorilaskuri, sovellukset vertailussa",
+  "og_alt": "Fimblen näkymiä otsikon vieressä: paras kalorilaskuri, sovellukset vertailussa",
   "keywords": ["paras kalorilaskuri", "kalorilaskuri sovellus", "ilmainen kalorilaskuri", "ruokapäiväkirja sovellus", "MyFitnessPal vaihtoehto", "suomenkielinen kalorilaskuri"],
   "about": ["Kalorien laskeminen", "Ruokapäiväkirjasovellukset", "Tietoinen syöminen"],
   "mentions": ["Fimbl", "MyFitnessPal", "Cronometer", "MacroFactor", "Lose It!", "YAZIO", "Lifesum", "Cal AI", "Noom", "Keventäjät", "FatSecret"],
   "published": "2026-10-17",
   "modified": "2026-10-17",
   "cover": ["01-diary", "03-feelings", "04-meal-grades"],
-  "cover_alt": ["Fimblin ruokapäiväkirja: 482 kcal jäljellä ja renkaat hiilihydraateille, rasvalle ja proteiinille", "Fimblin aamiaiskirjaus, jossa kysytään, mitä tunteita sinulla oli ennen ateriaa"],
+  "cover_alt": ["Fimblen ruokapäiväkirja: 482 kcal jäljellä ja renkaat hiilihydraateille, rasvalle ja proteiinille", "Fimblen aamiaiskirjaus, jossa kysytään, mitä tunteita sinulla oli ennen ateriaa"],
   "chips": [
     { "emoji": "🥣", "title": "Aamiainen kirjattu", "sub": "Kaurahiutaleet, mustikat, jogurtti" },
     { "emoji": "😊", "title": "Tyytyväinen", "sub": "Aamiaisen jälkeen" }
@@ -25,11 +25,11 @@
   "faq": [
     {
       "q": "Mikä on paras kalorilaskuri vuonna 2026?",
-      "a": "Se riippuu siitä, mitä tarvitset. Useimmille, jotka haluavat kestävän tavan ilman syyllisyyttä, suosittelemme Fimbliä: siinä yhdistyvät nopea kirjaaminen, nälän ja tuntemusten kirjaus aterioiden yhteydessä ja valinnainen Rauhallinen tila ilman kalorilukuja. Cronometer on paras hivenaineiden tarkkaan seurantaan, MacroFactor mukautuviin makrotavoitteisiin ja MyFitnessPal laajimpaan ruokatietokantaan."
+      "a": "Se riippuu siitä, mitä tarvitset. Useimmille, jotka haluavat kestävän tavan ilman syyllisyyttä, suosittelemme Fimbleä: siinä yhdistyvät nopea kirjaaminen, nälän ja tuntemusten kirjaus aterioiden yhteydessä ja valinnainen Rauhallinen tila ilman kalorilukuja. Cronometer on paras hivenaineiden tarkkaan seurantaan, MacroFactor mukautuviin makrotavoitteisiin ja MyFitnessPal laajimpaan ruokatietokantaan."
     },
     {
       "q": "Mikä on paras ilmainen kalorilaskuri?",
-      "a": "Lokakuussa 2026 Fimbl, Cronometer, YAZIO, Lifesum ja FatSecret tarjoavat viivakoodiskannauksen ilmaisversiossaan. Fimblin ilmaisversiossa ei ole mainoksia, ja siihen kuuluvat ruokapäiväkirja, viivakoodiskannaus, tallennetut ateriat, tuntemusten kirjaukset, paino ja edistymiskuvat. MyFitnessPal siirsi viivakoodiskannauksen Premiumiin vuonna 2022, ja Lose It! listaa sen App Storessa Premium-ominaisuudeksi."
+      "a": "Lokakuussa 2026 Fimbl, Cronometer, YAZIO, Lifesum ja FatSecret tarjoavat viivakoodiskannauksen ilmaisversiossaan. Fimblen ilmaisversiossa ei ole mainoksia, ja siihen kuuluvat ruokapäiväkirja, viivakoodiskannaus, tallennetut ateriat, tuntemusten kirjaukset, paino ja edistymiskuvat. MyFitnessPal siirsi viivakoodiskannauksen Premiumiin vuonna 2022, ja Lose It! listaa sen App Storessa Premium-ominaisuudeksi."
     },
     {
       "q": "Onko olemassa suomenkielistä kalorilaskuria?",
@@ -37,11 +37,11 @@
     },
     {
       "q": "Missä kalorilaskurissa ei ole mainoksia?",
-      "a": "Fimblissä ei ole mainoksia ilmais- eikä Premium-versiossa. MacroFactor ei käytä mainoksia, mutta siinä ei ole ilmaisversiota, eivätkä Lifesum ja Cal AI ilmoita mainoksista. MyFitnessPalin, Cronometerin, Lose It!:n ja YAZIOn ilmaisversioissa on mainoksia, jotka poistuvat maksullisella tilauksella."
+      "a": "Fimblessä ei ole mainoksia ilmais- eikä Premium-versiossa. MacroFactor ei käytä mainoksia, mutta siinä ei ole ilmaisversiota, eivätkä Lifesum ja Cal AI ilmoita mainoksista. MyFitnessPalin, Cronometerin, Lose It!:n ja YAZIOn ilmaisversioissa on mainoksia, jotka poistuvat maksullisella tilauksella."
     },
     {
       "q": "Voiko ruokaa seurata näkemättä kaloreita?",
-      "a": "Voi. Fimblin Rauhallinen tila (Premium) korvaa kaloriluvut lempeillä A–C-arvosanoilla sen mukaan, miten hyvin ateria tuki tavoitteitasi, nälkääsi ja mielialaasi. Fimbl laskee taustalla edelleen, joten voit palata lukuihin milloin tahansa. Muut tämän vertailun sovellukset eivät kuvaa vastaavaa tilaa."
+      "a": "Voi. Fimblen Rauhallinen tila (Premium) korvaa kaloriluvut lempeillä A–C-arvosanoilla sen mukaan, miten hyvin ateria tuki tavoitteitasi, nälkääsi ja mielialaasi. Fimbl laskee taustalla edelleen, joten voit palata lukuihin milloin tahansa. Muut tämän vertailun sovellukset eivät kuvaa vastaavaa tilaa."
     },
     {
       "q": "Mikä on hyvä MyFitnessPal-vaihtoehto?",

@@ -1,50 +1,50 @@
 {
   "id": "why-we-built-fimbl",
-  "slug": "miksi-teimme-fimblin",
-  "title": "Miksi teimme Fimblin: kalorilaskuri ilman syyllisyyttä",
+  "slug": "miksi-teimme-fimblen",
+  "title": "Miksi teimme Fimblen: kalorilaskuri ilman syyllisyyttä",
   "headline": "Miksi teimme kalorilaskurin, joka ei tuomitse",
   "h1": "Miksi teimme kalorilaskurin, <span class=\"accent\">joka ei tuomitse</span>",
-  "dek": "Useimmat kalorilaskurit ovat loistavia laskemaan ja hiljaa huonoja niinä päivinä, jotka eivät mene suunnitelman mukaan. Tässä kerromme, mitä teimme toisin, mitä jätimme tarkoituksella pois ja mihin olemme viemässä Fimbliä.",
-  "description": "Fimblin tarina: miksi pelkkä kalorien laskeminen ei riitä, kuusi päätöstä sovelluksen takana, mitä jätimme pois ja tavoitteemme näyttää omat syömisen kuviosi.",
-  "tag": "Fimblin tarina",
+  "dek": "Useimmat kalorilaskurit ovat loistavia laskemaan ja hiljaa huonoja niinä päivinä, jotka eivät mene suunnitelman mukaan. Tässä kerromme, mitä teimme toisin, mitä jätimme tarkoituksella pois ja mihin olemme viemässä Fimbleä.",
+  "description": "Fimblen tarina: miksi pelkkä kalorien laskeminen ei riitä, kuusi päätöstä sovelluksen takana, mitä jätimme pois ja tavoitteemme näyttää omat syömisen kuviosi.",
+  "tag": "Fimblen tarina",
   "og_title": "Miksi teimme kalorilaskurin, joka ei tuomitse",
-  "og_kicker": "Fimblin tarina",
+  "og_kicker": "Fimblen tarina",
   "og_heading": "Kalorilaskuri, <span>joka ei tuomitse</span>",
-  "og_alt": "Fimblin näkymiä, joissa lempeä ateria-arvosana ja viikon pohdinta, otsikon vieressä: kalorilaskuri, joka ei tuomitse",
+  "og_alt": "Fimblen näkymiä, joissa lempeä ateria-arvosana ja viikon pohdinta, otsikon vieressä: kalorilaskuri, joka ei tuomitse",
   "keywords": ["kalorilaskuri ilman syyllisyyttä", "tietoinen syöminen sovellus", "intuitiivinen syöminen", "ruokapäiväkirja iPhone", "suomalainen hyvinvointisovellus"],
   "about": ["Tietoinen syöminen", "Kalorien laskeminen", "Tapojen muodostuminen", "Tuotesuunnittelu"],
   "mentions": ["Fimbl"],
   "published": "2026-10-17",
   "modified": "2026-10-17",
   "cover": ["04-meal-grades", "09-ai", "goals"],
-  "cover_alt": ["Fimblin rauhallinen tila antaa kaurahiutaleille arvosanan A: tasaista energiaa aamuun", "Fimblin viikon pohdinta otsikolla Aamut, jotka kantoivat sinua"],
+  "cover_alt": ["Fimblen rauhallinen tila antaa kaurahiutaleille arvosanan A: tasaista energiaa aamuun", "Fimblen viikon pohdinta otsikolla Aamut, jotka kantoivat sinua"],
   "chips": [
     { "emoji": "🌱", "title": "Jäikö päivä väliin?", "sub": "Kunhan kahta ei jää peräkkäin" },
     { "emoji": "✨", "title": "Viikon pohdinta", "sub": "Aamut, jotka kantoivat sinua" }
   ],
   "faq": [
     {
-      "q": "Kuka tekee Fimbliä?",
-      "a": "Fimblin suunnittelee ja rakentaa AppRise Ventures Oy, pieni yritys Espoosta. Sovellus on saatavilla iPhonelle ja iPadille suomeksi, englanniksi ja saksaksi."
+      "q": "Kuka tekee Fimbleä?",
+      "a": "Fimblen suunnittelee ja rakentaa AppRise Ventures Oy, pieni yritys Espoosta. Sovellus on saatavilla iPhonelle ja iPadille suomeksi, englanniksi ja saksaksi."
     },
     {
       "q": "Onko Fimbl laihdutussovellus?",
       "a": "Ei tavallisessa mielessä. Voit asettaa kaloritavoitteen, jos siitä on sinulle apua, tai vaihtaa rauhalliseen tilaan ja nähdä numeroiden sijaan arvosanoja. Fimbl keskittyy tasapainoon, tietoisuuteen ja tapoihin, ja se on tehty tukemaan terveempää suhdetta ruokaan. Se ei ole lääkinnällinen työkalu eikä syömishäiriöiden hoitomuoto."
     },
     {
-      "q": "Mitä Fimblissä saa ilmaiseksi ja mitä Premiumilla?",
+      "q": "Mitä Fimblessä saa ilmaiseksi ja mitä Premiumilla?",
       "a": "Sovelluksen ydin on ilmainen ja ilman mainoksia: ruokapäiväkirja, haku ja viivakoodiskannaus, tallennetut ateriat, paino, mieliala ja aterioiden tuntemusten kirjaukset, aktiivisuus Terveys-apista, tavoitteet ja putket, edistymiskuvat sekä Ensimmäinen viikkosi -opastus. Premium tuo makrotavoitteet, tekoälyominaisuudet (kuvaskannaus, aterian kuvailu äänellä tai tekstillä, ravintoarvomerkinnän skannaus, reseptit videoista, viikon pohdinnat ja valmentaja, rauhallinen tila sekä terveellisemmät vaihtoehdot), widgetit, lisää ateriapaikkoja ja putken palautuksen."
     },
     {
       "q": "Käytetäänkö tietojani tekoälyn kouluttamiseen?",
-      "a": "Ei. Tekoälyominaisuudet ovat vapaaehtoisia ja osa Premiumia. Kun käytät niitä, vain kyseisen toiminnon tarvitsemat tiedot kulkevat Fimblin palvelimien kautta Googlen Gemini-rajapintaan, ilman nimeäsi tai sähköpostiosoitettasi. Emme kouluta tekoälymalleja tiedoillasi emmekä myy niitä. Ilmaiset tilit eivät lähetä mitään tekoälypalveluun."
+      "a": "Ei. Tekoälyominaisuudet ovat vapaaehtoisia ja osa Premiumia. Kun käytät niitä, vain kyseisen toiminnon tarvitsemat tiedot kulkevat Fimblen palvelimien kautta Googlen Gemini-rajapintaan, ilman nimeäsi tai sähköpostiosoitettasi. Emme kouluta tekoälymalleja tiedoillasi emmekä myy niitä. Ilmaiset tilit eivät lähetä mitään tekoälypalveluun."
     },
     {
       "q": "Lähtevätkö edistymiskuvat puhelimesta?",
       "a": "Eivät. Edistymiskuvat pysyvät iPhonessasi. Niitä ei koskaan ladata palvelimillemme, käytetä tekoälyyn eikä tallenneta iCloud-varmuuskopioihin. Sinä päätät, mitä säilytetään, tallennetaan kuvakirjastoon tai jaetaan."
     },
     {
-      "q": "Mitä Fimbliin on tulossa seuraavaksi?",
+      "q": "Mitä Fimbleen on tulossa seuraavaksi?",
       "a": "Työskentelemme sen eteen, että Fimbl näyttäisi sinulle omat kuviosi: miten nälkä, tunteet, uni ja liikkuminen liittyvät siihen, mitä syöt, juuri sinun kohdallasi eikä keskivertoihmisen. Kerromme rakentamastamme täällä blogissa, lupaamatta aikatauluja, joita emme voi pitää."
     }
   ],
@@ -52,6 +52,6 @@
     { "text": "Honary M ym. (2019). Nuorten aikuisten kokemuksia terveellisen syömisen ja liikunnan sovelluksista. JMIR mHealth and uHealth 7(6).", "url": "https://pubmed.ncbi.nlm.nih.gov/31215514/" },
     { "text": "Burke LE, Wang J, Sevick MA (2011). Järjestelmällinen katsaus omaseurannasta painonhallinnassa. Journal of the American Dietetic Association 111(1).", "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/" },
     { "text": "Warren JM, Smith N, Ashwell M (2017). Katsaus mindfulnessin ja tietoisen syömisen vaikutuksista syömiskäyttäytymiseen. Nutrition Research Reviews 30(2).", "url": "https://pubmed.ncbi.nlm.nih.gov/28718396/" },
-    { "text": "Fimblin tietosuojaseloste, tekoälyominaisuuksia käsittelevä osio (englanniksi).", "url": "https://fimbl.app/privacy/#ai" }
+    { "text": "Fimblen tietosuojaseloste, tekoälyominaisuuksia käsittelevä osio (englanniksi).", "url": "https://fimbl.app/privacy/#ai" }
   ]
 }
