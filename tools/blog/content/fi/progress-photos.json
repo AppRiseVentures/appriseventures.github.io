@@ -42,12 +42,12 @@
   ],
   "cover": [
     "photos-compare",
-    "08-progress",
-    "goals"
+    "photos-gallery",
+    "photos-camera"
   ],
   "cover_alt": [
-    "Fimbl vertaa kahta edestä otettua edistymiskuvaa 63 päivän erolla, muutos −4,6 kg",
-    "Fimblen painon edistyminen ja 90 päivän trendi kohti 68 kilon tavoitetta"
+    "Fimbl vertaa saman naisen kahta edestä otettua edistymiskuvaa 195 päivän erolla, −13,8 kg",
+    "Fimblen edistymiskuvagalleria: tämän päivän kuva, päivä 196 ja −13,8 kg ensimmäisestä kuvasta"
   ],
   "chips": [
     {
@@ -57,8 +57,8 @@
     },
     {
       "emoji": "📉",
-      "title": "−4,6 kg",
-      "sub": "63 päivän ero"
+      "title": "−13,8 kg",
+      "sub": "195 päivän ero"
     }
   ],
   "faq": [

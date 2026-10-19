@@ -421,9 +421,9 @@
     },
     "progress-photos": {
       "screens": [
-        "08-progress",
+        "photos-gallery",
         "photos-compare",
-        "goals"
+        "photos-camera"
       ],
       "theme": "deep"
     },

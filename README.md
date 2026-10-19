@@ -65,14 +65,17 @@ python3 tools/blog/build.py --og   # also renders the covers and 1200×630 share
 
 Each post page gets `BlogPosting`, `BreadcrumbList` and `FAQPage` structured data, a table of contents built from the `<h2 id>` headings, related posts and the localized call to action. To add a post, add the same `id` in all three content folders (the build warns about a missing translation), add the id to `order` in `site.json`, run both commands and check the pages locally. Claims about other apps need a source in the post's `sources` list and a check date; prices change too often to quote.
 
-The screens in `assets/img/app/<lang>` are the App Store captures from `ventures-apps/fimbl/appstore/screenshots/iphone/<locale>` plus extra demo captures (activity, goals, food, meal, progress photo compare, welcome) from the `Fimbl App Store iPhone 6.9` simulator, all at 720 px wide WebP:
+The screens in `assets/img/app/<lang>` are the App Store captures from `ventures-apps/fimbl/appstore/screenshots/iphone/<locale>` plus extra demo captures (activity, goals, food, meal, progress photo compare, gallery and camera, welcome) from the `Fimbl App Store iPhone 6.9` simulator, all at 720 × 1564 WebP:
 
 ```bash
 xcrun simctl launch --terminate-running-process <udid> com.kkoskenvirta.myFitnessBroApp \
-  -AppleLanguages "(fi)" -AppleLocale fi_FI -demo YES -demoTab progress -demoProgressPhotos YES -demoSheet progressCompare
+  -AppleLanguages "(fi)" -AppleLocale fi_FI -demo YES -demoTab progress -demoProgressPhotos YES -demoSheet progressCompare \
+  -demoLongJourney YES -demoProgressPhotoDir "<path>/ventures-apps/fimbl/appstore/demo-progress-photos"
 xcrun simctl io <udid> screenshot fi-photos-compare.png
-cwebp -resize 720 0 -q 82 -sharp_yuv fi-photos-compare.png -o assets/img/app/fi/photos-compare.webp
+cwebp -resize 720 1564 -q 82 -sharp_yuv fi-photos-compare.png -o assets/img/app/fi/photos-compare.webp
 ```
+
+The progress photos in those screens show a fictional woman generated with Nano Banana by `ventures-apps/fimbl/scripts/generate_demo_progress_photos.py`, so wherever they appear the caption says they're AI-generated demo photos. `-demoLongJourney YES` is the version on the site: 195 days from 78.8 kg to her 65 kg goal, using the `*-65kg.jpg` photos for today. Leave it out for the default nine weeks, 78.8 to 74.2 kg. Gallery and camera use `-demoSheet progressPhotos` and `-demoSheet logWeight -demoPhotoStep camera -demoCamera live -demoPhotoPoses front,side`. The status bar shows 9:41 only when the simulator's region uses a colon for time (en_US); en_FI turns it into 9.41.
 
 Other apps are only ever described in text, never shown.
 

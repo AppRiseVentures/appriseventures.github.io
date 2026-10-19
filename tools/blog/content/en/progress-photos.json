@@ -42,12 +42,12 @@
   ],
   "cover": [
     "photos-compare",
-    "08-progress",
-    "goals"
+    "photos-gallery",
+    "photos-camera"
   ],
   "cover_alt": [
-    "Fimbl comparing two front progress photos 63 days apart with a change of minus 4.6 kg",
-    "Fimbl weight progress with a 90-day trend towards a 68 kg goal"
+    "Fimbl comparing two front progress photos of the same woman 195 days apart, minus 13.8 kg",
+    "Fimbl progress photo gallery with today's photo, day 196 and minus 13.8 kg since the first photo"
   ],
   "chips": [
     {
@@ -57,8 +57,8 @@
     },
     {
       "emoji": "📉",
-      "title": "−4.6 kg",
-      "sub": "63 days apart"
+      "title": "−13.8 kg",
+      "sub": "195 days apart"
     }
   ],
   "faq": [
