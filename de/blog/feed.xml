@@ -7,6 +7,27 @@
     <description>Ratgeber zu Kalorienzähler-Apps, achtsamem Essen und Gewohnheiten, die bleiben. Vom Team hinter Fimbl, dem ruhigen Ernährungstagebuch fürs iPhone.</description>
     <language>de-de</language>
     <item>
+      <title>Wie genau ist Kalorienzählen mit KI, und spielt das eine Rolle?</title>
+      <link>https://fimbl.app/de/blog/ki-kalorienzaehler-genauigkeit/</link>
+      <guid isPermaLink="true">https://fimbl.app/de/blog/ki-kalorienzaehler-genauigkeit/</guid>
+      <pubDate>Mon, 19 Oct 2026 08:00:00 +0300</pubDate>
+      <description>KI-Kalorienschätzungen per Foto liegen im Schnitt um etwa ein Drittel daneben, ähnlich wie Protokolle von Hand. Was Studien zeigen und wann der Barcode besser ist.</description>
+    </item>
+    <item>
+      <title>So hältst du fest, was du isst, ohne Kalorien zu zählen</title>
+      <link>https://fimbl.app/de/blog/essen-tracken-ohne-kalorien-zaehlen/</link>
+      <guid isPermaLink="true">https://fimbl.app/de/blog/essen-tracken-ohne-kalorien-zaehlen/</guid>
+      <pubDate>Mon, 19 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Essen tracken ohne Kalorienzählen: Tellermethode, Portionen mit der Hand, Hungerskala, Foto-Ernährungstagebuch und Noten statt Kalorienzahlen.</description>
+    </item>
+    <item>
+      <title>Ernährungstagebuch führen: ein 7-Tage-Plan für Einsteiger</title>
+      <link>https://fimbl.app/de/blog/ernaehrungstagebuch-fuehren/</link>
+      <guid isPermaLink="true">https://fimbl.app/de/blog/ernaehrungstagebuch-fuehren/</guid>
+      <pubDate>Mon, 19 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Ernährungstagebuch führen, das bleibt: was du notieren solltest, ein 7-Tage-Plan für Einsteiger mit einem kleinen Schritt pro Tag und fünf typische Fehler.</description>
+    </item>
+    <item>
       <title>Warum wir einen Kalorienzähler bauen, der nicht urteilt</title>
       <link>https://fimbl.app/de/blog/warum-wir-fimbl-bauen/</link>
       <guid isPermaLink="true">https://fimbl.app/de/blog/warum-wir-fimbl-bauen/</guid>

@@ -1,0 +1,106 @@
+{
+  "id": "food-diary",
+  "slug": "ernaehrungstagebuch-fuehren",
+  "title": "Ernährungstagebuch führen: 7-Tage-Plan für Einsteiger",
+  "headline": "Ernährungstagebuch führen: ein 7-Tage-Plan für Einsteiger",
+  "h1": "Ernährungstagebuch führen: <span class=\"accent\">ein 7-Tage-Plan für Einsteiger</span>",
+  "dek": "Die meisten Ernährungstagebücher landen an Tag vier in der Ecke, weil Tag eins zu viel verlangt hat. Hier erfährst du, was du aufschreiben solltest, wie ein Sieben-Tage-Plan mit einem kleinen Schritt pro Tag aussieht und welche Fehler Tagebücher still und leise beenden.",
+  "description": "Ernährungstagebuch führen, das bleibt: was du notieren solltest, ein 7-Tage-Plan für Einsteiger mit einem kleinen Schritt pro Tag und fünf typische Fehler.",
+  "tag": "Gewohnheiten",
+  "og_title": "Ernährungstagebuch führen: ein 7-Tage-Plan für Einsteiger",
+  "og_kicker": "Ratgeber für Einsteiger",
+  "og_heading": "Ernährungstagebuch führen <span>in 7 kleinen Schritten</span>",
+  "og_alt": "Fimbl-Screens der ersten Woche und des Ernährungstagebuchs neben der Überschrift: Ernährungstagebuch führen in 7 kleinen Schritten",
+  "keywords": [
+    "Ernährungstagebuch führen",
+    "Ernährungstagebuch Anleitung",
+    "Ernährungstagebuch Vorlage",
+    "Was schreibt man in ein Ernährungstagebuch",
+    "Ernährungsprotokoll",
+    "Essenstagebuch App"
+  ],
+  "about": [
+    "Ernährungstagebuch",
+    "Selbstbeobachtung",
+    "Gewohnheiten aufbauen",
+    "Achtsames Essen"
+  ],
+  "mentions": [
+    "Fimbl"
+  ],
+  "published": "2026-10-19",
+  "modified": "2026-10-19",
+  "related": [
+    "without-counting",
+    "emotional-hunger"
+  ],
+  "cover": [
+    "07-first-week",
+    "01-diary",
+    "03-feelings"
+  ],
+  "cover_alt": [
+    "Deine erste Woche in Fimbl an Tag 4 von 7, die ersten drei Schritte sind erledigt",
+    "Ernährungstagebuch in Fimbl mit eingetragenen Mahlzeiten und Makro-Ringen"
+  ],
+  "chips": [
+    {
+      "emoji": "🥣",
+      "title": "Tag 1",
+      "sub": "Eine Mahlzeit eintragen"
+    },
+    {
+      "emoji": "✨",
+      "title": "Tag 7",
+      "sub": "Auf die Woche zurückblicken"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was schreibe ich in ein Ernährungstagebuch?",
+      "a": "Fang mit drei Grundlagen an: was du gegessen hast, ungefähr wie viel und wann. Sobald das leichtfällt, notiere dazu, wie hungrig du auf einer Skala von 1 bis 10 warst, und ein Wort dafür, wie du dich gefühlt hast. Kalorien und Makros sind optional, die kann eine App für dich ausrechnen."
+    },
+    {
+      "q": "Wie lange sollte ich ein Ernährungstagebuch führen?",
+      "a": "Gib dir mindestens eine volle Woche, um die Gewohnheit aufzubauen, und dann zwei bis vier Wochen, um Muster zu erkennen. Viele machen monatelang weiter, weil das Eintragen schnell und nützlich wird. Aber auch ein kurzes Tagebuch kann dir viel über dein Essverhalten zeigen."
+    },
+    {
+      "q": "Muss ich in einem Ernährungstagebuch Kalorien zählen?",
+      "a": "Nein. Ein Ernährungstagebuch kann so einfach sein wie: was, wann und wie du dich gefühlt hast. Kalorien sind für manche Ziele nützlich, aber viele Menschen haben den größten Nutzen schon davon, Muster zu bemerken. Der ruhige Modus in Fimbl (Premium) ersetzt Kalorienzahlen sogar durch sanfte Noten."
+    },
+    {
+      "q": "Ist eine Ernährungstagebuch-App besser als Papier?",
+      "a": "Keins von beiden ist grundsätzlich besser. Papier ist flexibel und braucht keine Einrichtung. Eine App ist dank Suche, Barcode-Scanner und gespeicherten Mahlzeiten schneller, erinnert dich und zeigt dir Entwicklungen. Die beste Wahl ist die, die du weiter öffnest."
+    },
+    {
+      "q": "Was, wenn ich vergesse, eine Mahlzeit einzutragen?",
+      "a": "Trag ein, woran du dich erinnerst, oder mach einfach ab der nächsten Mahlzeit weiter. Eine verpasste Mahlzeit oder ein verpasster Tag macht kein Tagebuch kaputt. Meistens beendet es der Versuch, wieder ganz von vorn anzufangen. Eine hilfreiche Regel: Einen Tag verpassen ist okay, nur möglichst nicht zwei hintereinander."
+    },
+    {
+      "q": "Hilft ein Ernährungstagebuch beim Abnehmen?",
+      "a": "Die Forschung verbindet Ernährungsprotokolle immer wieder mit besseren Ergebnissen beim Abnehmen, besonders wenn oft und regelmäßig eingetragen wird. In einer Studie mit fast 1.700 Erwachsenen gehörte die Zahl der geführten Protokolle zu den stärksten Vorhersagefaktoren für den Gewichtsverlust. Die Belege zeigen einen starken Zusammenhang, aber keinen Beweis für jeden Einzelnen."
+    },
+    {
+      "q": "Gibt es eine kostenlose Ernährungstagebuch-App mit begleitetem Start?",
+      "a": "Ja. Fimbl für iPhone und iPad ist kostenlos und enthält eine begleitete erste Woche: sieben Tage, ein kleiner Schritt pro Tag, mit einer Erinnerung zu der Zeit, die du wählst. Das Tagebuch, der Barcode-Scanner und die Check-ins zu Mahlzeiten sind kostenlos und ohne Werbung."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Hollis JF et al. (2008). Gewichtsverlust in der Intensivphase der Weight-Loss-Maintenance-Studie. American Journal of Preventive Medicine 35(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18617080/"
+    },
+    {
+      "text": "Burke LE, Wang J, Sevick MA (2011). Selbstbeobachtung beim Abnehmen: eine systematische Literaturübersicht. Journal of the American Dietetic Association 111(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
+    },
+    {
+      "text": "Harvey J et al. (2019). Log often, lose more: elektronische Ernährungsprotokolle beim Abnehmen. Obesity 27(3).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30801989/"
+    },
+    {
+      "text": "Simpson CC, Mazzeo SE (2017). Kalorienzählen und Fitness-Tracking: Zusammenhänge mit Symptomen von Essstörungen. Eating Behaviors 26.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28214452/"
+    }
+  ]
+}

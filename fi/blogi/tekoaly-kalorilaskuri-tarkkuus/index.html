@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Kuinka tarkka tekoälykalorilaskuri on? Miksi suunnilleen riittää</title>
+  <meta name="description" content="Tekoälyn kuvasta tekemät kaloriarviot heittävät keskimäärin noin kolmanneksen, kuten käsin kirjauskin. Mitä tutkimukset sanovat ja milloin skannata viivakoodi.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/">
+  <link rel="alternate" hreflang="en" href="https://fimbl.app/blog/ai-calorie-tracking-accuracy/">
+  <link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/">
+  <link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/ki-kalorienzaehler-genauigkeit/">
+  <link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/ai-calorie-tracking-accuracy/">
+  <link rel="alternate" type="application/rss+xml" title="Fimbl-blogi" href="/fi/blogi/feed.xml">
+  <meta name="theme-color" content="#f7f5fd">
+  <meta name="apple-itunes-app" content="app-id=6443701726">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Fimbl">
+  <meta property="og:locale" content="fi_FI">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:url" content="https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/">
+  <meta property="og:title" content="Kuinka tarkka tekoälykalorilaskuri on, ja onko sillä väliä?">
+  <meta property="og:description" content="Tekoälyn kuvasta tekemät kaloriarviot heittävät keskimäärin noin kolmanneksen, kuten käsin kirjauskin. Mitä tutkimukset sanovat ja milloin skannata viivakoodi.">
+  <meta property="og:image" content="https://fimbl.app/assets/img/og/fi-ai-calorie-tracking.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fimblen tekoälykaloriskannaus- ja ruokanäkymät sekä otsikko: kuinka tarkka on tekoälykalorilaskuri?">
+  <meta property="article:published_time" content="2026-10-19T08:00:00+03:00">
+  <meta property="article:modified_time" content="2026-10-19T08:00:00+03:00">
+  <meta property="article:section" content="Kalorien seuranta">
+  <meta property="article:tag" content="tekoäly kalorilaskuri">
+  <meta property="article:tag" content="tekoäly kalorilaskuri tarkkuus">
+  <meta property="article:tag" content="kalorit kuvasta">
+  <meta property="article:tag" content="kalorilaskuri viivakoodi">
+  <meta property="article:tag" content="kalorien laskeminen sovelluksella">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+
+  <link rel="preload" href="/assets/fonts/figtree-extrabold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/geist-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="/assets/js/main.js" defer></script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/#article",
+      "headline": "Kuinka tarkka tekoälykalorilaskuri on, ja onko sillä väliä?",
+      "description": "Tekoälyn kuvasta tekemät kaloriarviot heittävät keskimäärin noin kolmanneksen, kuten käsin kirjauskin. Mitä tutkimukset sanovat ja milloin skannata viivakoodi.",
+      "image": [
+        "https://fimbl.app/assets/img/og/fi-ai-calorie-tracking.jpg"
+      ],
+      "datePublished": "2026-10-19T08:00:00+03:00",
+      "dateModified": "2026-10-19T08:00:00+03:00",
+      "inLanguage": "fi-FI",
+      "author": {
+        "@type": "Person",
+        "@id": "https://fimbl.app/#author",
+        "name": "Kasper Koskenvirta",
+        "jobTitle": "Fimblen perustaja",
+        "worksFor": {
+          "@id": "https://fimbl.app/#organization"
+        },
+        "url": "https://fimbl.app/fi/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://fimbl.app/#organization",
+        "name": "AppRise Ventures Oy",
+        "url": "https://fimbl.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://fimbl.app/assets/img/icon-512.png",
+          "width": 512,
+          "height": 512
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Sokerilinnantie 1 A",
+          "postalCode": "02600",
+          "addressLocality": "Espoo",
+          "addressCountry": "FI"
+        },
+        "sameAs": [
+          "https://apps.apple.com/app/id6443701726"
+        ]
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/"
+      },
+      "isPartOf": {
+        "@type": "Blog",
+        "@id": "https://fimbl.app/fi/blogi/#blog",
+        "name": "Fimbl-blogi"
+      },
+      "articleSection": "Kalorien seuranta",
+      "keywords": "tekoäly kalorilaskuri, tekoäly kalorilaskuri tarkkuus, kalorit kuvasta, kalorilaskuri viivakoodi, kalorien laskeminen sovelluksella, kalorilaskuri sovellus",
+      "wordCount": 1374,
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Kalorien laskeminen"
+        },
+        {
+          "@type": "Thing",
+          "name": "Tekoäly"
+        },
+        {
+          "@type": "Thing",
+          "name": "Ruokavalion arviointi"
+        },
+        {
+          "@type": "Thing",
+          "name": "Ruokapäiväkirjasovellukset"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Fimbl",
+          "applicationCategory": "HealthApplication"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Open Food Facts",
+          "applicationCategory": "HealthApplication"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Fineli",
+          "applicationCategory": "HealthApplication"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "USDA FoodData Central",
+          "applicationCategory": "HealthApplication"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Gemini",
+          "applicationCategory": "HealthApplication"
+        }
+      ],
+      "citation": [
+        "https://pubmed.ncbi.nlm.nih.gov/41081011/",
+        "https://pubmed.ncbi.nlm.nih.gov/41305663/",
+        "https://pubmed.ncbi.nlm.nih.gov/32719809/",
+        "https://food.ec.europa.eu/system/files/2016-10/labelling_nutrition-vitamins_minerals-guidance_tolerances_1212_en.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/1454084/",
+        "https://pubmed.ncbi.nlm.nih.gov/30801989/",
+        "https://world.openfoodfacts.org/",
+        "https://fineli.fi/fineli/fi/index",
+        "https://fdc.nal.usda.gov/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Etusivu",
+          "item": "https://fimbl.app/fi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blogi",
+          "item": "https://fimbl.app/fi/blogi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kuinka tarkka tekoälykalorilaskuri on, ja onko sillä väliä?",
+          "item": "https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/#faq",
+      "inLanguage": "fi-FI",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kuinka tarkkoja tekoälykalorilaskurit ovat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Suunnilleen tarkkoja, eivät täsmällisiä. Vuoden 2025 tutkimuksessa 52 ruokakuvalla parhaat yleiskäyttöiset tekoälymallit erehtyivät kaloreissa keskimäärin noin 36 %, ja suuria annoksia ne aliarvioivat enemmän. Lyhyt kuvaus tai ainesosaluettelo parantaa arvioita selvästi. Tutkijat arvioivat parhaiden mallien olevan perinteisten itse pidettyjen ruokapäiväkirjojen veroisia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onko tekoälykirjaus tarkempaa kuin käsin kirjaaminen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ei välttämättä tarkempaa, mutta ei paljon huonompaakaan, ja vaivaa on paljon vähemmän. Myös käsin pidetyissä ruokapäiväkirjoissa on virheitä: ihmiset raportoivat johdonmukaisesti syövänsä vähemmän kuin todellisuudessa syövät. Pakatuissa ruoissa viivakoodin skannaus voittaa molemmat, koska se käyttää valmistajan pakkausmerkinnän arvoja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onko väliä, jos kalorilaskuri ei ole sataprosenttisen tarkka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yleensä ei paljon. Ruokapäiväkirja on hyödyllinen niiden kuvioiden vuoksi, jotka se näyttää viikkojen mittaan, ja virheet ovat tavallisesti samansuuntaisia päivästä toiseen, joten suuntaukset pysyvät merkityksellisinä. Tutkimus yhdistää paremmat tulokset enemmän usein kirjaamiseen kuin tarkkaan kirjaamiseen. Jos tarvitset tarkkuutta terveys- tai urheilutavoitteeseen, käytä viivakoodia ja punnittuja annoksia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Miten saan ruokakuvasta paremman kaloriarvion?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ota koko lautanen kuvaan hieman yläviistosta, mainitse kaikki, mitä kamera ei näe, kuten öljy, voi tai kastike, tarkista annoskoko, skannaa pakattujen osien viivakoodit erikseen ja tallenna korjatut ateriat, jotta voit kirjata ne uudelleen täsmälleen oikein."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mistä Fimblen ruokatiedot tulevat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pakatut tuotteet tulevat Open Food Factsista, avoimesta maailmanlaajuisesta pakkausmerkintöjen tietokannasta, joten viivakoodin skannaus antaa tuotteen omat ravintoarvot. Yleiset elintarvikkeet tulevat Finelistä, Suomen kansallisesta elintarvikkeiden koostumustietopankista, sekä USDA FoodData Centralista. Käyttäjät voivat lisätä puuttuvia tuotteita pakkausmerkinnän tiedoilla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lähettääkö Fimbl ruokakuvani tekoälylle?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vain jos käytät tekoälyominaisuutta, joka on valinnainen ja osa Fimbl Premiumia. Kuva kulkee Fimblen palvelimien kautta Googlen Gemini-rajapintaan ilman nimeäsi tai sähköpostiasi, eikä sitä käytetä tekoälymallien kouluttamiseen. Ilmaistililtä ei lähetetä mitään millekään tekoälypalvelulle."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-mark" viewBox="100 96 360 391"><path fill="currentColor" d="M100 254.874C100 167.13 171.13 96 258.874 96C259.752 96 260.463 96.7113 260.463 97.5887V426.199C260.463 454.484 260.463 468.626 251.676 477.412C242.889 486.199 228.747 486.199 200.463 486.199H111.365C105.088 486.199 100 481.111 100 474.834V254.874Z"/><path fill="currentColor" d="M303.114 96C389.76 96 460 166.24 460 252.886C460 255.486 457.893 257.593 455.293 257.593L346.477 257.593C318.192 257.593 304.05 257.593 295.263 248.806C286.477 240.019 286.477 225.877 286.477 197.593L286.477 97.718C286.477 96.7692 287.246 96 288.195 96L303.114 96Z"/><circle fill="currentColor" cx="373.2" cy="371.9" r="79.4"/></symbol>
+    <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M7 7l10 10M17 7 7 17"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" d="M6.5 12h11"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.6v.01" stroke-width="2.2"/></g></symbol>
+    <symbol id="i-utensils" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v6a2 2 0 0 0 4 0V3M8 11v10"/><path d="M18 21V3c-2.2 1.4-3.5 4-3.5 7.2V13H18"/></g></symbol>
+    <symbol id="i-smile" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.2s1.3 1.8 3.5 1.8 3.5-1.8 3.5-1.8M9 9.5h.01M15 9.5h.01" stroke-width="2"/></g></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19.5C4.5 10.5 10 4.5 20 4.5c0 9.5-5.5 15-14.5 15H5Z"/><path d="M5 19.5 13 11.5"/></g></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m11 3 1.9 5.1L18 10l-5.1 1.9L11 17l-1.9-5.1L4 10l5.1-1.9L11 3Z"/><path d="m18.5 15 .9 2.1 2.1.9-2.1.9-.9 2.1-.9-2.1-2.1-.9 2.1-.9.9-2.1Z"/></g></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></g></symbol>
+    <symbol id="i-barcode" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 7.5V6a3 3 0 0 1 3-3h1.5M16.5 3H18a3 3 0 0 1 3 3v1.5M21 16.5V18a3 3 0 0 1-3 3h-1.5M7.5 21H6a3 3 0 0 1-3-3v-1.5M7.5 8v8M10.5 8v8M13.5 8v8M16.5 8v8"/></g></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4.5 8H7l1.8-2.6c.2-.3.5-.4.8-.4h4.8c.3 0 .6.1.8.4L17 8h2.5A1.5 1.5 0 0 1 21 9.5v8a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-8A1.5 1.5 0 0 1 4.5 8Z"/><circle cx="12" cy="13.2" r="3.4"/></g></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></g></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 20s-7.5-4.6-7.5-10.3A4.2 4.2 0 0 1 12 7.2a4.2 4.2 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20Z"/></symbol>
+    <symbol id="i-widgets" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="7.5" height="7.5" rx="2.2"/><rect x="13" y="3.5" width="7.5" height="7.5" rx="3.75"/><rect x="3.5" y="13" width="17" height="7.5" rx="2.2"/></g></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3A4 4 0 0 0 11 18.7l1-1"/></g></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M20 12a8 8 0 0 1-11.6 7.1L4 20l1-4A8 8 0 1 1 20 12Z"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="5" y="10.5" width="14" height="10" rx="3"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></g></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></g></symbol>
+    <symbol id="i-swap" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 8h13l-3-3M20 16H7l3 3"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M7 4h10a1 1 0 0 1 1 1v15l-6-4-6 4V5a1 1 0 0 1 1-1Z"/></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 11v2M7.5 8v8M11 5v14M14.5 9v6M18 7v10M21 11v2"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6v5.5c0 4.2 2.9 7.6 7 9 4.1-1.4 7-4.8 7-9V6l-7-2.5Z"/><path d="m9 12 2.2 2.2L15.2 10"/></g></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6" stroke-width="2.2"/></g></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 19h16M6.5 15l4-4.5 3 3L19 7"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Siirry sisältöön</a>
+
+  <header class="nav" data-nav>
+    <div class="container nav-inner">
+      <a class="brand" href="/fi/" aria-label="Fimblen etusivu">fimbl</a>
+      <ul class="nav-links">
+        <li><a href="/fi/#features">Ominaisuudet</a></li>
+        <li class="nav-opt"><a href="/fi/#first-week">Ensimmäinen viikko</a></li>
+        <li class="nav-opt"><a href="/fi/#ai">Tekoäly</a></li>
+        <li><a href="/fi/#faq">UKK</a></li>
+        <li><a href="/fi/blogi/" aria-current="page">Blogi</a></li>
+      </ul>
+      <div class="nav-end">
+        <details class="lang" data-lang>
+          <summary aria-label="Kieli: Suomi"><svg aria-hidden="true"><use href="#i-globe"/></svg>FI</summary>
+          <ul class="lang-menu">
+          <li><a href="/blog/ai-calorie-tracking-accuracy/" hreflang="en" lang="en">English <small>EN</small></a></li>
+          <li><a href="/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/" hreflang="fi" lang="fi" aria-current="page">Suomi <small>FI</small></a></li>
+          <li><a href="/de/blog/ki-kalorienzaehler-genauigkeit/" hreflang="de" lang="de">Deutsch <small>DE</small></a></li>
+          </ul>
+        </details>
+        <a class="btn btn-primary btn-sm" href="https://apps.apple.com/app/id6443701726" data-store>
+          <svg aria-hidden="true"><use href="#i-apple"/></svg>Lataa sovellus
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <article>
+      <header class="post-hero">
+        <span class="nav-sentinel" data-nav-sentinel aria-hidden="true"></span>
+        <div class="container post-head">
+          <nav class="crumbs" aria-label="Murupolku">
+            <ol>
+              <li><a href="/fi/">Etusivu</a></li>
+              <li><a href="/fi/blogi/">Blogi</a></li>
+              <li aria-current="page">Kuinka tarkka tekoälykalorilaskuri on, ja onko sillä väliä?</li>
+            </ol>
+          </nav>
+          <p class="post-kicker"><span class="kicker">Kalorien seuranta</span><span>8 min lukuaika</span></p>
+          <h1>Kuinka tarkka tekoälykalorilaskuri on, <span class="accent">ja onko sillä väliä?</span></h1>
+          <p class="post-dek">Tekoälyn kuvasta tekemät arviot ovat karkeita, ja tutkimus sanoo sen suoraan. Niin on kuitenkin jokainen muukin tapa kirjata ruokaa. Tässä on, mitä tutkimukset löysivät, miksi helppous voittaa tarkkuuden useimmille ja milloin kannattaa tarttua viivakoodiin.</p>
+          <div class="byline">
+            <span class="avatar" aria-hidden="true">KK</span>
+            <p class="byline-text"><strong>Kasper Koskenvirta</strong><span>Fimblen perustaja · Julkaistu <time datetime="2026-10-19">19. lokakuuta 2026</time></span></p>
+          </div>
+        </div>
+        <figure class="container post-figure"><img src="/assets/img/covers/fi-ai-calorie-tracking-1200.webp" srcset="/assets/img/covers/fi-ai-calorie-tracking-1200.webp 1200w, /assets/img/covers/fi-ai-calorie-tracking-2400.webp 2400w" sizes="(min-width: 1200px) 1120px, calc(100vw - 40px)" width="2400" height="1200" alt="Kolme Fimbl-sovelluksen näkymää iPhonessa" fetchpriority="high"></figure>
+      </header>
+
+      <div class="container post-wrap">
+        <details class="post-toc" data-toc open>
+          <summary>Tällä sivulla</summary>
+          <ol>
+            <li><a href="#kuinka-tarkka">Kuinka tarkka tekoälykalorilaskuri on?</a></li>
+            <li><a href="#kasin-kirjaus">Käsin kirjaaminen ei sekään ollut koskaan tarkkaa</a></li>
+            <li><a href="#suunnilleen-riittaa">Miksi ”suunnilleen” riittää</a></li>
+            <li><a href="#tuotetietokanta">Milloin tekoälyä ei tarvita: tuotetietokanta</a></li>
+            <li><a href="#mika-milloin">Mitä tapaa käyttää milloinkin</a></li>
+            <li><a href="#paremmat-arviot">Viisi tapaa saada parempia arvioita tekoälyltä</a></li>
+            <li><a href="#yksityisyys">Mitä ruokakuvallesi tapahtuu?</a></li>
+            <li><a href="#faq">Usein kysyttyä</a></li>
+          </ol>
+        </details>
+        <div class="article">
+        <p class="lede">Osoitat puhelimella pastakulhoa, ja sovellus kertoo: 640 kilokaloria. Kuulostaa tarkalta. Ei ihan ole. Mutta tässä on asia, jota tekoälylaskurien myyjät eivät mielellään sano ääneen eivätkä niiden arvostelijat muista mainita: vanha tapa ei sekään ollut koskaan tarkka. Oikea kysymys ei ole, onko tekoäly täsmällinen. Se on, auttaako se sinua jatkamaan.</p>
+
+        <div class="answer">
+          <span class="answer-label">Lyhyesti</span>
+          <p><strong>Tekoälyn kuvasta tekemät kaloriarviot ovat karkeita</strong>: vuoden 2025 tutkimuksessa parhaat yleiskäyttöiset tekoälymallit erehtyivät keskimäärin noin 36 % kuvaa kohden ja aliarvioivat suuria annoksia.<sup><a href="#source-1">1</a></sup> Se kuulostaa huonolta, kunnes vertaa vaihtoehtoon. Samat tutkijat totesivat tekoälyn pärjäävän perinteisten itse raportoitujen menetelmien veroisesti, ilman vaivaa.</p>
+          <ul>
+            <li><span><strong>Käytä tekoälyä helppouteen:</strong> kotiruokiin, ravintola-aterioihin ja kaikkeen, missä ei ole pakkausmerkintää. Karkea kirjaus voittaa kirjaamatta jättämisen.</span></li>
+            <li><span><strong>Käytä tietokantaa tarkkuuteen:</strong> skannaa pakatun tuotteen viivakoodi, niin saat valmistajan omat pakkausmerkinnän arvot.</span></li>
+            <li><span><strong>Korjaa kerran, käytä aina:</strong> säädä arviota, tallenna ateria, ja seuraava kirjaus on yksi napautus ja täsmälleen oikein.</span></li>
+          </ul>
+        </div>
+
+        <h2 id="kuinka-tarkka">Kuinka tarkka tekoälykalorilaskuri on?</h2>
+        <p>Hyödyllisin tuore tutkimus testasi kolmea laajasti käytettyä yleiskäyttöistä tekoälymallia 52 vakioidulla ruokakuvalla yksittäisistä raaka-aineista kokonaisiin aterioihin kolmessa annoskoossa ja vertasi vastauksia punnittuihin vertailuarvoihin.<sup><a href="#source-1">1</a></sup></p>
+        <ul class="principles">
+          <li><span class="icon-bubble" aria-hidden="true"><svg><use href="#i-chart"/></svg></span><strong>Keskimäärin noin 36 % pielessä</strong><span>Kaksi parasta mallia erehtyivät kuvan energiamäärässä keskimäärin noin 36 %. Kolmas pärjäsi selvästi heikommin.</span></li>
+          <li><span class="icon-bubble" aria-hidden="true"><svg><use href="#i-utensils"/></svg></span><strong>Isot annokset aliarvioidaan</strong><span>Kaikki kolme mallia aliarvioivat sitä enemmän, mitä suurempi annos oli. Runsas annos on se kohta, jossa tekoäly on epäluotettavimmillaan.</span></li>
+          <li><span class="icon-bubble" aria-hidden="true"><svg><use href="#i-check"/></svg></span><strong>Ruokapäiväkirjan veroinen</strong><span>Tutkijoiden mukaan parhaat mallit pärjäsivät perinteisten itse raportoitujen menetelmien veroisesti ilman käyttäjän vaivannäköä.</span></li>
+          <li><span class="icon-bubble" aria-hidden="true"><svg><use href="#i-info"/></svg></span><strong>Ei kliiniseen tarkkuuteen</strong><span>He totesivat myös, ettei yleiskäyttöinen tekoäly vielä sovellu tarkkaan ruokavalion arviointiin kliinisessä tai urheilukäytössä.</span></li>
+        </ul>
+        <p>Kaksi varausta vetää eri suuntiin. Tutkimuksessa käytettiin vuoden 2024 malleja, ja ala kehittyy nopeasti, joten nykyiset arviot ovat todennäköisesti parempia. Toisaalta oikean elämän kuvat ovat sotkuisempia kuin laboratoriokuvat. Toinen vuoden 2025 tutkimus uudemmalla mallilla näyttää, mikä auttaa eniten: keskimääräinen kalorivirhe oli noin 31 % pelkästä kuvasta, 24 %, kun mukaan lisättiin muutama sana ateriasta, ja 14 % ainesosaluettelon kanssa.<sup><a href="#source-2">2</a></sup> Siksi paras tekoälykirjaus antaa sinun kertoa, mitä annoksessa on, eikä vain napata kuvaa.</p>
+
+        <h2 id="kasin-kirjaus">Käsin kirjaaminen ei sekään ollut koskaan tarkkaa</h2>
+        <p>Tekoälyä on houkuttelevaa verrata täydelliseen, punnittuun ja laboratoriossa mitattuun päiväkirjaan. Kukaan ei pidä sellaista. Todellinen ruokakirjaus on sekin arvailua, ja arvaukset kallistuvat yhteen suuntaan.</p>
+        <div class="cmp">
+          <div class="cmp-scroll" tabindex="0" role="region" aria-label="Mistä virheet syntyvät kussakin kirjaustavassa, vieritettävä taulukko">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Mistä virheet syntyvät</th>
+                  <th scope="col">Kirjoittaminen ylös</th>
+                  <th scope="col">Tietokantahaku</th>
+                  <th scope="col">Tekoälyn kuvaskannaus</th>
+                  <th scope="col" class="is-fimbl"><small>Tarkin</small>Viivakoodi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><th scope="row">Annoskoko</th><td>Sinä arvaat</td><td>Sinä arvaat</td><td>Tekoäly arvaa</td><td class="is-fimbl">Valitset annokset, pakkausmerkintä hoitaa loput</td></tr>
+                <tr><th scope="row">Ravintoarvot</th><td>Arvaat tai etsit</td><td>Riippuu valitsemastasi merkinnästä</td><td>Tekoäly arvioi</td><td class="is-fimbl">Valmistajan pakkausmerkintä</td></tr>
+                <tr><th scope="row">Unohtuneet asiat</th><td>Yleisiä: välipalat, juomat, öljy</td><td>Yleisiä</td><td>Harvinaisempia: kaikki on kuvassa</td><td class="is-fimbl">Vain se, minkä skannaat</td></tr>
+                <tr><th scope="row">Vaiva ateriaa kohden</th><td>Suuri</td><td>Keskitaso</td><td>Pienin</td><td class="is-fimbl">Pieni</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="cmp-legend"><p>Pakkausmerkinnöissäkin on liikkumavaraa: EU:n ohjeiden mukaan ilmoitettu proteiini-, hiilihydraatti- ja rasvamäärä saa monissa elintarvikkeissa poiketa laboratoriomittauksesta jopa 20 %, koska raaka-aineet vaihtelevat erästä toiseen.<sup><a href="#source-4">4</a></sup></p></div>
+        </div>
+        <p>Tutkimus itse raportoidusta syömisestä on raitistavaa luettavaa. Perinteisiä ruokavaliomenetelmiä käsittelevä katsaus totesi, että ihmiset raportoivat johdonmukaisesti syövänsä vähemmän kuin todellisuudessa syövät, ja ero kasvaa painon myötä.<sup><a href="#source-3">3</a></sup> Eräässä klassisessa tutkimuksessa ryhmä ihmisiä, jotka uskoivat, etteivät pysty laihtumaan dieetillä, raportoi syömisestään lähes puolet liian vähän.<sup><a href="#source-5">5</a></sup> Kukaan ei valehdellut. Jokaisen suupalan muistaminen, arvioiminen ja kirjaaminen on yksinkertaisesti vaikeaa.</p>
+        <p>Valinta ei siis ole tekoälyn ja tarkkuuden välillä. Se on erilaisten karkeiden tapojen välillä, ja tärkein niistä on se, joka pitää sinut kirjaamassa.</p>
+
+        <h2 id="suunnilleen-riittaa">Miksi ”suunnilleen” riittää</h2>
+        <p>Ruokapäiväkirja on hyödyllinen niiden kuvioiden vuoksi, jotka se näyttää viikkojen mittaan, ei siksi, että jokainen ateria olisi täydellinen. Kirjaamisen tutkimus osoittaa samaan suuntaan: yhdessä tutkimuksessa se, kuinka <em>usein</em> ihmiset kirjasivat, oli yhteydessä painonpudotukseen, mutta kirjaamiseen käytetty aika ei.<sup><a href="#source-6">6</a></sup> Tarkkuus, joka maksaa kolme minuuttia ateriaa kohden, on tarkkuutta, josta luovut torstaihin mennessä.</p>
+        <blockquote class="pull">Karkea päiväkirja, jota pidät kolme kuukautta, kertoo enemmän kuin täydellinen, jonka hylkäät viikossa.</blockquote>
+        <p>Virheetkin merkitsevät vähemmän kuin miltä näyttää, koska ne ovat yleensä johdonmukaisia. Jos tekoäly arvioi tavallisen aamiaisesi joka kerta alakanttiin, suuntauksesi pysyy silti oikeana: näet yhä, että arkipäivät näyttävät erilaisilta kuin viikonloput ja että iltapala kasvoi marraskuussa. Ja niihin asioihin, joissa tarkkuudella on väliä, sinulla on parempi työkalu.</p>
+
+        <figure class="fig">
+          <div class="fig-media"><div class="phone"><img src="/assets/img/app/fi/02-photo-scan.webp" width="720" height="1564" alt="Fimblen tekoälykaloriskannaus arvioi acai-kulhon 380 grammaksi ja 460 kilokaloriksi, annospainikkeet puolikkaasta tuplaan sekä hiilihydraatit, rasva ja proteiini" loading="lazy"></div></div>
+          <figcaption>
+            <span class="tag tag-premium">Premium</span>
+            <strong>Kuva, arvio ja päätösvalta sinulla</strong>
+            <span>Ota kuva lautasesta tai kuvaile ateria tekstillä tai äänellä, niin Fimbl arvioi annoksen, kalorit ja makrot. Sitten säädät: puolikas, puolitoista tai tupla-annos, tai hienosäädät yksityiskohtia. Arviot voivat heittää vähän, joten viimeinen sana on aina sinun.</span>
+            <ul>
+              <li>Kuvaskannaus, teksti tai ääni sekä ravintoarvomerkinnän skannaus</li>
+              <li>Reseptit Reelseistä, TikTokeista, YouTube Shortseista ja reseptisivustoilta</li>
+            </ul>
+          </figcaption>
+        </figure>
+
+        <h2 id="tuotetietokanta">Milloin tekoälyä ei tarvita: tuotetietokanta</h2>
+        <p>Pakattuun ruokaan et tarvitse arviota. Ravintoarvot on painettu pakkaukseen, ja viivakoodi vie ne päiväkirjaasi sekunnissa. Fimblen ruokaluettelo koostuu näistä:</p>
+        <ul class="principles">
+          <li><span class="icon-bubble" aria-hidden="true"><svg><use href="#i-barcode"/></svg></span><strong>Pakatut tuotteet viivakoodilla</strong><span>Open Food Factsista, avoimesta maailmanlaajuisesta pakkausmerkintöjen tietokannasta, kunkin tuotteen omine ravintoarvoineen.<sup><a href="#source-7">7</a></sup></span></li>
+          <li><span class="icon-bubble" aria-hidden="true"><svg><use href="#i-leaf"/></svg></span><strong>Arjen perusruoat</strong><span>Yleiset elintarvikkeet Finelistä, Suomen kansallisesta elintarvikkeiden koostumustietopankista, sekä USDA FoodData Centralista.<sup><a href="#source-8">8</a>, <a href="#source-9">9</a></sup></span></li>
+          <li><span class="icon-bubble" aria-hidden="true"><svg><use href="#i-bookmark"/></svg></span><strong>Käyttäjien lisäämät tuotteet</strong><span>Puuttuuko tuote? Lisää se kerran pakkausmerkinnän tiedoilla, niin se löytyy, kun skannaat sen seuraavan kerran.</span></li>
+        </ul>
+
+        <ul class="fig-row is-two">
+          <li>
+            <div class="phone"><img src="/assets/img/app/fi/food.webp" width="720" height="1564" alt="Fimblen ruokanäkymä Nordic Millsin kaurahiutaleille: 60 g annos, 223 kcal, 36 g hiilihydraatteja, 4,2 g rasvaa ja 7,8 g proteiinia" loading="lazy"></div>
+            <p><b>Pakkausmerkinnän arvot, ei arvauksia</b>Skannaa tai hae tuote ja säädä annosta. Viivakoodin skannaus on Fimblessä ilmaista.</p>
+          </li>
+          <li>
+            <div class="phone"><img src="/assets/img/app/fi/meal.webp" width="720" height="1564" alt="Fimblen tallennettu ateria Overnight oats, jossa kolme ainesosaa: kaurahiutaleet, kreikkalainen jogurtti ja mustikat, yhteensä 378 kcal" loading="lazy"></div>
+            <p><b>Kerran tarkasti, aina nopeasti</b>Kokoa vakioateria oikeista tuotteista, tallenna se ja kirjaa se uudelleen yhdellä napautuksella.</p>
+          </li>
+        </ul>
+
+        <h2 id="mika-milloin">Mitä tapaa käyttää milloinkin</h2>
+        <div class="vs">
+          <div class="vs-card">
+            <h3><span aria-hidden="true"><svg><use href="#i-barcode"/></svg></span>Tartu tietokantaan</h3>
+            <dl>
+              <div><dt>Pakattu ruoka</dt><dd>Jogurtti, muro, leipä, valmisruoat: skannaa viivakoodi.</dd></div>
+              <div><dt>Usein syömäsi ateriat</dt><dd>Kokoa ne kerran oikeista tuotteista ja tallenna.</dd></div>
+              <div><dt>Kun tarkkuudella on väliä</dt><dd>Tarkat makrotavoitteet tai ravitsemusterapeutin suunnitelma.</dd></div>
+            </dl>
+          </div>
+          <div class="vs-card is-warm">
+            <h3><span aria-hidden="true"><svg><use href="#i-camera"/></svg></span>Anna tekoälyn hoitaa</h3>
+            <dl>
+              <div><dt>Ravintola ja noutoruoka</dt><dd>Ei pakkausmerkintää, ei reseptiä, vain lautanen.</dd></div>
+              <div><dt>Kotitekoiset sekaruoat</dt><dd>Padat, salaatit ja kulhot, jotka vaatisivat käsin kymmenen merkintää.</dd></div>
+              <div><dt>Kiireiset hetket</dt><dd>Kun vaihtoehtoina on kuva tai ei mitään, ota kuva.</dd></div>
+            </dl>
+          </div>
+        </div>
+        <p>Ja kun aikaa tai jaksamista ei ole kumpaankaan, karkean kalorimäärän pikalisäys pitää päivän päiväkirjassa. Suunnilleen riittää. Voittaja on se laskuri, jota jaksat avata, ja samaan päädyimme <a href="/fi/blogi/paras-kalorilaskuri-sovellus/">kalorilaskurivertailussamme</a>.</p>
+
+        <h2 id="paremmat-arviot">Viisi tapaa saada parempia arvioita tekoälyltä</h2>
+        <ol class="steps">
+          <li><div><strong>Ota koko lautanen kuvaan.</strong> Kuvaa hieman yläviistosta, jotta tekoäly näkee pinta-alan lisäksi syvyyden. Puolikas lautanen tarkoittaa puolikasta arviota.</div></li>
+          <li><div><strong>Kerro, mitä kamera ei näe.</strong> Öljy, voi, kastike, sokeri kahvissa. Piilorasvat ovat yleisin sokea piste, ja niiden kuvaileminen parantaa arviota eniten.</div></li>
+          <li><div><strong>Tarkista annos, ei vain ruoka.</strong> Tekoäly aliarvioi helposti isoja annoksia. Jos otit santsikierroksen, kasvata annosta.</div></li>
+          <li><div><strong>Pilko ateriat, joissa on pakattuja osia.</strong> Skannaa jogurtin viivakoodi ja kuvaa päälle tulevat hedelmät. Kukin työkalu siellä, missä se on vahvimmillaan.</div></li>
+          <li><div><strong>Korjaa kerran ja tallenna.</strong> Jos syöt jotain ruokaa säännöllisesti, korjaa arvio ja tallenna se ateriaksi. Seuraava kirjaus on yksi napautus ja täsmälleen oikein.</div></li>
+        </ol>
+
+        <h2 id="yksityisyys">Mitä ruokakuvallesi tapahtuu?</h2>
+        <p>Ennen kuin osoitat millä tahansa sovelluksella lautastasi, kannattaa kysyä, minne kuva menee. Kysy jokaiselta tekoälylaskurilta: onko tekoäly valinnainen, mitä tarkalleen lähetetään, liitetäänkö se nimeesi ja käytetäänkö sitä mallien kouluttamiseen?</p>
+        <div class="callout">
+          <span aria-hidden="true"><svg><use href="#i-shield"/></svg></span>
+          <div>
+            <p><strong>Fimblessä tekoäly on valinnainen ja kuuluu Premiumiin.</strong> Kun käytät skannausta, kuva kulkee Fimblen palvelimien kautta Googlen Gemini-rajapintaan ilman nimeäsi tai sähköpostiasi. Emme käytä tietojasi tekoälymallien kouluttamiseen. Ilmaistililtä ei lähetetä mitään millekään tekoälypalvelulle, ja päiväkirja, haku ja viivakoodin skannaus toimivat täysin ilman tekoälyä. <a href="/privacy/#ai">Tietosuojaselosteemme</a> (englanniksi) kertoo jokaisesta ominaisuudesta tarkemmin.</p>
+          </div>
+        </div>
+
+        <div class="verdict">
+          <div>
+            <span class="eyebrow">Parhaat puolet molemmista</span>
+            <h3>Tekoäly, kun se on helpompaa, pakkausmerkintä, kun sillä on väliä</h3>
+            <p>Fimblen ilmainen päiväkirja tarjoaa viivakoodin skannauksen, haun ja tallennetut ateriat. Premium tuo mukaan kuva-, ääni- ja tekstikirjauksen niihin aterioihin, joissa ei ole pakkausmerkintää. Sinä valitset, ateria kerrallaan.</p>
+            <ul>
+              <li>Ilmainen viivakoodinlukija, ei mainoksia</li>
+              <li>Kuva-, ääni- ja tekstikirjaus Premiumilla</li>
+              <li>Jokaista arviota voi säätää</li>
+            </ul>
+            <a class="btn" href="https://apps.apple.com/app/id6443701726" data-store>Lataa Fimbl ilmaiseksi</a>
+          </div>
+          <div class="phone" aria-hidden="true"><img src="/assets/img/app/fi/02-photo-scan.webp" width="720" height="1564" alt="" loading="lazy"></div>
+        </div>
+
+        <h2 id="faq">Usein kysyttyä</h2>
+        <div class="faq">
+          <details>
+            <summary>Kuinka tarkkoja tekoälykalorilaskurit ovat?</summary>
+            <p>Suunnilleen tarkkoja, eivät täsmällisiä. Vuoden 2025 tutkimuksessa 52 ruokakuvalla parhaat yleiskäyttöiset tekoälymallit erehtyivät kaloreissa keskimäärin noin 36 %, ja suuria annoksia ne aliarvioivat enemmän. Lyhyt kuvaus tai ainesosaluettelo parantaa arvioita selvästi. Tutkijat arvioivat parhaiden mallien olevan perinteisten itse pidettyjen ruokapäiväkirjojen veroisia.</p>
+          </details>
+          <details>
+            <summary>Onko tekoälykirjaus tarkempaa kuin käsin kirjaaminen?</summary>
+            <p>Ei välttämättä tarkempaa, mutta ei paljon huonompaakaan, ja vaivaa on paljon vähemmän. Myös käsin pidetyissä ruokapäiväkirjoissa on virheitä: ihmiset raportoivat johdonmukaisesti syövänsä vähemmän kuin todellisuudessa syövät. Pakatuissa ruoissa viivakoodin skannaus voittaa molemmat, koska se käyttää valmistajan pakkausmerkinnän arvoja.</p>
+          </details>
+          <details>
+            <summary>Onko väliä, jos kalorilaskuri ei ole sataprosenttisen tarkka?</summary>
+            <p>Yleensä ei paljon. Ruokapäiväkirja on hyödyllinen niiden kuvioiden vuoksi, jotka se näyttää viikkojen mittaan, ja virheet ovat tavallisesti samansuuntaisia päivästä toiseen, joten suuntaukset pysyvät merkityksellisinä. Tutkimus yhdistää paremmat tulokset enemmän usein kirjaamiseen kuin tarkkaan kirjaamiseen. Jos tarvitset tarkkuutta terveys- tai urheilutavoitteeseen, käytä viivakoodia ja punnittuja annoksia.</p>
+          </details>
+          <details>
+            <summary>Miten saan ruokakuvasta paremman kaloriarvion?</summary>
+            <p>Ota koko lautanen kuvaan hieman yläviistosta, mainitse kaikki, mitä kamera ei näe, kuten öljy, voi tai kastike, tarkista annoskoko, skannaa pakattujen osien viivakoodit erikseen ja tallenna korjatut ateriat, jotta voit kirjata ne uudelleen täsmälleen oikein.</p>
+          </details>
+          <details>
+            <summary>Mistä Fimblen ruokatiedot tulevat?</summary>
+            <p>Pakatut tuotteet tulevat Open Food Factsista, avoimesta maailmanlaajuisesta pakkausmerkintöjen tietokannasta, joten viivakoodin skannaus antaa tuotteen omat ravintoarvot. Yleiset elintarvikkeet tulevat Finelistä, Suomen kansallisesta elintarvikkeiden koostumustietopankista, sekä USDA FoodData Centralista. Käyttäjät voivat lisätä puuttuvia tuotteita pakkausmerkinnän tiedoilla.</p>
+          </details>
+          <details>
+            <summary>Lähettääkö Fimbl ruokakuvani tekoälylle?</summary>
+            <p>Vain jos käytät tekoälyominaisuutta, joka on valinnainen ja osa Fimbl Premiumia. Kuva kulkee Fimblen palvelimien kautta Googlen Gemini-rajapintaan ilman nimeäsi tai sähköpostiasi, eikä sitä käytetä tekoälymallien kouluttamiseen. Ilmaistililtä ei lähetetä mitään millekään tekoälypalvelulle.</p>
+          </details>
+        </div>
+
+        <section class="sources" aria-labelledby="sources">
+          <h2 id="sources">Lähteet</h2>
+          <ol>
+            <li id="source-1">Fridolfsson J, Sjöberg E, Thiwång M ym. (2025). Kolmen suuren kielimallin suorituskyky ravintosisällön arvioinnissa ruokakuvista. Current Developments in Nutrition 9(10). <a href="https://pubmed.ncbi.nlm.nih.gov/41081011/" rel="noopener">pubmed.ncbi.nlm.nih.gov</a></li>
+            <li id="source-2">Rodríguez-Jiménez M ym. (2025). Kuvapohjainen energian ja makroravinteiden arviointi ChatGPT-5:llä eri tasoisen lisätiedon kanssa. Nutrients 17(22). <a href="https://pubmed.ncbi.nlm.nih.gov/41305663/" rel="noopener">pubmed.ncbi.nlm.nih.gov</a></li>
+            <li id="source-3">Ravelli MN, Schoeller DA (2020). Perinteiset itse raportoidut ruokavaliomenetelmät ovat alttiita epätarkkuuksille, ja uusia lähestymistapoja tarvitaan. Frontiers in Nutrition 7. <a href="https://pubmed.ncbi.nlm.nih.gov/32719809/" rel="noopener">pubmed.ncbi.nlm.nih.gov</a></li>
+            <li id="source-4">Euroopan komissio (2012). Ohjeasiakirja toimivaltaisille viranomaisille pakkausmerkinnöissä ilmoitettujen ravintoarvojen poikkeamarajoista (englanniksi). <a href="https://food.ec.europa.eu/system/files/2016-10/labelling_nutrition-vitamins_minerals-guidance_tolerances_1212_en.pdf" rel="noopener">food.ec.europa.eu</a></li>
+            <li id="source-5">Lichtman SW ym. (1992). Itse raportoidun ja todellisen energiansaannin ja liikunnan ero lihavilla henkilöillä. New England Journal of Medicine 327(27). <a href="https://pubmed.ncbi.nlm.nih.gov/1454084/" rel="noopener">pubmed.ncbi.nlm.nih.gov</a></li>
+            <li id="source-6">Harvey J ym. (2019). Kirjaa usein, laihdu enemmän: sähköinen ruokavalion omaseuranta painonpudotuksessa. Obesity 27(3). <a href="https://pubmed.ncbi.nlm.nih.gov/30801989/" rel="noopener">pubmed.ncbi.nlm.nih.gov</a></li>
+            <li id="source-7">Open Food Facts: vapaa ja avoin elintarvikkeiden tietokanta. <a href="https://world.openfoodfacts.org/" rel="noopener">world.openfoodfacts.org</a></li>
+            <li id="source-8">Fineli, Suomen kansallinen elintarvikkeiden koostumustietopankki. Terveyden ja hyvinvoinnin laitos. <a href="https://fineli.fi/fineli/fi/index" rel="noopener">fineli.fi</a></li>
+            <li id="source-9">USDA FoodData Central (englanniksi). <a href="https://fdc.nal.usda.gov/" rel="noopener">fdc.nal.usda.gov</a></li>
+          </ol>
+        </section>
+        <aside class="author-card">
+          <span class="avatar avatar-lg" aria-hidden="true">KK</span>
+          <div>
+            <p class="author-name">Kasper Koskenvirta</p>
+            <p class="author-role">Fimblen perustaja</p>
+            <p>Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on rauhallinen ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.</p>
+          </div>
+        </aside>
+        </div>
+      </div>
+    </article>
+
+    <section class="related" aria-labelledby="related-title">
+      <div class="container">
+        <h2 id="related-title">Lue seuraavaksi</h2>
+        <ul class="post-cards post-cards-related">
+        <li class="post-card">
+          <div class="post-card-media"><img src="/assets/img/covers/fi-calorie-trackers-1200.webp" srcset="/assets/img/covers/fi-calorie-trackers-1200.webp 1200w, /assets/img/covers/fi-calorie-trackers-2400.webp 2400w" sizes="(min-width: 960px) 560px, 100vw" width="2400" height="1200" alt="" loading="lazy" decoding="async"></div>
+          <div class="post-card-body">
+            <p class="post-card-meta"><span class="kicker">Vertailu</span><span>12 min lukuaika</span></p>
+            <h3><a href="/fi/blogi/paras-kalorilaskuri-sovellus/">Paras kalorilaskuri vuonna 2026: sovellukset vertailussa</a></h3>
+            <p class="post-card-text">Kalorilaskurivertailu 2026: Fimbl, MyFitnessPal, Cronometer, YAZIO, Lifesum ja muut. Ilmaisominaisuudet, mainokset, suomen kieli ja kenelle mikin sopii.</p>
+            <p class="post-card-foot"><time datetime="2026-10-17">17. lokakuuta 2026</time><span class="read-more" aria-hidden="true">Lue</span></p>
+          </div>
+        </li>
+        <li class="post-card">
+          <div class="post-card-media"><img src="/assets/img/covers/fi-food-diary-1200.webp" srcset="/assets/img/covers/fi-food-diary-1200.webp 1200w, /assets/img/covers/fi-food-diary-2400.webp 2400w" sizes="(min-width: 960px) 560px, 100vw" width="2400" height="1200" alt="" loading="lazy" decoding="async"></div>
+          <div class="post-card-body">
+            <p class="post-card-meta"><span class="kicker">Tavat</span><span>9 min lukuaika</span></p>
+            <h3><a href="/fi/blogi/ruokapaivakirjan-aloittaminen/">Näin aloitat ruokapäiväkirjan: 7 päivän suunnitelma aloittelijalle</a></h3>
+            <p class="post-card-text">Näin aloitat ruokapäiväkirjan, joka kestää: mitä kirjata, 7 päivän suunnitelma aloittelijalle yksi askel päivässä ja viisi virhettä, jotka lopettavat sen.</p>
+            <p class="post-card-foot"><time datetime="2026-10-19">19. lokakuuta 2026</time><span class="read-more" aria-hidden="true">Lue</span></p>
+          </div>
+        </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cta" style="padding-top:0">
+      <div class="container">
+        <div class="cta-card cta-contained">
+          <div class="cta-copy">
+            <img class="cta-icon" src="/assets/img/app-icon.webp" width="256" height="256" alt="" loading="lazy">
+            <h2>Aloita hyvinvointimatkasi</h2>
+            <p>Ilmainen ladata. Lempeä ensimmäisestä päivästä.</p>
+            <a class="btn btn-primary btn-store" href="https://apps.apple.com/app/id6443701726" data-store>
+              <svg aria-hidden="true"><use href="#i-apple"/></svg>
+              <span class="btn-label"><small>Lataa</small><strong>App Storesta</strong></span>
+            </a>
+          </div>
+          <div class="cta-phone" aria-hidden="true">
+            <div class="phone"><img src="/assets/img/app/fi/welcome.webp" width="720" height="1564" alt="" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="/fi/" aria-label="Fimblen etusivu">fimbl</a>
+          <p class="footer-tagline">Tietoista syömistä, lempeää edistystä.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="/fi/blogi/">Blogi</a></li>
+          <li><a href="https://apps.apple.com/app/id6443701726">App Store</a></li>
+          <li><a href="mailto:appriseven@gmail.com">Tuki</a></li>
+          <li><a href="/privacy/" hreflang="en">Tietosuojaseloste (englanniksi)</a></li>
+          <li><a href="/terms/" hreflang="en">Käyttöehdot (englanniksi)</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> AppRise Ventures Oy · Espoo</span>
+        <ul class="footer-langs" data-lang aria-label="Kieli">
+          <li><a href="/blog/ai-calorie-tracking-accuracy/" hreflang="en" lang="en">English</a></li>
+          <li><a href="/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/" hreflang="fi" lang="fi" aria-current="page">Suomi</a></li>
+          <li><a href="/de/blog/ki-kalorienzaehler-genauigkeit/" hreflang="de" lang="de">Deutsch</a></li>
+        </ul>
+        <span>Y-tunnus 3336104-8</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

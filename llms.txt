@@ -24,6 +24,17 @@
 
 ## Articles
 
+- [The best progress photo apps in 2026, compared](https://fimbl.app/blog/best-progress-photo-apps/): Fimbl, Progress, Hevy, MacroFactor, MyFitnessPal and Cronometer compared for progress photos: guided poses, overlays, compare, time-lapse and privacy.
+  - Suomi: [Parhaat sovellukset edistymiskuviin vuonna 2026, vertailussa](https://fimbl.app/fi/blogi/parhaat-edistymiskuva-sovellukset/)
+- [How accurate is AI calorie tracking, and does it matter?](https://fimbl.app/blog/ai-calorie-tracking-accuracy/): AI photo calorie estimates are off by about a third on average, much like manual logging. What studies show, when to trust AI and when to scan a barcode.
+  - Suomi: [Kuinka tarkka tekoälykalorilaskuri on, ja onko sillä väliä?](https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/)
+  - Deutsch: [Wie genau ist Kalorienzählen mit KI, und spielt das eine Rolle?](https://fimbl.app/de/blog/ki-kalorienzaehler-genauigkeit/)
+- [How to track what you eat without counting calories](https://fimbl.app/blog/track-food-without-counting-calories/): Five ways to track food without counting calories: the plate method, hand portions, a hunger scale, a photo food diary and meal grades instead of numbers.
+  - Suomi: [Näin seuraat syömistäsi laskematta kaloreita](https://fimbl.app/fi/blogi/syomisen-seuranta-ilman-kalorien-laskemista/)
+  - Deutsch: [So hältst du fest, was du isst, ohne Kalorien zu zählen](https://fimbl.app/de/blog/essen-tracken-ohne-kalorien-zaehlen/)
+- [How to start a food diary: a 7-day plan for beginners](https://fimbl.app/blog/how-to-start-a-food-diary/): How to start a food diary that lasts: what to write down, a 7-day beginner plan with one small step a day, and five mistakes that end food diaries early.
+  - Suomi: [Näin aloitat ruokapäiväkirjan: 7 päivän suunnitelma aloittelijalle](https://fimbl.app/fi/blogi/ruokapaivakirjan-aloittaminen/)
+  - Deutsch: [Ernährungstagebuch führen: ein 7-Tage-Plan für Einsteiger](https://fimbl.app/de/blog/ernaehrungstagebuch-fuehren/)
 - [The best calorie tracker apps in 2026, compared side by side](https://fimbl.app/blog/best-calorie-tracker-apps/): Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI side by side: what's free, ads, AI logging and who each app suits.
   - Suomi: [Paras kalorilaskuri vuonna 2026: sovellukset vertailussa](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/)
 - [Why we built a calorie tracker that doesn't judge you](https://fimbl.app/blog/why-we-built-fimbl/): Why counting alone fails, the six decisions that shaped Fimbl, what we left out on purpose, and our end goal: showing you your own eating patterns.

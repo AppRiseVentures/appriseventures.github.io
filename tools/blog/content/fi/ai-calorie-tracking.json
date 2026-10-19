@@ -1,0 +1,126 @@
+{
+  "id": "ai-calorie-tracking",
+  "slug": "tekoaly-kalorilaskuri-tarkkuus",
+  "title": "Kuinka tarkka tekoälykalorilaskuri on? Miksi suunnilleen riittää",
+  "headline": "Kuinka tarkka tekoälykalorilaskuri on, ja onko sillä väliä?",
+  "h1": "Kuinka tarkka tekoälykalorilaskuri on, <span class=\"accent\">ja onko sillä väliä?</span>",
+  "dek": "Tekoälyn kuvasta tekemät arviot ovat karkeita, ja tutkimus sanoo sen suoraan. Niin on kuitenkin jokainen muukin tapa kirjata ruokaa. Tässä on, mitä tutkimukset löysivät, miksi helppous voittaa tarkkuuden useimmille ja milloin kannattaa tarttua viivakoodiin.",
+  "description": "Tekoälyn kuvasta tekemät kaloriarviot heittävät keskimäärin noin kolmanneksen, kuten käsin kirjauskin. Mitä tutkimukset sanovat ja milloin skannata viivakoodi.",
+  "tag": "Kalorien seuranta",
+  "og_title": "Kuinka tarkka tekoälykalorilaskuri on, ja onko sillä väliä?",
+  "og_kicker": "Kalorien seurannan opas",
+  "og_heading": "Kuinka tarkka on <span>tekoälykalorilaskuri?</span>",
+  "og_alt": "Fimblen tekoälykaloriskannaus- ja ruokanäkymät sekä otsikko: kuinka tarkka on tekoälykalorilaskuri?",
+  "keywords": [
+    "tekoäly kalorilaskuri",
+    "tekoäly kalorilaskuri tarkkuus",
+    "kalorit kuvasta",
+    "kalorilaskuri viivakoodi",
+    "kalorien laskeminen sovelluksella",
+    "kalorilaskuri sovellus"
+  ],
+  "about": [
+    "Kalorien laskeminen",
+    "Tekoäly",
+    "Ruokavalion arviointi",
+    "Ruokapäiväkirjasovellukset"
+  ],
+  "mentions": [
+    "Fimbl",
+    "Open Food Facts",
+    "Fineli",
+    "USDA FoodData Central",
+    "Gemini"
+  ],
+  "published": "2026-10-19",
+  "modified": "2026-10-19",
+  "related": [
+    "calorie-trackers",
+    "food-diary"
+  ],
+  "cover": [
+    "02-photo-scan",
+    "food",
+    "meal"
+  ],
+  "cover_alt": [
+    "Fimblen tekoälykaloriskannaus arvioi acai-kulhon 460 kilokaloriksi",
+    "Fimblen ruokanäkymä kaurahiutaleille pakkausmerkinnän ravintoarvoineen"
+  ],
+  "chips": [
+    {
+      "emoji": "📸",
+      "title": "Kuvaskannaus",
+      "sub": "Acai-kulho · noin 460 kcal"
+    },
+    {
+      "emoji": "🏷️",
+      "title": "Viivakoodi",
+      "sub": "Kaurahiutaleet · pakkauksen arvot"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kuinka tarkkoja tekoälykalorilaskurit ovat?",
+      "a": "Suunnilleen tarkkoja, eivät täsmällisiä. Vuoden 2025 tutkimuksessa 52 ruokakuvalla parhaat yleiskäyttöiset tekoälymallit erehtyivät kaloreissa keskimäärin noin 36 %, ja suuria annoksia ne aliarvioivat enemmän. Lyhyt kuvaus tai ainesosaluettelo parantaa arvioita selvästi. Tutkijat arvioivat parhaiden mallien olevan perinteisten itse pidettyjen ruokapäiväkirjojen veroisia."
+    },
+    {
+      "q": "Onko tekoälykirjaus tarkempaa kuin käsin kirjaaminen?",
+      "a": "Ei välttämättä tarkempaa, mutta ei paljon huonompaakaan, ja vaivaa on paljon vähemmän. Myös käsin pidetyissä ruokapäiväkirjoissa on virheitä: ihmiset raportoivat johdonmukaisesti syövänsä vähemmän kuin todellisuudessa syövät. Pakatuissa ruoissa viivakoodin skannaus voittaa molemmat, koska se käyttää valmistajan pakkausmerkinnän arvoja."
+    },
+    {
+      "q": "Onko väliä, jos kalorilaskuri ei ole sataprosenttisen tarkka?",
+      "a": "Yleensä ei paljon. Ruokapäiväkirja on hyödyllinen niiden kuvioiden vuoksi, jotka se näyttää viikkojen mittaan, ja virheet ovat tavallisesti samansuuntaisia päivästä toiseen, joten suuntaukset pysyvät merkityksellisinä. Tutkimus yhdistää paremmat tulokset enemmän usein kirjaamiseen kuin tarkkaan kirjaamiseen. Jos tarvitset tarkkuutta terveys- tai urheilutavoitteeseen, käytä viivakoodia ja punnittuja annoksia."
+    },
+    {
+      "q": "Miten saan ruokakuvasta paremman kaloriarvion?",
+      "a": "Ota koko lautanen kuvaan hieman yläviistosta, mainitse kaikki, mitä kamera ei näe, kuten öljy, voi tai kastike, tarkista annoskoko, skannaa pakattujen osien viivakoodit erikseen ja tallenna korjatut ateriat, jotta voit kirjata ne uudelleen täsmälleen oikein."
+    },
+    {
+      "q": "Mistä Fimblen ruokatiedot tulevat?",
+      "a": "Pakatut tuotteet tulevat Open Food Factsista, avoimesta maailmanlaajuisesta pakkausmerkintöjen tietokannasta, joten viivakoodin skannaus antaa tuotteen omat ravintoarvot. Yleiset elintarvikkeet tulevat Finelistä, Suomen kansallisesta elintarvikkeiden koostumustietopankista, sekä USDA FoodData Centralista. Käyttäjät voivat lisätä puuttuvia tuotteita pakkausmerkinnän tiedoilla."
+    },
+    {
+      "q": "Lähettääkö Fimbl ruokakuvani tekoälylle?",
+      "a": "Vain jos käytät tekoälyominaisuutta, joka on valinnainen ja osa Fimbl Premiumia. Kuva kulkee Fimblen palvelimien kautta Googlen Gemini-rajapintaan ilman nimeäsi tai sähköpostiasi, eikä sitä käytetä tekoälymallien kouluttamiseen. Ilmaistililtä ei lähetetä mitään millekään tekoälypalvelulle."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Fridolfsson J, Sjöberg E, Thiwång M ym. (2025). Kolmen suuren kielimallin suorituskyky ravintosisällön arvioinnissa ruokakuvista. Current Developments in Nutrition 9(10).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41081011/"
+    },
+    {
+      "text": "Rodríguez-Jiménez M ym. (2025). Kuvapohjainen energian ja makroravinteiden arviointi ChatGPT-5:llä eri tasoisen lisätiedon kanssa. Nutrients 17(22).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41305663/"
+    },
+    {
+      "text": "Ravelli MN, Schoeller DA (2020). Perinteiset itse raportoidut ruokavaliomenetelmät ovat alttiita epätarkkuuksille, ja uusia lähestymistapoja tarvitaan. Frontiers in Nutrition 7.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32719809/"
+    },
+    {
+      "text": "Euroopan komissio (2012). Ohjeasiakirja toimivaltaisille viranomaisille pakkausmerkinnöissä ilmoitettujen ravintoarvojen poikkeamarajoista (englanniksi).",
+      "url": "https://food.ec.europa.eu/system/files/2016-10/labelling_nutrition-vitamins_minerals-guidance_tolerances_1212_en.pdf"
+    },
+    {
+      "text": "Lichtman SW ym. (1992). Itse raportoidun ja todellisen energiansaannin ja liikunnan ero lihavilla henkilöillä. New England Journal of Medicine 327(27).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1454084/"
+    },
+    {
+      "text": "Harvey J ym. (2019). Kirjaa usein, laihdu enemmän: sähköinen ruokavalion omaseuranta painonpudotuksessa. Obesity 27(3).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30801989/"
+    },
+    {
+      "text": "Open Food Facts: vapaa ja avoin elintarvikkeiden tietokanta.",
+      "url": "https://world.openfoodfacts.org/"
+    },
+    {
+      "text": "Fineli, Suomen kansallinen elintarvikkeiden koostumustietopankki. Terveyden ja hyvinvoinnin laitos.",
+      "url": "https://fineli.fi/fineli/fi/index"
+    },
+    {
+      "text": "USDA FoodData Central (englanniksi).",
+      "url": "https://fdc.nal.usda.gov/"
+    }
+  ]
+}

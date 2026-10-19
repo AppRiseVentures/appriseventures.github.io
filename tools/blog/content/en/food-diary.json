@@ -1,0 +1,110 @@
+{
+  "id": "food-diary",
+  "slug": "how-to-start-a-food-diary",
+  "title": "How to Start a Food Diary: A 7-Day Plan for Beginners",
+  "headline": "How to start a food diary: a 7-day plan for beginners",
+  "h1": "How to start a food diary: <span class=\"accent\">a 7-day plan for beginners</span>",
+  "dek": "Most food diaries are abandoned by day four because day one asked for too much. Here's what to write down, a seven-day plan that adds one small step at a time, and the mistakes that quietly end diaries early.",
+  "description": "How to start a food diary that lasts: what to write down, a 7-day beginner plan with one small step a day, and five mistakes that end food diaries early.",
+  "tag": "Habits",
+  "og_title": "How to start a food diary: a 7-day plan for beginners",
+  "og_kicker": "Beginner's guide",
+  "og_heading": "Start a food diary <span>in 7 small steps</span>",
+  "og_alt": "Fimbl First Week and food diary screens next to the headline: start a food diary in 7 small steps",
+  "keywords": [
+    "how to start a food diary",
+    "food diary for beginners",
+    "what to write in a food diary",
+    "food journal",
+    "how to start tracking food",
+    "food diary template"
+  ],
+  "about": [
+    "Food diary",
+    "Self-monitoring",
+    "Habit formation",
+    "Mindful eating"
+  ],
+  "mentions": [
+    "Fimbl"
+  ],
+  "published": "2026-10-19",
+  "modified": "2026-10-19",
+  "related": [
+    "without-counting",
+    "emotional-hunger"
+  ],
+  "cover": [
+    "07-first-week",
+    "01-diary",
+    "03-feelings"
+  ],
+  "cover_alt": [
+    "Fimbl First Week on day 4 of 7, with the first three steps done",
+    "Fimbl food diary with meals logged and macro rings"
+  ],
+  "chips": [
+    {
+      "emoji": "🥣",
+      "title": "Day 1",
+      "sub": "Log one meal"
+    },
+    {
+      "emoji": "✨",
+      "title": "Day 7",
+      "sub": "Look back on your week"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What should I write in a food diary?",
+      "a": "Start with three essentials: what you ate, roughly how much, and when. Once that feels easy, add how hungry you were on a scale of 1 to 10 and one word for how you felt. Calories and macros are optional; an app can work them out for you."
+    },
+    {
+      "q": "How long should I keep a food diary?",
+      "a": "Give it at least one full week to build the habit, then two to four weeks to see patterns. Many people keep going for months because it becomes quick and useful, but even a short diary can show you a lot about your eating."
+    },
+    {
+      "q": "Do I have to count calories in a food diary?",
+      "a": "No. A food diary can be as simple as what, when and how you felt. Calories are useful for some goals, but plenty of people get most of the benefit from noticing patterns alone. Fimbl's Calm mode (Premium) even replaces calorie numbers with gentle grades."
+    },
+    {
+      "q": "Is a food diary app better than paper?",
+      "a": "Neither is better in general. Paper is flexible and has no setup. An app is faster thanks to search, barcode scanning and saved meals, sends reminders and shows trends for you. The best choice is the one you'll keep opening."
+    },
+    {
+      "q": "What if I forget to log a meal?",
+      "a": "Log what you remember, or simply carry on from the next meal. A missed meal or day doesn't ruin a diary; trying to start over from scratch is what usually ends it. A helpful rule is: miss a day if you have to, but try not to miss two."
+    },
+    {
+      "q": "Does keeping a food diary help with weight loss?",
+      "a": "Research consistently links food logging with better weight-loss results, especially logging often and consistently. In a trial of nearly 1,700 adults, the number of food records kept was among the strongest predictors of weight lost. The evidence shows a strong association rather than proof for every individual."
+    },
+    {
+      "q": "Is there a free food diary app with a guided start?",
+      "a": "Yes. Fimbl for iPhone and iPad is free to download and includes a guided First Week: seven days, one small step a day, with a reminder at the time you choose. The diary, barcode scanner and meal check-ins are free and have no ads."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Hollis JF et al. (2008). Weight loss during the intensive intervention phase of the weight-loss maintenance trial. American Journal of Preventive Medicine 35(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18617080/"
+    },
+    {
+      "text": "Burke LE, Wang J, Sevick MA (2011). Self-monitoring in weight loss: a systematic review of the literature. Journal of the American Dietetic Association 111(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
+    },
+    {
+      "text": "Harvey J et al. (2019). Log often, lose more: electronic dietary self-monitoring for weight loss. Obesity 27(3).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30801989/"
+    },
+    {
+      "text": "Levinson CA, Fewell L, Brosof LC (2017). My Fitness Pal calorie tracker usage in the eating disorders. Eating Behaviors 27.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28843591/"
+    },
+    {
+      "text": "Simpson CC, Mazzeo SE (2017). Calorie counting and fitness tracking technology: associations with eating disorder symptomatology. Eating Behaviors 26.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28214452/"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "without-counting",
+  "slug": "track-food-without-counting-calories",
+  "title": "How to Track Food Without Counting Calories: 5 Methods",
+  "headline": "How to track what you eat without counting calories",
+  "h1": "How to track what you eat <span class=\"accent\">without counting calories</span>",
+  "dek": "The plate method, hand portions, a hunger scale, a photo diary and meal grades: five ways to stay aware of what you eat without adding up a single number, and how to tell whether numbers help you or hold you back.",
+  "description": "Five ways to track food without counting calories: the plate method, hand portions, a hunger scale, a photo food diary and meal grades instead of numbers.",
+  "tag": "Mindful eating",
+  "og_title": "How to track what you eat without counting calories",
+  "og_kicker": "Mindful eating guide",
+  "og_heading": "Track what you eat, <span>without the numbers</span>",
+  "og_alt": "Fimbl Calm mode meal grade and check-in screens next to the headline: track what you eat, without the numbers",
+  "keywords": [
+    "track food without counting calories",
+    "food diary without calories",
+    "calorie tracker without numbers",
+    "is calorie counting bad",
+    "plate method",
+    "hand portion sizes"
+  ],
+  "about": [
+    "Mindful eating",
+    "Portion control",
+    "Food diary",
+    "Calorie counting"
+  ],
+  "mentions": [
+    "Fimbl"
+  ],
+  "published": "2026-10-19",
+  "modified": "2026-10-19",
+  "related": [
+    "food-diary",
+    "emotional-hunger"
+  ],
+  "cover": [
+    "04-meal-grades",
+    "03-feelings",
+    "01-diary"
+  ],
+  "cover_alt": [
+    "Fimbl Calm mode grading rolled oats with an A for slow, steady morning energy",
+    "Fimbl meal check-in asking which feelings you had before breakfast"
+  ],
+  "chips": [
+    {
+      "emoji": "🥗",
+      "title": "Great fit",
+      "sub": "Lunch · A"
+    },
+    {
+      "emoji": "😌",
+      "title": "Satisfied",
+      "sub": "Hunger 7 of 10"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can you track food without counting calories?",
+      "a": "Yes. Instead of calories, you can track the proportions on your plate, portion sizes using your hand, your hunger before and after meals, photos of what you eat, or a grade for how well each meal served you. Each keeps you aware of your eating without the arithmetic."
+    },
+    {
+      "q": "Is calorie counting bad for you?",
+      "a": "Not for everyone. Food logging is one of the best-supported habits in weight management. But studies have linked calorie tracking with more anxious attitudes towards food in some groups, and many people with eating disorders say calorie apps made their symptoms worse. If numbers make you anxious or guilty, a number-free method is worth trying."
+    },
+    {
+      "q": "What is the plate method?",
+      "a": "The plate method is a way to build balanced meals by proportion instead of calories. Harvard's Healthy Eating Plate suggests about half the plate vegetables and fruit, a quarter whole grains and a quarter protein, with healthy oils in moderation."
+    },
+    {
+      "q": "How do I measure portions with my hand?",
+      "a": "A common guide uses one palm for a portion of protein, a fist for carbohydrates like rice or pasta at a meal, a handful for a portion of fruit or vegetables (two at a meal) and a thumb tip for fats like butter. It's approximate, but it works anywhere."
+    },
+    {
+      "q": "Is there a calorie tracker app that doesn't show calories?",
+      "a": "Yes. Fimbl for iPhone and iPad has Calm mode (part of Fimbl Premium), which hides calorie numbers and grades each meal from A to F for how well it served your goals, hunger and mood. The diary keeps counting in the background, so you can switch back at any time without losing anything."
+    },
+    {
+      "q": "Will I still lose weight without counting calories?",
+      "a": "Many people do, because methods like the plate method, hand portions and hunger awareness naturally change how much and what they eat. Results vary, though. If you have a specific weight or medical goal, a doctor or dietitian can help you decide whether numbers would help."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Burke LE, Wang J, Sevick MA (2011). Self-monitoring in weight loss: a systematic review of the literature. Journal of the American Dietetic Association 111(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
+    },
+    {
+      "text": "Simpson CC, Mazzeo SE (2017). Calorie counting and fitness tracking technology: associations with eating disorder symptomatology. Eating Behaviors 26.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28214452/"
+    },
+    {
+      "text": "Levinson CA, Fewell L, Brosof LC (2017). My Fitness Pal calorie tracker usage in the eating disorders. Eating Behaviors 27.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28843591/"
+    },
+    {
+      "text": "Harvard T.H. Chan School of Public Health, The Nutrition Source. Healthy Eating Plate.",
+      "url": "https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/"
+    },
+    {
+      "text": "NHS Grampian, Healthy Weight. Hand portion sizes.",
+      "url": "https://www.healthyweightgrampian.scot.nhs.uk/wp-content/uploads/2024/05/Hand-portion-sizes-.pdf"
+    }
+  ]
+}

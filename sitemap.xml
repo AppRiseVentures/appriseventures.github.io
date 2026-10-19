@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://fimbl.app/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/"/>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://fimbl.app/fi/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/"/>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://fimbl.app/de/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/"/>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://fimbl.app/blog/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/"/>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://fimbl.app/fi/blogi/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/"/>
@@ -42,11 +42,97 @@
   </url>
   <url>
     <loc>https://fimbl.app/de/blog/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/blog/best-progress-photo-apps/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/best-progress-photo-apps/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/parhaat-edistymiskuva-sovellukset/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/best-progress-photo-apps/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/fi/blogi/parhaat-edistymiskuva-sovellukset/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/best-progress-photo-apps/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/parhaat-edistymiskuva-sovellukset/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/best-progress-photo-apps/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/blog/ai-calorie-tracking-accuracy/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/ai-calorie-tracking-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/ki-kalorienzaehler-genauigkeit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/ai-calorie-tracking-accuracy/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/ai-calorie-tracking-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/ki-kalorienzaehler-genauigkeit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/ai-calorie-tracking-accuracy/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/de/blog/ki-kalorienzaehler-genauigkeit/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/ai-calorie-tracking-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/ki-kalorienzaehler-genauigkeit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/ai-calorie-tracking-accuracy/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/blog/track-food-without-counting-calories/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/track-food-without-counting-calories/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/syomisen-seuranta-ilman-kalorien-laskemista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/essen-tracken-ohne-kalorien-zaehlen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/track-food-without-counting-calories/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/fi/blogi/syomisen-seuranta-ilman-kalorien-laskemista/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/track-food-without-counting-calories/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/syomisen-seuranta-ilman-kalorien-laskemista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/essen-tracken-ohne-kalorien-zaehlen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/track-food-without-counting-calories/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/de/blog/essen-tracken-ohne-kalorien-zaehlen/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/track-food-without-counting-calories/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/syomisen-seuranta-ilman-kalorien-laskemista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/essen-tracken-ohne-kalorien-zaehlen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/track-food-without-counting-calories/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/blog/how-to-start-a-food-diary/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/how-to-start-a-food-diary/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/ruokapaivakirjan-aloittaminen/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/ernaehrungstagebuch-fuehren/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/how-to-start-a-food-diary/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/fi/blogi/ruokapaivakirjan-aloittaminen/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/how-to-start-a-food-diary/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/ruokapaivakirjan-aloittaminen/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/ernaehrungstagebuch-fuehren/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/how-to-start-a-food-diary/"/>
+  </url>
+  <url>
+    <loc>https://fimbl.app/de/blog/ernaehrungstagebuch-fuehren/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fimbl.app/blog/how-to-start-a-food-diary/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://fimbl.app/fi/blogi/ruokapaivakirjan-aloittaminen/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fimbl.app/de/blog/ernaehrungstagebuch-fuehren/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fimbl.app/blog/how-to-start-a-food-diary/"/>
   </url>
   <url>
     <loc>https://fimbl.app/blog/best-calorie-tracker-apps/</loc>

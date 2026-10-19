@@ -1,14 +1,21 @@
 {
   "base": "https://fimbl.app",
   "store": "https://apps.apple.com/app/id6443701726",
-  "site_modified": "2026-10-17",
+  "site_modified": "2026-10-19",
   "order": [
+    "progress-photos",
+    "ai-calorie-tracking",
+    "without-counting",
+    "food-diary",
     "calorie-trackers",
     "why-we-built-fimbl",
     "emotional-hunger"
   ],
   "untranslated": {
     "calorie-trackers": [
+      "de"
+    ],
+    "progress-photos": [
       "de"
     ]
   },
@@ -411,6 +418,38 @@
         "09-ai"
       ],
       "theme": "warm"
+    },
+    "progress-photos": {
+      "screens": [
+        "08-progress",
+        "photos-compare",
+        "goals"
+      ],
+      "theme": "deep"
+    },
+    "ai-calorie-tracking": {
+      "screens": [
+        "food",
+        "02-photo-scan",
+        "meal"
+      ],
+      "theme": "lavender"
+    },
+    "without-counting": {
+      "screens": [
+        "03-feelings",
+        "04-meal-grades",
+        "01-diary"
+      ],
+      "theme": "warm"
+    },
+    "food-diary": {
+      "screens": [
+        "01-diary",
+        "07-first-week",
+        "03-feelings"
+      ],
+      "theme": "lavender"
     }
   }
 }

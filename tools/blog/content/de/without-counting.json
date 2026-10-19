@@ -1,0 +1,106 @@
+{
+  "id": "without-counting",
+  "slug": "essen-tracken-ohne-kalorien-zaehlen",
+  "title": "Essen tracken ohne Kalorienzählen: 5 Methoden",
+  "headline": "So hältst du fest, was du isst, ohne Kalorien zu zählen",
+  "h1": "So hältst du fest, was du isst, <span class=\"accent\">ohne Kalorien zu zählen</span>",
+  "dek": "Tellermethode, Hand als Maß, Hungerskala, Foto-Tagebuch und Noten für Mahlzeiten: fünf Wege, aufmerksam zu essen, ohne eine einzige Zahl zu addieren. Und woran du merkst, ob Zahlen dir helfen oder dich bremsen.",
+  "description": "Essen tracken ohne Kalorienzählen: Tellermethode, Portionen mit der Hand, Hungerskala, Foto-Ernährungstagebuch und Noten statt Kalorienzahlen.",
+  "tag": "Achtsam essen",
+  "og_title": "So hältst du fest, was du isst, ohne Kalorien zu zählen",
+  "og_kicker": "Ratgeber achtsam essen",
+  "og_heading": "Bewusst essen, <span>ohne Zahlen</span>",
+  "og_alt": "Fimbl-Screens mit einer Note im ruhigen Modus und einem Check-in neben der Überschrift: Bewusst essen, ohne Zahlen",
+  "keywords": [
+    "ohne Kalorien zählen abnehmen",
+    "Essen tracken ohne Kalorien",
+    "Ernährungstagebuch ohne Kalorien",
+    "Kalorienzählen schädlich",
+    "Tellermethode",
+    "Portionsgröße Hand"
+  ],
+  "about": [
+    "Achtsames Essen",
+    "Portionsgrößen",
+    "Ernährungstagebuch",
+    "Kalorien zählen"
+  ],
+  "mentions": [
+    "Fimbl"
+  ],
+  "published": "2026-10-19",
+  "modified": "2026-10-19",
+  "related": [
+    "food-diary",
+    "emotional-hunger"
+  ],
+  "cover": [
+    "04-meal-grades",
+    "03-feelings",
+    "01-diary"
+  ],
+  "cover_alt": [
+    "Ruhiger Modus in Fimbl bewertet Haferflocken mit der Note A für langsame, stetige Energie am Morgen",
+    "Fimbl-Check-in mit der Frage, welche Gefühle du vor dem Frühstück hattest"
+  ],
+  "chips": [
+    {
+      "emoji": "🥗",
+      "title": "Passt super",
+      "sub": "Mittagessen · A"
+    },
+    {
+      "emoji": "😌",
+      "title": "Zufrieden",
+      "sub": "Hunger 7 von 10"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kann man sein Essen festhalten, ohne Kalorien zu zählen?",
+      "a": "Ja. Statt Kalorien kannst du die Aufteilung deines Tellers festhalten, Portionsgrößen mit deiner Hand abschätzen, deinen Hunger vor und nach dem Essen notieren, Fotos von deinen Mahlzeiten machen oder jede Mahlzeit danach bewerten, wie gut sie dir getan hat. So bleibst du aufmerksam, ganz ohne Rechnerei."
+    },
+    {
+      "q": "Ist Kalorienzählen schädlich?",
+      "a": "Nicht für alle. Regelmäßig festzuhalten, was man isst, gehört zu den am besten belegten Gewohnheiten im Gewichtsmanagement. Studien haben Kalorientracking in manchen Gruppen aber mit ängstlicheren Einstellungen zum Essen und mehr restriktivem Diäthalten in Verbindung gebracht. Wenn Zahlen dich unter Druck setzen oder dir Schuldgefühle machen, lohnt sich eine Methode ohne Zahlen."
+    },
+    {
+      "q": "Was ist die Tellermethode?",
+      "a": "Mit der Tellermethode stellst du ausgewogene Mahlzeiten nach Anteilen statt nach Kalorien zusammen. Der Healthy Eating Plate der Harvard-Universität empfiehlt etwa eine Hälfte Gemüse und Obst, ein Viertel Vollkorn und ein Viertel Eiweiß, dazu gesunde Öle in Maßen."
+    },
+    {
+      "q": "Wie messe ich Portionen mit der Hand?",
+      "a": "Eine verbreitete Übersicht nutzt eine Handfläche für eine Portion Eiweiß, eine Faust für Kohlenhydrate wie Reis oder Nudeln zu einer Mahlzeit, eine Handvoll für eine Portion Obst oder Gemüse (zwei zu einer Mahlzeit) und eine Daumenspitze für Fette wie Butter. Das ist ungefähr, funktioniert aber überall."
+    },
+    {
+      "q": "Gibt es einen Kalorienzähler, der keine Kalorien anzeigt?",
+      "a": "Ja. Fimbl für iPhone und iPad hat den ruhigen Modus (Teil von Fimbl Premium). Er blendet Kalorienzahlen aus und bewertet jede Mahlzeit mit einer Note von A bis F dafür, wie gut sie zu deinen Zielen, deinem Hunger und deiner Stimmung gepasst hat. Das Tagebuch zählt im Hintergrund weiter, du kannst also jederzeit zurückwechseln, ohne etwas zu verlieren."
+    },
+    {
+      "q": "Nehme ich ohne Kalorienzählen trotzdem ab?",
+      "a": "Viele schon, weil Methoden wie die Tellermethode, die Hand als Maß und ein Gespür für Hunger ganz von selbst verändern, wie viel und was sie essen. Die Ergebnisse sind aber unterschiedlich. Wenn du ein bestimmtes Gewichts- oder Gesundheitsziel hast, kann dir deine Ärztin, dein Arzt oder eine Ernährungsfachkraft helfen zu entscheiden, ob Zahlen sinnvoll sind."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Burke LE, Wang J, Sevick MA (2011). Selbstbeobachtung beim Abnehmen: eine systematische Literaturübersicht. Journal of the American Dietetic Association 111(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
+    },
+    {
+      "text": "Simpson CC, Mazzeo SE (2017). Kalorienzählen und Fitness-Tracking: Zusammenhänge mit Symptomen von Essstörungen. Eating Behaviors 26.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28214452/"
+    },
+    {
+      "text": "Harvard T.H. Chan School of Public Health, The Nutrition Source. Healthy Eating Plate (englisch).",
+      "url": "https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/"
+    },
+    {
+      "text": "NHS Grampian, Healthy Weight. Hand portion sizes (englisch).",
+      "url": "https://www.healthyweightgrampian.scot.nhs.uk/wp-content/uploads/2024/05/Hand-portion-sizes-.pdf"
+    },
+    {
+      "text": "BIÖG, Bundesinstitut für Öffentliche Gesundheit (früher BZgA): Telefonberatung zu Essstörungen.",
+      "url": "https://essstoerungen.bioeg.de/hilfe-finden/welche-beratung-gibt-es/telefonberatung/"
+    }
+  ]
+}

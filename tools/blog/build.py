@@ -431,7 +431,9 @@ def render_post(meta: dict, siblings: dict[str, dict], posts: dict) -> str:
     if meta["modified"] != meta["published"]:
         updated = f' · {esc(L["updated"])} <time datetime="{meta["modified"]}">{nice_date(meta["modified"], lang)}</time>'
 
-    related = [posts[pid][lang] for pid in posts if pid != meta["id"] and lang in posts[pid]]
+    # The post's own "related" list comes first, then the rest in site order.
+    preferred = [pid for pid in meta.get("related", []) if pid in posts]
+    related = [posts[pid][lang] for pid in preferred + [p for p in posts if p not in preferred] if pid != meta["id"] and lang in posts[pid]]
     related_cards = "\n".join(post_card(r, L) for r in related[:2])
     faq_part = fill(faq_html(meta, L), lang, posts)
 

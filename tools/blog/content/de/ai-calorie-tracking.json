@@ -1,0 +1,126 @@
+{
+  "id": "ai-calorie-tracking",
+  "slug": "ki-kalorienzaehler-genauigkeit",
+  "title": "Wie genau sind KI-Kalorienzähler? Warum ungefähr reicht",
+  "headline": "Wie genau ist Kalorienzählen mit KI, und spielt das eine Rolle?",
+  "h1": "Wie genau ist Kalorienzählen mit KI, <span class=\"accent\">und spielt das eine Rolle?</span>",
+  "dek": "KI-Schätzungen per Foto sind grob, das zeigt auch die Forschung. Das gilt aber für jede Art, Essen einzutragen. Was die Studien herausgefunden haben, warum Leichtigkeit für die meisten wichtiger ist als Präzision und wann du lieber einen Barcode scannst.",
+  "description": "KI-Kalorienschätzungen per Foto liegen im Schnitt um etwa ein Drittel daneben, ähnlich wie Protokolle von Hand. Was Studien zeigen und wann der Barcode besser ist.",
+  "tag": "Kalorien zählen",
+  "og_title": "Wie genau ist Kalorienzählen mit KI, und spielt das eine Rolle?",
+  "og_kicker": "Ratgeber Kalorien zählen",
+  "og_heading": "Wie genau sind <span>KI-Kalorienzähler?</span>",
+  "og_alt": "Fimbl-Screens mit Kalorien-Scan und Lebensmitteleintrag neben der Überschrift: Wie genau sind KI-Kalorienzähler?",
+  "keywords": [
+    "KI Kalorienzähler Genauigkeit",
+    "Kalorien zählen mit KI",
+    "Kalorien per Foto scannen",
+    "KI Ernährungstracker",
+    "Kalorienzähler mit Barcode-Scanner",
+    "Wie genau ist Kalorienzählen"
+  ],
+  "about": [
+    "Kalorien zählen",
+    "Künstliche Intelligenz",
+    "Ernährungserfassung",
+    "Ernährungstagebuch-Apps"
+  ],
+  "mentions": [
+    "Fimbl",
+    "Open Food Facts",
+    "Fineli",
+    "USDA FoodData Central",
+    "Gemini"
+  ],
+  "published": "2026-10-19",
+  "modified": "2026-10-19",
+  "related": [
+    "food-diary",
+    "without-counting"
+  ],
+  "cover": [
+    "02-photo-scan",
+    "food",
+    "meal"
+  ],
+  "cover_alt": [
+    "Kalorien-Scan in Fimbl: eine Açaí-Bowl, geschätzt auf 460 kcal",
+    "Lebensmitteleintrag in Fimbl für Haferflocken mit den Nährwerten vom Etikett"
+  ],
+  "chips": [
+    {
+      "emoji": "📸",
+      "title": "Foto-Scan",
+      "sub": "Açaí-Bowl · etwa 460 kcal"
+    },
+    {
+      "emoji": "🏷️",
+      "title": "Barcode",
+      "sub": "Haferflocken · Werte vom Etikett"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie genau sind Kalorienzähler-Apps mit KI?",
+      "a": "Ungefähr richtig, aber nicht exakt. In einer Studie von 2025 mit 52 Essensfotos lagen die besten allgemeinen KI-Modelle bei den Kalorien im Schnitt um etwa 36 % daneben und unterschätzten große Portionen stärker. Eine kurze Beschreibung oder Zutatenliste verbessert die Schätzung deutlich. Die Forschenden stuften die besten Modelle als vergleichbar mit klassischen Ernährungsprotokollen ein."
+    },
+    {
+      "q": "Ist Kalorienzählen mit KI genauer als von Hand?",
+      "a": "Nicht unbedingt genauer, aber auch nicht viel schlechter, und deutlich weniger Aufwand. Auch Ernährungsprotokolle von Hand sind fehleranfällig: Menschen geben durchweg weniger an, als sie tatsächlich essen. Bei verpackten Lebensmitteln ist ein Barcode-Scan beidem überlegen, weil er die Werte vom Etikett des Herstellers nutzt."
+    },
+    {
+      "q": "Ist es schlimm, wenn mein Kalorienzähler nicht zu 100 % genau ist?",
+      "a": "Meistens nicht. Ein Ernährungstagebuch ist wertvoll wegen der Muster, die es über Wochen zeigt, und Fehler sind von Tag zu Tag meist gleichbleibend, sodass Verläufe aussagekräftig bleiben. Die Forschung verbindet häufiges Eintragen stärker mit Erfolg als präzises. Wenn du für ein medizinisches oder sportliches Ziel Genauigkeit brauchst, nutze Barcode-Scans und abgewogene Portionen."
+    },
+    {
+      "q": "Wie bekomme ich bessere Kalorienschätzungen von einem Essensfoto?",
+      "a": "Bring den ganzen Teller leicht von oben ins Bild, nenne alles, was die Kamera nicht sieht, etwa Öl, Butter oder Dressing, prüf die Portionsgröße, scanne die Barcodes verpackter Bestandteile separat und speichere korrigierte Mahlzeiten, damit du sie genau wieder eintragen kannst."
+    },
+    {
+      "q": "Woher kommen die Lebensmitteldaten in Fimbl?",
+      "a": "Verpackte Produkte stammen aus Open Food Facts, der offenen weltweiten Datenbank für Lebensmitteletiketten, ein Barcode-Scan liefert dir also die Nährwerte des Produkts selbst. Allgemeine Lebensmittel kommen aus Fineli, der finnischen nationalen Nährwertdatenbank, und aus USDA FoodData Central. Fehlende Produkte können Nutzer vom Etikett ergänzen."
+    },
+    {
+      "q": "Schickt Fimbl meine Essensfotos an eine KI?",
+      "a": "Nur wenn du eine KI-Funktion nutzt, und die ist optional und Teil von Fimbl Premium. Das Foto geht über die Server von Fimbl an die Gemini API von Google, ohne deinen Namen und deine E-Mail-Adresse, und wird nicht zum Trainieren von KI-Modellen verwendet. Kostenlose Konten senden nie etwas an einen KI-Dienst."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Fridolfsson J, Sjöberg E, Thiwång M et al. (2025). Leistungsvergleich von 3 großen Sprachmodellen bei der Schätzung von Nährwerten aus Essensfotos. Current Developments in Nutrition 9(10).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41081011/"
+    },
+    {
+      "text": "Rodríguez-Jiménez M et al. (2025). Bildbasierte Schätzung von Energie und Makronährstoffen mit ChatGPT-5 bei zunehmendem Kontext. Nutrients 17(22).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41305663/"
+    },
+    {
+      "text": "Ravelli MN, Schoeller DA (2020). Klassische Ernährungsprotokolle sind fehleranfällig, neue Ansätze sind nötig. Frontiers in Nutrition 7.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32719809/"
+    },
+    {
+      "text": "Europäische Kommission (2012). Leitfaden für die zuständigen Behörden zur Festlegung von Toleranzen für auf dem Etikett angegebene Nährwerte (englisch).",
+      "url": "https://food.ec.europa.eu/system/files/2016-10/labelling_nutrition-vitamins_minerals-guidance_tolerances_1212_en.pdf"
+    },
+    {
+      "text": "Lichtman SW et al. (1992). Diskrepanz zwischen selbst berichteter und tatsächlicher Kalorienaufnahme und Bewegung bei Menschen mit Adipositas. New England Journal of Medicine 327(27).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1454084/"
+    },
+    {
+      "text": "Harvey J et al. (2019). Log often, lose more: elektronische Ernährungsprotokolle beim Abnehmen. Obesity 27(3).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30801989/"
+    },
+    {
+      "text": "Open Food Facts: die freie und offene Lebensmitteldatenbank.",
+      "url": "https://de.openfoodfacts.org/"
+    },
+    {
+      "text": "Fineli, die nationale Nährwertdatenbank Finnlands. Finnisches Institut für Gesundheit und Wohlfahrt (englisch).",
+      "url": "https://fineli.fi/fineli/en/index"
+    },
+    {
+      "text": "USDA FoodData Central (englisch).",
+      "url": "https://fdc.nal.usda.gov/"
+    }
+  ]
+}

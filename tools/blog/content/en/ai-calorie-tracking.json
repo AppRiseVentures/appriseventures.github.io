@@ -1,0 +1,126 @@
+{
+  "id": "ai-calorie-tracking",
+  "slug": "ai-calorie-tracking-accuracy",
+  "title": "How Accurate Is AI Calorie Tracking? Why Close Enough Works",
+  "headline": "How accurate is AI calorie tracking, and does it matter?",
+  "h1": "How accurate is AI calorie tracking, <span class=\"accent\">and does it matter?</span>",
+  "dek": "AI photo estimates are rough, and the research says so. But so is every other way of logging food. Here's what the studies found, why ease beats precision for most people, and when to reach for a barcode instead.",
+  "description": "AI photo calorie estimates are off by about a third on average, much like manual logging. What studies show, when to trust AI and when to scan a barcode.",
+  "tag": "Calorie tracking",
+  "og_title": "How accurate is AI calorie tracking, and does it matter?",
+  "og_kicker": "Calorie tracking guide",
+  "og_heading": "How accurate is <span>AI calorie tracking?</span>",
+  "og_alt": "Fimbl photo calorie scan and food entry screens next to the headline: how accurate is AI calorie tracking?",
+  "keywords": [
+    "how accurate is AI calorie counting",
+    "AI calorie tracker accuracy",
+    "photo calorie counter",
+    "AI food tracking app",
+    "barcode scanner calorie app",
+    "calorie counting accuracy"
+  ],
+  "about": [
+    "Calorie counting",
+    "Artificial intelligence",
+    "Dietary assessment",
+    "Food diary apps"
+  ],
+  "mentions": [
+    "Fimbl",
+    "Open Food Facts",
+    "Fineli",
+    "USDA FoodData Central",
+    "Gemini"
+  ],
+  "published": "2026-10-19",
+  "modified": "2026-10-19",
+  "related": [
+    "calorie-trackers",
+    "food-diary"
+  ],
+  "cover": [
+    "02-photo-scan",
+    "food",
+    "meal"
+  ],
+  "cover_alt": [
+    "Fimbl photo calorie scan of an açaí bowl estimated at 460 kcal",
+    "Fimbl food entry for rolled oats with label nutrition values"
+  ],
+  "chips": [
+    {
+      "emoji": "📸",
+      "title": "Photo scan",
+      "sub": "Açaí bowl · about 460 kcal"
+    },
+    {
+      "emoji": "🏷️",
+      "title": "Barcode",
+      "sub": "Rolled oats · label values"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How accurate are AI calorie counting apps?",
+      "a": "Roughly accurate, not exact. In a 2025 study of 52 food photos, the best general-purpose AI models missed the calories by about 36% on average, and underestimated large portions more. Adding a short description or ingredient list improves estimates considerably. The researchers judged the best models comparable to traditional self-reported food diaries."
+    },
+    {
+      "q": "Is AI calorie tracking more accurate than logging manually?",
+      "a": "Not necessarily more accurate, but not much worse either, and far less effort. Manual food diaries are also prone to error: people consistently report eating less than they actually do. For packaged foods, scanning a barcode beats both, because it uses the manufacturer's label values."
+    },
+    {
+      "q": "Does it matter if my calorie tracker isn't 100% accurate?",
+      "a": "Usually not much. A food diary is useful for the patterns it shows over weeks, and errors tend to be consistent from day to day, so trends stay meaningful. Research links logging often with better results more than logging precisely. If you need precision for a medical or athletic goal, use barcode scanning and weighed portions."
+    },
+    {
+      "q": "How can I get better calorie estimates from a food photo?",
+      "a": "Get the whole plate in the frame from slightly above, mention anything the camera can't see such as oil, butter or dressing, check the portion size, scan the barcodes of packaged parts separately, and save corrected meals so you can re-log them exactly."
+    },
+    {
+      "q": "Where does Fimbl's food data come from?",
+      "a": "Packaged products come from Open Food Facts, the open worldwide database of food labels, so a barcode scan gives you the product's own nutrition values. Generic foods come from Fineli, the Finnish national food composition database, and USDA FoodData Central. Users can add missing products from the label."
+    },
+    {
+      "q": "Does Fimbl send my food photos to AI?",
+      "a": "Only if you use an AI feature, which is optional and part of Fimbl Premium. The photo goes through Fimbl's servers to Google's Gemini API without your name or email, and it isn't used to train AI models. Free accounts never send anything to an AI service."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Fridolfsson J, Sjöberg E, Thiwång M et al. (2025). Performance evaluation of 3 large language models for nutritional content estimation from food images. Current Developments in Nutrition 9(10).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41081011/"
+    },
+    {
+      "text": "Rodríguez-Jiménez M et al. (2025). Image-based dietary energy and macronutrients estimation with ChatGPT-5: cross-source evaluation across escalating context scenarios. Nutrients 17(22).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41305663/"
+    },
+    {
+      "text": "Ravelli MN, Schoeller DA (2020). Traditional self-reported dietary instruments are prone to inaccuracies and new approaches are needed. Frontiers in Nutrition 7.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32719809/"
+    },
+    {
+      "text": "European Commission (2012). Guidance document for competent authorities for the control of compliance with EU legislation with regard to the setting of tolerances for nutrient values declared on a label.",
+      "url": "https://food.ec.europa.eu/system/files/2016-10/labelling_nutrition-vitamins_minerals-guidance_tolerances_1212_en.pdf"
+    },
+    {
+      "text": "Lichtman SW et al. (1992). Discrepancy between self-reported and actual caloric intake and exercise in obese subjects. New England Journal of Medicine 327(27).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1454084/"
+    },
+    {
+      "text": "Harvey J et al. (2019). Log often, lose more: electronic dietary self-monitoring for weight loss. Obesity 27(3).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30801989/"
+    },
+    {
+      "text": "Open Food Facts: the free and open food products database.",
+      "url": "https://world.openfoodfacts.org/"
+    },
+    {
+      "text": "Fineli, the national food composition database in Finland. Finnish Institute for Health and Welfare.",
+      "url": "https://fineli.fi/fineli/en/index"
+    },
+    {
+      "text": "USDA FoodData Central.",
+      "url": "https://fdc.nal.usda.gov/"
+    }
+  ]
+}

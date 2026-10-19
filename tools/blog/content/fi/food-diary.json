@@ -1,0 +1,114 @@
+{
+  "id": "food-diary",
+  "slug": "ruokapaivakirjan-aloittaminen",
+  "title": "Ruokapäiväkirjan aloittaminen: 7 päivän suunnitelma aloittelijalle",
+  "headline": "Näin aloitat ruokapäiväkirjan: 7 päivän suunnitelma aloittelijalle",
+  "h1": "Näin aloitat ruokapäiväkirjan: <span class=\"accent\">7 päivän suunnitelma aloittelijalle</span>",
+  "dek": "Useimmat ruokapäiväkirjat hylätään neljäntenä päivänä, koska ensimmäinen päivä pyysi liikaa. Tässä on, mitä kannattaa kirjata, seitsemän päivän suunnitelma yksi pieni askel kerrallaan ja virheet, jotka lopettavat päiväkirjan huomaamatta.",
+  "description": "Näin aloitat ruokapäiväkirjan, joka kestää: mitä kirjata, 7 päivän suunnitelma aloittelijalle yksi askel päivässä ja viisi virhettä, jotka lopettavat sen.",
+  "tag": "Tavat",
+  "og_title": "Näin aloitat ruokapäiväkirjan: 7 päivän suunnitelma aloittelijalle",
+  "og_kicker": "Aloittelijan opas",
+  "og_heading": "Aloita ruokapäiväkirja <span>7 pienellä askeleella</span>",
+  "og_alt": "Fimblen Ensimmäinen viikkosi- ja ruokapäiväkirjanäkymät sekä otsikko: aloita ruokapäiväkirja 7 pienellä askeleella",
+  "keywords": [
+    "ruokapäiväkirja",
+    "ruokapäiväkirjan pitäminen",
+    "ruokapäiväkirja aloittelijalle",
+    "mitä ruokapäiväkirjaan kirjataan",
+    "miten aloittaa kalorien laskeminen",
+    "ruokapäiväkirja pohja"
+  ],
+  "about": [
+    "Ruokapäiväkirja",
+    "Omaseuranta",
+    "Tapojen muodostuminen",
+    "Tietoinen syöminen"
+  ],
+  "mentions": [
+    "Fimbl"
+  ],
+  "published": "2026-10-19",
+  "modified": "2026-10-19",
+  "related": [
+    "without-counting",
+    "emotional-hunger"
+  ],
+  "cover": [
+    "07-first-week",
+    "01-diary",
+    "03-feelings"
+  ],
+  "cover_alt": [
+    "Fimblen Ensimmäinen viikkosi päivänä 4/7, kolme ensimmäistä askelta tehtynä",
+    "Fimblen ruokapäiväkirja kirjattuine aterioineen ja makrorenkaineen"
+  ],
+  "chips": [
+    {
+      "emoji": "🥣",
+      "title": "Päivä 1",
+      "sub": "Kirjaa yksi ateria"
+    },
+    {
+      "emoji": "✨",
+      "title": "Päivä 7",
+      "sub": "Katso viikkoasi taaksepäin"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Mitä ruokapäiväkirjaan kirjataan?",
+      "a": "Aloita kolmella olennaisella: mitä söit, suunnilleen kuinka paljon ja milloin. Kun se tuntuu helpolta, lisää nälkäsi asteikolla 1–10 ja yksi sana siitä, miltä tuntui. Kalorit ja makrot ovat vapaaehtoisia; sovellus voi laskea ne puolestasi."
+    },
+    {
+      "q": "Kuinka kauan ruokapäiväkirjaa kannattaa pitää?",
+      "a": "Anna sille vähintään yksi kokonainen viikko tavan rakentumiseen ja sitten kahdesta neljään viikkoa kuvioiden näkymiseen. Moni jatkaa kuukausia, koska kirjaamisesta tulee nopeaa ja hyödyllistä, mutta lyhytkin päiväkirja voi kertoa syömisestäsi paljon."
+    },
+    {
+      "q": "Pitääkö ruokapäiväkirjassa laskea kaloreita?",
+      "a": "Ei. Ruokapäiväkirja voi olla niinkin yksinkertainen kuin mitä, milloin ja miltä tuntui. Kaloreista on hyötyä joihinkin tavoitteisiin, mutta moni saa suurimman hyödyn pelkästä kuvioiden huomaamisesta. Fimblen Rauhallinen tila (Premium) jopa korvaa kalorimäärät lempeillä arvosanoilla."
+    },
+    {
+      "q": "Onko ruokapäiväkirjasovellus parempi kuin paperi?",
+      "a": "Kumpikaan ei ole yleisesti parempi. Paperi on joustava eikä vaadi asennuksia. Sovellus on nopeampi haun, viivakoodin skannauksen ja tallennettujen aterioiden ansiosta, muistuttaa ja näyttää suuntaukset puolestasi. Paras valinta on se, jonka jaksat avata."
+    },
+    {
+      "q": "Entä jos unohdan kirjata aterian?",
+      "a": "Kirjaa se, minkä muistat, tai jatka yksinkertaisesti seuraavasta ateriasta. Väliin jäänyt ateria tai päivä ei pilaa päiväkirjaa; alusta aloittamisen yrittäminen on se, mikä yleensä lopettaa sen. Hyvä nyrkkisääntö: päivä saa jäädä väliin, kunhan kahta ei jää peräkkäin."
+    },
+    {
+      "q": "Auttaako ruokapäiväkirja laihduttamaan?",
+      "a": "Tutkimukset yhdistävät ruokakirjaukset johdonmukaisesti parempiin painonpudotustuloksiin, etenkin kun kirjataan usein ja säännöllisesti. Lähes 1 700 aikuisen tutkimuksessa pidettyjen ruokakirjausten määrä oli yksi vahvimmista painonpudotuksen ennustajista. Näyttö osoittaa vahvan yhteyden, ei takuuta jokaiselle."
+    },
+    {
+      "q": "Onko olemassa ilmaista ruokapäiväkirjasovellusta, joka opastaa alkuun?",
+      "a": "Kyllä. Fimbl iPhonelle ja iPadille on ilmainen ladata, ja siinä on opastettu Ensimmäinen viikkosi: seitsemän päivää, yksi pieni askel päivässä ja muistutus valitsemaasi aikaan. Päiväkirja, viivakoodinlukija ja tuntemusten kirjaus ovat ilmaisia, eikä niissä ole mainoksia."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Hollis JF ym. (2008). Painonpudotus Weight Loss Maintenance -tutkimuksen intensiivivaiheessa. American Journal of Preventive Medicine 35(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18617080/"
+    },
+    {
+      "text": "Burke LE, Wang J, Sevick MA (2011). Omaseuranta painonpudotuksessa: järjestelmällinen kirjallisuuskatsaus. Journal of the American Dietetic Association 111(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
+    },
+    {
+      "text": "Harvey J ym. (2019). Kirjaa usein, laihdu enemmän: sähköinen ruokavalion omaseuranta painonpudotuksessa. Obesity 27(3).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30801989/"
+    },
+    {
+      "text": "Levinson CA, Fewell L, Brosof LC (2017). MyFitnessPal-kalorilaskurin käyttö syömishäiriöissä. Eating Behaviors 27.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28843591/"
+    },
+    {
+      "text": "Simpson CC, Mazzeo SE (2017). Kalorien laskeminen ja liikunnan seurantateknologia: yhteydet syömishäiriöoireisiin. Eating Behaviors 26.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28214452/"
+    },
+    {
+      "text": "Syömishäiriöliitto SYLI ry: tukipuhelin ja Syli-chat.",
+      "url": "https://syomishairioliitto.fi/"
+    }
+  ]
+}

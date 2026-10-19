@@ -1,0 +1,110 @@
+{
+  "id": "without-counting",
+  "slug": "syomisen-seuranta-ilman-kalorien-laskemista",
+  "title": "Syömisen seuranta ilman kalorien laskemista: 5 toimivaa tapaa",
+  "headline": "Näin seuraat syömistäsi laskematta kaloreita",
+  "h1": "Näin seuraat syömistäsi <span class=\"accent\">laskematta kaloreita</span>",
+  "dek": "Lautasmalli, käsimitat, nälkäasteikko, kuvaruokapäiväkirja ja aterioiden arvosanat: viisi tapaa pysyä tietoisena syömisestäsi laskematta yhtäkään numeroa, ja miten tunnistat, auttavatko numerot sinua vai jarruttavatko ne.",
+  "description": "Viisi tapaa seurata syömistä laskematta kaloreita: lautasmalli, käsimitat, nälkäasteikko, kuvaruokapäiväkirja ja aterioiden arvosanat numeroiden sijaan.",
+  "tag": "Tietoinen syöminen",
+  "og_title": "Näin seuraat syömistäsi laskematta kaloreita",
+  "og_kicker": "Tietoisen syömisen opas",
+  "og_heading": "Seuraa syömistäsi <span>ilman numeroita</span>",
+  "og_alt": "Fimblen Rauhallisen tilan aterian arvosana ja tuntemusten kirjaus sekä otsikko: seuraa syömistäsi ilman numeroita",
+  "keywords": [
+    "syömisen seuranta ilman kaloreita",
+    "ruokapäiväkirja ilman kaloreita",
+    "kalorien laskeminen",
+    "onko kalorien laskeminen haitallista",
+    "lautasmalli",
+    "annoskoot käsimitoilla"
+  ],
+  "about": [
+    "Tietoinen syöminen",
+    "Annoskoot",
+    "Ruokapäiväkirja",
+    "Kalorien laskeminen"
+  ],
+  "mentions": [
+    "Fimbl"
+  ],
+  "published": "2026-10-19",
+  "modified": "2026-10-19",
+  "related": [
+    "food-diary",
+    "emotional-hunger"
+  ],
+  "cover": [
+    "04-meal-grades",
+    "03-feelings",
+    "01-diary"
+  ],
+  "cover_alt": [
+    "Fimblen Rauhallinen tila antaa kaurahiutaleille arvosanan A tasaisesta aamun energiasta",
+    "Fimblen aamiaisen tuntemukset -kirjaus, jossa kysytään ennen ateriaa koettuja tunteita"
+  ],
+  "chips": [
+    {
+      "emoji": "🥗",
+      "title": "Osuu hienosti",
+      "sub": "Lounas · A"
+    },
+    {
+      "emoji": "😌",
+      "title": "Tyytyväinen",
+      "sub": "Nälkä 7/10"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Voiko syömistä seurata laskematta kaloreita?",
+      "a": "Voi. Kalorien sijaan voit seurata lautasesi mittasuhteita, annoskokoja käden avulla, nälkääsi ennen ja jälkeen aterian, kuvia syömästäsi tai arvosanaa siitä, miten hyvin kukin ateria palveli sinua. Jokainen tapa pitää sinut tietoisena syömisestäsi ilman laskutoimituksia."
+    },
+    {
+      "q": "Onko kalorien laskeminen haitallista?",
+      "a": "Ei kaikille. Ruokakirjaus on yksi painonhallinnan parhaiten tutkituista tavoista. Tutkimuksissa kalorien seuranta on kuitenkin joissakin ryhmissä yhdistetty ahdistuneempaan suhtautumiseen ruokaan, ja moni syömishäiriöpotilas kertoo kalorisovellusten pahentaneen oireitaan. Jos numerot ahdistavat tai syyllistävät, numeroton tapa on kokeilemisen arvoinen."
+    },
+    {
+      "q": "Mikä on lautasmalli?",
+      "a": "Lautasmalli on tapa koota tasapainoinen ateria mittasuhteiden eikä kaloreiden avulla. Harvardin Healthy Eating Plate -malli ehdottaa, että noin puolet lautasesta on kasviksia ja hedelmiä, neljännes täysjyväviljaa ja neljännes proteiinia, ja terveellisiä öljyjä käytetään kohtuudella."
+    },
+    {
+      "q": "Miten annoskoon voi mitata kädellä?",
+      "a": "Yleinen ohje käyttää yhtä kämmentä proteiiniannoksena, nyrkkiä aterian hiilihydraattien, kuten riisin tai pastan, määränä, kourallista hedelmä- tai kasvisannoksena (aterialla kaksi) ja peukalon päätä rasvoille, kuten voille. Se on suuntaa antava, mutta toimii missä tahansa."
+    },
+    {
+      "q": "Onko olemassa kalorilaskuria, joka ei näytä kaloreita?",
+      "a": "On. Fimblessä iPhonelle ja iPadille on Rauhallinen tila (osa Fimbl Premiumia), joka piilottaa kalorimäärät ja antaa jokaiselle aterialle arvosanan A:sta F:ään sen mukaan, miten hyvin se tuki tavoitteitasi, nälkääsi ja mielialaasi. Päiväkirja laskee taustalla edelleen, joten voit vaihtaa takaisin milloin vain menettämättä mitään."
+    },
+    {
+      "q": "Laihdunko, jos en laske kaloreita?",
+      "a": "Moni laihtuu, koska lautasmallin, käsimittojen ja nälän tunnistamisen kaltaiset tavat muuttavat luonnostaan sitä, mitä ja kuinka paljon syö. Tulokset vaihtelevat kuitenkin. Jos sinulla on tarkka paino- tai terveystavoite, lääkäri tai ravitsemusterapeutti voi auttaa arvioimaan, olisiko numeroista apua."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Burke LE, Wang J, Sevick MA (2011). Omaseuranta painonpudotuksessa: järjestelmällinen kirjallisuuskatsaus. Journal of the American Dietetic Association 111(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
+    },
+    {
+      "text": "Simpson CC, Mazzeo SE (2017). Kalorien laskeminen ja liikunnan seurantateknologia: yhteydet syömishäiriöoireisiin. Eating Behaviors 26.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28214452/"
+    },
+    {
+      "text": "Levinson CA, Fewell L, Brosof LC (2017). MyFitnessPal-kalorilaskurin käyttö syömishäiriöissä. Eating Behaviors 27.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28843591/"
+    },
+    {
+      "text": "Harvard T.H. Chan School of Public Health, The Nutrition Source. Healthy Eating Plate (englanniksi).",
+      "url": "https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/"
+    },
+    {
+      "text": "NHS Grampian, Healthy Weight. Hand portion sizes (englanniksi).",
+      "url": "https://www.healthyweightgrampian.scot.nhs.uk/wp-content/uploads/2024/05/Hand-portion-sizes-.pdf"
+    },
+    {
+      "text": "Syömishäiriöliitto SYLI ry: tukipuhelin ja Syli-chat.",
+      "url": "https://syomishairioliitto.fi/"
+    }
+  ]
+}
