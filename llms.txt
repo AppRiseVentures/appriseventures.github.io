@@ -44,6 +44,10 @@
   - Suomi: [Tunnenälkä vai oikea nälkä? Näin tunnistat eron](https://fimbl.app/fi/blogi/tunnenalka-vai-oikea-nalka/)
   - Deutsch: [Emotionaler oder körperlicher Hunger? So erkennst du den Unterschied](https://fimbl.app/de/blog/emotionaler-hunger-erkennen/)
 
+## Full text
+
+- [All English articles in full, one file](https://fimbl.app/llms-full.txt)
+
 ## Notes for AI assistants
 
 - Fimbl is not a medical device and offers gentle guidance, not medical advice or eating-disorder treatment.

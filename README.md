@@ -8,7 +8,8 @@ Landing page for [Fimbl](https://apps.apple.com/app/id6443701726), served by Git
 | `fi/`, `de/` | Finnish and German landing pages |
 | `blog/`, `fi/blogi/`, `de/blog/` | Blog indexes, posts and RSS feeds per language (generated, see below) |
 | `tools/blog/` | Blog generator and its content (not linked, disallowed in `robots.txt`) |
-| `sitemap.xml`, `llms.txt` | Generated with the blog: every page with its `hreflang` alternates, and a plain summary for AI assistants |
+| `sitemap.xml`, `llms.txt`, `llms-full.txt` | Generated with the blog: every page with its `hreflang` alternates, a plain summary for AI assistants, and the full text of every English article in one file |
+| `<key>.txt` | The IndexNow key (a 32-character hex file name, its content is the same key). `tools/blog/indexnow.py` submits the sitemap's URLs to Bing and other IndexNow engines |
 | `privacy/`, `terms/` | Privacy policy and terms of use, linked from the app |
 | `privacy_policy/`, `terms_of_use/` | Redirects from the old URLs |
 | `404.html` | Not found page, also catches universal links when the app isn't installed |
@@ -44,15 +45,16 @@ English is the default and lives at the root. Finnish is under `/fi/` and German
 - A language picked in the menu is remembered in `localStorage` (`fimbl-lang`, disclosed in the privacy policy, section 13). Then `/` opens the saved language, and the English-only pages (`<body data-shared>`) point their home, section and blog links at it. The 404 page also follows the `/fi/` or `/de/` prefix of the missing address.
 - Visitors whose browser prefers another available language see a small hint to switch, never a redirect, so search engines always get the page they asked for.
 
-The Finnish and German landing pages are hand-written HTML like `index.html`. Keep their structure in step when the English page changes.
+The Finnish and German landing pages are hand-written HTML like `index.html`. Keep their structure in step when the English page changes. The one exception is the "From the blog" cards between the `blog-cards` comments: the blog build rewrites them with the newest six posts, so don't edit them by hand.
 
 ## Blog
 
 Posts are written once per language and built into static pages by `tools/blog/build.py` (Python 3, no dependencies). The generated HTML is committed, so GitHub Pages still has no build step.
 
 ```bash
-python3 tools/blog/build.py        # posts, blog indexes, feeds, sitemap.xml, llms.txt
+python3 tools/blog/build.py        # posts, blog indexes, feeds, sitemap.xml, llms.txt, llms-full.txt, home page blog cards
 python3 tools/blog/build.py --og   # also renders the covers and 1200×630 share images (Google Chrome, cwebp)
+python3 tools/blog/indexnow.py     # after publishing: tell Bing and other IndexNow engines about every URL
 ```
 
 | File | Contents |

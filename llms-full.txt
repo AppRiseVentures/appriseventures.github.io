@@ -1,0 +1,1396 @@
+# Fimbl
+
+> Fimbl is a calm, guilt-free food diary and calorie tracker for iPhone and iPad (iOS and iPadOS 26 or later), made by AppRise Ventures Oy in Espoo, Finland. It helps people notice what they eat, why they eat and how food makes them feel. Available in English, German and Finnish. Free to download with no ads; Fimbl Premium adds AI and depth features.
+
+## What Fimbl does
+
+- Food diary with search, barcode scanning, quick adds and saved meals (free)
+- Meal check-ins on hunger and feelings, plus daily mood (free)
+- Guided First Week: seven days, one small step a day (free)
+- Weight, BMI, streaks, goals and Apple Health activity: steps, active and resting energy, workouts (free)
+- Guided progress photos that stay on the iPhone: never uploaded to Fimbl's servers, never used for AI, never in iCloud backups (free)
+- Premium: photo calorie scan, describing meals by text or voice, nutrition label scan, recipes from Reels, TikToks, YouTube Shorts and recipe sites, macro goals, Calm mode (grades instead of calorie numbers), healthier product swaps, weekly AI reflections and a reflection coach, widgets, extra meal slots and streak restore
+- AI features are optional and Premium-only. Requests go through Fimbl's servers to Google's Gemini API, without name or email. Free accounts never send anything to an AI service.
+
+> The full text of the English articles on fimbl.app. Finnish and German versions are listed in llms.txt.
+
+
+---
+
+# The best progress photo apps in 2026, compared
+
+URL: https://fimbl.app/blog/best-progress-photo-apps/
+Published: 2026-10-19 · Updated: 2026-10-19 · By Kasper Koskenvirta
+
+> The scale can't tell fat from water or muscle. Photos can, if every one is taken the same way. We compared how Fimbl, Progress, Hevy, MacroFactor, MyFitnessPal and Cronometer help you capture, compare and protect your body transformation photos.
+
+Three weeks of eating well, two workouts a week, and the scale says you've lost 300 grams. Your jeans disagree. So does the mirror, on a good day. Progress photos settle the argument, but only if they're taken the same way every time. Most apps hand you a camera and wish you luck. A few actually help you line up the shot.
+
+ The short answer
+
+For documenting a body transformation alongside your food and weight, Fimbl is our pick: guided front, side, back and face photos, live on-device alignment, hands-free auto-capture, side-by-side and swipe compare, a time-lapse, and photos that never leave your iPhone. All of it is free. Other good options:
+
+- Progress if you want a dedicated photo and measurement app with a passcode lock and iCloud sync.
+- Hevy if you lift and want photos next to your workout log.
+- MacroFactor if you already use it for adaptive macros and want front, side and back slots.
+
+A note on bias. We make Fimbl, and progress photos are one of the features we're proudest of. Every claim about another app was checked against that company's own help centre, privacy policy or App Store listing in October 2026, and "not documented" means we couldn't find the feature there, not that it definitely doesn't exist. Sources are listed at the end.
+
+## Why progress photos beat the scale
+
+The scale measures everything at once: fat, muscle, water, glycogen, last night's salty dinner. That makes it noisy in the short term. In a study of 1,421 adults, weight rose over the weekend and fell during the week as a normal pattern,[1] and a Finnish study of daily weigh-ins concluded the same weekly rhythm should be seen as normal, not as weight gain.[2]
+
+The bigger blind spot is body composition. In a four-week trial combining a calorie deficit, training and a higher-protein diet, participants gained 1.2 kg of lean mass while losing 4.8 kg of fat.[3] The scale showed 3.6 kg. The body changed by six. That's the change photos capture and numbers miss: shoulders, posture, waist, the way a T-shirt sits.
+
+- The scalePrecise, frequent and noisy. Great for long-term trends, poor at telling fat from water or muscle.
+- PhotosShow shape and proportions. Only useful if every photo is taken the same way.
+- How you feelEnergy, sleep, clothes fitting. The measure most worth listening to, and the one no app can take for you.
+
+## How to take progress photos you can actually compare
+
+A progress photo is only as good as its consistency. Change the distance, the angle or the light, and you're comparing photography, not bodies.
+
+-
+
+Same place, same light. Pick one spot with even, front-facing light. Daylight from a window in front of you works well. Avoid overhead lights that carve shadows.
+
+-
+
+Same time and conditions. Morning, before eating, in similar clothes. Food, water and a pump after training all change how you look.
+
+-
+
+Same distance and height. Prop the phone at chest height, far enough away that your head and feet both fit. A timer beats a mirror selfie every time.
+
+-
+
+Same poses. Front and side at minimum, back if you can. Relaxed, arms slightly away from your body, no sucking in.
+
+-
+
+Same rhythm. Every week or two is plenty. Daily photos show mostly noise, and can turn into checking.
+
+This is exactly where most apps stop helping. Getting steps three and four right by yourself, week after week, is hard. It's the part we built Fimbl's camera around.
+
+## Progress photo features, app by app
+
+| Feature | Our pick Fimbl | Progress | Hevy | MacroFactor | MyFitnessPal | Cronometer |
+|---|---|---|---|---|---|---|
+| Progress photos | Yes: Free | Paid plan only: Pro | Yes: One a day | Paid plan only: Subscription only | Yes: One per weigh-in | Yes: "Snapshots" |
+| Guided poses | Yes: Front, side, back, face | Yes: Front, side, back | Not documented: Not documented | Yes: Front, side, back slots | No | No |
+| Live alignment guide | Yes: Detects your body, coaches you into place | Not documented: Not documented | Not documented: Not documented | Not documented: Not documented | No | No |
+| Overlay of your last photo | Yes: Same pose | Yes: "Show Last Photo" | Yes: Overlay button | Not documented: Not documented | No | No |
+| Hands-free capture | Yes: Auto when lined up, or 3 s / 10 s timer | Not documented: Not documented | Not documented: Not documented | Not documented: Not documented | No | No |
+| Compare | Yes: Side by side and swipe slider, auto-aligned | Yes: Side by side | Yes: Side by side | Yes: Before and after | Yes: Split photo | No |
+| Time-lapse | Yes: In the app | Not documented: Not documented | No | No | No | No |
+| Weight with each photo | Yes: Plus change and goal progress | Yes: Plus measurements | Yes: Optional | Yes: Body metrics | Yes: Per weigh-in | Yes: Vitals at upload |
+| Food diary in the same app | Yes: With hunger and feelings | No | No: Workout log | Yes | Yes | Yes |
+| Where photos are kept | On your iPhone only: Only on your iPhone, encrypted, never uploaded | On device: On device, encrypted, iCloud sync | Your account: In your Hevy account | Company cloud: Company cloud | Company server: Company server | Not stated: Not stated |
+| App lock | No: No, uses your iPhone's lock | Yes: Passcode, Face ID | Not documented: Not documented | Not documented: Not documented | No | No |
+
+ Available Paid plan only No, or not documented Checked against each provider's help centre, privacy policy and App Store listing, October 2026. We didn't find a progress-photo feature documented for Lose It!, YAZIO, Lifesum or Happy Scale. Apps change often, so check before you subscribe.
+
+## The apps, and who each one suits
+
+ Best dedicated photo app
+
+### Progress
+
+A long-standing body measurement app with front, side and back photos, a "Show Last Photo" overlay, side-by-side compare, and photos encrypted on your device with iCloud sync.[4]
+
+Keep in mind: photos are part of the paid Pro plan, and there's no food diary.
+
+ Best for lifters
+
+### Hevy
+
+A popular workout tracker where you can add a photo with your measurements, line it up with an overlay of your last one and compare it side by side. Photos stay private even if your profile is public.[5]
+
+Keep in mind: one photo per day, so front and side shots need separate days, and full body measurements need Pro.
+
+ Best alongside adaptive macros
+
+### MacroFactor
+
+Front, side and back photo slots, one of each per day, plus before-and-after images you can share. A natural fit if you already use its adaptive calorie targets.[6]
+
+Keep in mind: no free tier, and its privacy notice says data is stored with Google Firebase in the US.[7]
+
+ Simplest photo per weigh-in
+
+### MyFitnessPal
+
+Add one photo with each weigh-in and compare them as a split photo. Simple, and it lives next to the biggest food database around.[8]
+
+Keep in mind: no poses or alignment help, and photos sync to MyFitnessPal's servers.
+
+ A snapshot with your vitals
+
+### Cronometer
+
+"Snapshots" attach a photo to the vitals you log at that moment, next to Cronometer's detailed nutrient tracking.[9]
+
+Keep in mind: it's a photo log rather than a comparison tool: no poses, overlay or compare view.
+
+ Best overall for body transformation
+
+### Fimbl
+
+The only food diary we checked with a guided camera: it finds your body, coaches you into the same position as last time and takes the photo itself. Compare, time-lapse and private, on-device storage are all free.
+
+Keep in mind: iPhone and iPad only, no app lock, and photos stay on that one iPhone: they don't sync to a new phone.
+
+## Inside Fimbl's progress photos
+
+We wanted progress photos to feel like having a patient friend behind the camera. Here's what happens when you take one:
+
+- Line upThe camera finds your body on the device, about eight times a second, and coaches you: step back until your head and feet show, move a little left, lined up with your last photo. Prefer to see it? Toggle a faint overlay of your previous shot.
+- CaptureProp your phone up and step back. Once you're in position, a three-second countdown starts and the photo takes itself. Step out of line and it waits for you.
+- ComparePhotos are auto-aligned so your body sits in the same place in every frame, whatever your distance from the camera. Compare side by side or swipe between them, or press play for a time-lapse.
+
+ Free in Fimbl Before and after, with the whole story Pick any two photos of the same pose. Fimbl shows the days between them, the weight change, a mini chart of every weigh-in in between and how far you've come towards your goal. Lineup lines at shoulders, waist, hips and knees make small changes easier to see. Shown with Fimbl's demo account. The person and photos are AI-generated examples, not a real customer.
+
+- Front, side, back and face, each as its own series
+- Recrop a photo to match, with the other one faintly over it
+- Share card for Stories or posts, with weights and dates optional
+
+-
+
+Check it before you keep itHold the new photo to see your previous one in its place, then retake or keep it. Every photo belongs to a weigh-in, so your trend and your pictures always tell the same story.
+
+-
+
+Your whole journey, one swipe awayScrub the strip to move through every weigh-in, see the change since your first photo, or press play for a time-lapse. Meals, mood and activity sit in the same app, so you can see what happened in between.
+
+## Privacy: where your body photos live
+
+Progress photos are among the most personal pictures on your phone, often taken in underwear or less. Where they're stored matters. In 2025, researchers found a fitness app's cloud storage left open to anyone, exposing more than 138,000 users' progress photos.[10] It was closed after it was reported, but the lesson stands: a photo that's never uploaded can't leak from a server.
+
+### How Fimbl stores them
+
+Only on your iPhoneNever uploaded to our servers, never used for AI, and the body detection runs on the device.
+
+Encrypted at restProtected by iOS file encryption and unreadable while your phone is locked.
+
+Out of backups and your camera rollExcluded from iCloud backups and kept out of Photos unless you switch on "Save to Photos".
+
+### What that means for you
+
+They don't follow you to a new phoneBecause they're never backed up, switching phones, deleting the app or signing out removes them.
+
+Want a copy?Turn on "Save to Photos" to keep new shots in your library too. Those copies follow your iCloud Photos settings.
+
+Sharing is your callOnly a share card you create ever leaves your phone, and only when you share it.
+
+### What about AI body-fat scans?
+
+Some apps now estimate body-fat percentage from photos or a short video. Noom's Body Scan, for example, uses technology from Prism Labs and sends the scan for processing.[11, 12] The idea is appealing, but the numbers are rough: an independent study of two smartphone apps found typical errors of 3.9 to 6.2 percentage points of body fat compared with a lab reference.[13] That's the difference between 22% and 28%. For tracking your own change, consistent photos and a weight trend tell you more, and they don't require uploading pictures of your body.
+
+Photos should make you feel more informed, not more critical. Repeatedly checking your body can increase body dissatisfaction, especially for people who already worry about how they look.[14] Take photos every week or two rather than every day, look at them alongside how you feel, and pause if they start to make you anxious. If thoughts about your body or food take up much of your day, a doctor or an eating-disorder service can help. Fimbl isn't a medical tool or a treatment for eating disorders.
+
+## How to choose in one minute
+
+-
+
+Want photos, food and weight in one place? Fimbl. It's the only food diary we checked with guided, auto-aligned photos, and they're free.
+
+-
+
+Need a passcode lock or sync across devices? A dedicated app like Progress, which encrypts photos and syncs through iCloud.
+
+-
+
+Already living in a workout log? Hevy's photo and overlay will fit right into your routine.
+
+-
+
+On Android? Fimbl and Progress are iPhone apps. Whatever you choose, look for two things: an overlay of your last photo, and a clear answer on where your photos are stored.
+
+Whichever you pick, the rule is the same: same spot, same light, same pose, every week or two. And if the scale and the mirror still disagree, remember the study above: six kilograms of change can look like three and a half on the scale. Our guide on [how to start a food diary](https://fimbl.app/blog/how-to-start-a-food-diary/) covers the eating side of the story, and our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/) looks at the apps beyond photos.
+
+ Our pick
+
+### See the change, not just the number
+
+Fimbl's camera lines you up, takes the photo for you and keeps it only on your iPhone. Compare any two weigh-ins, play your whole journey as a time-lapse, and see it next to your meals and mood.
+
+- Guided front, side, back and face photos
+- Side-by-side, swipe and time-lapse, free
+- Never uploaded, never used for AI
+
+ [Get Fimbl free](https://apps.apple.com/app/id6443701726)
+
+## Questions, answered
+
+### What is the best app for progress photos?
+
+It depends on what else you track. For progress photos alongside a food diary and weight, Fimbl offers guided front, side, back and face photos, live on-device alignment, auto-capture, side-by-side and swipe compare and a time-lapse, all free and stored only on your iPhone. Progress is a strong dedicated photo app with a passcode lock and iCloud sync, and Hevy suits people who already log workouts.
+
+### How do I take consistent progress photos?
+
+Use the same spot, light, time of day, clothing, camera height and distance every time, and the same poses: front and side at minimum, back if you can. Prop the phone up and use a timer rather than a mirror. An app with an overlay of your last photo, or Fimbl's live alignment guide, makes lining up much easier.
+
+### How often should I take progress photos?
+
+Every one to two weeks is plenty. Daily photos mostly show day-to-day noise such as water and food, and frequent body checking can increase body dissatisfaction for some people. Taking photos together with a weigh-in keeps the rhythm simple.
+
+### Why do I look different but weigh the same?
+
+The scale combines fat, muscle, water and glycogen. Weight naturally rises and falls through the week, and if you're training while eating less you can gain muscle while losing fat. In one trial, people gained 1.2 kg of lean mass while losing 4.8 kg of fat in four weeks, so the scale understated the change. Photos capture shape changes the scale misses.
+
+### Are progress photos in fitness apps private?
+
+It varies. Many apps upload photos to the company's servers or cloud. Others, such as Fimbl, keep them on your phone. In Fimbl, progress photos are never uploaded, never used for AI, encrypted on the device and excluded from iCloud backups. The trade-off is that they don't transfer to a new phone unless you save copies to Photos.
+
+### Can an app measure body fat from a photo?
+
+Some apps estimate it, usually by sending your photos or video to a server for analysis. The estimates are rough: an independent study of two smartphone apps found typical errors of 3.9 to 6.2 percentage points compared with a laboratory method. Consistent photos and a weight trend are more useful for tracking your own change.
+
+### Are Fimbl's progress photos free?
+
+Yes. Capturing, comparing, the time-lapse, recropping and the share card are all part of the free version of Fimbl for iPhone and iPad, with no ads.
+
+## Sources
+
+- Turicchi J et al. (2020). Weekly, seasonal and holiday body weight fluctuation patterns among individuals engaged in a European multi-centre behavioural weight loss maintenance intervention. PLoS ONE 15(4). https://pubmed.ncbi.nlm.nih.gov/32353079/
+- Orsama AL et al. (2014). Weight rhythms: weight increases during weekends and decreases during weekdays. Obesity Facts 7(1). https://pubmed.ncbi.nlm.nih.gov/24504358/
+- Longland TM et al. (2016). Higher compared with lower dietary protein during an energy deficit combined with intense exercise promotes greater lean mass gain and fat mass loss: a randomized trial. American Journal of Clinical Nutrition 103(3). https://pubmed.ncbi.nlm.nih.gov/26817506/
+- Progress help centre: are my photos and data private? Checked October 2026. https://help.theprogressapp.com/article/45-photos-data-private
+- Hevy help centre: body composition tracking, measurements and progress photos. Checked October 2026. https://help.hevyapp.com/hc/en-us/articles/35385479603479
+- MacroFactor help centre: how to add progress photos. Checked October 2026. https://help.macrofactorapp.com/en/articles/346-how-to-add-progress-photos
+- MacroFactor privacy notice. Checked October 2026. https://macrofactor.com/privacy/
+- MyFitnessPal support: progress photos FAQs. Checked October 2026. https://support.myfitnesspal.com/hc/en-us/articles/360032625271-Progress-Photos-FAQs
+- Cronometer support: Snapshots. Checked October 2026. https://support.cronometer.com/hc/en-us/articles/360018570251-Snapshots
+- Cybernews (2025). Fitness app leak exposes users' progress photos. https://cybernews.com/security/fitify-app-data-leak-user-photos-exposed/
+- Noom: in-app Body Scan technology announcement. https://www.noom.com/in-the-news/noom-introduces-innovative-in-app-body-scan-technology-to-monitor-muscle-mass-retention-during-glp-1-treatment/
+- Prism Labs privacy policy. Checked October 2026. https://www.prismlabs.tech/privacy
+- Graybeal AJ, Brandner CF, Tinsley GM (2022). Visual body composition assessment methods: a 4-compartment model comparison of smartphone-based artificial intelligence for body composition estimation in healthy adults. Clinical Nutrition 41(11). https://pubmed.ncbi.nlm.nih.gov/36215866/
+- Geiger G et al. (2024). Longer-term consequences of increased body checking in women at risk for eating disorders: a naturalistic experimental online study. PLoS ONE 19(12). https://pubmed.ncbi.nlm.nih.gov/39724236/
+
+
+---
+
+# How accurate is AI calorie tracking, and does it matter?
+
+URL: https://fimbl.app/blog/ai-calorie-tracking-accuracy/
+Published: 2026-10-19 · Updated: 2026-10-19 · By Kasper Koskenvirta
+
+> AI photo estimates are rough, and the research says so. But so is every other way of logging food. Here's what the studies found, why ease beats precision for most people, and when to reach for a barcode instead.
+
+Point your phone at a bowl of pasta and an app tells you 640 calories. It sounds precise. It isn't, quite. But here's the thing nobody selling AI trackers likes to say out loud, and nobody criticising them mentions either: the old way was never precise. The real question isn't whether AI is exact. It's whether it helps you keep going.
+
+ The short answer
+
+AI photo calorie estimates are rough: in a 2025 study, the best general-purpose AI models were off by about 36% per photo on average, and tended to underestimate large portions.[1] That sounds bad until you compare it with the alternative. The same researchers found AI performed comparably to traditional self-reported methods, without the effort.
+
+- Use AI for ease: home-cooked plates, restaurant meals and anything without a label. A rough log beats no log.
+- Use the database for precision: scan a barcode on packaged food and you get the manufacturer's own label values.
+- Correct once, reuse forever: adjust an estimate, save the meal, and the next log is one tap and spot on.
+
+## How accurate is AI calorie counting?
+
+The most useful recent study tested three widely used general-purpose AI models on 52 standardised food photos, from single ingredients to complete meals in three portion sizes, and compared their answers with weighed reference values.[1]
+
+- About 36% off on averageThe two best models missed the energy content of a photo by around 36% on average. The third did noticeably worse.
+- Big plates get underestimatedAll three models underestimated more as portions grew. A generous serving is where AI is least reliable.
+- Comparable to food diariesThe authors concluded the best models performed comparably to traditional self-reported methods, without the user burden.
+- Not for clinical precisionThey also said general-purpose AI isn't yet suitable for precise dietary assessment in clinical or athletic settings.
+
+Two caveats run in opposite directions. The study used 2024-era models, and the field moves fast, so today's estimates are likely better. On the other hand, real-life photos are messier than lab photos. A second 2025 study with a newer model shows what helps most: the average calorie error was about 31% from the photo alone, 24% when a few words about the meal were added, and 14% with a list of ingredients.[2] That's why the best AI logging lets you say what's in the dish, not just snap it.
+
+## Manual logging was never exact either
+
+It's tempting to compare AI with a perfect, weighed, lab-measured diary. Nobody keeps that diary. Real food logging is guesswork too, and the guesses lean one way.
+
+| Where errors come from | Writing it down | Database search | AI photo scan | Most precise Barcode scan |
+|---|---|---|---|---|
+| Portion size | You guess | You guess | AI guesses | You choose servings, the label does the rest |
+| Nutrition values | You guess or look up | Depends on the entry you pick | AI estimates | The manufacturer's label |
+| Forgotten items | Common: snacks, drinks, oil | Common | Less common: it's all in the photo | Only what you scan |
+| Effort per meal | High | Medium | Lowest | Low |
+
+Even labels have a margin: EU rules allow declared protein, carbohydrate and fat to differ from lab measurements by up to 20% for many foods, because ingredients vary from batch to batch.[4]
+
+Research on self-reported eating is sobering. A review of traditional dietary records found people consistently report eating less than they actually do, and the gap grows with body weight.[3] In one classic study, a group of people who believed they couldn't lose weight on a diet were underreporting their food by almost half.[5] No one was lying. Remembering, estimating and writing down every bite is simply hard.
+
+So the choice isn't between AI and accuracy. It's between different kinds of rough, and the one that matters most is the one that keeps you logging.
+
+## Why "close enough" works
+
+A food diary is useful because of the patterns it shows over weeks, not because any single meal is perfect. Research on logging points the same way: in one study, how often people logged was linked with weight loss, while how long they spent logging was not.[6] Precision that costs you three minutes a meal is precision you'll give up by Thursday.
+
+A rough log you keep for three months tells you more than a perfect one you abandon in a week.
+
+Errors also matter less than they look, because they tend to be consistent. If AI reads your usual breakfast low every time, your trend is still accurate: you'll still see that weekdays look different from weekends, and that the evening snack grew in November. And for the things where precision matters, you have a better tool.
+
+ Premium A photo, an estimate, and you in charge Snap a plate, or describe it by text or voice, and Fimbl estimates the portion, calories and macros. Then you adjust: half, one and a half or double the portion, or fine-tune the details. Estimates can be a little off, so the final say is always yours.
+
+- Photo scan, text or voice, and nutrition label scan
+- Recipes from Reels, TikToks, YouTube Shorts and recipe sites
+
+## When to skip AI: the product database
+
+For anything that comes in a package, you don't need an estimate. The nutrition is printed right there, and a barcode gets it into your diary in a second. Fimbl's food catalogue is built from:
+
+- Packaged products by barcodeFrom Open Food Facts, the open worldwide database of food labels, with each product's own nutrition values.[7]
+- Everyday whole foodsGeneric foods from Fineli, the Finnish national food composition database, and USDA FoodData Central.[8, 9]
+- Products people addMissing a product? Add it once from its label, and it's there the next time you scan it.
+
+-
+
+Label values, not guessesScan or search a product and adjust the serving. Barcode scanning is free in Fimbl.
+
+-
+
+Precise once, quick foreverBuild a regular meal from real products, save it, and log it again with one tap.
+
+## Which method to use when
+
+### Reach for the database
+
+Packaged foodYogurt, cereal, bread, ready meals: scan the barcode.
+
+Meals you eat oftenBuild them once from real products and save them.
+
+When precision mattersSpecific macro targets, or a plan from your dietitian.
+
+### Let AI handle it
+
+Restaurant and takeawayNo label, no recipe, just a plate.
+
+Home-cooked mixed dishesStews, salads and bowls that would take ten entries by hand.
+
+Busy momentsWhen the choice is a photo or nothing, take the photo.
+
+And when you have neither the time nor the energy, a quick add of a rough calorie number keeps the day in your diary. Close enough is good enough. The tracker that wins is the one you keep opening, which is the same conclusion we reached in our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/).
+
+## Five ways to get better AI estimates
+
+-
+
+Get the whole plate in the frame. Shoot from slightly above so the AI can see depth as well as area. Half a plate means half an estimate.
+
+-
+
+Say what the camera can't see. Oil, butter, dressing, sugar in the coffee. Hidden fats are the most common blind spot, and describing them is the single biggest improvement.
+
+-
+
+Check the portion, not just the food. AI tends to underestimate big servings. If you had seconds, bump the portion up.
+
+-
+
+Split meals with packaged parts. Scan the yogurt's barcode, photograph the fruit on top. Each tool where it's strongest.
+
+-
+
+Fix it once, then save it. If you eat a dish regularly, correct the estimate and save it as a meal. Your next log is one tap and exactly right.
+
+## What happens to your food photo?
+
+Before you point any app at your plate, it's worth asking where the picture goes. Ask of every AI tracker: is AI optional, what exactly is sent, is it linked to your name, and is it used to train models?
+
+In Fimbl, AI is optional and Premium-only. When you use a scan, the photo goes through Fimbl's servers to Google's Gemini API, without your name or email. We don't use your data to train AI models. Free accounts never send anything to an AI service, and the diary, search and barcode scanning work fully without AI. Our [privacy policy](https://fimbl.app/privacy/#ai) explains each feature in detail.
+
+ The best of both
+
+### AI when it's easier, labels when it matters
+
+Fimbl's free diary gives you barcode scanning, search and saved meals. Premium adds photo, voice and text logging for the meals that don't come with a label. You choose, meal by meal.
+
+- Free barcode scanner, no ads
+- Photo, voice and text logging with Premium
+- Every estimate adjustable
+
+ [Get Fimbl free](https://apps.apple.com/app/id6443701726)
+
+## Questions, answered
+
+### How accurate are AI calorie counting apps?
+
+Roughly accurate, not exact. In a 2025 study of 52 food photos, the best general-purpose AI models missed the calories by about 36% on average, and underestimated large portions more. Adding a short description or ingredient list improves estimates considerably. The researchers judged the best models comparable to traditional self-reported food diaries.
+
+### Is AI calorie tracking more accurate than logging manually?
+
+Not necessarily more accurate, but not much worse either, and far less effort. Manual food diaries are also prone to error: people consistently report eating less than they actually do. For packaged foods, scanning a barcode beats both, because it uses the manufacturer's label values.
+
+### Does it matter if my calorie tracker isn't 100% accurate?
+
+Usually not much. A food diary is useful for the patterns it shows over weeks, and errors tend to be consistent from day to day, so trends stay meaningful. Research links logging often with better results more than logging precisely. If you need precision for a medical or athletic goal, use barcode scanning and weighed portions.
+
+### How can I get better calorie estimates from a food photo?
+
+Get the whole plate in the frame from slightly above, mention anything the camera can't see such as oil, butter or dressing, check the portion size, scan the barcodes of packaged parts separately, and save corrected meals so you can re-log them exactly.
+
+### Where does Fimbl's food data come from?
+
+Packaged products come from Open Food Facts, the open worldwide database of food labels, so a barcode scan gives you the product's own nutrition values. Generic foods come from Fineli, the Finnish national food composition database, and USDA FoodData Central. Users can add missing products from the label.
+
+### Does Fimbl send my food photos to AI?
+
+Only if you use an AI feature, which is optional and part of Fimbl Premium. The photo goes through Fimbl's servers to Google's Gemini API without your name or email, and it isn't used to train AI models. Free accounts never send anything to an AI service.
+
+## Sources
+
+- Fridolfsson J, Sjöberg E, Thiwång M et al. (2025). Performance evaluation of 3 large language models for nutritional content estimation from food images. Current Developments in Nutrition 9(10). https://pubmed.ncbi.nlm.nih.gov/41081011/
+- Rodríguez-Jiménez M et al. (2025). Image-based dietary energy and macronutrients estimation with ChatGPT-5: cross-source evaluation across escalating context scenarios. Nutrients 17(22). https://pubmed.ncbi.nlm.nih.gov/41305663/
+- Ravelli MN, Schoeller DA (2020). Traditional self-reported dietary instruments are prone to inaccuracies and new approaches are needed. Frontiers in Nutrition 7. https://pubmed.ncbi.nlm.nih.gov/32719809/
+- European Commission (2012). Guidance document for competent authorities for the control of compliance with EU legislation with regard to the setting of tolerances for nutrient values declared on a label. https://food.ec.europa.eu/system/files/2016-10/labelling_nutrition-vitamins_minerals-guidance_tolerances_1212_en.pdf
+- Lichtman SW et al. (1992). Discrepancy between self-reported and actual caloric intake and exercise in obese subjects. New England Journal of Medicine 327(27). https://pubmed.ncbi.nlm.nih.gov/1454084/
+- Harvey J et al. (2019). Log often, lose more: electronic dietary self-monitoring for weight loss. Obesity 27(3). https://pubmed.ncbi.nlm.nih.gov/30801989/
+- Open Food Facts: the free and open food products database. https://world.openfoodfacts.org/
+- Fineli, the national food composition database in Finland. Finnish Institute for Health and Welfare. https://fineli.fi/fineli/en/index
+- USDA FoodData Central. https://fdc.nal.usda.gov/
+
+
+---
+
+# How to track what you eat without counting calories
+
+URL: https://fimbl.app/blog/track-food-without-counting-calories/
+Published: 2026-10-19 · Updated: 2026-10-19 · By Kasper Koskenvirta
+
+> The plate method, hand portions, a hunger scale, a photo diary and meal grades: five ways to stay aware of what you eat without adding up a single number, and how to tell whether numbers help you or hold you back.
+
+You don't need to know that lunch was 612 calories to know it kept you full until five. For a lot of people, the number was never the useful part. The noticing was. If counting has started to feel like a test you keep failing, you can keep the awareness and let go of the arithmetic.
+
+ The short answer
+
+You can track what you eat without counting calories by changing what you measure: the shape of your plate, the size of your portions, your hunger before and after meals, or how well each meal served you.
+
+- Five methods that work: the plate method, hand portions, a hunger scale, a photo food diary, and meal grades instead of numbers.
+- Start with one. The plate method or a hunger check-in takes seconds and needs no app, no scale and no maths.
+- In Fimbl, Calm mode (Premium) swaps calorie numbers for gentle grades, while the diary keeps counting quietly in the background.
+
+## Why some people track better without numbers
+
+Calorie counting works well for plenty of people. Logging food consistently is one of the best-supported habits in weight management.[1] But a calorie total is a blunt instrument. It says nothing about whether a meal kept you full, gave you energy or left you craving something an hour later. And for some people, the number itself becomes the problem.
+
+In a study of 493 university students, regular calorie tracking was associated with more anxious attitudes towards food and more restrictive dieting.[2] In another, most people with an eating disorder who used a calorie-tracking app felt it had contributed to their symptoms.[3] Neither study proves that counting causes harm, but both point the same way: for some of us, the number turns a helpful habit into a stressful one.
+
+The good news is that awareness doesn't need arithmetic. Each of the methods below keeps the part that helps, noticing what and how you eat, and drops the part that doesn't.
+
+## Five ways to track food without counting calories
+
+Effort is the time per meal once the method is familiar. Most people combine two of these.
+
+| Method | What you track | Effort | Best for | In Fimbl Supported |
+|---|---|---|---|---|
+| 1. Plate method | Proportions on your plate | A glance | Balanced meals, families | Partly: Through meal grades |
+| 2. Hand portions | Portion sizes, using your hand | A glance | Eating out, travel | No: No tools needed |
+| 3. Hunger scale | Hunger before, fullness after | Ten seconds | Overeating, emotional eating | Yes: Meal check-ins, free |
+| 4. Photo food diary | A picture of each meal | Five seconds | Spotting patterns at a glance | Yes: Photo scan, Premium |
+| 5. Meal grades | How well a meal served you | Automatic | Stepping back from numbers | Yes: Calm mode, Premium |
+
+### 1. The plate method
+
+Instead of adding up a meal, look at its shape. Harvard's Healthy Eating Plate suggests filling about half your plate with vegetables and fruit, a quarter with whole grains and a quarter with protein, with healthy oils in moderation.[4] The proportions are deliberately approximate and aren't based on calories at all, which is exactly the point. Your question at each meal becomes "is this plate roughly balanced?" rather than "how many calories is this?"
+
+### 2. Hand portions
+
+Your hand goes everywhere you do, and it scales with your body. NHS Grampian's hand portion guide uses it like this:[5]
+
+- Two handfulsFruit and vegetables at a meal. One handful is one portion.
+- One palmA portion of protein: meat, fish, tofu, beans.
+- One fistCarbohydrates like rice, pasta or potatoes at a meal.
+- A thumb tipButter, mayonnaise and similar fats. A whole thumb is roughly a portion of cheese.
+
+It isn't precise, and it doesn't need to be. Hand portions are about getting the proportions roughly right, especially when you're eating out and there's nothing to scan.
+
+### 3. A hunger and fullness scale
+
+Rate your hunger from 1 (ravenous) to 10 (stuffed) before you eat, and check in again afterwards. Most people feel best starting around 3 or 4 and stopping around 6 or 7. It takes ten seconds and teaches you something no calorie total can: whether you're eating because you're hungry. We cover the scale, and what to do when the urge isn't hunger, in our guide to [emotional vs physical hunger](https://fimbl.app/blog/emotional-vs-physical-hunger/).
+
+ Free in Fimbl Hunger and feelings, logged in seconds Fimbl asks at your meals: how hungry were you, and how do you feel? Tap a few words, from craving and stressed to satisfied and energised. Over time it shows your most frequent feelings and your hunger trend, with no calorie numbers involved.
+
+### 4. A photo food diary
+
+Take a picture before every meal and snack, and look back at the end of the week. A photo is faster than writing and harder to fudge, and a week of plates side by side shows patterns instantly: how many meals had vegetables, how often dinner came from a box, how big the evening snacks got. Your camera roll works, or a dedicated album. In Fimbl, a photo scan (Premium) also logs the meal for you, and you can hide the numbers it produces with Calm mode.
+
+### 5. Meal grades instead of numbers
+
+The newest approach replaces the number with a judgement about the meal itself: did it fit your goals, keep you full, leave you feeling good? It's the method we built Fimbl's Calm mode around, because it keeps the useful information and drops the part that makes people anxious.
+
+ Premium Calm mode: grades, not guilt Each food and meal gets a gentle grade from A to F for how well it served your goals, hunger and mood, from "Great fit" to "Room to grow", with a short note and one idea for next time. Your day gets a grade too.
+
+- Calorie numbers are hidden, not deleted
+- The diary keeps counting in the background, so you can switch back any time
+
+## When numbers help, and when they start to hurt
+
+Going number-free isn't better for everyone. It's a choice, and it helps to know which side of it you're on.
+
+### Numbers tend to help when
+
+You have a specific targetTraining for an event, building muscle, or eating enough after illness.
+
+A professional asked you toCarbohydrate counting for diabetes, or a plan from your dietitian.
+
+They feel neutralYou can see a high total and simply carry on with your day.
+
+### Consider stepping back when
+
+A red number ruins your eveningGuilt is a sign the tool is working against you.
+
+You avoid foods you can't logTurning down a birthday cake because it has no barcode is the number running the show.
+
+You've quit tracking beforeBurn-out after a few weeks usually means the method asked too much.
+
+There's also a middle path: keep logging food so the record exists, but hide the totals. That's what Calm mode does, and it's why switching back never loses anything. If you'd like to see how other apps handle numbers, our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/) covers each one.
+
+## How to get started this week
+
+-
+
+Pick one method, not five. The plate method if you want structure, the hunger scale if you tend to overeat, photos if you want the lowest effort.
+
+-
+
+Use it at one meal a day for three days. Small and repeatable beats ambitious and abandoned.
+
+-
+
+Add a second method if it feels easy. Plate plus hunger scale is a strong pair: one covers what you eat, the other why.
+
+-
+
+Look back at the end of the week. What patterns show up without a single number? Our guide on [how to start a food diary](https://fimbl.app/blog/how-to-start-a-food-diary/) has a full seven-day plan.
+
+If food and numbers feel overwhelming, you deserve support. If you have a history of disordered eating, or tracking of any kind makes you anxious or rigid about food, talk to a doctor or an eating-disorder service before starting. Fimbl is a food diary, not a medical tool or a treatment for eating disorders.
+
+ Track your way
+
+### Keep the awareness, lose the arithmetic
+
+Start with Fimbl's free diary and meal check-ins. When numbers get loud, Calm mode swaps them for gentle grades, and switching back never loses a thing.
+
+- Free hunger and feeling check-ins
+- Calm mode: grades instead of calories
+- No ads, no streak shame
+
+ [Get Fimbl free](https://apps.apple.com/app/id6443701726)
+
+## Questions, answered
+
+### Can you track food without counting calories?
+
+Yes. Instead of calories, you can track the proportions on your plate, portion sizes using your hand, your hunger before and after meals, photos of what you eat, or a grade for how well each meal served you. Each keeps you aware of your eating without the arithmetic.
+
+### Is calorie counting bad for you?
+
+Not for everyone. Food logging is one of the best-supported habits in weight management. But studies have linked calorie tracking with more anxious attitudes towards food in some groups, and many people with eating disorders say calorie apps made their symptoms worse. If numbers make you anxious or guilty, a number-free method is worth trying.
+
+### What is the plate method?
+
+The plate method is a way to build balanced meals by proportion instead of calories. Harvard's Healthy Eating Plate suggests about half the plate vegetables and fruit, a quarter whole grains and a quarter protein, with healthy oils in moderation.
+
+### How do I measure portions with my hand?
+
+A common guide uses one palm for a portion of protein, a fist for carbohydrates like rice or pasta at a meal, a handful for a portion of fruit or vegetables (two at a meal) and a thumb tip for fats like butter. It's approximate, but it works anywhere.
+
+### Is there a calorie tracker app that doesn't show calories?
+
+Yes. Fimbl for iPhone and iPad has Calm mode (part of Fimbl Premium), which hides calorie numbers and grades each meal from A to F for how well it served your goals, hunger and mood. The diary keeps counting in the background, so you can switch back at any time without losing anything.
+
+### Will I still lose weight without counting calories?
+
+Many people do, because methods like the plate method, hand portions and hunger awareness naturally change how much and what they eat. Results vary, though. If you have a specific weight or medical goal, a doctor or dietitian can help you decide whether numbers would help.
+
+## Sources
+
+- Burke LE, Wang J, Sevick MA (2011). Self-monitoring in weight loss: a systematic review of the literature. Journal of the American Dietetic Association 111(1). https://pubmed.ncbi.nlm.nih.gov/21185970/
+- Simpson CC, Mazzeo SE (2017). Calorie counting and fitness tracking technology: associations with eating disorder symptomatology. Eating Behaviors 26. https://pubmed.ncbi.nlm.nih.gov/28214452/
+- Levinson CA, Fewell L, Brosof LC (2017). My Fitness Pal calorie tracker usage in the eating disorders. Eating Behaviors 27. https://pubmed.ncbi.nlm.nih.gov/28843591/
+- Harvard T.H. Chan School of Public Health, The Nutrition Source. Healthy Eating Plate. https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/
+- NHS Grampian, Healthy Weight. Hand portion sizes. https://www.healthyweightgrampian.scot.nhs.uk/wp-content/uploads/2024/05/Hand-portion-sizes-.pdf
+
+
+---
+
+# How to start a food diary: a 7-day plan for beginners
+
+URL: https://fimbl.app/blog/how-to-start-a-food-diary/
+Published: 2026-10-19 · Updated: 2026-10-19 · By Kasper Koskenvirta
+
+> Most food diaries are abandoned by day four because day one asked for too much. Here's what to write down, a seven-day plan that adds one small step at a time, and the mistakes that quietly end diaries early.
+
+Most food diaries don't fail on day thirty. They fail on day four, usually around dinner, when logging every gram starts to feel like a second job. That isn't a discipline problem. It's a design problem: day one asked for too much. Here's a week that asks for a little less, and keeps you going.
+
+ The short answer
+
+To start a food diary, don't log everything on day one. Log one meal, then add one small habit a day for a week: a hunger check-in, a second meal, your mood, a faster way to log, one complete day, and a look back on day seven.
+
+- Write down: what you ate, roughly how much and when. Add hunger (1–10) and one feeling word if you can.
+- Aim for: logging often, not perfectly. Research links the frequency of logging with results more than the time spent on it.[3]
+- Missed a day? Pick up at the next meal. Just try not to miss two in a row.
+
+## Why keep a food diary at all?
+
+A food diary is the simplest nutrition tool there is, and one of the best studied. Writing down what you eat turns a blur of meals and snacks into something you can actually look at. In one large weight-loss trial with nearly 1,700 adults, the number of food records people kept was among the strongest predictors of how much weight they lost.[1] A systematic review of 22 studies found the same pattern across the board: self-monitoring and results go together, although the authors were careful to call the evidence promising rather than conclusive.[2]
+
+But a diary isn't only for weight loss. It's how you find out that your energy dips on days you skip breakfast, that the 4 pm snack follows a stressful meeting, or that you feel best after meals you hadn't even noticed you liked. Weight is one thing a diary can help with. Understanding yourself is the bigger one.
+
+## What to write in a food diary
+
+Start with the essentials and add the extras when they feel easy. You don't need everything from the first meal.
+
+| What to note | Example | Why it helps | Start here Essential? |
+|---|---|---|---|
+| What you ate | Oat porridge, blueberries, coffee with milk | The raw material for every pattern | Yes: Yes |
+| Roughly how much | A medium bowl, a handful | Close enough is good enough | Yes: Yes |
+| When | 7:40, before work | Shows gaps, late meals and grazing | Yes: Yes |
+| How hungry you were | 3 out of 10, properly hungry | Separates hunger from habit | Extra: From day 2 |
+| One feeling word | Rushed, calm, bored, happy | Reveals emotional triggers | Extra: From day 2 |
+| Where and with whom | At my desk, alone | Context explains a lot | Optional: Optional |
+| Calories and macros | 420 kcal, 14 g protein | Useful for specific goals | Optional: Optional, an app does the maths |
+
+Calories are optional. If numbers make you anxious, see [how to track food without counting calories](https://fimbl.app/blog/track-food-without-counting-calories/).
+
+## The 7-day plan: one small step a day
+
+Each day adds one thing that takes under a minute. By the end of the week you'll have a full picture without ever having had a hard day of logging. This is the same plan Fimbl's guided First Week walks you through, but it works just as well with a notebook.
+
+-
+
+Day 1: Log one meal. Anything counts: a coffee, a snack, a full plate. The only goal is to start, so pick the easiest meal of your day and write it down. Close enough is good enough.
+
+-
+
+Day 2: Check in after a meal. Log a meal, then add two things: how hungry you were before (1 to 10) and how you feel now. Awareness comes before change, and this is where awareness starts.
+
+-
+
+Day 3: Log two meals. One meal is a moment. Two start to show a pattern: how long between them, how hungry you were at the second, what you reached for.
+
+-
+
+Day 4: Name your mood. One word for the day as a whole. Food and feelings travel together, and naming yours makes every look back more personal. There are no wrong answers.
+
+-
+
+Day 5: Make it effortless. Find your fastest way to log: a barcode scan, a saved meal, a quick add of a rough calorie number, or a photo. The easier logging feels, the longer you'll keep it up.
+
+-
+
+Day 6: Log one whole day. Every meal and snack, from morning to night, just this once. Seeing the full picture of an ordinary day is surprisingly eye-opening.
+
+-
+
+Day 7: Look back on your week. Read your week from start to finish. What surprised you? When were you hungriest? Which meals left you feeling good? Pick one small thing to try next week.
+
+Missed a step? Catch up, don't start over. If day 3 slips by, do it on day 4 alongside that day's step. Restarting from zero is what turns one missed day into a lost week. The rule we print right in the app: miss a day, that's fine. Just don't miss two.
+
+ Free in Fimbl This plan, built into the app Fimbl's First Week turns these seven steps into a guided journey, with one nudge a day at the time you choose: morning, midday or evening. Each step stays open as a catch-up if its day passes, and day seven shows you what your week added up to.
+
+- One action per day, each under a minute
+- Skip it or replay it any time from Settings
+
+## Paper, notes app or food diary app?
+
+The best food diary is the one you'll actually open on a busy Tuesday. Each format has its strengths:
+
+### Paper or notes app
+
+Great forTotal freedom, no setup, nothing to learn and nothing to install.
+
+Harder atSpotting patterns. You do all the digging, and it's easy to forget the hunger and feelings part.
+
+Best ifYou only want a short experiment, or numbers aren't part of your goal at all.
+
+### A food diary app
+
+Great forSpeed: search, barcode scanning, saved meals and reminders make each log take seconds.
+
+Harder atSome apps only count. Pick one that also asks how you felt, or the most useful half of the diary goes missing.
+
+Best ifYou want to keep going past the first week and see trends without doing the maths.
+
+If you go the app route, our [comparison of calorie tracker apps](https://fimbl.app/blog/best-calorie-tracker-apps/) covers what each one does for free, and which ones skip the ads.
+
+-
+
+A diary that stays quickSearch by name or brand, scan a barcode, or re-log a saved meal with one tap. All free.
+
+-
+
+The half most diaries skipHunger and feelings at each meal, in about ten seconds. Also free.
+
+## Five mistakes that end food diaries early
+
+- Logging at the end of the dayBy evening, lunch is a guess and the afternoon snack is gone from memory. Log right after you eat, or at least before the next meal.
+- Chasing perfect accuracyWeighing every gram is exhausting. Consistent rough estimates tell you far more than a perfect week followed by nothing.
+- Skipping the "bad" mealsThe takeaway and the biscuits are the most useful entries in the diary. Leaving them out only hides the pattern you're looking for.
+- Restarting after a gapA missed day isn't a failed diary. Pick up at the next meal, without trying to backfill or make up for anything.
+- Never looking backA diary nobody reads is just data. Ten minutes once a week is when the patterns, and the motivation, show up.
+
+## After week one: what to look for
+
+The first week is about the habit. From week two, the diary starts paying you back. When you look back, try these three questions:
+
+- WhenAre there long gaps followed by very hungry meals? Regular meals make calm eating much easier.
+- WhyWhich feelings show up before the meals you didn't plan? Stress, boredom and tiredness are the usual suspects.
+- HowWhich meals left you full and energised for hours? Those are worth repeating on purpose.
+
+If a feeling keeps showing up before snacks, our guide to [emotional vs physical hunger](https://fimbl.app/blog/emotional-vs-physical-hunger/) walks through what to do with it. And don't be surprised if it takes a few weeks for patterns to stand out. In one study of an online programme, the time people needed for logging fell from about 23 minutes a day in the first month to under 15 by month six.[3] It gets easier.
+
+ Premium Your week, read back to you If looking back is the step you'd skip, Fimbl's weekly reflection does it for you every Monday: wins, patterns it noticed in your meals, mood and check-ins, and one gentle focus for the week ahead.
+
+## When a food diary isn't a good idea
+
+For most people a food diary is a helpful, low-stakes tool. For some, it isn't. Research has linked calorie tracking with eating-disorder symptoms in some groups: in one study of people with eating disorders, most of those who used a calorie-tracking app felt it had contributed to their symptoms.[4, 5]
+
+If you have a history of disordered eating, or tracking makes you anxious, guilty or rigid about food, talk to a doctor or dietitian before you start, and stop if it feels worse rather than better. Fimbl is a food diary, not a medical tool or a treatment for eating disorders.
+
+ Start today
+
+### One meal is enough for day one
+
+Fimbl's free First Week guides you through all seven steps with one gentle nudge a day. No ads, no streak shame, and catch-ups whenever life gets in the way.
+
+- Free diary, barcode scanner and check-ins
+- A guided first week, one minute a day
+- English, German and Finnish
+
+ [Get Fimbl free](https://apps.apple.com/app/id6443701726)
+
+## Questions, answered
+
+### What should I write in a food diary?
+
+Start with three essentials: what you ate, roughly how much, and when. Once that feels easy, add how hungry you were on a scale of 1 to 10 and one word for how you felt. Calories and macros are optional; an app can work them out for you.
+
+### How long should I keep a food diary?
+
+Give it at least one full week to build the habit, then two to four weeks to see patterns. Many people keep going for months because it becomes quick and useful, but even a short diary can show you a lot about your eating.
+
+### Do I have to count calories in a food diary?
+
+No. A food diary can be as simple as what, when and how you felt. Calories are useful for some goals, but plenty of people get most of the benefit from noticing patterns alone. Fimbl's Calm mode (Premium) even replaces calorie numbers with gentle grades.
+
+### Is a food diary app better than paper?
+
+Neither is better in general. Paper is flexible and has no setup. An app is faster thanks to search, barcode scanning and saved meals, sends reminders and shows trends for you. The best choice is the one you'll keep opening.
+
+### What if I forget to log a meal?
+
+Log what you remember, or simply carry on from the next meal. A missed meal or day doesn't ruin a diary; trying to start over from scratch is what usually ends it. A helpful rule is: miss a day if you have to, but try not to miss two.
+
+### Does keeping a food diary help with weight loss?
+
+Research consistently links food logging with better weight-loss results, especially logging often and consistently. In a trial of nearly 1,700 adults, the number of food records kept was among the strongest predictors of weight lost. The evidence shows a strong association rather than proof for every individual.
+
+### Is there a free food diary app with a guided start?
+
+Yes. Fimbl for iPhone and iPad is free to download and includes a guided First Week: seven days, one small step a day, with a reminder at the time you choose. The diary, barcode scanner and meal check-ins are free and have no ads.
+
+## Sources
+
+- Hollis JF et al. (2008). Weight loss during the intensive intervention phase of the weight-loss maintenance trial. American Journal of Preventive Medicine 35(2). https://pubmed.ncbi.nlm.nih.gov/18617080/
+- Burke LE, Wang J, Sevick MA (2011). Self-monitoring in weight loss: a systematic review of the literature. Journal of the American Dietetic Association 111(1). https://pubmed.ncbi.nlm.nih.gov/21185970/
+- Harvey J et al. (2019). Log often, lose more: electronic dietary self-monitoring for weight loss. Obesity 27(3). https://pubmed.ncbi.nlm.nih.gov/30801989/
+- Levinson CA, Fewell L, Brosof LC (2017). My Fitness Pal calorie tracker usage in the eating disorders. Eating Behaviors 27. https://pubmed.ncbi.nlm.nih.gov/28843591/
+- Simpson CC, Mazzeo SE (2017). Calorie counting and fitness tracking technology: associations with eating disorder symptomatology. Eating Behaviors 26. https://pubmed.ncbi.nlm.nih.gov/28214452/
+
+
+---
+
+# The best calorie tracker apps in 2026, compared side by side
+
+URL: https://fimbl.app/blog/best-calorie-tracker-apps/
+Published: 2026-10-17 · Updated: 2026-10-17 · By Kasper Koskenvirta
+
+> Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI side by side: what each one is genuinely best at, what's free, and how to pick the one you'll still open in a month.
+
+Almost every calorie tracker can count. Search a food, scan a barcode, watch a number go down. The real difference shows up later, on the Tuesday you skipped lunch and ate cereal for dinner. Some apps make that day feel like a failure. Others help you understand it. That difference decides whether you're still tracking in a month.
+
+ The short answer
+
+For most people who want a habit that lasts, Fimbl is our top pick: fast logging with a free barcode scanner, no ads, check-ins on hunger and feelings at every meal, and an optional Calm mode that swaps calorie numbers for gentle grades. If you need something specific, these are excellent:
+
+- Cronometer for micronutrient detail (84 nutrients, free).
+- MacroFactor for adaptive calorie and macro targets.
+- MyFitnessPal for the biggest food database.
+- YAZIO or Lifesum for a free barcode scanner on Android too.
+- Cal AI if you only ever want to snap a photo.
+
+A note on bias. We make Fimbl, so we're not neutral observers. Here's how we approached it: every claim about another app was checked against that company's own website, help center or App Store listing in October 2026, each app gets credit for what it does better than ours, and all sources are listed at the end.
+
+## How we compared them
+
+Feature lists are easy to compare and tell you surprisingly little. So alongside the usual checks, we looked at what decides whether a tracker actually helps:
+
+- Speed: how many ways you can log a meal, and how fast each one is.
+- What's free: whether the basics (search, barcode, history) work without paying, and whether the free version shows ads.
+- The off days: how the app treats you when you go over, skip a day or eat a birthday cake.
+- Insight beyond calories: whether it helps you notice hunger, feelings and patterns, not just totals.
+- Privacy and reach: ads, data use, platforms and languages.
+
+The last three matter more than they sound. Reviews of weight-management research consistently find that people who keep logging tend to do better, but the evidence is about consistency.[13] The tracker that wins is the one you keep opening.
+
+## The apps at a glance
+
+| Feature | Our pick Fimbl | MyFitnessPal | Cronometer | MacroFactor | Lose It! | YAZIO | Lifesum | Cal AI |
+|---|---|---|---|---|---|---|---|---|
+| Barcode scanning | Available: Free | Paid plan only: Premium | Available: Free | Available: In subscription | Paid plan only: Premium | Available: Free | Available: Free | Available: In subscription |
+| No ads | Yes: Free & Premium | Paid plan only: Premium only | Paid plan only: Gold only | Yes: Never uses ads | Paid plan only: Paid only | Paid plan only: PRO only | Yes: None listed | Yes: None listed |
+| AI photo logging | Paid plan only: Premium | Paid plan only: Premium | Paid plan only: Gold | Available: In subscription | Paid plan only: Premium | Paid plan only: PRO | Paid plan only: Premium | Available: Core feature |
+| Describe a meal by voice or text | Paid plan only: Premium | Paid plan only: Premium | Paid plan only: Gold | Available: In subscription | Paid plan only: Premium | Not documented | Paid plan only: Premium | Available: Text |
+| Recipe import from links or videos | Paid plan only: Premium · Reels, TikToks, Shorts, sites | Available: Web links | Paid plan only: Gold · web links | Available: Links, cookbook photos | Not documented | Not documented | Not documented | Not documented |
+| Hunger & feelings check-ins at meals | Available: Free | Not documented | Not at meals: Daily mood & energy | Not documented | Not documented | Not at meals: PRO mood diary | Not documented | Not documented |
+| Option to hide calorie numbers | Paid plan only: Calm mode, Premium | Not documented | Not documented | Not documented | Not documented | Not documented | Not documented | Not documented |
+| Adaptive calorie targets | Not available | Not documented | Not documented | Available: Weekly updates | Not documented | Not documented | Not documented | Not documented |
+| Android or web | Not available: iPhone & iPad only | Available: Both | Available: Both | Available: Android | Available: Both | Available: Android | Available: Android | Available: Android |
+| Made in | Finland | USA | Canada | USA | USA | Germany | Sweden | USA |
+
+ Available Paid plan only Not available or not documented Checked against each provider's website, help center and App Store listing, October 2026. Apps change often, so check before you subscribe.
+
+Two rows stand out. Only Fimbl asks how you feel at the moment you eat, and only Fimbl documents a way to stop seeing calorie numbers without losing your history. Everyone else is, at heart, a very good counter.
+
+## What each app is genuinely best at
+
+ Best for the biggest database
+
+### MyFitnessPal
+
+The default name in calorie counting, with more than 20 million foods and links to dozens of apps and devices. Since December 2025 it also owns Cal AI.
+
+Keep in mind: barcode scanning, ad-free use and custom macro goals are part of Premium, and the free version shows ads.
+
+ Best for micronutrients
+
+### Cronometer
+
+The precision tool. It tracks 84 nutrients for free from curated, lab-based data, which makes it a favourite of dietitians and anyone managing specific nutrients.
+
+Keep in mind: the free version shows ads, and the level of detail can feel like a lab report if you simply want to eat a little better.
+
+ Best for adaptive macros
+
+### MacroFactor
+
+Its algorithm estimates your energy expenditure from your weight trend and adjusts your targets every week, without scolding you for imperfect days. Great for training goals.
+
+Keep in mind: there's no free tier (a 7-day trial), no web app, and the app is in English and Japanese only.
+
+ Best for a simple calorie budget
+
+### Lose It!
+
+A straightforward daily budget that has been helping people count since 2008. Clean, familiar and easy to start.
+
+Keep in mind: its App Store listing puts barcode scanning and AI logging under Premium, and the free version shows ads.
+
+ Best for European foods
+
+### YAZIO
+
+A German app with a large food database, a free barcode scanner and popular fasting timers, available in 20 languages.
+
+Keep in mind: the free version shows ads, and photo logging, the mood diary and most fasting plans are part of PRO. There's no web version.
+
+ Best for meal plans
+
+### Lifesum
+
+A design-led Swedish app built around healthy eating, with diet programmes, recipes, a free barcode scanner and a simple "Life Score".
+
+Keep in mind: AI tracking, custom macro goals and meal plans are Premium, and micronutrient detail is limited.
+
+ Best for photo-only logging
+
+### Cal AI
+
+Point your camera, get calories and macros. If typing a single food name feels like too much, it's the fastest route from plate to log.
+
+Keep in mind: scan results require a subscription, and it tracks calories and macros only, with nothing on hunger or mood.
+
+ Best for a guided programme
+
+### Noom
+
+Less a tracker than a structured programme, with daily psychology lessons and coaching. Foods are sorted by a colour system based on calorie density.
+
+Keep in mind: it's built around a subscription programme, and its GLP-1 medication offering (Noom Med) is available in the US only.
+
+ Best for a habit that lasts, and understanding why you eat
+
+### Fimbl
+
+A calm food diary for iPhone and iPad that tracks calories and macros like the others, then adds the part they leave out: how hungry you were, how you felt, and what that means for you. The free version is a complete diary with a free barcode scanner and no ads. More on why we rank it first below.
+
+Keep in mind: iPhone and iPad only, no micronutrient deep-dive, and macro goals and AI features are part of Premium.
+
+## The question most comparisons skip
+
+Most "best calorie app" lists rank database size and AI accuracy. Those matter. But if you've tried tracking before, you probably didn't stop because a food was missing. You stopped because it started to feel like a test you kept failing.
+
+The research backs this up in both directions. Logging what you eat is one of the most reliable habits linked to weight-management success, and more consistent digital tracking goes with better results.[13, 14] Yet in one study, almost half of young adults using healthy-eating and fitness apps described negative experiences such as guilt and feeling controlled.[15] On the other hand, a randomised trial found that a month of calorie tracking didn't raise eating-disorder risk in low-risk students.[16] The takeaway isn't that tracking is bad. It's that how an app makes you feel is part of whether it works.
+
+The best tracker isn't the one with the most foods. It's the one you still open on the day you'd rather not.
+
+## Why Fimbl comes out on top for most people
+
+We built Fimbl around one idea: notice what you eat, understand why, and change one small thing at a time. Here's what that looks like in the app.
+
+ Free It asks how you feel, not just what you ate A ten-second check-in around your meals: how hungry were you, and what were you feeling? Craving, stressed, bored, satisfied. Pick as many as you like, or none. Over a few weeks, the patterns behind your eating start to show.
+
+- No other app in this comparison documents check-ins at meals
+- Daily mood and a hunger trend over time
+
+ Premium Numbers when you want them, grades when you don't Calm mode replaces calorie numbers with gentle grades for how well each meal served your goals, your hunger and your mood, plus one idea for next time. Fimbl keeps counting quietly in the background, so switching back loses nothing.
+
+- Treat days get context, not red numbers
+- The only numbers-optional mode we found
+
+ Free & Premium Logging in seconds, whichever way suits you Search by name or brand and scan barcodes for free, save your usual meals and log them in one tap, or ask Siri. With Premium, snap your plate, describe a meal by voice or text, or scan a nutrition label. You can adjust every estimate before you save.
+
+- Barcode scanning is free, with no ads
+- Wrong values on a product? Correct them once, Fimbl remembers
+
+-
+
+Recipes from Reels and TikToksShare a video or recipe link, get the recipe with nutrition per portion.
+
+-
+
+Lighter swaps in the aisleScan a product for a clear score and better-fitting alternatives.
+
+-
+
+A weekly reflectionWins, patterns and one gentle focus, written about your week.
+
+ Free Progress photos that never leave your phone A guided camera lines you up the same way every time, front, side, back and face, so any two days compare fairly, right next to your weight change. Your photos stay on your iPhone: never uploaded to our servers, never used for AI and never included in iCloud backups. Shown with Fimbl's demo account. The person and photos are AI-generated examples.
+
+ Free A first week designed so you don't quit The start is often the hardest part of tracking. Fimbl's First Week turns it into seven small steps, from a first log to naming your mood, with one nudge at the time you choose. Miss a day? That's fine. Just don't miss two.
+
+Put together, that's the difference. Other apps are excellent at telling you what you ate. Fimbl is built to help you understand why, and it stays kind on the days that don't go to plan.
+
+## Where Fimbl isn't the best choice
+
+Every app has limits, Fimbl included. Choose something else if:
+
+- You use Android or want a web app. Fimbl is iPhone and iPad only. MyFitnessPal, Cronometer and Lose It! run on both, and YAZIO and Lifesum on Android.
+- You track specific vitamins and minerals. Cronometer's micronutrient detail is in a different league.
+- You're dialling in macros for training. MacroFactor's adaptive targets are built for exactly that.
+- You eat out at many US chains. MyFitnessPal's database is hard to beat for branded and restaurant items.
+- You need medical support. No app replaces a doctor or dietitian. Fimbl isn't a medical tool or a treatment for eating disorders.
+
+ Our pick
+
+### Fimbl: calorie tracking, made calm
+
+If you've tracked before and it felt like a test you kept failing, start here. You get everything a good counter does, plus the part that makes it stick: noticing hunger and feelings, gentle grades when numbers get loud, and a first week that meets you where you are.
+
+- Free diary, barcode scanner and check-ins
+- No ads, no diet-culture noise
+- English, German and Finnish
+
+ [Get Fimbl free](https://apps.apple.com/app/id6443701726)
+
+## How to choose in two minutes
+
+-
+
+Start with your phone. On Android or the web, narrow it to MyFitnessPal, Cronometer, Lose It!, YAZIO or Lifesum. On iPhone, everything here is open to you.
+
+-
+
+Name what you're really after. Precision (micronutrients, macros for training) points to Cronometer or MacroFactor. A calmer relationship with food and habits that last points to Fimbl.
+
+-
+
+Notice how numbers make you feel. If seeing a calorie total every day motivates you, any counter works. If it makes you anxious, pick an app that lets you step back from numbers without losing track.
+
+-
+
+Check what's free before you commit. Make sure the basics you'll use daily, like barcode scanning, aren't behind a paywall, and that the free version doesn't fill your diary with ads.
+
+Then give it a real week. Not a perfect one, a real one. The right app is the one that's still on your home screen when the week is over.
+
+## Questions, answered
+
+### What is the best calorie tracker app in 2026?
+
+It depends on what you need. For most people who want a lasting habit without guilt, we recommend Fimbl, because it pairs quick logging with hunger and feelings check-ins and an optional numbers-free Calm mode. Cronometer is the best choice for detailed micronutrients, MacroFactor for adaptive macro targets, and MyFitnessPal for the largest food database.
+
+### Which calorie counter has a free barcode scanner?
+
+As of October 2026, Fimbl, Cronometer, YAZIO and Lifesum include barcode scanning in their free versions. MyFitnessPal moved barcode scanning to Premium in 2022, and Lose It! lists it as a Premium feature in its App Store description.
+
+### Is there a calorie tracker without ads?
+
+Fimbl has no ads in either its free or Premium version. MacroFactor never uses ads but has no free tier, and Lifesum and Cal AI list no ads. MyFitnessPal, Cronometer, Lose It! and YAZIO show ads in their free versions and remove them with a paid plan.
+
+### Can I track what I eat without seeing calories?
+
+Yes. Fimbl's Calm mode (Premium) replaces calorie numbers with gentle A to C grades for how well each meal served your goals, hunger and mood, while it keeps counting quietly in the background. You can switch back to numbers at any time. None of the other apps in this comparison document a comparable mode.
+
+### What is a good alternative to MyFitnessPal?
+
+On iPhone, Fimbl is a good alternative if you want free barcode scanning, no ads and a calmer, feelings-aware diary. Cronometer suits people who want micronutrient detail, and YAZIO suits people who want a large European food database on Android as well as iPhone.
+
+### Is calorie counting bad for your mental health?
+
+For many people it's a useful, neutral tool. Some studies link calorie-tracking apps with more eating concern in certain users, while a randomised trial in low-risk students found no increase in eating-disorder risk. If tracking makes you anxious, a numbers-optional approach can help, and if food feels overwhelming, please talk to a healthcare professional.
+
+### Does Fimbl work on Android?
+
+No. Fimbl is built natively for iPhone and iPad running iOS or iPadOS 26 or later. If you need Android or a web app, MyFitnessPal, Cronometer, Lose It!, YAZIO and Lifesum are available there.
+
+## Sources
+
+- MyFitnessPal Premium features, including barcode scanning and ad-free use. https://www.myfitnesspal.com/premium
+- MyFitnessPal's acquisition of Cal AI (TechCrunch, March 2026). https://techcrunch.com/?p=3098039
+- Cronometer Gold features and prices. https://cronometer.com/gold/
+- Cronometer biometrics, including mood and energy. https://cronometer.com/blog/biometrics/
+- MacroFactor app overview and languages. https://macrofactor.com/macrofactor/
+- MacroFactor AI food logging. https://macrofactor.com/ai-food-logging/
+- Lose It! App Store listing, Premium plan features. https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629
+- YAZIO PRO features (YAZIO help center). https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals
+- Lifesum: how it works, including the free barcode scanner. https://lifesum.com/how-it-works
+- Lifesum Premium features (Lifesum help center). https://help.lifesum.com/en/article/what-do-i-get-when-i-buy-premium-1vzq8pz/
+- Cal AI App Store listing. https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616
+- How Noom's food colour system works. https://www.noom.com/support/faqs/using-the-app/logging-and-tracking/food-and-water/2025/10/how-nooms-food-color-system-works/
+- Burke LE, Wang J, Sevick MA (2011). Systematic review of self-monitoring in weight loss. Journal of the American Dietetic Association 111(1). https://pubmed.ncbi.nlm.nih.gov/21185970/
+- Patel ML, Wakayama LN, Bennett GG (2021). Systematic review of digital self-monitoring in weight-loss trials. Obesity 29(3). https://pubmed.ncbi.nlm.nih.gov/33624440/
+- Honary M et al. (2019). Young people's experiences of healthy-eating and fitness apps. JMIR mHealth and uHealth 7(6). https://pubmed.ncbi.nlm.nih.gov/31215514/
+- Hahn SL et al. (2021). Randomised trial of calorie-tracking app use and eating-disorder risk in college women. Journal of the Academy of Nutrition and Dietetics 121(12). https://pubmed.ncbi.nlm.nih.gov/34427188/
+
+
+---
+
+# Why we built a calorie tracker that doesn't judge you
+
+URL: https://fimbl.app/blog/why-we-built-fimbl/
+Published: 2026-10-17 · Updated: 2026-10-17 · By Kasper Koskenvirta
+
+> Most calorie apps are brilliant at counting and quietly bad at the days that don't go to plan. Here's what we changed, what we deliberately left out, and where we're taking Fimbl next.
+
+Anyone who has used a calorie tracker knows the moment. It's nine in the evening, the number has turned red, and the app has only one thing to say: how far over you are. It doesn't ask whether you were stressed, or why lunch never happened. So the next morning you don't open it. Fimbl began with a simple question: what would a food diary look like if it were built for that evening?
+
+ In short
+
+Fimbl is a calm food diary for iPhone and iPad built around three steps: notice what you eat, understand why, and change one small thing at a time.
+
+- It tracks calories like any good counter, then asks about hunger and feelings too.
+- Numbers are optional, the free version is a complete diary, and there are no ads.
+- Our end goal: show you your patterns, not an average person's.
+
+## The problem with counting alone
+
+Calorie trackers are good at what they were designed for. They answer what you ate and how much. Keeping that kind of record is genuinely useful: reviews of weight-management research link consistent food logging with better results.[2]
+
+But "consistent" is doing a lot of work in that sentence. In one study of young adults who used healthy-eating and fitness apps, almost half described negative experiences, including guilt and a sense of being controlled.[1] An app that makes you feel bad is an app you stop opening, and a diary you don't open can't help you.
+
+We think the gap is simple. Most apps only ever ask about the food. Eating is rarely only about food.
+
+| Approach | Calorie counters | Coaching programmes | Photo-AI trackers | Our approach Fimbl |
+|---|---|---|---|---|
+| The main question | How much did you eat? | Did you follow the plan? | What's on the plate? | How did that meal feel, and why? |
+| On a hard day | A red number | A missed lesson | A photo you didn't take | Context, and one small idea for tomorrow |
+| What you learn | Totals | Their method | Estimates | Your own patterns |
+| Best for | Precision | Structure | Speed | A habit that lasts |
+
+Every approach in that table has its place, and we compare the apps in detail in [our guide to calorie trackers](https://fimbl.app/blog/best-calorie-tracker-apps/). Fimbl simply starts from a different question.
+
+## Notice, understand, change
+
+Everything in Fimbl serves one loop. It's small on purpose, because small is what you can repeat on a busy Tuesday.
+
+- NoticeLog a meal in seconds, then a ten-second check-in: how hungry were you, and what were you feeling?
+- UnderstandOver days and weeks, those check-ins turn into patterns you can actually see, for you and nobody else.
+- ChangeOne gentle focus at a time. Not a new diet, just the next small step that fits your week.
+
+Mindful eating research supports the first half of that loop most clearly. Reviews find mindfulness-based approaches are most effective for emotional and external-cue eating, the kind of eating that happens when the reason isn't hunger.[3] Noticing comes first.
+
+## Six decisions that shaped Fimbl
+
+Building a calm app is mostly a series of small refusals. These are the decisions we keep coming back to.
+
+- Feelings belong at the table Every meal can come with a quick check-in on hunger and feelings, and it's free. Craving, stressed, bored, satisfied: pick as many as you like, or none.
+- Numbers are optional Calm mode (Premium) swaps calorie numbers for gentle grades on how well a meal served your goals, hunger and mood, while counting quietly in the background.
+- Free means a complete diary Search, barcode scanning, saved meals, check-ins, weight, goals, Apple Health activity and progress photos all work for free. No ads, ever.
+- AI with the lights on AI is optional and Premium-only. It sees only what a feature needs, never your name or email, and we don't train models on your data.[4]
+- Your photos are yours Progress photos stay on your iPhone. They're never uploaded to our servers, never used for AI and never included in iCloud backups.
+- Consistency, not perfection Streaks reward showing up, not flawless days. Our rule of thumb is printed right in the app: miss a day? That's fine. Just don't miss two.
+
+ Premium What a grade looks like Instead of "223 kcal", you see what the meal did for you: slow, steady morning energy, a great fit for your goal, and a calm check-in afterwards. Then one idea for next time. A treat gets a grade too, with context instead of a red number.
+
+-
+
+A guided first weekSeven days, one small step each, with a nudge at the time you choose.
+
+-
+
+Gentle streaksMeals, mood, mindful eating and steps, with consistency celebrated.
+
+-
+
+Private progress photosLined up the same way every time, kept only on your iPhone. Demo photos, AI-generated.
+
+## What we deliberately left out
+
+Some features would probably grow an app faster. We decided they would make Fimbl worse at its job.
+
+### Not in Fimbl
+
+Ads and ad trackersYour diary is not an ad inventory, in the free version either.
+
+Leaderboards and public feedsComparing plates with strangers doesn't build a calmer relationship with food.
+
+"Bad food" labelsGrades describe how a meal fit your goals and mood, never your worth.
+
+Streak shameNo guilt trips for a missed day. You can even restore a streak with Premium.
+
+### What we built instead
+
+A quiet, private spaceDelete your account any time from Settings.
+
+Your own storyWeekly reflections about your week: wins, patterns and one gentle focus.
+
+ContextHunger and feelings next to the food, so a hard day makes sense.
+
+Kind defaultsNudges at the time you choose, and a first week you can skip or replay.
+
+## Rebuilt from the ground up
+
+Fimbl 2.0 was a complete rewrite, built natively for iPhone and iPad. That made room for the things that make a diary feel effortless: Home and Lock Screen widgets, Siri and Shortcuts for hands-free logging ("Log my weight in Fimbl"), Apple Health for steps, energy and workouts, light and dark mode, and a full translation into German and Finnish alongside English. Version 2.1 added guided progress photos that never leave your phone.
+
+Fimbl is designed and built in Espoo, Finland. If something feels off, [tell us](mailto:appriseven@gmail.com): feedback genuinely shapes what we build next.
+
+## Where we're going: your patterns, not averages
+
+Here's the part we're most excited about. Food apps know what you ate. Mood apps know how you felt. Almost nobody connects the two on the same timeline as your weight, your movement and your week.
+
+Almost every app can tell you what you ate. We want to help you understand why, in a way that's true for you.
+
+Fimbl already collects the pieces: meals, hunger, feelings, daily mood, weight and activity, all in one calm place. The end goal is to turn them into insight that belongs to you alone. Think of observations like "on days with a morning walk, you felt more energised", or noticing that a rushed lunch tends to come before a hungry evening. Not rules about food, just your own patterns, gently pointed out.
+
+From there, the loop closes. Instead of a generic programme, you'd get one tiny experiment for the week, drawn from your own data, and see your own result at the end of it. We'll share that work here on the blog as it ships, without promising dates we can't keep.
+
+## Who Fimbl is for, and who it isn't
+
+Fimbl is for you if you've tried counting before and burned out, if you're curious why you reach for food when you're not hungry, or if you simply want a food diary that feels kind. It suits beginners and people who already know their way around macros.
+
+It's not the right tool if you need Android or a web app, if you track specific micronutrients in detail, or if you need clinical support. In those cases, the apps in [our comparison](https://fimbl.app/blog/best-calorie-tracker-apps/) or a healthcare professional will serve you better. And if you're wondering whether a craving is hunger or something else, our guide to [emotional vs physical hunger](https://fimbl.app/blog/emotional-vs-physical-hunger/) is a good place to start.
+
+ Try it your way
+
+### Start with one meal and one check-in
+
+Fimbl is free to download, with no ads and no pressure. Log a meal, notice how it felt, and let the first week do the rest.
+
+ [Get Fimbl free](https://apps.apple.com/app/id6443701726)
+
+## Questions, answered
+
+### Who makes Fimbl?
+
+Fimbl is designed and built by AppRise Ventures Oy, a small company in Espoo, Finland. The app is available for iPhone and iPad in English, German and Finnish.
+
+### Is Fimbl a diet app?
+
+Not in the usual sense. You can set a calorie goal if it helps you, or switch to Calm mode and see grades instead of numbers. Fimbl is about balance, awareness and habits, and it's built to support a healthier relationship with food. It isn't a medical tool or a treatment for eating disorders.
+
+### What's free in Fimbl, and what's Premium?
+
+The heart of the app is free and has no ads: the food diary, search and barcode scanning, saved meals, weight, mood and meal check-ins, Apple Health activity, goals and streaks, progress photos and the First Week journey. Premium adds macro goals, the AI features (photo scan, describing meals by voice or text, label scan, recipes from videos, weekly reflections and the coach, Calm mode and healthier swaps), widgets, extra meal slots and streak restore.
+
+### Does Fimbl use my data to train AI?
+
+No. AI features are optional and part of Premium. When you use one, only what that feature needs is sent through Fimbl's servers to Google's Gemini API, without your name or email. We don't train AI models on your data and we don't sell it. Free accounts never send anything to an AI service.
+
+### Do my progress photos get uploaded?
+
+No. Progress photos stay on your iPhone. They are never uploaded to our servers, never used for AI and never included in iCloud backups. You decide what is kept, saved to your library or shared.
+
+### What's next for Fimbl?
+
+We're working toward showing you your own patterns: how hunger, feelings, sleep and movement connect with what you eat, for you rather than for an average person. We'll share what we build here on the blog, without promising dates we can't keep.
+
+## Sources
+
+- Honary M et al. (2019). Young people's experiences of healthy-eating and fitness apps. JMIR mHealth and uHealth 7(6). https://pubmed.ncbi.nlm.nih.gov/31215514/
+- Burke LE, Wang J, Sevick MA (2011). Systematic review of self-monitoring in weight loss. Journal of the American Dietetic Association 111(1). https://pubmed.ncbi.nlm.nih.gov/21185970/
+- Warren JM, Smith N, Ashwell M (2017). Review of mindfulness and mindful eating and their effects on eating behaviour. Nutrition Research Reviews 30(2). https://pubmed.ncbi.nlm.nih.gov/28718396/
+- Fimbl privacy policy, section on AI features. https://fimbl.app/privacy/#ai
+
+
+---
+
+# Emotional hunger vs physical hunger: how to tell the difference
+
+URL: https://fimbl.app/blog/emotional-vs-physical-hunger/
+Published: 2026-10-17 · Updated: 2026-10-17 · By Kasper Koskenvirta
+
+> Seven signs that separate the two, a simple 1 to 10 hunger scale and a ten-second check-in you can use before any meal. No willpower lectures, just a clearer read on what you actually need.
+
+Four in the afternoon. You had lunch two hours ago, you're not exactly hungry, and yet here you are, standing at the snack cupboard. That pull is worth understanding rather than fighting. Emotional hunger isn't a lack of willpower. It's information about how your day is going.
+
+ The short answer
+
+Physical hunger builds slowly, shows up in your body, can wait a little, is happy with many foods and fades when you're full. Emotional hunger arrives suddenly, lives in your head, feels urgent, wants one specific food and often carries on past full.
+
+- Quick test: if you ate a few hours ago and your stomach isn't rumbling, you're probably not physically hungry.[1]
+- Then: rate your hunger from 1 to 10 and name the feeling in one word. That ten-second pause is often enough to choose on purpose.
+
+## What is emotional hunger?
+
+Emotional hunger is the urge to eat in response to a feeling rather than a physical need for energy. Stress is the classic trigger, but it isn't the only one. Boredom, loneliness, tiredness, feeling rushed, wanting a reward or simply being around other people who are eating can all set it off. Even good feelings count: celebration is one of the most common reasons we eat when we're not hungry.
+
+Almost everyone eats emotionally sometimes, and that's fine. Food is comfort, culture and connection. It becomes worth a closer look when eating turns into your main way of handling feelings, or when it leaves you feeling worse than before.[2]
+
+## Physical vs emotional hunger: 7 signs that tell them apart
+
+Based on guidance from Mayo Clinic and the NHS.[1, 2] Most people experience a mix of both.
+
+| Sign | Physical hunger | Emotional hunger |
+|---|---|---|
+| 1. How it starts | Gradually, over a few hours | Suddenly, often right after a trigger |
+| 2. Where you feel it | In your body: rumbling stomach, low energy, poor focus | In your head: a thought, an image, a craving |
+| 3. Urgency | It can wait twenty minutes | It feels like it has to happen now |
+| 4. What you want | Open to many foods, even a plain sandwich | One specific food, often sweet, salty or crunchy |
+| 5. Timing | Usually a few hours since you last ate | Any time, even straight after a meal |
+| 6. When it stops | When you're comfortably full | Often not until you're past full |
+| 7. Afterwards | Satisfied and steadier | Guilt, or the feeling is still there |
+
+No single sign is proof. A long, stressful day can leave you both genuinely hungry and emotionally drained. The point isn't to sort every bite into a box. It's to notice which one is louder right now.
+
+## Use a hunger scale: rate it from 1 to 10
+
+A hunger scale turns a vague feeling into a number you can check in seconds. Versions of it are widely used in mindful and intuitive eating. It isn't a test you can fail. It's a way of listening.
+
+How hungry am I, right now?
+
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+
+ 1–3 Too hungryShaky, irritable, hard to think 4–7 ComfortableStart eating around 3–4, ease off around 6–7 8–10 Too fullHeavy, uncomfortable, sleepy
+
+If you're at 5 or above and still want to eat, the urge is probably coming from somewhere other than your stomach. That's useful to know, not a reason to say no.
+
+Waiting until you're at 1 or 2 tends to backfire. When you're ravenous, it's much harder to eat calmly, so regular meals are one of the simplest ways to make emotional eating less likely.
+
+## A ten-second check-in before you eat
+
+You don't need a journal or a meditation app. Before you reach for food, run through this:
+
+-
+
+Pause for one breath. Just enough to step out of autopilot.
+
+-
+
+Rate your hunger. Somewhere between 1 and 10, using the scale above. A rough guess is fine.
+
+-
+
+Name the feeling in one word. Stressed, bored, lonely, tired, anxious, rushed, happy. Naming it often takes some of the urgency out of it.
+
+-
+
+Check HALT. Am I hungry, angry, lonely or tired? The slogan comes from addiction-recovery communities, and it's a handy shortcut for spotting needs that food can't meet.[6]
+
+-
+
+Choose kindly. Eat and enjoy it, wait ten minutes, or give yourself what you actually need. All three are good answers.
+
+ Free in Fimbl The check-in, built into your diary Fimbl asks this at your meals: how hungry were you, and what were you feeling? Tap a few words, from craving and stressed to satisfied and energised, or skip it. It takes about ten seconds, and it's free.
+
+- Hunger types like stress, boredom, social and reward hunger
+- Your most frequent feelings and hunger trend over time
+
+## What to do when the hunger is emotional
+
+The goal isn't to never eat for comfort. It's to have more than one option. Match the response to the feeling:
+
+- StressedFive minutes outside or three slow breaths, then decide. Stress shrinks the gap between urge and action; a short pause widens it again.
+- BoredChange the scene. Stand up, refill your water, switch tasks. Boredom hunger often fades once your attention has somewhere else to go.
+- LonelySend one message or make a quick call. Connection is what you're actually short of, and food can't fill that gap for long.
+- TiredRest if you can, or at least have a glass of water and some daylight. Tiredness is easily mistaken for hunger.
+- CelebratingChoose the treat on purpose, sit down and enjoy every bite. Pleasure is a perfectly good reason to eat.
+- RushedPut it on a plate and sit for five minutes. Eating on the move makes it hard to notice when you've had enough.
+
+Sometimes the answer is still food, and that's okay. Eating a biscuit because you had a rough day doesn't undo anything. What matters is that it's a choice, not autopilot, and that you can enjoy it without a side of guilt.
+
+## Why noticing works better than willpower
+
+Willpower treats emotional eating as a battle. Noticing treats it as a pattern, and patterns can change. The research points the same way. A systematic review of 14 studies found mindfulness-based approaches effectively reduced binge eating and emotional eating.[3] A later review concluded they're most effective for exactly the kinds of eating covered here: emotional and external-cue eating.[4]
+
+To be clear about the limits: the evidence for mindfulness as a weight-loss tool is mixed, and it isn't clearly better than other psychological therapies.[4, 5] What it does well is help you understand why you eat, which is where lasting change starts.
+
+That's also why one of the most common practical recommendations is a food diary that records not just what you ate, but how hungry you were and how you felt.[1] After two or three weeks, triggers tend to jump out: the late Thursday meetings, the evenings alone, the afternoons after a short night.
+
+## Tools that help you notice, compared
+
+You can do this with a pen and paper. The question is which tool you'll actually keep using, and whether it shows you the patterns or leaves you to dig for them.
+
+| What it does | Paper journal | Notes app | Mood tracker | Calorie counter | Built for this Fimbl |
+|---|---|---|---|---|---|
+| Records what you ate | Yes: By hand | Yes: By hand | No | Yes: Search, barcode | Yes: Search, barcode, photo |
+| Hunger and feelings at each meal | If you remember: If you remember | If you remember: If you remember | Daily mood only: Daily mood only | Rarely: Rarely | Yes: Guided, in seconds |
+| Shows patterns over time | No: You dig | No: You dig | Yes: Mood only | Yes: Totals only | Yes: Hunger trend, feelings, weekly reflections |
+| Gentle reminders | No | No | Usually: Usually | Usually: Usually | Yes: At times you choose |
+
+General categories, not specific products. Many calorie counters don't ask about feelings at all; see [our app comparison](https://fimbl.app/blog/best-calorie-tracker-apps/) for details.
+
+We built Fimbl because we couldn't find a tool that put the food and the feeling in the same place without turning it into homework. The check-in is free, and with Premium a weekly reflection points out the patterns for you, in plain, kind language.
+
+ Premium Patterns, pointed out gently Every Monday, a reflection on your week: wins, patterns we noticed and one gentle focus for the next one. "The weekend was looser, and that's okay." Then you can chat it through with the reflection coach.
+
+## When to get support
+
+Emotional eating is common. Feeling out of control around food is something you deserve help with. Talk to a doctor if you often eat large amounts while feeling unable to stop, eat in secret, try to make up for eating (by vomiting, fasting or over-exercising), or if food and weight take up most of your thoughts.
+
+Free, confidential support: UK Beat helpline (England 0808 801 0677). US ANAD helpline 1-888-375-7767. Finland SYLI support line 02 251 9207. Germany BIÖG counselling 0221 892031. If you're in crisis, call your local emergency number.[7–10]
+
+Fimbl is a food diary, not a medical tool or a treatment for eating disorders.
+
+For most of us, though, emotional hunger is simply part of being human. The aim isn't to eliminate it. It's to notice it, understand what it's telling you, and answer it with a little more choice. If you'd like a diary that helps with exactly that, you can read [why we built Fimbl](https://fimbl.app/blog/why-we-built-fimbl/) or start with one check-in today.
+
+## Questions, answered
+
+### How do I know if I'm really hungry?
+
+Physical hunger builds gradually and shows up in your body: a rumbling stomach, low energy or trouble concentrating, usually a few hours after your last meal. It's open to many foods and can wait a little. If you ate recently, your stomach is quiet and you want one specific food right now, the urge is more likely emotional.
+
+### Is emotional eating bad?
+
+No. Eating for comfort or celebration now and then is a normal part of life. It becomes worth looking at when food is your main way of coping with feelings, or when it leaves you feeling guilty or out of control.
+
+### Why do I crave sweets when I'm stressed or tired?
+
+Sweet, salty and crunchy foods change how you feel quickly and reliably, so it's easy to learn to reach for them when you're stressed, bored or tired. That's a habit, not a character flaw. Noticing the pattern, for example with a short check-in before you eat, is the first step to choosing on purpose.
+
+### What does HALT stand for?
+
+HALT stands for hungry, angry, lonely, tired. It's a long-standing slogan from addiction-recovery communities, and it works well as a quick check before you eat: if you're angry, lonely or tired rather than hungry, food may not be what you need most.
+
+### What's the difference between emotional eating and binge eating?
+
+Emotional eating is common and broad: eating in response to feelings rather than hunger. Binge eating disorder is a clinical condition with recurring episodes of eating a large amount while feeling a loss of control, often followed by distress. If that sounds familiar, please talk to a doctor or an eating-disorder service.
+
+### Can an app help with emotional eating?
+
+An app can help you notice. Recording how hungry you are and how you feel when you eat is one of the most common recommendations for understanding emotional eating, and Fimbl's meal check-ins are built for exactly that. An app isn't a treatment, though, and it's no substitute for professional help when eating feels out of control.
+
+## Sources
+
+- Mayo Clinic. Weight loss: gain control of emotional eating. https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/weight-loss/art-20047342
+- NHS Grampian, Healthy Weight. What is emotional eating? https://www.healthyweightgrampian.scot.nhs.uk/psychological-support/our-relationship-with-food/what-is-emotional-eating/
+- Katterman SN et al. (2014). Systematic review of mindfulness meditation for binge eating, emotional eating and weight loss. Eating Behaviors 15(2). https://pubmed.ncbi.nlm.nih.gov/24854804/
+- Warren JM, Smith N, Ashwell M (2017). Review of mindfulness and mindful eating and their effects on eating behaviour. Nutrition Research Reviews 30(2). https://pubmed.ncbi.nlm.nih.gov/28718396/
+- Liu J et al. (2025). Meta-analysis of mindfulness-based interventions for eating behaviour. Journal of Behavioral Medicine 48(1). https://pubmed.ncbi.nlm.nih.gov/39979674/
+- Kretchman D (2026). On the origins and use of the HALT slogan in recovery. Advances in Drug and Alcohol Research 5. https://doi.org/10.3389/adar.2025.15477
+- Beat, the UK's eating disorder charity: helplines. https://www.beateatingdisorders.org.uk/get-information-and-support/get-help-for-myself/support-now/
+- ANAD eating disorders helpline (US). https://anad.org/get-support/eating-disorders-helpline/
+- Syömishäiriöliitto SYLI ry (Finland). https://syomishairioliitto.fi/
+- BIÖG telephone counselling on eating disorders (Germany). https://essstoerungen.bioeg.de/hilfe-finden/welche-beratung-gibt-es/telefonberatung/

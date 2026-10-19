@@ -163,7 +163,8 @@
         "03-feelings",
         "09-ai"
       ],
-      "cover_alt": "Three Fimbl app screens on iPhone"
+      "cover_alt": "Three Fimbl app screens on iPhone",
+      "home_read": "Read the article"
     },
     "fi": {
       "name": "Suomi",
@@ -277,7 +278,8 @@
         "03-feelings",
         "09-ai"
       ],
-      "cover_alt": "Kolme Fimbl-sovelluksen näkymää iPhonessa"
+      "cover_alt": "Kolme Fimbl-sovelluksen näkymää iPhonessa",
+      "home_read": "Lue artikkeli"
     },
     "de": {
       "name": "Deutsch",
@@ -391,7 +393,8 @@
         "03-feelings",
         "09-ai"
       ],
-      "cover_alt": "Drei Ansichten der Fimbl-App auf dem iPhone"
+      "cover_alt": "Drei Ansichten der Fimbl-App auf dem iPhone",
+      "home_read": "Artikel lesen"
     }
   },
   "covers": {
@@ -451,5 +454,6 @@
       ],
       "theme": "lavender"
     }
-  }
+  },
+  "home_posts": 6
 }

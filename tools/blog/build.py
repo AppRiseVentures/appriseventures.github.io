@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Builds the Fimbl blog in English, Finnish and German.
 
-Writes the post pages, the three blog indexes, an RSS feed per language, sitemap.xml and llms.txt from
+Writes the post pages, the three blog indexes, an RSS feed per language, sitemap.xml, llms.txt, llms-full.txt and the landing pages' blog cards from
 tools/blog/site.json (shared strings per language) and tools/blog/content/<lang>/<post>.json + .html.
 The output is plain HTML that gets committed, so GitHub Pages still serves the site without a build step.
 
@@ -15,6 +15,7 @@ blog, {post:<id>} = another post in the same language, {store} = the App Store l
 from __future__ import annotations
 
 import html
+from html.parser import HTMLParser
 import json
 import re
 import subprocess
@@ -627,8 +628,141 @@ def render_llms(posts: dict) -> str:
         for c in LANGS:
             if c != "en" and c in langs:
                 lines.append(f"  - {SITE['languages'][c]['name']}: [{langs[c]['headline']}]({url(langs[c]['path'])})")
+    lines += ["", "## Full text", "", f"- [All English articles in full, one file]({url('/llms-full.txt')})"]
     lines += ["", SITE["llms"]["outro"].rstrip(), ""]
     return "\n".join(lines)
+
+
+class Markdown(HTMLParser):
+    """Turns article HTML into plain Markdown for llms-full.txt: headings, lists, tables, links and footnote marks."""
+
+    BLOCKS = {"p", "div", "figure", "figcaption", "ul", "ol", "table", "caption", "blockquote", "tr", "section"}
+
+    def __init__(self, lang: str) -> None:
+        super().__init__(convert_charrefs=True)
+        self.out: list[str] = []
+        self.skip = 0
+        self.sup = 0
+        self.cells: list[int] = []
+        self.rows = 0
+        self.links: list[str | None] = []
+
+    def handle_starttag(self, tag: str, attrs: list) -> None:
+        a = dict(attrs)
+        if tag in ("script", "style", "svg"):
+            self.skip += 1
+        elif tag == "h2":
+            self.out.append("\n\n## ")
+        elif tag == "h3":
+            self.out.append("\n\n### ")
+        elif tag == "li":
+            self.out.append("\n\n" if "pick" in (a.get("class") or "") else "\n- ")
+        elif tag == "table":
+            self.rows = 0
+            self.out.append("\n\n")
+        elif tag == "tr":
+            self.out.append("\n| ")
+            self.cells.append(0)
+        elif tag in ("td", "th"):
+            if self.cells and self.cells[-1]:
+                self.out.append(" | ")
+            if self.cells:
+                self.cells[-1] += 1
+        elif tag == "small":
+            self.out.append(" ")
+        elif tag == "sup":
+            self.sup += 1
+            self.out.append("[")
+        elif tag == "span" and a.get("role") == "img" and a.get("aria-label"):
+            self.out.append(a["aria-label"] + ": ")
+        elif tag == "a":
+            href = a.get("href") or ""
+            keep = href and not href.startswith("#") and not self.sup
+            self.links.append(url(href) if keep and href.startswith("/") else (href if keep else None))
+            if keep:
+                self.out.append("[")
+        elif tag in self.BLOCKS:
+            self.out.append("\n\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in ("script", "style", "svg"):
+            self.skip -= 1
+        elif tag == "sup":
+            self.sup -= 1
+            self.out.append("]")
+        elif tag == "a" and self.links:
+            href = self.links.pop()
+            if href:
+                self.out.append(f"]({href})")
+        elif tag == "tr" and self.cells:
+            self.out.append(" |")
+            if self.rows == 0:
+                self.out.append("\n|" + "---|" * self.cells[-1])
+            self.rows += 1
+            self.cells.pop()
+        elif tag == "small":
+            self.out.append(" ")
+        elif tag in ("h2", "h3"):
+            self.out.append("\n\n")
+        elif tag in self.BLOCKS:
+            self.out.append("\n\n")
+
+    def handle_data(self, data: str) -> None:
+        if not self.skip:
+            self.out.append(re.sub(r"\s+", " ", data))
+
+    def text(self) -> str:
+        text = "".join(self.out)
+        text = re.sub(r"[ \t]+\n", "\n", text)
+        text = re.sub(r": +(\||\n)", r" \1", text)
+        text = re.sub(r" {2,}", " ", text)
+        text = re.sub(r"\n- +", "\n- ", text)
+        return re.sub(r"\n{3,}", "\n\n", text).strip()
+
+
+def render_llms_full(posts: dict) -> str:
+    """Every English article in full, for AI tools that read one file instead of crawling the site."""
+    lines = [SITE["llms"]["intro"].split("\n\n## Key pages")[0].rstrip(), "", "> The full text of the English articles on fimbl.app. Finnish and German versions are listed in llms.txt.", ""]
+    for pid, langs in posts.items():
+        m = langs["en"]
+        parser = Markdown("en")
+        parser.feed(fill(m["body"], "en", posts))
+        lines += ["", "---", "", f"# {m['headline']}", "", f"URL: {url(m['path'])}", f"Published: {m['published']} · Updated: {m['modified']} · By {SITE['author']['name']}", "", f"> {m['dek']}", "", parser.text(), ""]
+        if m.get("faq"):
+            lines += ["## Questions, answered", ""]
+            for item in m["faq"]:
+                lines += [f"### {item['q']}", "", strip_tags(item["a"]), ""]
+        if m.get("sources"):
+            lines += ["## Sources", ""] + [f"- {strip_tags(src['text'])}" + (f" {src['url']}" if src.get("url") else "") for src in m["sources"]] + [""]
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def render_home_cards(lang: str, posts: dict) -> str:
+    L = SITE["languages"][lang]
+    items = [posts[pid][lang] for pid in posts if lang in posts[pid]][: SITE["home_posts"]]
+    cards = []
+    for m in items:
+        cards.append(f"""          <li class="post-card">
+            <div class="post-card-media">{cover_img(m, sizes="(min-width: 960px) 380px, 100vw")}</div>
+            <div class="post-card-body">
+              <p class="post-card-meta"><span class="kicker">{esc(m['tag'])}</span></p>
+              <h3><a href="{m['path']}">{esc(m['headline'])}</a></h3>
+              <p class="post-card-text">{esc(m['description'])}</p>
+              <p class="post-card-foot"><span></span><span class="read-more" aria-hidden="true">{esc(L['home_read'])}</span></p>
+            </div>
+          </li>""")
+    return '        <ul class="post-cards post-cards-home">\n' + "\n".join(cards) + "\n        </ul>"
+
+
+def update_home_pages(posts: dict) -> None:
+    """Refreshes the "From the blog" cards between the markers on each landing page; the rest of the page is hand-written."""
+    for lang in LANGS:
+        path = ROOT / SITE["languages"][lang]["home"].strip("/") / "index.html"
+        text = path.read_text()
+        new = re.sub(r"(<!-- blog-cards:start -->\n).*?(\n\s*<!-- blog-cards:end -->)", lambda m: m.group(1) + render_home_cards(lang, posts) + m.group(2), text, flags=re.S)
+        if new != text:
+            path.write_text(new)
+        print("updated", path.relative_to(ROOT))
 
 
 # ---------- Share images ----------
@@ -733,6 +867,9 @@ def main() -> None:
     print("wrote sitemap.xml")
     (ROOT / "llms.txt").write_text(render_llms(posts))
     print("wrote llms.txt")
+    (ROOT / "llms-full.txt").write_text(render_llms_full(posts))
+    print("wrote llms-full.txt")
+    update_home_pages(posts)
     if "--og" in sys.argv:
         render_og(posts)
 
