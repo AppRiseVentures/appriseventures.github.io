@@ -9,13 +9,17 @@ Landing page for [Fimbl](https://apps.apple.com/app/id6443701726), served by Git
 | `blog/`, `fi/blogi/`, `de/blog/` | Blog indexes, posts and RSS feeds per language (generated, see below) |
 | `tools/blog/` | Blog generator and its content (not linked, disallowed in `robots.txt`) |
 | `sitemap.xml`, `llms.txt`, `llms-full.txt` | Generated with the blog: every page with its `hreflang` alternates, a plain summary for AI assistants, and the full text of every English article in one file |
+| `index.md` next to every page | Generated with the blog: the page's `<main>` as Markdown, served to agents that send `Accept: text/markdown` (see Cloudflare below) |
+| `auth.md` | Tells AI agents that reading the site needs no credentials and that there is no agent registration or public API |
 | `<key>.txt` | The IndexNow key (a 32-character hex file name, its content is the same key). `tools/blog/indexnow.py` submits the sitemap's URLs to Bing and other IndexNow engines |
 | `privacy/`, `terms/` | Privacy policy and terms of use, linked from the app |
 | `privacy_policy/`, `terms_of_use/` | Redirects from the old URLs |
 | `404.html` | Not found page, also catches universal links when the app isn't installed |
-| `assets/` | Styles, script, self-hosted fonts (Figtree, Geist), images, share images (`assets/img/og`), localized app screens (`assets/img/app/{en,fi,de}`) and the promo film (`assets/video`) |
+| `assets/` | Styles, script, self-hosted fonts (Figtree, Geist), images, share images (`assets/img/og`), localized app screens (`assets/img/app/{en,fi,de}`) and the promo film's poster (`assets/video`) |
 | `.well-known/apple-app-site-association` | Universal links and web credentials |
 | `CNAME`, `googledfd3fa1b8efcd494.html` | Custom domain and Google Search Console verification |
+
+`robots.txt` is hand-written. Its `Content-Signal` lines (https://contentsignals.org) allow search, AI answers and AI training, to match the crawlers it welcomes.
 
 `screen-07-goals` and `screen-08-meal` come from `SwiftUI-Rewrite/verification_screenshots/iphone` (`tab-goals.png`, `meals/05-meal-detail.png`). The other screenshots in `assets/img` come from `fimbl-app/SwiftUI-Rewrite/appstore/screenshots/iphone/en-US`, resized to 720 px wide WebP:
 
@@ -25,7 +29,7 @@ cwebp -resize 720 0 -q 84 -sharp_yuv 02-diary.png -o assets/img/screen-02-diary.
 
 Preview locally with `python3 -m http.server` and open http://localhost:8000.
 
-The promo film in `assets/video` is the v2 horizontal cut from `fimbl-app/SwiftUI-Rewrite/appstore/marketing/promo-video` (48 MB), compressed to about 9 MB and given a poster frame:
+The promo film is the v2 horizontal cut from `fimbl-app/SwiftUI-Rewrite/appstore/marketing/promo-video` (48 MB), compressed to about 9 MB and given a poster frame:
 
 ```bash
 ffmpeg -i out/fimbl-promo-v2-1920x1080-60fps.mp4 -c:v libx264 -preset slower -crf 28 -profile:v high -level 4.2 \
@@ -34,7 +38,29 @@ ffmpeg -ss 11.6 -i out/fimbl-promo-v2-1920x1080-60fps.mp4 -frames:v 1 -vf scale=
 cwebp -q 82 -sharp_yuv poster.png -o assets/video/fimbl-promo-v2-poster.webp
 ```
 
-The video loads only when played (`preload="none"`), so it doesn't affect page speed.
+The mp4 is too big for this repo, so it's hosted on Cloudflare Pages and the page loads `https://video.fimbl.app/fimbl-promo-v2.mp4`. Setup, the DNS record and how to replace the film are in `fimbl-video-host/` (next to this repo). Only the 37 KB poster stays in `assets/video`. The video loads only when played (`preload="none"`), so it doesn't affect page speed.
+
+## Cloudflare
+
+fimbl.app is proxied through Cloudflare in front of GitHub Pages. GitHub Pages can't set response headers or look at the `Accept` header, so three rules in the Cloudflare dashboard (fimbl.app zone, Rules > Overview) do it. They aren't in this repo, so keep this list in step with the dashboard.
+
+1. **URL Rewrite Rule** "Markdown for agents". Custom filter expression:
+
+   ```
+   (http.host eq "fimbl.app" and any(http.request.headers["accept"][*] contains "text/markdown") and ends_with(http.request.uri.path, "/") and not starts_with(http.request.uri.path, "/tools/"))
+   ```
+
+   Path: Rewrite to, Dynamic, `concat(http.request.uri.path, "index.md")`. Query: Preserve. GitHub Pages serves `.md` files as `text/markdown; charset=utf-8`, so agents get Markdown and browsers still get HTML.
+
+2. **Response Header Transform Rule** "Agent discovery links". Expression `(http.host eq "fimbl.app" and http.request.uri.path in {"/" "/index.md"})`. Set static, header `Link`:
+
+   ```
+   </llms.txt>; rel="describedby"; type="text/plain", </llms-full.txt>; rel="describedby"; type="text/plain", </index.md>; rel="alternate"; type="text/markdown"
+   ```
+
+3. **Response Header Transform Rule** "Vary on Accept". Expression `(http.host eq "fimbl.app" and (ends_with(http.request.uri.path, "/") or ends_with(http.request.uri.path, "/index.md")))`. Add, header `Vary`, value `Accept`, so caches keep the HTML and Markdown versions apart.
+
+Check with `curl -sI https://fimbl.app | grep -i link` and `curl -s -H 'Accept: text/markdown' https://fimbl.app | head`, or scan the site at https://isitagentready.com.
 
 ## Languages
 
@@ -52,7 +78,7 @@ The Finnish and German landing pages are hand-written HTML like `index.html`. Ke
 Posts are written once per language and built into static pages by `tools/blog/build.py` (Python 3, no dependencies). The generated HTML is committed, so GitHub Pages still has no build step.
 
 ```bash
-python3 tools/blog/build.py        # posts, blog indexes, feeds, sitemap.xml, llms.txt, llms-full.txt, home page blog cards
+python3 tools/blog/build.py        # posts, blog indexes, feeds, sitemap.xml, llms.txt, llms-full.txt, home page blog cards, index.md per page
 python3 tools/blog/build.py --og   # also renders the covers and 1200×630 share images (Google Chrome, cwebp)
 python3 tools/blog/indexnow.py     # after publishing: tell Bing and other IndexNow engines about every URL
 ```

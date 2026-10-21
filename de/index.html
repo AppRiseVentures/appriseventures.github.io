@@ -93,7 +93,7 @@
     "thumbnailUrl": "https://fimbl.app/assets/video/fimbl-promo-v2-poster.webp",
     "uploadDate": "2026-10-04",
     "duration": "PT51S",
-    "contentUrl": "https://fimbl.app/assets/video/fimbl-promo-v2.mp4"
+    "contentUrl": "https://video.fimbl.app/fimbl-promo-v2.mp4"
   }
   </script>
 </head>
@@ -224,14 +224,15 @@
         <div class="film" data-film data-reveal>
           <div class="film-frame">
             <video controls preload="none" playsinline poster="/assets/video/fimbl-promo-v2-poster.webp" width="1920" height="1080" aria-label="Fimbl Film auf Englisch, 51 Sekunden: Kalorien zählen, ganz ruhig">
-              <source src="/assets/video/fimbl-promo-v2.mp4" type="video/mp4">
-              <p>Dein Browser kann dieses Video nicht abspielen. <a href="/assets/video/fimbl-promo-v2.mp4">Film herunterladen</a> (MP4, 9 MB).</p>
+              <source src="https://video.fimbl.app/fimbl-promo-v2.mp4" type="video/mp4">
+              <p>Dein Browser kann dieses Video nicht abspielen. <a href="https://video.fimbl.app/fimbl-promo-v2.mp4">Film herunterladen</a> (MP4, 9 MB).</p>
             </video>
             <button class="film-play" type="button" data-film-play aria-label="Fimbl Film abspielen">
               <span class="film-play-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M8.5 5.6v12.8a1 1 0 0 0 1.5.9l10.4-6.4a1 1 0 0 0 0-1.8L10 4.7a1 1 0 0 0-1.5.9Z"/></svg></span>
               <span class="film-play-label" aria-hidden="true">Film ansehen <b>0:51</b></span>
             </button>
           </div>
+          <p class="film-fallback" data-film-error hidden>Der Film konnte gerade nicht geladen werden. <a href="https://video.fimbl.app/fimbl-promo-v2.mp4">Direkt öffnen</a> oder gleich noch einmal versuchen.</p>
         </div>
       </div>
     </section>
@@ -557,8 +558,8 @@
           <h2>Achtsam essen, <span class="accent">ohne schlechtes Gewissen</span></h2>
           <p>Ratgeber zu Kalorien zählen, Hunger und Gewohnheiten, und wie wir über ein ruhigeres Ernährungstagebuch nachdenken.</p>
         </header>
-        <ul class="post-cards post-cards-home">
         <!-- blog-cards:start -->
+        <ul class="post-cards post-cards-home">
           <li class="post-card">
             <div class="post-card-media"><img src="/assets/img/covers/de-ai-calorie-tracking-1200.webp" srcset="/assets/img/covers/de-ai-calorie-tracking-1200.webp 1200w, /assets/img/covers/de-ai-calorie-tracking-2400.webp 2400w" sizes="(min-width: 960px) 380px, 100vw" width="2400" height="1200" alt="" loading="lazy" decoding="async"></div>
             <div class="post-card-body">
@@ -605,8 +606,8 @@
             </div>
           </li>
         </ul>
-        <p class="ai-link"><a class="btn btn-ghost" href="/de/blog/">Alle Artikel</a></p>
         <!-- blog-cards:end -->
+        <p class="ai-link"><a class="btn btn-ghost" href="/de/blog/">Alle Artikel</a></p>
       </div>
     </section>
 

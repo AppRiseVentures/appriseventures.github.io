@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Builds the Fimbl blog in English, Finnish and German.
 
-Writes the post pages, the three blog indexes, an RSS feed per language, sitemap.xml, llms.txt, llms-full.txt and the landing pages' blog cards from
+Writes the post pages, the three blog indexes, an RSS feed per language, sitemap.xml, llms.txt, llms-full.txt, the landing pages' blog cards and an index.md Markdown twin of every page from
 tools/blog/site.json (shared strings per language) and tools/blog/content/<lang>/<post>.json + .html.
 The output is plain HTML that gets committed, so GitHub Pages still serves the site without a build step.
 
@@ -737,6 +737,211 @@ def render_llms_full(posts: dict) -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
+class PageMarkdown(HTMLParser):
+    """Turns a whole page's <main> into Markdown for agents that send Accept: text/markdown. Skips decoration
+    (aria-hidden, icons, buttons, the video and the table of contents) and keeps text, links, lists, tables and image alts."""
+
+    SKIP = {"script", "style", "svg", "video", "button", "template"}
+    VOID = {"img", "br", "hr", "source", "use", "path", "input", "meta", "link", "wbr"}
+    BLOCKS = {"p", "div", "figure", "figcaption", "table", "caption", "blockquote", "section", "article", "header", "aside", "dl", "details", "nav"}
+    HEADINGS = {"h1": "#", "h2": "##", "h3": "###", "h4": "####", "summary": "###"}
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.out: list[str] = []
+        self.main = 0
+        self.skip: list[str] = []
+        self.lists: list[list] = []
+        self.links: list[str | None] = []
+        self.cells: list[int] = []
+        self.rows = 0
+        self.heading = 0
+        self.sup = 0
+        self.gap = False  # inline label just closed, so the next word needs a space ("<strong>When</strong>Are")
+        self.bullet = ""  # list marker held back until the item's first text; dropped for cards that open with a heading
+
+    def mark(self, marker: str, closing: bool) -> None:
+        if closing and self.out and self.out[-1] == marker:
+            self.out.pop()  # empty <strong></strong> or <em></em>
+        else:
+            self.out.append(marker)
+
+    def handle_starttag(self, tag: str, attrs: list) -> None:
+        a = dict(attrs)
+        if tag == "main":
+            self.main += 1
+            return
+        if not self.main or tag in self.VOID and tag != "img" and tag != "br":
+            return
+        if self.skip:
+            if tag not in self.VOID:
+                self.skip.append(tag)
+            return
+        if tag in self.SKIP or a.get("aria-hidden") == "true" or "hidden" in a or "post-toc" in (a.get("class") or ""):
+            if tag not in self.VOID:
+                self.skip.append(tag)
+            return
+        if self.bullet:
+            if tag in self.HEADINGS or tag == "img":
+                self.bullet = ""
+                self.out.append("\n\n")
+            elif tag in self.BLOCKS or tag == "span":
+                pass
+            else:
+                self.out.append(self.bullet)
+                self.bullet = ""
+        if tag in self.HEADINGS:
+            self.heading += 1
+            self.out.append(f"\n\n{self.HEADINGS[tag]} ")
+        elif tag in ("ul", "ol"):
+            self.lists.append([tag, 0])
+            self.out.append("\n")
+        elif tag == "li":
+            indent = "  " * (len(self.lists) - 1)
+            if self.lists and self.lists[-1][0] == "ol":
+                self.lists[-1][1] += 1
+                self.bullet = f"\n{indent}{self.lists[-1][1]}. "
+            else:
+                self.bullet = f"\n{indent}- "
+        elif tag == "tr":
+            self.out.append("\n| ")
+            self.cells.append(0)
+        elif tag in ("td", "th"):
+            if self.cells and self.cells[-1]:
+                self.out.append(" | ")
+            if self.cells:
+                self.cells[-1] += 1
+        elif tag == "table":
+            self.rows = 0
+            self.out.append("\n\n")
+        elif tag == "dt":
+            self.out.append("\n\n**")
+        elif tag == "dd":
+            self.out.append(": ")
+        elif tag in ("strong", "b") and not self.heading and not self.links:
+            self.mark("**", False)
+        elif tag in ("em", "i") and not self.heading and not self.links:
+            self.mark("*", False)
+        elif tag in ("small", "time"):
+            self.out.append(" ")
+        elif tag == "sup":
+            self.sup += 1
+            self.out.append("[")
+        elif tag == "br":
+            self.out.append("\n" if not self.cells else " ")
+        elif tag == "img":
+            alt = (a.get("alt") or "").strip()
+            if alt:
+                self.out.append(f"\n\n![{alt}]({url(a['src']) if a.get('src', '').startswith('/') else a.get('src', '')})\n\n")
+        elif tag == "a":
+            href = a.get("href") or ""
+            keep = bool(href) and not href.startswith("#") and not self.sup
+            self.links.append((url(href) if href.startswith("/") else href) if keep else None)
+            if keep:
+                self.out.append("[")
+        elif tag in self.BLOCKS:
+            self.out.append("\n\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "main":
+            self.main -= 1
+            return
+        if not self.main or tag in self.VOID:
+            return
+        if self.skip:
+            if self.skip[-1] == tag:
+                self.skip.pop()
+            return
+        if tag == "li":
+            self.bullet = ""
+        elif tag in self.HEADINGS:
+            self.heading -= 1
+            self.out.append("\n\n")
+        elif tag in ("ul", "ol"):
+            if self.lists:
+                self.lists.pop()
+            self.out.append("\n\n" if not self.lists else "")
+        elif tag == "tr" and self.cells:
+            self.out.append(" |")
+            if self.rows == 0:
+                self.out.append("\n|" + "---|" * self.cells[-1])
+            self.rows += 1
+            self.cells.pop()
+        elif tag == "dt":
+            self.out.append("**")
+        elif tag in ("strong", "b") and not self.heading and not self.links:
+            self.mark("**", True)
+        elif tag in ("em", "i") and not self.heading and not self.links:
+            self.mark("*", True)
+        elif tag in ("small", "time"):
+            self.out.append(" ")
+        elif tag == "sup":
+            self.sup -= 1
+            self.out.append("]")
+        elif tag == "a" and self.links:
+            href = self.links.pop()
+            if href:
+                self.out.append(f"]({href})")
+        elif tag in self.BLOCKS:
+            self.out.append("\n\n")
+        self.gap = tag in ("strong", "b", "span")
+
+    def handle_data(self, data: str) -> None:
+        if self.main and not self.skip:
+            if self.bullet and data.strip():
+                self.out.append(self.bullet)
+                self.bullet = ""
+            if self.gap and data[:1].isalnum():
+                self.out.append(" ")
+            self.gap = False
+            self.out.append(re.sub(r"\s+", " ", data))
+
+    def text(self) -> str:
+        text = "".join(self.out)
+        text = re.sub(r"\[\s+", "[", text)
+        text = re.sub(r"\s+\]\(", "](", text)
+        text = re.sub(r"\[\]\([^)]*\)", "", text)
+        text = re.sub(r"[ \t]+\n", "\n", text)
+        text = re.sub(r"\n[ \t]+(?![-\d])", "\n", text)
+        text = re.sub(r"(?<=\S) {2,}", " ", text)
+        text = re.sub(r"\n(\d+)\. \*\*\1\*\* ", r"\n\1. ", text)  # steps that print their own number
+        text = re.sub(r"\n(#+ |- |\d+\. )\s+", r"\n\1", text)
+        text = re.sub(r"(?<=\n)( *(?:- |\d+\. )[^\n]*)\n{2,}(?= *(?:- |\d+\. ))", r"\1\n", text)
+        return re.sub(r"\n{3,}", "\n\n", text).strip()
+
+
+def render_page_markdown(path: str) -> str:
+    """The Markdown twin of one page: a short front matter from <head>, then its <main>."""
+    page = (ROOT / path.lstrip("/") / "index.html").read_text()
+
+    def meta(pattern: str) -> str:
+        m = re.search(pattern, page, re.S)
+        return html.unescape(m.group(1)).strip() if m else ""
+
+    front = {
+        "title": meta(r"<title>(.*?)</title>"),
+        "description": meta(r'<meta name="description" content="([^"]*)"'),
+        "url": url(path),
+        "language": meta(r'<html lang="([^"]+)"'),
+    }
+    parser = PageMarkdown()
+    parser.feed(page)
+    lines = ["---"] + [f"{k}: {json.dumps(v, ensure_ascii=False)}" for k, v in front.items() if v] + ["---", "", parser.text(), ""]
+    return "\n".join(lines)
+
+
+def write_markdown_pages() -> None:
+    """Writes index.md next to every page in sitemap.xml. Cloudflare rewrites requests with Accept: text/markdown to it."""
+    sitemap = (ROOT / "sitemap.xml").read_text()
+    for loc in dict.fromkeys(re.findall(r"<loc>(.*?)</loc>", sitemap)):
+        path = loc.removeprefix(BASE) or "/"
+        if not path.endswith("/") or not (ROOT / path.lstrip("/") / "index.html").exists():
+            continue
+        target = ROOT / path.lstrip("/") / "index.md"
+        target.write_text(render_page_markdown(path))
+    print("wrote index.md for every page in sitemap.xml")
+
+
 def render_home_cards(lang: str, posts: dict) -> str:
     L = SITE["languages"][lang]
     items = [posts[pid][lang] for pid in posts if lang in posts[pid]][: SITE["home_posts"]]
@@ -870,6 +1075,7 @@ def main() -> None:
     (ROOT / "llms-full.txt").write_text(render_llms_full(posts))
     print("wrote llms-full.txt")
     update_home_pages(posts)
+    write_markdown_pages()
     if "--og" in sys.argv:
         render_og(posts)
 

@@ -53,4 +53,6 @@
 - Fimbl is not a medical device and offers gentle guidance, not medical advice or eating-disorder treatment.
 - Fimbl is available on iPhone and iPad only. There is no Android or web app.
 - Prices for Fimbl Premium vary by App Store region and are shown in the app before subscribing. New subscribers may be offered a free trial.
+- Every page has a Markdown version: request it with `Accept: text/markdown`, or add `index.md` to a page URL that ends in `/`.
+- Fimbl has no public API and no agent sign-in. Reading the site needs no credentials: [auth.md](https://fimbl.app/auth.md).
 - Contact: appriseven@gmail.com

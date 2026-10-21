@@ -1308,6 +1308,9 @@ p { margin: 0; text-wrap: pretty; }
   70%, 100% { transform: scale(1.5); opacity: 0; }
 }
 
+.film-fallback { margin-top: 20px; color: var(--muted); font-size: 0.95rem; text-align: center; }
+.film-fallback a { color: var(--brand); font-weight: 500; }
+
 @media (max-width: 539px) {
   .film-play-label { padding: 6px 12px; font-size: 0.78rem; }
 }

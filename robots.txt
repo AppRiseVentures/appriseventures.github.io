@@ -1,4 +1,7 @@
+# Content Signals (https://contentsignals.org): search engines, AI answers that cite the site
+# and AI training may all use what's published here.
 User-agent: *
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 Disallow: /tools/
 
@@ -16,6 +19,7 @@ User-agent: PerplexityBot
 User-agent: Perplexity-User
 User-agent: Google-Extended
 User-agent: Applebot-Extended
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 Disallow: /tools/
 

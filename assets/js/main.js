@@ -173,11 +173,21 @@ const initFilm = (root) => {
 
   // With JavaScript the poster carries our own play button; the native controls appear once it's pressed.
   video.controls = false;
+  const failed = root.querySelector("[data-film-error]");
+  const fail = () => {
+    root.classList.remove("is-playing");
+    video.controls = false;
+    if (failed) failed.hidden = false;
+  };
   const start = () => {
+    if (failed) failed.hidden = true;
     root.classList.add("is-playing");
     video.controls = true;
-    video.play().catch(() => root.classList.remove("is-playing"));
+    video.play().catch((error) => error?.name !== "AbortError" && fail());
   };
+  // The film comes from another address (video.fimbl.app); say so if it can't be reached.
+  video.querySelector("source")?.addEventListener("error", fail);
+  video.addEventListener("error", fail);
   play.addEventListener("click", start);
   video.addEventListener("click", () => video.paused && !video.controls && start());
   video.addEventListener("ended", () => {
