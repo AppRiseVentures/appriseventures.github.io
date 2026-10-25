@@ -9,7 +9,7 @@ Legal
 
 # Privacy Policy
 
-Last updated October 17, 2026
+Last updated October 25, 2026
 
 This policy explains what personal data the Fimbl app for iPhone and iPad and the website fimbl.app handle, why, who can see it, and how long we keep it. We have written it to be read, not skimmed past, and the AI features get their own section because they deserve one. If anything is unclear, [write to us](mailto:appriseven@gmail.com).
 
@@ -17,7 +17,7 @@ This policy explains what personal data the Fimbl app for iPhone and iPad and th
 
 - **We collect what we need to run your diary:** your account, your profile and goals, what you log, how you feel, and your weight.
 - **Health and wellbeing data is sensitive.** We use it only to give you Fimbl, only with your consent, and never to sell it or to show you ads.
-- **No ads and no ad trackers.** If you agree, the app sends anonymous usage statistics (which screens and features are used, never what you log) to PostHog in the EU. They are not linked to your account and cannot be used to identify you (see section 2.1). You choose during setup and can change it any time in Settings. This website has no cookies or analytics.
+- **No ads and no ad trackers.** If you agree, the app sends usage statistics (which screens and features are used, never what you log) to PostHog in the EU, linked to your Fimbl account once you have one. Before you answer, it only counts which first-run steps are reached, anonymously (see section 2.1). You choose at the end of your first run and can change it any time in Settings. This website has no cookies or analytics.
 - **AI features are part of Premium and entirely optional.** When one is used, the data it needs goes from the app through our servers to Google's Gemini API. Everything else in Fimbl works without any AI.
 - **Apple Health data stays on your device,** with two exceptions: the weight you log, and daily steps and active calories that may be included in AI requests if you turned Health sync on and use a Premium AI feature.
 - **You are in control.** Delete your account any time in Settings, and ask for a copy of your data any time by email.
@@ -65,21 +65,25 @@ We collect data you give us, data created when you use Fimbl, and a small amount
 | Purchases | Your subscription status and purchase history, managed through RevenueCat using your Fimbl user ID. Apple processes the payment, and we never see your card details. | To unlock Premium and handle restores and trials. | Contract |
 | Technical and security | IP address, app version, device language, time zone and sign-in session details (such as user agent), plus AI usage logs described in section 4. | To keep Fimbl secure, stop abuse, apply fair-use limits and fix problems. | Legitimate interests (Art. 6(1)(f)) |
 | Support | The messages you send us and your email address. | To answer you. | Legitimate interests; contract |
-| Anonymous usage statistics | Which screens and features are used and in what order, under a random install ID that is not linked to your account. See section 2.1. | To see which features people find and use, where onboarding is hard, and what crashes, so we can improve Fimbl. | Consent (Art. 6(1)(a)) |
+| Usage statistics | Which screens and features are used and in what order, under a random ID for your device that is linked to your account once you have one. See section 2.1. | To see which features people find and use, where onboarding is hard, and what crashes, so we can improve Fimbl. | Consent (Art. 6(1)(a)) |
+| Anonymous first-run counts | Which steps of the first run are reached, before you answer whether to share usage data. Not linked to you or your device. See section 2.1. | To see where new users stop during the first run, including those who never reach the question or say no. | Legitimate interests (Art. 6(1)(f)); the counts are anonymous |
 
-### 2.1 Anonymous usage statistics
+### 2.1 Usage statistics
 
-To learn how Fimbl is used and where it can get better, and only if you agree, the app sends anonymous usage events to [PostHog](https://posthog.com/privacy), a product analytics service, hosted in the European Union (Frankfurt). We built it so the data cannot be tied to you:
+To learn how Fimbl is used and where it can get better, the app sends usage events to [PostHog](https://posthog.com/privacy), a product analytics service, hosted in the European Union (Frankfurt). There are two kinds.
 
-- **A random ID, not your account.** The app creates a random ID the first time it opens and keeps it only on your device. It is never linked to your Fimbl account, your email, your name or your RevenueCat ID. Deleting the app or your account resets it, after which you are counted as someone new.
+**Anonymous first-run counts, before you answer.** While you go through your first run, the app counts which of its steps you reach, for example "logged a first meal" or "saw the daily targets", whether you started with or without an account, how you logged your first meal, how the subscription offer ended and how you answered the usage data question. Each count carries only the app version, the app language, how many seconds into the first run it was, and a random number that the app makes when it opens and forgets when it closes. That number is not stored on your device and is not linked to your device, your account or any other count, so the counts cannot tell who you are, and PostHog keeps no profile for them. If you answer that you don't want to share usage data, nothing more is counted.
+
+**Usage statistics, only if you agree:**
+
+- **A random ID for your device, linked to your account.** The app creates a random ID the first time it opens and keeps it on your device. When you have a Fimbl account, that ID is linked to your account's ID, so we can see how Fimbl is used over time; if you used Fimbl without an account first, those earlier events join your account too. Signing out stops the link for what follows. It is never linked to your email, your name or your RevenueCat ID. Deleting the app resets the device ID. If you agreed before October 25, 2026, when this question said the data was never linked to you, it stays unlinked unless you turn sharing off and on again in Settings.
 - **What an event says:** that something happened, such as a screen opened, an onboarding step finished, a meal logged by barcode or by photo, a reflection opened or a purchase started, with simple labels and rounded counts (for example "meal: lunch", "2–3 items", "took 12 seconds"). It also includes the app version, device model, iOS version, app language, region setting, whether you use Premium and Calm or Classic mode, your plan type (lose, maintain or gain weight) and activity level, the general goals you picked in onboarding (such as more energy or a better routine) and how you tracked food before, and whether notifications and widgets are on.
 - **Crash reports:** if the app crashes, a technical report of where in the code it happened.
-- **Screen recordings in test versions only:** in TestFlight beta versions of Fimbl, and only if you agree to share usage data, PostHog also records how the screens look and where you tap, so we can find confusing spots and bugs. All text, input fields, images and camera views are covered on your device before anything is sent, so a recording shows the layout, not what you eat, write or photograph. The version from the App Store does not record screens. Recordings are deleted after 30 days.
-- **What is never sent:** what you eat or search for, product names or barcodes, calories or amounts, your weight or body measurements, your feelings, hunger or mood, anything you write, AI conversations and reflections, photos, your name, email or account ID, and your precise location. We switch off IP-based location, and PostHog is set to discard your IP address.
+- **What is never sent:** what you eat or search for, product names or barcodes, calories or amounts, your weight or body measurements, your feelings, hunger or mood, anything you write, AI conversations and reflections, photos, your name or email, and your precise location. We switch off IP-based location, and PostHog is set to discard your IP address.
 - **Not used for tracking or ads.** We do not combine it with data from other apps or websites, and we do not share it with advertisers or data brokers. PostHog processes it for us as our processor. The data is stored in the EU; PostHog Inc. is based in the United States, and any access from outside the EU is covered by the European Commission's Standard Contractual Clauses in its data processing agreement.
-- **How long:** for a limited period, currently up to 7 years, so we can compare how Fimbl changes over time. Because it is not linked to you, deleting your account does not delete it.
+- **How long:** for a limited period, currently up to 7 years, so we can compare how Fimbl changes over time. Deleting your account removes the link on your device; to have the usage data linked to your account deleted as well, write to us and we will delete it within a month. The anonymous first-run counts can't be linked to anyone, so they are kept.
 
-**Your choice.** Our legal basis is your consent (Art. 6(1)(a)). During setup, the "Help us make Fimbl even better" step asks you: *Continue* shares anonymous usage data, *Continue without sharing* doesn't. Until you answer, nothing is stored or sent: the few events from the setup screens wait in the app's memory and are sent only if you agree, or thrown away if you don't. If you already used Fimbl before this step existed, nothing is sent unless you turn sharing on. You can change your answer at any time in Fimbl: Settings, Information, *Share anonymous usage data*. Turning it off stops all usage events and crash reports from that device straight away, and withdrawing consent does not affect what was sent before. The app keeps a note of your answer and when you gave it on your device. Because the data is designed not to identify you, we usually cannot find "your" events if you ask us about them.
+**Your choice.** For the usage statistics, our legal basis is your consent (Art. 6(1)(a)). At the end of your first run, the "Help us make Fimbl even better" page asks you: *Continue* shares usage data, *Continue without sharing* doesn't. Until you answer, nothing but the anonymous first-run counts above is sent: the events from the first-run screens wait in the app's memory and are sent only if you agree, or thrown away if you don't. If you already used Fimbl before this page existed, nothing is sent unless you turn sharing on. You can change your answer at any time in Fimbl: Settings, Information, *Share usage data*. Turning it off stops all usage events and crash reports from that device straight away, and withdrawing consent does not affect what was sent before. The app keeps a note of your answer, when you gave it and which wording you saw on your device. For the anonymous first-run counts, our legal basis is our legitimate interest in seeing where new users stop (Art. 6(1)(f)); they cannot identify you, so there is nothing of yours in them to access or delete.
 
 ### Health and wellbeing data
 
@@ -182,7 +186,7 @@ We do not sell your personal data, and we do not share it for advertising. We us
 
 - **Google:** Sign in with Google, the Gemini API and Custom Search for AI features (section 4), and a favicon service that loads shop icons in healthier swaps.
 - **Apple:** Sign in with Apple, App Store payments and subscriptions, and speech recognition for voice input.
-- **PostHog:** anonymous usage statistics and crash reports, hosted in the EU (section 2.1).
+- **PostHog:** usage statistics and crash reports if you agree, linked to your account once you have one, and anonymous first-run counts, hosted in the EU (section 2.1).
 - **RevenueCat:** subscription management. It receives your Fimbl user ID and your purchase information, and nothing else we hold about you.
 - **Hosting and infrastructure providers:** the servers and database behind api.fimbl.app, operated by us with providers acting under our instructions.
 - **Cloudflare:** hosts the promo film on fimbl.app (see section 13).
@@ -204,14 +208,15 @@ Some of our providers, including Google, Apple, RevenueCat and Cloudflare, may p
 | Temporary video copies for recipe import | Removed automatically after processing |
 | Anonymised AI data | As long as it is useful to us. It is no longer personal data. |
 | Security and troubleshooting logs | Only as long as needed for those purposes |
-| Anonymous usage statistics and crash reports (PostHog) | Up to 7 years. Not linked to your account. |
+| Usage statistics and crash reports (PostHog) | Up to 7 years. Linked to your account once you have one; deleted within a month if you ask us after deleting your account. |
+| Anonymous first-run counts (PostHog) | Up to 7 years. Not linked to anyone. |
 | Data on your device | Until you delete the app or the data |
 
 These periods are our current settings and may change. If a change affects how your data is handled, we will update this page. Where we keep backups, they are rotated on a regular schedule, so deleted data may remain in them for a limited time. Purchase records held by Apple and RevenueCat follow their own retention rules.
 
 ## 9 Deleting and exporting your data
 
-- **Delete your account:** open Settings in Fimbl and choose Delete account. This deletes your account and your personal data. AI data we keep is anonymised, so it is no longer linked to you (section 4.7). If you signed in with Apple, we also revoke Fimbl's access to your Apple account.
+- **Delete your account:** open Settings in Fimbl and choose Delete account. This deletes your account and your personal data. AI data we keep is anonymised, so it is no longer linked to you (section 4.7). Usage statistics you agreed to share stay in PostHog until you ask us to delete them (section 2.1). If you signed in with Apple, we also revoke Fimbl's access to your Apple account.
 - **Your subscription is separate.** Deleting your account does not cancel it. Cancel in the App Store (Settings, your name, Subscriptions).
 - **Deleting the app** removes the data stored on your device, but not your account. Delete the account first if you want your personal data deleted.
 - **Get a copy:** there is no export button yet, but you can [email us](mailto:appriseven@gmail.com) any time and we will send you your data in a common, machine-readable format, within the time the law requires (normally one month).
@@ -252,6 +257,8 @@ Earlier versions of Fimbl, including the previous Android app, used Google Fireb
 ## 15 Changes to this policy
 
 If we change how we handle data, for example by adding a new AI feature or a new provider, we will update this page and the date above, and tell you in the app when the change is significant. Previous versions are available on request.
+
+**What changed on October 25, 2026:** with Fimbl 2.3, usage statistics you agree to share are linked to your Fimbl account once you have one, so the question now asks about usage data rather than anonymous usage data. Before you answer, the app counts which first-run steps are reached, anonymously and without any ID that stays. The screen recordings in test versions have ended (section 2.1).
 
 **What changed on October 16, 2026:** if you agree, the app now sends anonymous usage statistics and crash reports to PostHog in the EU, under a random ID that is not linked to your account. You choose during setup and can change it in Settings (section 2.1).
 
