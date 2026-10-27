@@ -65,7 +65,7 @@
     },
     {
       "q": "Does Fimbl use my data to train AI?",
-      "a": "No. AI features are optional and part of Premium. When you use one, only what that feature needs is sent through Fimbl's servers to Google's Gemini API, without your name or email. We don't train AI models on your data and we don't sell it. Free accounts never send anything to an AI service."
+      "a": "No. AI features are optional, and Fimbl works fully without them. When you use one, only what that feature needs is sent through Fimbl's servers to Google's Gemini API, without your name or email, or, for free scans on iPhones with Apple Intelligence, to Apple's model on Private Cloud Compute. We don't train AI models on your data and we don't sell it."
     },
     {
       "q": "Do my progress photos get uploaded?",

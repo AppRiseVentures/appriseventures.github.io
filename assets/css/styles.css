@@ -266,6 +266,14 @@ p { margin: 0; text-wrap: pretty; }
   letter-spacing: 0.02em;
 }
 
+/* The App Store header's opening line: the problem, said before the promise */
+.hero-hook {
+  margin-bottom: 14px;
+  color: var(--muted);
+  font: 800 clamp(1.35rem, 1rem + 1.3vw, 1.85rem)/1.15 var(--font-display);
+  letter-spacing: -0.02em;
+}
+
 .hero h1 {
   font-size: clamp(2.75rem, 1.5rem + 4.6vw, 5rem);
   letter-spacing: -0.035em;

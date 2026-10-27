@@ -37,7 +37,7 @@
     },
     {
       "q": "Nutzt Fimbl meine Daten für KI-Training?",
-      "a": "Nein. KI-Funktionen sind optional und gehören zu Premium. Wenn du eine nutzt, geht nur das, was diese Funktion braucht, über die Server von Fimbl an die Gemini API von Google, ohne deinen Namen oder deine E-Mail-Adresse. Wir trainieren keine KI-Modelle mit deinen Daten und verkaufen sie nicht. Kostenlose Konten senden nie etwas an einen KI-Dienst."
+      "a": "Nein. KI-Funktionen sind optional, und Fimbl funktioniert komplett ohne sie. Wenn du eine nutzt, geht nur das, was diese Funktion braucht, über die Server von Fimbl an die Gemini API von Google, ohne deinen Namen oder deine E-Mail-Adresse, oder bei kostenlosen Scans auf iPhones mit Apple Intelligence an Apples Modell über Private Cloud Compute. Wir trainieren keine KI-Modelle mit deinen Daten und verkaufen sie nicht."
     },
     {
       "q": "Werden meine Fortschrittsfotos hochgeladen?",

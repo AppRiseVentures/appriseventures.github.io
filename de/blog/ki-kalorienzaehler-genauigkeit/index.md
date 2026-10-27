@@ -120,7 +120,7 @@ Und wenn du weder Zeit noch Energie hast, hält eine grob geschätzte Kalorienza
 
 Bevor du eine App auf deinen Teller richtest, lohnt sich die Frage, wohin das Bild geht. Frag bei jedem KI-Tracker: Ist die KI optional, was genau wird gesendet, ist es mit deinem Namen verknüpft, und wird es zum Trainieren von Modellen genutzt?
 
-**In Fimbl ist KI optional und Teil von Premium.** Wenn du einen Scan nutzt, geht das Foto über die Server von Fimbl an die Gemini API von Google, ohne deinen Namen und deine E-Mail-Adresse. Wir trainieren keine KI-Modelle mit deinen Daten. Kostenlose Konten senden nie etwas an einen KI-Dienst, und Tagebuch, Suche und Barcode-Scanner funktionieren komplett ohne KI. Unsere [Datenschutzerklärung](https://fimbl.app/privacy/#ai) (auf Englisch) erklärt jede Funktion im Detail.
+**In Fimbl ist KI optional.** Alle bekommen 3 kostenlose Foto-Scans oder Mahlzeitbeschreibungen, und auf iPhones mit Apple Intelligence bleiben sie danach kostenlos, gelesen von Apples eigenem Modell über Private Cloud Compute. Sonst geht das Foto über die Server von Fimbl an die Gemini API von Google, ohne deinen Namen und deine E-Mail-Adresse. Wir trainieren keine KI-Modelle mit deinen Daten, und Tagebuch, Suche und Barcode-Scanner funktionieren komplett ohne KI. Unsere [Datenschutzerklärung](https://fimbl.app/privacy/#ai) (auf Englisch) erklärt jede Funktion im Detail.
 
 Das Beste aus beidem
 
@@ -158,7 +158,7 @@ Verpackte Produkte stammen aus Open Food Facts, der offenen weltweiten Datenbank
 
 ### Schickt Fimbl meine Essensfotos an eine KI?
 
-Nur wenn du eine KI-Funktion nutzt, und die ist optional und Teil von Fimbl Premium. Das Foto geht über die Server von Fimbl an die Gemini API von Google, ohne deinen Namen und deine E-Mail-Adresse, und wird nicht zum Trainieren von KI-Modellen verwendet. Kostenlose Konten senden nie etwas an einen KI-Dienst.
+Nur wenn du eine KI-Funktion nutzt, und die ist optional. Deine ersten 3 Scans und jeder Premium-Scan gehen über die Server von Fimbl an die Gemini API von Google, ohne deinen Namen und deine E-Mail-Adresse, und werden nicht zum Trainieren von KI-Modellen verwendet. Auf iPhones mit Apple Intelligence liest Apples eigenes Modell über Private Cloud Compute die weiteren kostenlosen Scans.
 
 ## Quellen
 

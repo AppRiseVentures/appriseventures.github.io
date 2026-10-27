@@ -63,7 +63,7 @@ Rauhallisen sovelluksen rakentaminen on enimmäkseen sarja pieniä kieltäytymis
 - **Tunteet kuuluvat ruokapöytään** Jokaiseen ateriaan voi liittää nopean kirjauksen nälästä ja tunteista, ja se on ilmainen. Mieliteko, stressi, tylsyys, kylläisyys: valitse niin monta kuin haluat, tai ei yhtään.
 - **Numerot ovat vapaaehtoisia** Rauhallinen tila (Premium) vaihtaa kalorimäärät lempeisiin arvosanoihin siitä, miten hyvin ateria tuki tavoitteitasi, nälkääsi ja mielialaasi. Laskenta jatkuu hiljaa taustalla.
 - **Ilmainen tarkoittaa kokonaista päiväkirjaa** Haku, viivakoodiskannaus, tallennetut ateriat, tuntemusten kirjaukset, paino, tavoitteet, aktiivisuus Terveys-apista ja edistymiskuvat toimivat ilmaiseksi. Ei mainoksia, ei koskaan.
-- **Tekoäly, valot päällä** Tekoäly on vapaaehtoinen ja vain Premiumissa. Se näkee vain sen, mitä toiminto tarvitsee, ei koskaan nimeäsi tai sähköpostiasi, emmekä kouluta malleja tiedoillasi.[4]
+- **Tekoäly, valot päällä** Tekoäly on vapaaehtoinen. Ilmaiset kokeilut ja Premium-ominaisuudet näkevät vain sen, mitä toiminto tarvitsee, ei koskaan nimeäsi tai sähköpostiasi, emmekä kouluta malleja tiedoillasi.[4]
 - **Kuvasi ovat sinun** Edistymiskuvat pysyvät iPhonessasi. Niitä ei koskaan ladata palvelimillemme, käytetä tekoälyyn eikä tallenneta iCloud-varmuuskopioihin.
 - **Johdonmukaisuus, ei täydellisyys** Putket palkitsevat paikalle tulemisesta, eivät virheettömistä päivistä. Peukalosääntömme lukee suoraan sovelluksessa: jäikö päivä väliin? Kunhan kahta ei jää peräkkäin.
 
@@ -153,7 +153,7 @@ Sovelluksen ydin on ilmainen ja ilman mainoksia: ruokapäiväkirja, haku ja viiv
 
 ### Käytetäänkö tietojani tekoälyn kouluttamiseen?
 
-Ei. Tekoälyominaisuudet ovat vapaaehtoisia ja osa Premiumia. Kun käytät niitä, vain kyseisen toiminnon tarvitsemat tiedot kulkevat Fimblen palvelimien kautta Googlen Gemini-rajapintaan, ilman nimeäsi tai sähköpostiosoitettasi. Emme kouluta tekoälymalleja tiedoillasi emmekä myy niitä. Ilmaiset tilit eivät lähetä mitään tekoälypalveluun.
+Ei. Tekoälyominaisuudet ovat vapaaehtoisia, ja Fimbl toimii täysin ilman niitä. Kun käytät niitä, vain kyseisen toiminnon tarvitsemat tiedot kulkevat Fimblen palvelimien kautta Googlen Gemini-rajapintaan ilman nimeäsi tai sähköpostiosoitettasi, tai Apple Intelligence -iPhoneissa ilmaiset skannaukset Applen mallille Private Cloud Computessa. Emme kouluta tekoälymalleja tiedoillasi emmekä myy niitä.
 
 ### Lähtevätkö edistymiskuvat puhelimesta?
 

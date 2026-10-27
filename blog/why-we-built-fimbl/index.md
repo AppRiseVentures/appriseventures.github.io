@@ -63,7 +63,7 @@ Building a calm app is mostly a series of small refusals. These are the decision
 - **Feelings belong at the table** Every meal can come with a quick check-in on hunger and feelings, and it's free. Craving, stressed, bored, satisfied: pick as many as you like, or none.
 - **Numbers are optional** Calm mode (Premium) swaps calorie numbers for gentle grades on how well a meal served your goals, hunger and mood, while counting quietly in the background.
 - **Free means a complete diary** Search, barcode scanning, saved meals, check-ins, weight, goals, Apple Health activity and progress photos all work for free. No ads, ever.
-- **AI with the lights on** AI is optional and Premium-only. It sees only what a feature needs, never your name or email, and we don't train models on your data.[4]
+- **AI with the lights on** AI is optional, and the free tries and Premium features see only what a feature needs, never your name or email, and we don't train models on your data.[4]
 - **Your photos are yours** Progress photos stay on your iPhone. They're never uploaded to our servers, never used for AI and never included in iCloud backups.
 - **Consistency, not perfection** Streaks reward showing up, not flawless days. Our rule of thumb is printed right in the app: miss a day? That's fine. Just don't miss two.
 
@@ -153,7 +153,7 @@ The heart of the app is free and has no ads: the food diary, search and barcode 
 
 ### Does Fimbl use my data to train AI?
 
-No. AI features are optional and part of Premium. When you use one, only what that feature needs is sent through Fimbl's servers to Google's Gemini API, without your name or email. We don't train AI models on your data and we don't sell it. Free accounts never send anything to an AI service.
+No. AI features are optional, and Fimbl works fully without them. When you use one, only what that feature needs is sent through Fimbl's servers to Google's Gemini API, without your name or email, or, for free scans on iPhones with Apple Intelligence, to Apple's model on Private Cloud Compute. We don't train AI models on your data and we don't sell it.
 
 ### Do my progress photos get uploaded?
 

@@ -82,7 +82,7 @@
     },
     {
       "q": "Schickt Fimbl meine Essensfotos an eine KI?",
-      "a": "Nur wenn du eine KI-Funktion nutzt, und die ist optional und Teil von Fimbl Premium. Das Foto geht über die Server von Fimbl an die Gemini API von Google, ohne deinen Namen und deine E-Mail-Adresse, und wird nicht zum Trainieren von KI-Modellen verwendet. Kostenlose Konten senden nie etwas an einen KI-Dienst."
+      "a": "Nur wenn du eine KI-Funktion nutzt, und die ist optional. Deine ersten 3 Scans und jeder Premium-Scan gehen über die Server von Fimbl an die Gemini API von Google, ohne deinen Namen und deine E-Mail-Adresse, und werden nicht zum Trainieren von KI-Modellen verwendet. Auf iPhones mit Apple Intelligence liest Apples eigenes Modell über Private Cloud Compute die weiteren kostenlosen Scans."
     }
   ],
   "sources": [

@@ -28,28 +28,38 @@
   },
   "og_pages": [
     {
+      "name": "en-home",
+      "lang": "en",
+      "kicker": "Fimbl · iPhone & iPad",
+      "heading": "Achieve lasting changes, <span>finally</span>.",
+      "shots": [
+        "01-diary",
+        "your-why"
+      ]
+    },
+    {
       "name": "fi-home",
       "lang": "fi",
       "kicker": "Fimbl · iPhone & iPad",
-      "heading": "Löydä <span>tasapaino</span> syömiseesi",
+      "heading": "Pysyvä muutos, <span>vihdoin</span>.",
       "shots": [
         "01-diary",
-        "03-feelings"
+        "your-why"
       ]
     },
     {
       "name": "de-home",
       "lang": "de",
       "kicker": "Fimbl · iPhone & iPad",
-      "heading": "Finde <span>Balance</span> beim Essen",
+      "heading": "Veränderung, die <span>endlich</span> bleibt.",
       "shots": [
         "01-diary",
-        "03-feelings"
+        "your-why"
       ]
     }
   ],
   "llms": {
-    "intro": "# Fimbl\n\n> Fimbl is a calm, guilt-free food diary and calorie tracker for iPhone and iPad (iOS and iPadOS 26 or later), made by AppRise Ventures Oy in Espoo, Finland. It helps people notice what they eat, why they eat and how food makes them feel. Available in English, German and Finnish. Free to download with no ads; Fimbl Premium adds AI and depth features.\n\n## What Fimbl does\n\n- Food diary with search, barcode scanning, quick adds and saved meals (free)\n- Meal check-ins on hunger and feelings, plus daily mood (free)\n- Guided First Week: seven days, one small step a day (free)\n- Weight, BMI, streaks, goals and Apple Health activity: steps, active and resting energy, workouts (free)\n- Guided progress photos that stay on the iPhone: never uploaded to Fimbl's servers, never used for AI, never in iCloud backups (free)\n- Premium: photo calorie scan, describing meals by text or voice, nutrition label scan, recipes from Reels, TikToks, YouTube Shorts and recipe sites, macro goals, Calm mode (grades instead of calorie numbers), healthier product swaps, weekly AI reflections and a reflection coach, widgets, extra meal slots and streak restore\n- AI features are optional and Premium-only. Requests go through Fimbl's servers to Google's Gemini API, without name or email. Free accounts never send anything to an AI service.\n\n## Key pages\n\n- [Home (English)](https://fimbl.app/): features, AI transparency, FAQ\n- [Etusivu (Suomi)](https://fimbl.app/fi/)\n- [Startseite (Deutsch)](https://fimbl.app/de/)\n- [Blog (English)](https://fimbl.app/blog/), [Blogi (Suomi)](https://fimbl.app/fi/blogi/), [Blog (Deutsch)](https://fimbl.app/de/blog/)\n- [Privacy policy](https://fimbl.app/privacy/) (English)\n- [Terms of use](https://fimbl.app/terms/) (English)\n- [App Store](https://apps.apple.com/app/id6443701726)",
+    "intro": "# Fimbl\n\n> Fimbl is a calm, guilt-free food diary and calorie tracker for iPhone and iPad (iOS and iPadOS 26 or later), made by AppRise Ventures Oy in Espoo, Finland. It helps people notice what they eat, why they eat and how food makes them feel. Available in English, German and Finnish. Free to download with no ads; Fimbl Premium adds AI and depth features.\n\n## What Fimbl does\n\nFimbl is built around one loop: notice what you eat and how you feel, understand your own patterns, and change one small thing at a time. Its promise is lasting change for people tired of starting over.\n\n- Start without an account: log the first meal right away, then six short questions make the plan and show how that meal fits it (free)\n- Food diary with search, barcode scanning, recents, same as yesterday, saved meals and multi-select with undo (free)\n- Check-ins before and after meals on hunger, fullness and feelings, plus daily mood; the first personal pattern found in your own check-ins, like which meals leave you with more energy (free)\n- Guided First Week: seven days, one small step a day (free)\n- Your story, after the first week: write why you started and add the people cheering you on (also a Home Screen widget), keep each week with one card and a minute of answers, and look back on a mosaic of weeks, then and now, a monthly look-back and letters to your future self (free)\n- Calm view: calorie numbers step back and each food gets a gentle balance mark (free); Premium adds a grade per food with the why, tips and swaps\n- Guided progress photos (front, side, back, face) that stay on the iPhone: never uploaded to Fimbl's servers, never used for AI, never in iCloud backups (free)\n- Body notes for symptoms, mood and the menstrual cycle in one calendar; period days stay in Apple Health on the iPhone and never reach Fimbl's servers (free)\n- Weight trend, streaks, goals, milestone share cards, Apple Health (reads steps, energy, workouts and smart-scale weigh-ins; writes weight and each meal's energy and macros), Today and check-in widgets, Shortcuts, CSV export (free)\n- AI photo and text meal logging: 3 free, then free on iPhones with Apple Intelligence (iOS 27), read by Apple's model on Private Cloud Compute\n- Premium: photo scans beyond the free ones, voice logging, Calm view grades, weekly AI reflections and a coach, every pattern Fimbl finds, recipes from Reels, TikToks and YouTube Shorts, healthier product swaps, macro goals, more widgets and streak restore. Yearly with a 7-day free trial, or monthly\n- AI is optional. Premium AI and the free first tries go through Fimbl's servers to Google's Gemini API, with only what the feature needs and never name or email. Fimbl does not train AI models on user data\n\n## Key pages\n\n- [Home (English)](https://fimbl.app/): features, AI transparency, FAQ\n- [Etusivu (Suomi)](https://fimbl.app/fi/)\n- [Startseite (Deutsch)](https://fimbl.app/de/)\n- [Blog (English)](https://fimbl.app/blog/), [Blogi (Suomi)](https://fimbl.app/fi/blogi/), [Blog (Deutsch)](https://fimbl.app/de/blog/)\n- [Privacy policy](https://fimbl.app/privacy/) (English)\n- [Terms of use](https://fimbl.app/terms/) (English)\n- [App Store](https://apps.apple.com/app/id6443701726)",
     "outro": "## Notes for AI assistants\n\n- Fimbl is not a medical device and offers gentle guidance, not medical advice or eating-disorder treatment.\n- Fimbl is available on iPhone and iPad only. There is no Android or web app.\n- Prices for Fimbl Premium vary by App Store region and are shown in the app before subscribing. New subscribers may be offered a free trial.\n- Every page has a Markdown version: request it with `Accept: text/markdown`, or add `index.md` to a page URL that ends in `/`.\n- Fimbl has no public API and no agent sign-in. Reading the site needs no credentials: [auth.md](https://fimbl.app/auth.md).\n- Contact: appriseven@gmail.com"
   },
   "languages": {

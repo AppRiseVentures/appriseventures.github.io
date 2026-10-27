@@ -1,40 +1,40 @@
 ---
-title: "Fimbl – Mindful Eating & Calorie Tracker for iPhone"
-description: "Fimbl is a calm, guilt-free food diary for iPhone and iPad. Log meals in seconds, turn Reels and TikToks into recipes, check in on how food makes you feel, and build gentle habits that last."
+title: "Fimbl – Mindful Calorie Counter & Food Diary for iPhone"
+description: "Fimbl is the calm, guilt-free food diary for iPhone and iPad. Log your first meal in seconds with no account, notice why you eat, remember why you started and keep your story one week at a time. Free, with no ads."
 url: "https://fimbl.app/"
 language: "en"
 ---
 
-**New** Fimbl 2.0, rebuilt from the ground up
+Starting over. Again?
 
-# Find balance in your eating
+# Achieve lasting changes, finally.
 
-A calm companion for mindful nutrition. Log meals in seconds, notice how food makes you feel, and build gentle habits that last. No guilt, just clarity.
+Fimbl is the calm food diary that shows you why you eat, not just what. Find your own patterns, keep your reasons close and look back on every week you showed up for. No guilt, no ads.
 
-[Download on the App Store](https://apps.apple.com/app/id6443701726) See what's new
+[Download on the App Store](https://apps.apple.com/app/id6443701726) See how it works
 
-- Free to download
+- Log a meal before you sign up
+- Free diary and check-ins
+- Private progress photos
 - No ads
-- Works with Apple Health
-- English, Deutsch & Suomi
 
 ![Fimbl eating diary showing 702 kcal left, macro rings for carbs, fat and protein, and a logged breakfast](https://fimbl.app/assets/img/screen-02-diary.webp)
 
-### Mindful eating
+### Log in one photo
 
-Better choices, real satisfaction.
+Or one tap. No account to start.
 
-### Notice your feelings
+### Notice why you eat
 
-See how food and mood connect.
+Hunger and feelings, not just food.
 
-### Healthy habits
+### Remember why you started
 
-Small steps, big changes.
+Your reasons and your people, close by.
 
-### Kind AI insights
+### Find your own patterns
 
-Gentle reflections, never judgement.
+Like which meals give you energy.
 
 The film
 
@@ -42,65 +42,74 @@ The film
 
 Fifty-one seconds on what Fimbl feels like: gentle, clear and quietly clever. Sound on.
 
-New in Fimbl 2.0
+What's new
 
-## A calmer way to understand your food
+## Built for the weeks after week two
 
-Rebuilt from the ground up: lighter, faster, and full of small, kind ideas that help you notice what works for you.
+Starting is easy. Keeping going is the hard part. Our newest update is about everything after the first rush of motivation: a story worth keeping, a gentler view of the numbers and a start that takes seconds.
 
-New · Premium
+New · Free
 
-### Recipes from Reels, TikToks & Shorts
+### Your story, one week at a time
 
-Share a video or recipe link to Fimbl. AI writes the recipe with ingredients, steps and nutrition per portion, ready to save and log. Recipe sites, cookbook photos and screenshots work too.
+After your first week, write down why you started and add the people cheering you on. Then keep each week with one card and a minute of answers. Kept weeks become memories you can come back to whenever motivation dips.
 
-- Tap Share, then Fimbl, from Safari, Instagram, TikTok or YouTube
-- Edit anything before you save it
-- Or chat to create a recipe from what's in your fridge
+- Your why and your cheerleaders on a Home Screen widget
+- A mosaic of your weeks and how each one felt
+- Then and now, a monthly look-back and letters to your future self
 
-New · Premium
+New · Free
 
-### Grades instead of calories
+### Log your first meal before you sign up
 
-Prefer not to see numbers? Calm mode rates each meal for how well it served your goals, hunger and mood. Your diary keeps counting quietly in the background, so switching never loses anything.
+Open Fimbl and log what's on your plate right now. No account and no long questionnaire first. Six short questions then make your plan and show how that meal fits it. Your diary moves to your account whenever you make one.
 
-Premium
+Free · Grades in Premium
 
-### Your weeks, gently looked back on
+### When the numbers wear you out
 
-Every Monday, a reflection on your week: wins, patterns we noticed and one gentle focus for next week. Then chat with the reflection coach. No judgement, just curiosity.
-
-Premium
-
-### Find a lighter swap
-
-Snap a product and get a clear verdict, a score out of 10 and healthier alternatives, with where to buy them in supermarkets across 40+ countries.
+Turn on the Calm view and calories step back. Each food gets a gentle balance mark, and your diary keeps counting quietly, so switching back loses nothing. Premium adds a grade for every food, the why behind it, tips and swaps.
 
 Free
 
-### Made for the way you eat
+### Progress photos that never leave your phone
 
-Saved meals log your usual in one tap. Siri and Shortcuts handle quick adds and weigh-ins hands-free. A new weight-goal widget shows your curve on the way, and Fimbl speaks English, German and Finnish.
+A guided camera lines you up the same way every time. Compare any two days side by side or with a swipe, next to your weight change. Your photos are never uploaded, never used for AI and never in iCloud backups.
+
+New · Free
+
+### Photo scans that stay free
+
+Snap your plate or describe it in a few words, and AI estimates the calories and macros. Your first three are on us, and on iPhones with Apple Intelligence they stay free after that.
+
+New · Free
+
+### Made for the way you live
+
+Log yesterday's breakfast again in one tap and move, copy or delete several foods at once, with undo. Note symptoms, mood and your cycle in one calendar. Share the milestones you want to show, and let weigh-ins arrive from your smart scale.
+
+- Period days stay in Apple Health and never reach our servers
+- Export your data as CSV and back up your progress photos
 
 Cards above illustrate each feature with example content. Premium features are marked, and everything else is free.
 
-A closer look
+How it works
 
-## Everything you need. Nothing you don't.
+## Notice. Understand. Change for good.
 
-A calm, clutter-free app that shows you what matters, so you can focus on feeling good.
-
-![Edit food screen for rolled oats with 223 kcal and macro breakdown](https://fimbl.app/assets/img/screen-06-food.webp)
-
-![Saved meal Overnight oats with 378 kcal, three ingredients and macro breakdown](https://fimbl.app/assets/img/screen-08-meal.webp)
+One calm loop: notice what you eat and how you feel, understand your own patterns, and change one small thing at a time.
 
 ![Meal check-in asking what feelings you had before breakfast, with feeling chips](https://fimbl.app/assets/img/screen-05-feelings.webp)
 
+![Insights tab with a Your why card reading To have energy for my kids after work, Mila cheering for you, and this week's question](https://fimbl.app/assets/img/app/en/your-why.webp)
+
+![A week's card titled Mornings that carried you, with days logged, average calories, weight change and average mood](https://fimbl.app/assets/img/app/en/your-week.webp)
+
+![Edit food screen for rolled oats with 223 kcal and macro breakdown](https://fimbl.app/assets/img/screen-06-food.webp)
+
+![Front progress photos compared side by side, 195 days apart, from 78.8 kg to 65.0 kg, with the weight change between them](https://fimbl.app/assets/img/app/en/photos-compare.webp)
+
 ![Weight progress with current weight, goal, BMI, log streak and a 90-day trend chart](https://fimbl.app/assets/img/screen-03-weight.webp)
-
-![Daily activity with 6,240 steps, distance and calories burned](https://fimbl.app/assets/img/screen-04-activity.webp)
-
-![Goals and streaks with a 12-week weigh-in heatmap and streak cards for meals, mood, mindful eating and steps](https://fimbl.app/assets/img/screen-07-goals.webp)
 
 Logging
 
@@ -108,49 +117,45 @@ Logging
 
 However you like to track, Fimbl keeps it quick, so logging never gets in the way of living.
 
-### Search by name or brand
-
-Full nutrition details for every food.
-
-### Barcode scanning
-
-Point, scan, done. Missing a product? Add it once.
-
 ### Photo calorie scan
 
-Snap your plate for an estimate you can adjust.
+Snap your plate. Three free, and free for good on iPhones with Apple Intelligence.
+
+### Describe it
+
+“A chicken wrap and a latte.” Done.
+
+### Search and barcode
+
+By name or brand, with your recents first.
+
+### Same as yesterday
+
+Your usual, again, in one tap.
+
+### Say it
+
+Just say what you ate.
 
 Premium
 
-### Say it or type it
+### Recipes from videos
 
-“A chicken sandwich with fries.” Done.
-
-Premium
-
-### Recipes from links
-
-Reels, TikToks, Shorts and recipe sites.
+Share a Reel, TikTok or Short. Get the recipe and its nutrition.
 
 Premium
 
-### Saved meals
+### Share a photo to Fimbl
 
-Log your usual in one tap.
+From Photos or any app, logged with a scan.
 
-### Apple Health sync
+### Apple Health, both ways
 
-Steps, energy, workouts and weight.
+Steps and smart-scale weigh-ins in, each meal's energy and macros out.
 
-### Siri & Shortcuts
+### Widgets and Shortcuts
 
-“Log my weight in Fimbl.” Hands-free.
-
-### Widgets
-
-Your day on the Home and Lock Screen.
-
-Premium
+Free Today and check-in widgets, plus Shortcuts for your usual meal.
 
 Free for everyone
 
@@ -166,42 +171,43 @@ Seven days. One small step at a time. Fimbl walks you through your first week, f
 6. A whole day
 7. Week in review
 
-Skip it any time, or replay it later from Settings. No streak shame, ever.
+Then your story begins: one card a week, about a minute each. Skip the journey any time, or replay it later from Settings. No streak shame, ever.
 
 AI, with the lights on
 
 ## Helpful AI, clearly explained
 
-Some Premium features use AI. Here's the plain-language version of how, and the privacy policy has every detail.
+AI helps with scans, reflections and recipes. Here's the plain-language version of how, and the privacy policy has every detail.
 
-### Optional, and Premium only
+### Optional, always
 
-Your diary, search, barcode scanning, weight, mood, activity and goals all work fully without AI. Free accounts never send anything to an AI service.
+Your diary, check-ins, your story, progress photos, weight and goals all work fully without AI. AI runs only when you use a feature that needs it, like a photo scan.
+
+### Apple Intelligence, where your iPhone has it
+
+After your first three scans, iPhones with Apple Intelligence read meal photos and descriptions with Apple's own model on Private Cloud Compute, at no cost to you.
 
 ### It sees only what a feature needs
 
-A photo you take, words you type or say, or, for reflections and the coach, your recent diary, check-ins and weigh-ins. Never your name or email.
+Other AI requests go from the app through Fimbl's servers to Google's Gemini API, with only what that feature needs and never your name or email. We don't train AI models on your data and we don't sell it.
 
-### Who processes it
+### Some things are never AI's business
 
-Requests go from the app through Fimbl's servers to Google's Gemini API. We don't train AI models on your data, we don't sell it, and anything we keep after you delete your account is anonymised.
-
-### Estimates, not advice
-
-AI can be a little off, so you can adjust any entry. Fimbl offers gentle guidance, not medical advice or treatment.
+Progress photos are never used for AI. AI estimates can be a little off, so you can adjust any entry, and Fimbl offers gentle guidance, not medical advice.
 
 [Read how AI works in Fimbl](https://fimbl.app/privacy/#ai)
 
 Our promise
 
-## Progress isn't just numbers
+## What's personal stays with you
 
-Fimbl was made to break free from calorie-only apps. It's a kind, quiet space that helps you understand your body and mind, at your own pace and on your own terms.
+Fimbl was made to break free from calorie-only apps: a kind, quiet space to understand your body and mind, at your own pace and on your own terms. The most personal parts never leave your iPhone.
 
+- Progress and meal photos stay on your iPhone
+- Period days stay in Apple Health
 - No guilt, no diet-culture noise
 - No ads and no ad tracking
-- AI is optional, and clearly explained
-- Delete your account any time
+- Export your data, delete your account any time
 - Designed and built in Finland
 
 From the blog
@@ -254,34 +260,46 @@ FAQ
 
 ### Is Fimbl free?
 
-Yes. Fimbl is free to download, and the heart of the app is free: your food diary, search and barcode scanning, saved meals, weight, mood and meal check-ins, Apple Health activity, goals and streaks, and the First Week journey. Fimbl Premium adds macro tracking and goals, the AI features (photo calorie scan, describing meals by text or voice, recipes from videos and links, weekly reflections and the coach, Calm mode and healthier swaps), widgets, extra meal slots and streak restore. New subscribers may be offered a free trial, and prices and trial terms are always shown before you subscribe.
+Yes. Fimbl is free to download, and the heart of it is free: your food diary with search and barcode scanning, check-ins before and after meals, the First Week journey, your story, your first pattern, the Calm view, mood, body notes, weight, streaks, private progress photos, Apple Health activity, and the Today and check-in widgets. You also get 3 photo scans and your first weekly reflection to try the AI, and on iPhones with Apple Intelligence, photo scans and meal descriptions stay free after that. Fimbl Premium adds photo scans beyond the free ones, voice logging, grades, tips and swaps in the Calm view, weekly AI reflections and the coach, every pattern Fimbl finds, recipes from videos, healthier product swaps, macro goals, more widgets and streak restore. Premium is yearly with a 7-day free trial, or monthly, and prices are always shown before you subscribe.
+
+### Do I need an account to start?
+
+No. Open Fimbl and log your first meal right away, with no account and no questions first. Six short questions then make your plan and show how that meal fits it. When you make an account, your diary moves to it, so it's there when you change phones.
+
+### What is Your story?
+
+Most of us lose motivation somewhere around week two. Your story is how Fimbl helps you keep going. After your first week, you write down why you started and add the people cheering you on, and both can sit on your Home Screen as a widget. Each week, you keep it with one card and a minute of answers. Kept weeks become memories: a mosaic of your weeks, how they felt, then and now, a monthly look-back and letters to your future self. Your story is free.
 
 ### Is Fimbl a diet app?
 
-Not in the usual sense. You can set a calorie goal if it helps you, or switch to Calm mode and see grades instead of numbers. Fimbl is about balance, awareness and habits, and it's built to support a healthier relationship with food, never to make you feel bad about it. It isn't a medical tool or a treatment for eating disorders, and if food ever feels overwhelming, a healthcare professional can help.
+Not in the usual sense. You can set a calorie goal if it helps you, or turn on the Calm view, where the numbers step back and each food gets a gentle balance mark instead. Fimbl is about balance, awareness and habits, and it's built to support a healthier relationship with food, never to make you feel bad about it. It isn't a medical tool or a treatment for eating disorders, and if food ever feels overwhelming, a healthcare professional can help.
+
+### Are my progress photos private?
+
+Yes. Progress photos stay on your iPhone: they are never uploaded to our servers, never used for AI and never included in iCloud backups. You decide what is kept, saved or shared, and you can back them up yourself whenever you like. Meal photos stay on your iPhone too, and period days you log in body notes are kept in Apple Health on your iPhone and never reach our servers.
+
+### How does the AI work, and what does it see?
+
+AI is optional, and everything else in Fimbl works without it. Your first 3 photo scans or meal descriptions, your first weekly reflection and the Premium AI features go from the app through our servers to Google's Gemini API, with only what that feature needs: a photo for a scan, text for a described meal, or recent diary, check-in and weigh-in context for reflections and the coach. Your name and email are never included, and we don't train AI models on your data. On iPhones with Apple Intelligence, later free photo scans and meal descriptions are read by Apple's model on Apple's Private Cloud Compute. AI estimates can be a little off, so you can always adjust them. The [privacy policy](https://fimbl.app/privacy/#ai) explains each feature in detail.
 
 ### How do I save a recipe from Instagram or TikTok?
 
 Open the video, tap Share and choose Fimbl. If you don't see it, tap More and add it. Fimbl reads the link, watches the video and builds the recipe with ingredients, steps and nutrition per portion, which you can edit before saving. Recipe import is a Premium feature.
 
-### How does the AI work, and what does it see?
-
-AI features are part of Premium and entirely optional. When you use one, Fimbl sends only what that feature needs to our servers, which call Google's Gemini API: a photo for a scan, text for a described meal, or recent diary, check-in and weigh-in context for reflections and the coach. Your name and email are never included. AI estimates can be a little off, so you can always adjust them. If you delete your account, AI data we keep is anonymised so it is no longer linked to you. The [privacy policy](https://fimbl.app/privacy/#ai) explains each feature in detail.
-
 ### Which devices does Fimbl work on?
 
-Fimbl is designed natively for iPhone and iPad running iOS or iPadOS 26 or later, in light and dark mode, with Home and Lock Screen widgets. It speaks English, German and Finnish.
+Fimbl is designed natively for iPhone and iPad running iOS or iPadOS 26 or later, in light and dark mode, with Home and Lock Screen widgets. It speaks English, German and Finnish. Free scans with Apple's model need an iPhone that supports Apple Intelligence, with iOS 27 and Apple Intelligence turned on.
 
 ### Does Fimbl work with Apple Health?
 
-Yes. With your permission, Fimbl reads your steps, walking and running distance, active and resting energy, and workouts. If you turn on Health sync, it also saves the weight you log to Apple Health. Fimbl doesn't write your food to Health.
+Yes, both ways. With your permission, Fimbl reads your steps, walking and running distance, active and resting energy, workouts and weigh-ins from smart scales. If you turn on Health sync, it also saves the weight you log and each meal's energy and macros to Apple Health. Period days from body notes are kept in Apple Health on your iPhone.
 
 ### What happens to my data?
 
-Your data is encrypted in transit and stored on Fimbl's servers, so it's there when you change phones. We don't sell it, and there are no ads or ad trackers. You can delete your account any time from Settings: your personal data is deleted, and any AI data we keep is anonymised. Read the full [privacy policy](https://fimbl.app/privacy/).
+With an account, your diary is encrypted in transit and stored on Fimbl's servers, so it's there when you change phones. Progress photos, meal photos and period days stay on your iPhone. We don't sell your data, and there are no ads or ad trackers. You can export your data as CSV files, and delete your account any time from Settings: your personal data is deleted, and any AI data we keep is anonymised. Read the full [privacy policy](https://fimbl.app/privacy/).
 
-## Start your wellness journey
+## Understand yourself. Change for good.
 
-Free to download. Gentle from day one.
+Log your first meal in seconds. No account needed to start.
 
 [Download on the App Store](https://apps.apple.com/app/id6443701726)

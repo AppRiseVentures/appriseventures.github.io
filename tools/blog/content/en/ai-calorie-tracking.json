@@ -82,7 +82,7 @@
     },
     {
       "q": "Does Fimbl send my food photos to AI?",
-      "a": "Only if you use an AI feature, which is optional and part of Fimbl Premium. The photo goes through Fimbl's servers to Google's Gemini API without your name or email, and it isn't used to train AI models. Free accounts never send anything to an AI service."
+      "a": "Only if you use an AI feature, which is optional. Your first 3 scans, and every Premium scan, go through Fimbl's servers to Google's Gemini API without your name or email, and they aren't used to train AI models. On iPhones with Apple Intelligence, later free scans are read by Apple's own model on Private Cloud Compute."
     }
   ],
   "sources": [

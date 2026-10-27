@@ -4,13 +4,20 @@
 
 ## What Fimbl does
 
-- Food diary with search, barcode scanning, quick adds and saved meals (free)
-- Meal check-ins on hunger and feelings, plus daily mood (free)
+Fimbl is built around one loop: notice what you eat and how you feel, understand your own patterns, and change one small thing at a time. Its promise is lasting change for people tired of starting over.
+
+- Start without an account: log the first meal right away, then six short questions make the plan and show how that meal fits it (free)
+- Food diary with search, barcode scanning, recents, same as yesterday, saved meals and multi-select with undo (free)
+- Check-ins before and after meals on hunger, fullness and feelings, plus daily mood; the first personal pattern found in your own check-ins, like which meals leave you with more energy (free)
 - Guided First Week: seven days, one small step a day (free)
-- Weight, BMI, streaks, goals and Apple Health activity: steps, active and resting energy, workouts (free)
-- Guided progress photos that stay on the iPhone: never uploaded to Fimbl's servers, never used for AI, never in iCloud backups (free)
-- Premium: photo calorie scan, describing meals by text or voice, nutrition label scan, recipes from Reels, TikToks, YouTube Shorts and recipe sites, macro goals, Calm mode (grades instead of calorie numbers), healthier product swaps, weekly AI reflections and a reflection coach, widgets, extra meal slots and streak restore
-- AI features are optional and Premium-only. Requests go through Fimbl's servers to Google's Gemini API, without name or email. Free accounts never send anything to an AI service.
+- Your story, after the first week: write why you started and add the people cheering you on (also a Home Screen widget), keep each week with one card and a minute of answers, and look back on a mosaic of weeks, then and now, a monthly look-back and letters to your future self (free)
+- Calm view: calorie numbers step back and each food gets a gentle balance mark (free); Premium adds a grade per food with the why, tips and swaps
+- Guided progress photos (front, side, back, face) that stay on the iPhone: never uploaded to Fimbl's servers, never used for AI, never in iCloud backups (free)
+- Body notes for symptoms, mood and the menstrual cycle in one calendar; period days stay in Apple Health on the iPhone and never reach Fimbl's servers (free)
+- Weight trend, streaks, goals, milestone share cards, Apple Health (reads steps, energy, workouts and smart-scale weigh-ins; writes weight and each meal's energy and macros), Today and check-in widgets, Shortcuts, CSV export (free)
+- AI photo and text meal logging: 3 free, then free on iPhones with Apple Intelligence (iOS 27), read by Apple's model on Private Cloud Compute
+- Premium: photo scans beyond the free ones, voice logging, Calm view grades, weekly AI reflections and a coach, every pattern Fimbl finds, recipes from Reels, TikToks and YouTube Shorts, healthier product swaps, macro goals, more widgets and streak restore. Yearly with a 7-day free trial, or monthly
+- AI is optional. Premium AI and the free first tries go through Fimbl's servers to Google's Gemini API, with only what the feature needs and never name or email. Fimbl does not train AI models on user data
 
 > The full text of the English articles on fimbl.app. Finnish and German versions are listed in llms.txt.
 
@@ -390,7 +397,7 @@ Fix it once, then save it. If you eat a dish regularly, correct the estimate and
 
 Before you point any app at your plate, it's worth asking where the picture goes. Ask of every AI tracker: is AI optional, what exactly is sent, is it linked to your name, and is it used to train models?
 
-In Fimbl, AI is optional and Premium-only. When you use a scan, the photo goes through Fimbl's servers to Google's Gemini API, without your name or email. We don't use your data to train AI models. Free accounts never send anything to an AI service, and the diary, search and barcode scanning work fully without AI. Our [privacy policy](https://fimbl.app/privacy/#ai) explains each feature in detail.
+In Fimbl, AI is optional. Everyone gets 3 free photo scans or meal descriptions, and on iPhones with Apple Intelligence they stay free after that, read by Apple's own model on Private Cloud Compute. Otherwise the photo goes through Fimbl's servers to Google's Gemini API, without your name or email. We don't use your data to train AI models, and the diary, search and barcode scanning work fully without AI. Our [privacy policy](https://fimbl.app/privacy/#ai) explains each feature in detail.
 
  The best of both
 
@@ -428,7 +435,7 @@ Packaged products come from Open Food Facts, the open worldwide database of food
 
 ### Does Fimbl send my food photos to AI?
 
-Only if you use an AI feature, which is optional and part of Fimbl Premium. The photo goes through Fimbl's servers to Google's Gemini API without your name or email, and it isn't used to train AI models. Free accounts never send anything to an AI service.
+Only if you use an AI feature, which is optional. Your first 3 scans, and every Premium scan, go through Fimbl's servers to Google's Gemini API without your name or email, and they aren't used to train AI models. On iPhones with Apple Intelligence, later free scans are read by Apple's own model on Private Cloud Compute.
 
 ## Sources
 
@@ -1110,7 +1117,7 @@ Building a calm app is mostly a series of small refusals. These are the decision
 - Feelings belong at the table Every meal can come with a quick check-in on hunger and feelings, and it's free. Craving, stressed, bored, satisfied: pick as many as you like, or none.
 - Numbers are optional Calm mode (Premium) swaps calorie numbers for gentle grades on how well a meal served your goals, hunger and mood, while counting quietly in the background.
 - Free means a complete diary Search, barcode scanning, saved meals, check-ins, weight, goals, Apple Health activity and progress photos all work for free. No ads, ever.
-- AI with the lights on AI is optional and Premium-only. It sees only what a feature needs, never your name or email, and we don't train models on your data.[4]
+- AI with the lights on AI is optional, and the free tries and Premium features see only what a feature needs, never your name or email, and we don't train models on your data.[4]
 - Your photos are yours Progress photos stay on your iPhone. They're never uploaded to our servers, never used for AI and never included in iCloud backups.
 - Consistency, not perfection Streaks reward showing up, not flawless days. Our rule of thumb is printed right in the app: miss a day? That's fine. Just don't miss two.
 
@@ -1198,7 +1205,7 @@ The heart of the app is free and has no ads: the food diary, search and barcode 
 
 ### Does Fimbl use my data to train AI?
 
-No. AI features are optional and part of Premium. When you use one, only what that feature needs is sent through Fimbl's servers to Google's Gemini API, without your name or email. We don't train AI models on your data and we don't sell it. Free accounts never send anything to an AI service.
+No. AI features are optional, and Fimbl works fully without them. When you use one, only what that feature needs is sent through Fimbl's servers to Google's Gemini API, without your name or email, or, for free scans on iPhones with Apple Intelligence, to Apple's model on Private Cloud Compute. We don't train AI models on your data and we don't sell it.
 
 ### Do my progress photos get uploaded?
 

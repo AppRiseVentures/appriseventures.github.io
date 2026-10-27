@@ -120,7 +120,7 @@ Ja kun aikaa tai jaksamista ei ole kumpaankaan, karkean kalorimäärän pikalis�
 
 Ennen kuin osoitat millä tahansa sovelluksella lautastasi, kannattaa kysyä, minne kuva menee. Kysy jokaiselta tekoälylaskurilta: onko tekoäly valinnainen, mitä tarkalleen lähetetään, liitetäänkö se nimeesi ja käytetäänkö sitä mallien kouluttamiseen?
 
-**Fimblessä tekoäly on valinnainen ja kuuluu Premiumiin.** Kun käytät skannausta, kuva kulkee Fimblen palvelimien kautta Googlen Gemini-rajapintaan ilman nimeäsi tai sähköpostiasi. Emme käytä tietojasi tekoälymallien kouluttamiseen. Ilmaistililtä ei lähetetä mitään millekään tekoälypalvelulle, ja päiväkirja, haku ja viivakoodin skannaus toimivat täysin ilman tekoälyä. [Tietosuojaselosteemme](https://fimbl.app/privacy/#ai) (englanniksi) kertoo jokaisesta ominaisuudesta tarkemmin.
+**Fimblessä tekoäly on valinnainen.** Kaikki saavat 3 ilmaista kuvaskannausta tai ateriakuvausta, ja iPhoneissa, joissa on Apple Intelligence, ne pysyvät ilmaisina senkin jälkeen: niitä lukee Applen oma malli Private Cloud Computessa. Muuten kuva kulkee Fimblen palvelimien kautta Googlen Gemini-rajapintaan ilman nimeäsi tai sähköpostiasi. Emme käytä tietojasi tekoälymallien kouluttamiseen, ja päiväkirja, haku ja viivakoodin skannaus toimivat täysin ilman tekoälyä. [Tietosuojaselosteemme](https://fimbl.app/privacy/#ai) (englanniksi) kertoo jokaisesta ominaisuudesta tarkemmin.
 
 Parhaat puolet molemmista
 
@@ -158,7 +158,7 @@ Pakatut tuotteet tulevat Open Food Factsista, avoimesta maailmanlaajuisesta pakk
 
 ### Lähettääkö Fimbl ruokakuvani tekoälylle?
 
-Vain jos käytät tekoälyominaisuutta, joka on valinnainen ja osa Fimbl Premiumia. Kuva kulkee Fimblen palvelimien kautta Googlen Gemini-rajapintaan ilman nimeäsi tai sähköpostiasi, eikä sitä käytetä tekoälymallien kouluttamiseen. Ilmaistililtä ei lähetetä mitään millekään tekoälypalvelulle.
+Vain jos käytät tekoälyominaisuutta, joka on valinnainen. Kolme ensimmäistä skannaustasi ja jokainen Premium-skannaus kulkevat Fimblen palvelimien kautta Googlen Gemini-rajapintaan ilman nimeäsi tai sähköpostiasi, eikä niitä käytetä tekoälymallien kouluttamiseen. iPhoneissa, joissa on Apple Intelligence, myöhemmät ilmaiset skannaukset lukee Applen oma malli Private Cloud Computessa.
 
 ## Lähteet
 

@@ -4,13 +4,20 @@
 
 ## What Fimbl does
 
-- Food diary with search, barcode scanning, quick adds and saved meals (free)
-- Meal check-ins on hunger and feelings, plus daily mood (free)
+Fimbl is built around one loop: notice what you eat and how you feel, understand your own patterns, and change one small thing at a time. Its promise is lasting change for people tired of starting over.
+
+- Start without an account: log the first meal right away, then six short questions make the plan and show how that meal fits it (free)
+- Food diary with search, barcode scanning, recents, same as yesterday, saved meals and multi-select with undo (free)
+- Check-ins before and after meals on hunger, fullness and feelings, plus daily mood; the first personal pattern found in your own check-ins, like which meals leave you with more energy (free)
 - Guided First Week: seven days, one small step a day (free)
-- Weight, BMI, streaks, goals and Apple Health activity: steps, active and resting energy, workouts (free)
-- Guided progress photos that stay on the iPhone: never uploaded to Fimbl's servers, never used for AI, never in iCloud backups (free)
-- Premium: photo calorie scan, describing meals by text or voice, nutrition label scan, recipes from Reels, TikToks, YouTube Shorts and recipe sites, macro goals, Calm mode (grades instead of calorie numbers), healthier product swaps, weekly AI reflections and a reflection coach, widgets, extra meal slots and streak restore
-- AI features are optional and Premium-only. Requests go through Fimbl's servers to Google's Gemini API, without name or email. Free accounts never send anything to an AI service.
+- Your story, after the first week: write why you started and add the people cheering you on (also a Home Screen widget), keep each week with one card and a minute of answers, and look back on a mosaic of weeks, then and now, a monthly look-back and letters to your future self (free)
+- Calm view: calorie numbers step back and each food gets a gentle balance mark (free); Premium adds a grade per food with the why, tips and swaps
+- Guided progress photos (front, side, back, face) that stay on the iPhone: never uploaded to Fimbl's servers, never used for AI, never in iCloud backups (free)
+- Body notes for symptoms, mood and the menstrual cycle in one calendar; period days stay in Apple Health on the iPhone and never reach Fimbl's servers (free)
+- Weight trend, streaks, goals, milestone share cards, Apple Health (reads steps, energy, workouts and smart-scale weigh-ins; writes weight and each meal's energy and macros), Today and check-in widgets, Shortcuts, CSV export (free)
+- AI photo and text meal logging: 3 free, then free on iPhones with Apple Intelligence (iOS 27), read by Apple's model on Private Cloud Compute
+- Premium: photo scans beyond the free ones, voice logging, Calm view grades, weekly AI reflections and a coach, every pattern Fimbl finds, recipes from Reels, TikToks and YouTube Shorts, healthier product swaps, macro goals, more widgets and streak restore. Yearly with a 7-day free trial, or monthly
+- AI is optional. Premium AI and the free first tries go through Fimbl's servers to Google's Gemini API, with only what the feature needs and never name or email. Fimbl does not train AI models on user data
 
 ## Key pages
 

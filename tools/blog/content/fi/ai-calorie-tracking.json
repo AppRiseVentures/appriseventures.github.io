@@ -82,7 +82,7 @@
     },
     {
       "q": "Lähettääkö Fimbl ruokakuvani tekoälylle?",
-      "a": "Vain jos käytät tekoälyominaisuutta, joka on valinnainen ja osa Fimbl Premiumia. Kuva kulkee Fimblen palvelimien kautta Googlen Gemini-rajapintaan ilman nimeäsi tai sähköpostiasi, eikä sitä käytetä tekoälymallien kouluttamiseen. Ilmaistililtä ei lähetetä mitään millekään tekoälypalvelulle."
+      "a": "Vain jos käytät tekoälyominaisuutta, joka on valinnainen. Kolme ensimmäistä skannaustasi ja jokainen Premium-skannaus kulkevat Fimblen palvelimien kautta Googlen Gemini-rajapintaan ilman nimeäsi tai sähköpostiasi, eikä niitä käytetä tekoälymallien kouluttamiseen. iPhoneissa, joissa on Apple Intelligence, myöhemmät ilmaiset skannaukset lukee Applen oma malli Private Cloud Computessa."
     }
   ],
   "sources": [

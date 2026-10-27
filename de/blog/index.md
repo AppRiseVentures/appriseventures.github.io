@@ -38,7 +38,7 @@ Ernährungstagebuch führen, das bleibt: was du notieren solltest, ein 7-Tage-Pl
 
  19. Oktober 2026
 
-Hinter Fimbl 8 Min. Lesezeit
+Hinter Fimbl 9 Min. Lesezeit
 
 ## [Warum wir einen Kalorienzähler bauen, der nicht urteilt](https://fimbl.app/de/blog/warum-wir-fimbl-bauen/)
 

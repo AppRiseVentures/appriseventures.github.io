@@ -120,7 +120,7 @@ And when you have neither the time nor the energy, a quick add of a rough calori
 
 Before you point any app at your plate, it's worth asking where the picture goes. Ask of every AI tracker: is AI optional, what exactly is sent, is it linked to your name, and is it used to train models?
 
-**In Fimbl, AI is optional and Premium-only.** When you use a scan, the photo goes through Fimbl's servers to Google's Gemini API, without your name or email. We don't use your data to train AI models. Free accounts never send anything to an AI service, and the diary, search and barcode scanning work fully without AI. Our [privacy policy](https://fimbl.app/privacy/#ai) explains each feature in detail.
+**In Fimbl, AI is optional.** Everyone gets 3 free photo scans or meal descriptions, and on iPhones with Apple Intelligence they stay free after that, read by Apple's own model on Private Cloud Compute. Otherwise the photo goes through Fimbl's servers to Google's Gemini API, without your name or email. We don't use your data to train AI models, and the diary, search and barcode scanning work fully without AI. Our [privacy policy](https://fimbl.app/privacy/#ai) explains each feature in detail.
 
 The best of both
 
@@ -158,7 +158,7 @@ Packaged products come from Open Food Facts, the open worldwide database of food
 
 ### Does Fimbl send my food photos to AI?
 
-Only if you use an AI feature, which is optional and part of Fimbl Premium. The photo goes through Fimbl's servers to Google's Gemini API without your name or email, and it isn't used to train AI models. Free accounts never send anything to an AI service.
+Only if you use an AI feature, which is optional. Your first 3 scans, and every Premium scan, go through Fimbl's servers to Google's Gemini API without your name or email, and they aren't used to train AI models. On iPhones with Apple Intelligence, later free scans are read by Apple's own model on Private Cloud Compute.
 
 ## Sources
 

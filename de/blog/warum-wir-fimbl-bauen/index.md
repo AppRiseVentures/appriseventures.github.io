@@ -9,7 +9,7 @@ language: "de"
 2. [Blog](https://fimbl.app/de/blog/)
 3. Warum wir einen Kalorienzähler bauen, der nicht urteilt
 
-Hinter Fimbl 8 Min. Lesezeit
+Hinter Fimbl 9 Min. Lesezeit
 
 # Warum wir einen Kalorienzähler bauen, der nicht urteilt
 
@@ -63,7 +63,7 @@ Eine ruhige App zu bauen heißt vor allem, an vielen kleinen Stellen Nein zu sag
 - **Gefühle gehören mit an den Tisch** Zu jeder Mahlzeit gibt es auf Wunsch einen kurzen Check-in zu Hunger und Gefühlen, kostenlos. Heißhunger, gestresst, gelangweilt, zufrieden: Wähle so viele, wie du magst, oder keine.
 - **Zahlen sind optional** Der Ruhige Modus (Premium) ersetzt Kalorienzahlen durch sanfte Noten dafür, wie gut eine Mahlzeit zu deinen Zielen, deinem Hunger und deiner Stimmung gepasst hat. Im Hintergrund wird weiter gezählt.
 - **Kostenlos heißt vollständig** Suche, Barcode-Scanner, gespeicherte Mahlzeiten, Check-ins, Gewicht, Ziele, Aktivität aus Apple Health und Fortschrittsfotos funktionieren kostenlos. Ohne Werbung, immer.
-- **KI mit offenen Karten** KI ist optional und nur in Premium enthalten. Sie sieht nur, was eine Funktion braucht, nie deinen Namen oder deine E-Mail-Adresse, und wir trainieren keine Modelle mit deinen Daten.[4]
+- **KI mit offenen Karten** KI ist optional. Die kostenlosen Versuche und die Premium-Funktionen sehen nur, was eine Funktion braucht, nie deinen Namen oder deine E-Mail-Adresse, und wir trainieren keine Modelle mit deinen Daten.[4]
 - **Deine Fotos gehören dir** Fortschrittsfotos bleiben auf deinem iPhone. Sie werden nie auf unsere Server hochgeladen, nie für KI genutzt und nie in iCloud-Backups gespeichert.
 - **Dranbleiben statt perfekt sein** Serien belohnen das Dranbleiben, nicht makellose Tage. Unsere Faustregel steht direkt in der App: Einen Tag verpasst? Nur nicht zwei hintereinander.
 
@@ -153,7 +153,7 @@ Das Herz der App ist kostenlos und werbefrei: das Ernährungstagebuch, Suche und
 
 ### Nutzt Fimbl meine Daten für KI-Training?
 
-Nein. KI-Funktionen sind optional und gehören zu Premium. Wenn du eine nutzt, geht nur das, was diese Funktion braucht, über die Server von Fimbl an die Gemini API von Google, ohne deinen Namen oder deine E-Mail-Adresse. Wir trainieren keine KI-Modelle mit deinen Daten und verkaufen sie nicht. Kostenlose Konten senden nie etwas an einen KI-Dienst.
+Nein. KI-Funktionen sind optional, und Fimbl funktioniert komplett ohne sie. Wenn du eine nutzt, geht nur das, was diese Funktion braucht, über die Server von Fimbl an die Gemini API von Google, ohne deinen Namen oder deine E-Mail-Adresse, oder bei kostenlosen Scans auf iPhones mit Apple Intelligence an Apples Modell über Private Cloud Compute. Wir trainieren keine KI-Modelle mit deinen Daten und verkaufen sie nicht.
 
 ### Werden meine Fortschrittsfotos hochgeladen?
 
