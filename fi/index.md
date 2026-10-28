@@ -1,15 +1,15 @@
 ---
-title: "Fimbl – Tietoinen kalorilaskuri ja ruokapäiväkirja iPhonelle"
-description: "Rauhallinen ruokapäiväkirja iPhonelle ja iPadille. Kirjaa ensimmäinen ateriasi sekunneissa ilman tiliä, huomaa miksi syöt, muista miksi aloitit ja tallenna tarinasi viikko kerrallaan. Ilmainen, ei mainoksia."
+title: "Fimbl – Kalorilaskuri kuvasta ja AI-valmentaja iPhonelle"
+description: "Kuvaa ateriasi ja tiedä kalorit sekunneissa. Fimbl pitää syysi ja kannustusjoukkosi lähellä, ja sen valmentaja oppii, miksi syöt niin kuin syöt. Ensimmäinen ateria ilman tiliä. Ilmainen, ei mainoksia."
 url: "https://fimbl.app/fi/"
 language: "fi"
 ---
 
 Taas alusta?
 
-# Pysyvä muutos, vihdoin.
+# Kuvaa ateria. Tiedä kalorit.
 
-Fimbl on rauhallinen ruokapäiväkirja, joka näyttää, miksi syöt – ei vain mitä. Löydä omat kuviosi, pidä syysi lähellä ja katso taaksepäin jokaista viikkoa, jonka olet tallentanut. Ei syyllisyyttä, ei mainoksia.
+Fimbl lukee lautasesi sekunneissa, pitää syysi ja ihmisesi lähellä ja antaa sinulle valmentajan, joka tietää, miksi syöt niin kuin syöt. Ei mainoksia.
 
 [Lataa App Storesta](https://apps.apple.com/app/id6443701726) Näin se toimii
 
@@ -22,15 +22,15 @@ Fimbl on rauhallinen ruokapäiväkirja, joka näyttää, miksi syöt – ei vain
 
 ### Kirjaa yhdellä kuvalla
 
-Tai napautuksella. Aloita ilman tiliä.
+Kalorit ja proteiini sekunneissa.
 
-### Huomaa, miksi syöt
+### Kannustusjoukkosi tukenasi
 
-Nälkä ja tunteet, ei vain ruoka.
+Syysi ja heidän kuvansa, juuri kun on vaikeaa.
 
-### Muista, miksi aloitit
+### Valmentaja, joka tietää miksi
 
-Syysi ja ihmisesi aina lähellä.
+Vastaukset omista aterioistasi ja mielialoistasi.
 
 ### Löydä omat kuviosi
 
@@ -38,15 +38,15 @@ Vaikkapa mitkä ateriat antavat energiaa.
 
 Elokuva
 
-## Kalorien seurantaa, rauhallisesti
+## Fimbl 51 sekunnissa
 
-Viisikymmentäyksi sekuntia siitä, miltä Fimbl tuntuu: lempeältä, selkeältä ja hiljaisen fiksulta. Ääni päälle. Elokuva on englanninkielinen.
+Kuvaa, kirjaa olo, jatka: koko sovellus alle minuutissa. Ääni päälle. Elokuva on englanninkielinen.
 
 Uutta
 
 ## Tehty viikoille toisen viikon jälkeen
 
-Aloittaminen on helppoa. Jatkaminen on se vaikea osa. Uusin päivityksemme keskittyy kaikkeen, mikä tulee ensimmäisen innostuksen jälkeen: tarinaan, joka kannattaa säilyttää, lempeämpään tapaan katsoa numeroita ja alkuun, joka vie sekunteja.
+Aloittaminen on helppoa. Jatkaminen on se vaikea osa. Uusin päivityksemme keskittyy kaikkeen, mikä tulee ensimmäisen innostuksen jälkeen: tarinaan, joka kannattaa säilyttää, aterioiden arvosanoihin numeroiden sijaan ja alkuun, joka vie sekunteja.
 
 Uutta · Ilmainen
 
@@ -68,7 +68,7 @@ Ilmainen · Arvosanat Premiumissa
 
 ### Kun numerot uuvuttavat
 
-Ota rauhallinen näkymä käyttöön, niin kalorit väistyvät taustalle. Jokainen ruoka saa lempeän tasapainomerkin, ja päiväkirjasi laskee hiljaa taustalla, joten mitään ei katoa, kun vaihdat takaisin. Premium tuo jokaiselle ruoalle arvosanan, perustelut, vinkit ja vaihtoehdot.
+Vaihda aterioihin arvosanoin, niin kalorit väistyvät taustalle. Jokainen ruoka saa yksinkertaisen tasapainomerkin, ja päiväkirjasi laskee taustalla, joten mitään ei katoa, kun vaihdat takaisin. Premium tuo jokaiselle ruoalle tekoälyn arvosanan, perustelut, vinkit ja vaihtoehdot.
 
 Ilmainen
 
@@ -95,9 +95,9 @@ Yllä olevat kortit havainnollistavat ominaisuuksia esimerkkisisällöllä. Prem
 
 Näin se toimii
 
-## Huomaa. Ymmärrä. Muuta pysyvästi.
+## Kuvaa. Kirjaa olo. Jatka eteenpäin.
 
-Yksi rauhallinen kierto: huomaa, mitä syöt ja miltä sinusta tuntuu, ymmärrä omat kuviosi ja muuta yksi pieni asia kerrallaan.
+Yksi yksinkertainen kierto: kirjaa ruoka sekunneissa, kirjaa miltä tuntuu, ja omat kuviosi näyttävät yhden pienen asian, jota muuttaa.
 
 ![Aterian kirjaus kysyy, mitä tunteita sinulla oli ennen aamiaista, ja tarjoaa valittavia tuntemuksia](https://fimbl.app/assets/img/app/fi/03-feelings.webp)
 
@@ -193,7 +193,7 @@ Muut tekoälypyynnöt kulkevat sovelluksesta Fimblin palvelimien kautta Googlen 
 
 ### Kaikki ei kuulu tekoälylle
 
-Edistymiskuvia ei koskaan käytetä tekoälyyn. Tekoälyn arviot voivat heittää hieman, joten voit muokata mitä tahansa merkintää, ja Fimbl antaa lempeää ohjausta, ei lääketieteellisiä neuvoja.
+Edistymiskuvia ei koskaan käytetä tekoälyyn. Tekoälyn arviot voivat heittää hieman, joten voit muokata mitä tahansa merkintää, ja Fimbl antaa ohjausta, ei lääketieteellisiä neuvoja.
 
 [Lue, miten tekoäly toimii Fimblessä (englanniksi)](https://fimbl.app/privacy/#ai)
 
@@ -205,16 +205,16 @@ Fimbl tehtiin vapautumaan pelkkiä kaloreita laskevista sovelluksista: ystäväl
 
 - Edistymis- ja ateriakuvat pysyvät iPhonessasi
 - Kuukautispäivät pysyvät Terveys-apissa
-- Ei syyllisyyttä, ei dieettikulttuurin melua
+- Ei häpeää, ei dieettikulttuurin melua
 - Ei mainoksia eikä mainosseurantaa
 - Vie tietosi ja poista tilisi milloin vain
 - Suunniteltu ja tehty Suomessa
 
 Blogista
 
-## Syö tietoisesti, ilman syyllisyyttä
+## Syö paremmin, ateria kerrallaan
 
-Oppaita kalorien seurannasta, nälästä ja tavoista sekä ajatuksiamme rauhallisemman ruokapäiväkirjan rakentamisesta.
+Oppaita kalorien seurannasta, nälästä ja tavoista sekä ajatuksiamme ruokapäiväkirjasta, joka pitää sinut mukana.
 
 Vertailu
 
@@ -260,7 +260,7 @@ UKK
 
 ### Onko Fimbl ilmainen?
 
-Kyllä. Fimbl on ilmainen ladata, ja sen ydin on ilmainen: ruokapäiväkirja hakuineen ja viivakoodin lukuineen, kirjaukset ennen ateriaa ja sen jälkeen, opastettu ensimmäinen viikko, oma tarinasi, ensimmäinen kuviosi, rauhallinen näkymä, mieliala, kehon merkinnät, paino, putket, yksityiset edistymiskuvat, Terveys-apin aktiivisuus sekä Tänään- ja kirjaus-widgetit. Saat myös 3 kuvaskannausta ja ensimmäisen viikkokatsauksesi tekoälyn kokeiluun, ja iPhoneissa, joissa on Apple Intelligence, kuvaskannaukset ja ateriakuvaukset pysyvät ilmaisina senkin jälkeen. Fimbl Premium tuo kuvaskannaukset ilmaisten jälkeen, äänikirjauksen, arvosanat, vinkit ja vaihtoehdot rauhalliseen näkymään, tekoälyn viikkokatsaukset ja valmentajan, jokaisen Fimblin löytämän kuvion, reseptit videoista, terveellisemmät tuotevaihtoehdot, makrotavoitteet, lisää widgettejä ja putken palautuksen. Premium on vuositilaus 7 päivän ilmaisella kokeilulla tai kuukausitilaus, ja hinnat näytetään aina ennen tilaamista.
+Kyllä. Fimbl on ilmainen ladata, ja sen ydin on ilmainen: ruokapäiväkirja hakuineen ja viivakoodin lukuineen, kirjaukset ennen ateriaa ja sen jälkeen, opastettu ensimmäinen viikko, oma tarinasi, ensimmäinen kuviosi, ateriat arvosanoin, makrot ja makrotavoitteet, mieliala, kehon merkinnät, paino, putket, yksityiset edistymiskuvat, Terveys-apin aktiivisuus sekä Tänään- ja kirjaus-widgetit. Saat myös 3 kuvaskannausta ja ensimmäisen viikkokatsauksesi tekoälyn kokeiluun, ja iPhoneissa, joissa on Apple Intelligence, kuvaskannaukset ja ateriakuvaukset pysyvät ilmaisina senkin jälkeen. Fimbl Premium tuo kuvaskannaukset ilmaisten jälkeen, äänikirjauksen, tekoälyn arvosanat vinkkeineen ja vaihtoehtoineen, tekoälyn viikkokatsaukset ja valmentajan, jokaisen Fimblin löytämän kuvion, reseptit videoista, terveellisemmät tuotevaihtoehdot, lisää widgettejä ja putken palautuksen. Premium on vuositilaus 7 päivän ilmaisella kokeilulla tai kuukausitilaus, ja hinnat näytetään aina ennen tilaamista.
 
 ### Tarvitsenko tilin aloittaakseni?
 
@@ -272,7 +272,7 @@ Useimmilta meistä motivaatio hiipuu jossain toisen viikon kohdalla. Oma tarinas
 
 ### Onko Fimbl dieettisovellus?
 
-Ei tavallisessa mielessä. Voit asettaa kaloritavoitteen, jos se auttaa, tai ottaa käyttöön rauhallisen näkymän, jossa numerot väistyvät ja jokainen ruoka saa lempeän tasapainomerkin. Fimbl keskittyy tasapainoon, tietoisuuteen ja tapoihin, ja se on tehty tukemaan terveempää suhdetta ruokaan, ei koskaan saamaan sinua tuntemaan oloasi huonoksi. Se ei ole lääkinnällinen työkalu eikä syömishäiriöiden hoitoa, ja jos ruoka tuntuu joskus ylivoimaiselta, terveydenhuollon ammattilainen voi auttaa.
+Ei tavallisessa mielessä. Voit asettaa kaloritavoitteen, jos se auttaa, tai vaihtaa aterioihin arvosanoin, jolloin numerot väistyvät ja jokainen ruoka saa yksinkertaisen tasapainomerkin. Fimbl keskittyy tasapainoon, tietoisuuteen ja tapoihin, ja se on tehty tukemaan terveempää suhdetta ruokaan, ei koskaan saamaan sinua tuntemaan oloasi huonoksi. Se ei ole lääkinnällinen työkalu eikä syömishäiriöiden hoitoa, ja jos ruoka tuntuu joskus ylivoimaiselta, terveydenhuollon ammattilainen voi auttaa.
 
 ### Ovatko edistymiskuvani yksityisiä?
 
@@ -298,7 +298,7 @@ Kyllä, molempiin suuntiin. Luvallasi Fimbl lukee askeleesi, kävely- ja juoksum
 
 Kun sinulla on tili, päiväkirjasi salataan siirron ajaksi ja tallennetaan Fimblin palvelimille, joten se on tallessa, kun vaihdat puhelinta. Edistymiskuvat, ateriakuvat ja kuukautispäivät pysyvät iPhonessasi. Emme myy tietojasi, eikä sovelluksessa ole mainoksia tai mainosseurantaa. Voit viedä tietosi CSV-tiedostoina ja poistaa tilisi milloin tahansa asetuksista: henkilötietosi poistetaan, ja säilyttämämme tekoälytiedot anonymisoidaan. Lue koko [tietosuojaseloste](https://fimbl.app/privacy/) (englanniksi).
 
-## Ymmärrä itseäsi. Muutos, joka kestää.
+## Kuvaa ensimmäinen ateriasi. Jatka eteenpäin.
 
 Kirjaa ensimmäinen ateriasi sekunneissa. Aloittamiseen ei tarvita tiliä.
 

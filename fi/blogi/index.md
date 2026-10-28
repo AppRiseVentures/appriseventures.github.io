@@ -1,6 +1,6 @@
 ---
-title: "Fimbl-blogi: tietoinen syöminen, kalorilaskurit ja tavat"
-description: "Oppaita kalorilaskureista, tietoisesta syömisestä ja kestävistä tavoista. Kirjoittajina Fimblen, rauhallisen ruokapäiväkirjan, tekijät."
+title: "Fimbl-blogi: kalorilaskurit, syömistottumukset ja tavat"
+description: "Oppaita kalorilaskureista, syömistottumuksista ja kestävistä tavoista. Kirjoittajina Fimblen, kuvasta kaloreita laskevan ruokapäiväkirjan, tekijät."
 url: "https://fimbl.app/fi/blogi/"
 language: "fi"
 ---
@@ -10,9 +10,9 @@ language: "fi"
 
 Fimbl-blogi
 
-# Syö tietoisesti, ilman syyllisyyttä
+# Syö paremmin, ateria kerrallaan
 
-Selkeää tekstiä ruoan seurannasta, nälästä ja tavoista: mitä tutkimus sanoo, mitä sovellukset oikeasti tekevät ja miten me rakennamme rauhallisemman vaihtoehdon.
+Selkeää tekstiä ruoan seurannasta, nälästä ja tavoista: mitä tutkimus sanoo, mitä sovellukset oikeasti tekevät ja miten me rakennamme sellaisen, joka pitää sinut mukana.
 
 Vertailu 12 min lukuaika
 
@@ -72,6 +72,6 @@ Miten erotat tunnenälän fyysisestä nälästä? 7 merkkiä, nälkäasteikko 1�
 
 ## Aloita hyvinvointimatkasi
 
-Ilmainen ladata. Lempeä ensimmäisestä päivästä.
+Ilmainen ladata. Ensimmäinen kuva vie sekunteja.
 
 [Lataa App Storesta](https://apps.apple.com/app/id6443701726)

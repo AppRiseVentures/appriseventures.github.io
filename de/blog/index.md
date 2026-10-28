@@ -1,6 +1,6 @@
 ---
-title: "Fimbl Blog: Achtsam essen, Kalorien zählen, Gewohnheiten"
-description: "Ratgeber zu Kalorienzähler-Apps, achtsamem Essen und Gewohnheiten, die bleiben. Vom Team hinter Fimbl, dem ruhigen Ernährungstagebuch fürs iPhone."
+title: "Fimbl Blog: Kalorien zählen, Essgewohnheiten, Ernährungstagebuch"
+description: "Ratgeber zu Kalorienzähler-Apps, Essgewohnheiten und Routinen, die bleiben. Vom Team hinter Fimbl, dem Foto-Kalorienzähler fürs iPhone."
 url: "https://fimbl.app/de/blog/"
 language: "de"
 ---
@@ -10,9 +10,9 @@ language: "de"
 
 Der Fimbl Blog
 
-# Achtsam essen, ohne schlechtes Gewissen
+# Besser essen, Mahlzeit für Mahlzeit
 
-Klare Texte über Ernährungstracking, Hunger und Gewohnheiten: was die Forschung sagt, was die Apps wirklich können und wie wir eine ruhigere App bauen.
+Klare Texte über Ernährungstracking, Hunger und Gewohnheiten: was die Forschung sagt, was die Apps wirklich können und wie wir eine App bauen, mit der du dranbleibst.
 
 Kalorien zählen 9 Min. Lesezeit
 
@@ -56,6 +56,6 @@ Emotionaler oder echter Hunger? 7 Unterschiede, eine Hungerskala von 1 bis 10 un
 
 ## Starte deine Wellness-Reise
 
-Kostenlos laden. Sanft vom ersten Tag an.
+Kostenlos laden. Dein erster Scan dauert Sekunden.
 
 [Laden im App Store](https://apps.apple.com/app/id6443701726)

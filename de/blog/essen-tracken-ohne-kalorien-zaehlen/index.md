@@ -168,7 +168,7 @@ Kasper Koskenvirta
 
 Gründer von Fimbl
 
-Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein ruhiges Ernährungstagebuch für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.
+Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein Foto-Kalorienzähler und Ernährungstagebuch für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.
 
 ## Weiterlesen
 
@@ -190,6 +190,6 @@ Emotionaler oder echter Hunger? 7 Unterschiede, eine Hungerskala von 1 bis 10 un
 
 ## Starte deine Wellness-Reise
 
-Kostenlos laden. Sanft vom ersten Tag an.
+Kostenlos laden. Dein erster Scan dauert Sekunden.
 
 [Laden im App Store](https://apps.apple.com/app/id6443701726)

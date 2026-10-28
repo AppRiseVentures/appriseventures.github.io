@@ -277,7 +277,7 @@ Kasper Koskenvirta
 
 Founder of Fimbl
 
-Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a calm food diary for iPhone and iPad. Our articles are general information, not medical advice.
+Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a photo calorie counter and food diary for iPhone and iPad. Our articles are general information, not medical advice.
 
 ## Keep reading
 
@@ -299,6 +299,6 @@ October 19, 2026
 
 ## Start your wellness journey
 
-Free to download. Gentle from day one.
+Free to download. Your first scan takes seconds.
 
 [Download on the App Store](https://apps.apple.com/app/id6443701726)

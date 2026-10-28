@@ -1,15 +1,15 @@
 ---
-title: "Fimbl – Achtsamer Kalorienzähler & Ernährungstagebuch"
-description: "Ruhiges Ernährungstagebuch fürs iPhone: erste Mahlzeit in Sekunden ohne Konto eintragen, erkennen, warum du isst, dein Warum im Blick behalten und deine Geschichte Woche für Woche festhalten. Kostenlos, ohne Werbung."
+title: "Fimbl – Foto-Kalorienzähler & KI-Coach fürs iPhone"
+description: "Fotografiere dein Essen und kenne deine Kalorien in Sekunden. Fimbl hält dein Warum und deinen Fanclub nah, und sein Coach lernt, warum du isst, wie du isst. Erste Mahlzeit ohne Konto. Kostenlos, ohne Werbung."
 url: "https://fimbl.app/de/"
 language: "de"
 ---
 
 Schon wieder von vorn?
 
-# Veränderung, die endlich bleibt.
+# Essen fotografieren. Kalorien kennen.
 
-Fimbl ist das ruhige Ernährungstagebuch, das dir zeigt, warum du isst, nicht nur was. Finde deine eigenen Muster, behalte deine Gründe im Blick und schau auf jede Woche zurück, die du festgehalten hast. Ohne schlechtes Gewissen, ohne Werbung.
+Fimbl liest deinen Teller in Sekunden, hält dein Warum und deine Menschen nah und gibt dir einen Coach, der weiß, warum du isst, wie du isst. Ohne Werbung.
 
 [Laden im App Store](https://apps.apple.com/app/id6443701726) So funktioniert's
 
@@ -22,15 +22,15 @@ Fimbl ist das ruhige Ernährungstagebuch, das dir zeigt, warum du isst, nicht nu
 
 ### Per Foto erfassen
 
-Oder per Fingertipp. Ohne Konto starten.
+Kalorien und Protein in Sekunden.
 
-### Erkenne, warum du isst
+### Dein Fanclub feuert dich an
 
-Hunger und Gefühle, nicht nur Essen.
+Dein Warum und ihre Fotos, genau wenn es schwer wird.
 
-### Dein Warum im Blick
+### Ein Coach, der das Warum kennt
 
-Deine Gründe und deine Menschen, immer nah.
+Antworten aus deinen eigenen Mahlzeiten und Stimmungen.
 
 ### Finde deine Muster
 
@@ -38,15 +38,15 @@ Etwa, welche Mahlzeiten dir Energie geben.
 
 Der Film
 
-## Kalorien zählen, ganz ruhig
+## Fimbl in 51 Sekunden
 
-Einundfünfzig Sekunden darüber, wie sich Fimbl anfühlt: sanft, klar und leise clever. Ton an. Der Film ist auf Englisch.
+Fotografieren, einchecken, dranbleiben: die ganze App in unter einer Minute. Ton an. Der Film ist auf Englisch.
 
 Neu
 
 ## Gemacht für die Wochen nach Woche zwei
 
-Anfangen ist leicht. Dranbleiben ist der schwere Teil. Unser neuestes Update dreht sich um alles nach der ersten Motivation: eine Geschichte, die es wert ist, festgehalten zu werden, einen sanfteren Blick auf die Zahlen und einen Start, der Sekunden dauert.
+Anfangen ist leicht. Dranbleiben ist der schwere Teil. Unser neuestes Update dreht sich um alles nach der ersten Motivation: eine Geschichte, die es wert ist, festgehalten zu werden, Mahlzeiten mit Noten statt Zahlen und einen Start, der Sekunden dauert.
 
 Neu · Kostenlos
 
@@ -68,7 +68,7 @@ Kostenlos · Noten mit Premium
 
 ### Wenn dich die Zahlen erschöpfen
 
-Schalte die ruhige Ansicht ein, und die Kalorien treten zurück. Jedes Lebensmittel bekommt eine sanfte Balance-Markierung, und dein Tagebuch zählt im Hintergrund leise weiter, sodass beim Zurückwechseln nichts verloren geht. Premium ergänzt eine Note für jedes Lebensmittel, das Warum dahinter, Tipps und Alternativen.
+Wechsle zu Mahlzeiten mit Noten, und die Kalorien treten zurück. Jedes Lebensmittel bekommt ein einfaches Balance-Zeichen, und dein Tagebuch zählt im Hintergrund weiter, sodass beim Zurückwechseln nichts verloren geht. Premium ergänzt eine KI-Note für jedes Lebensmittel, den Grund dafür, Tipps und Alternativen.
 
 Kostenlos
 
@@ -95,9 +95,9 @@ Die Karten oben zeigen jede Funktion mit Beispielinhalten. Premium-Funktionen si
 
 So funktioniert's
 
-## Bemerken. Verstehen. Dauerhaft verändern.
+## Fotografieren. Einchecken. Dranbleiben.
 
-Ein ruhiger Kreislauf: bemerken, was du isst und wie du dich fühlst, deine eigenen Muster verstehen und Schritt für Schritt eine kleine Sache verändern.
+Ein einfacher Kreislauf: in Sekunden eintragen, was du isst, einchecken, wie es dir geht, und deine eigenen Muster zeigen dir eine kleine Sache, die du ändern kannst.
 
 ![Mahlzeiten-Check-in fragt, welche Gefühle du vor dem Frühstück hattest, mit Gefühls-Chips zur Auswahl](https://fimbl.app/assets/img/app/de/03-feelings.webp)
 
@@ -161,7 +161,7 @@ Kostenlos für alle
 
 ## Deine erste Woche, jeden Tag ein kleiner Schritt
 
-Sieben Tage. Ein kleiner Schritt nach dem anderen. Fimbl begleitet dich durch deine erste Woche, vom ersten Eintrag bis zum Benennen deiner Stimmung, mit einem sanften Stupser zur Uhrzeit deiner Wahl. Einen Tag verpasst? Kein Problem. Nur nicht zwei hintereinander.
+Sieben Tage. Ein kleiner Schritt nach dem anderen. Fimbl begleitet dich durch deine erste Woche, vom ersten Eintrag bis zum Benennen deiner Stimmung, mit einem kurzen Stupser zur Uhrzeit deiner Wahl. Einen Tag verpasst? Kein Problem. Nur nicht zwei hintereinander.
 
 1. Erster Eintrag
 2. Einchecken
@@ -193,7 +193,7 @@ Andere KI-Anfragen gehen von der App über die Server von Fimbl an Googles Gemin
 
 ### Manches geht KI nichts an
 
-Fortschrittsfotos werden nie für KI genutzt. KI-Schätzungen können leicht abweichen, darum kannst du jeden Eintrag anpassen, und Fimbl gibt sanfte Orientierung, keine medizinische Beratung.
+Fortschrittsfotos werden nie für KI genutzt. KI-Schätzungen können leicht abweichen, darum kannst du jeden Eintrag anpassen, und Fimbl gibt Orientierung, keine medizinische Beratung.
 
 [So funktioniert KI in Fimbl (auf Englisch)](https://fimbl.app/privacy/#ai)
 
@@ -201,20 +201,20 @@ Unser Versprechen
 
 ## Was persönlich ist, bleibt bei dir
 
-Fimbl ist entstanden, um sich von reinen Kalorien-Apps zu lösen: ein freundlicher, ruhiger Ort, um Körper und Kopf zu verstehen, in deinem Tempo und zu deinen Bedingungen. Das Persönlichste verlässt nie dein iPhone.
+Fimbl ist entstanden, um sich von reinen Kalorien-Apps zu lösen: ein freundlicher Ort, um Körper und Kopf zu verstehen, in deinem Tempo und zu deinen Bedingungen. Das Persönlichste verlässt nie dein iPhone.
 
 - Fortschritts- und Mahlzeitenfotos bleiben auf deinem iPhone
 - Periodentage bleiben in Apple Health
-- Kein schlechtes Gewissen, kein Diätkultur-Lärm
+- Kein Beschämen, kein Diätkultur-Lärm
 - Keine Werbung und kein Werbe-Tracking
 - Daten exportieren, Konto jederzeit löschen
 - In Finnland gestaltet und entwickelt
 
 Aus dem Blog
 
-## Achtsam essen, ohne schlechtes Gewissen
+## Besser essen, Mahlzeit für Mahlzeit
 
-Ratgeber zu Kalorien zählen, Hunger und Gewohnheiten, und wie wir über ein ruhigeres Ernährungstagebuch nachdenken.
+Ratgeber zu Kalorien zählen, Hunger und Gewohnheiten, und wie wir ein Ernährungstagebuch bauen, mit dem du dranbleibst.
 
 Kalorien zählen
 
@@ -254,7 +254,7 @@ FAQ
 
 ### Ist Fimbl kostenlos?
 
-Ja. Fimbl ist kostenlos, und das Herzstück ist es auch: dein Ernährungstagebuch mit Suche und Barcode-Scan, Check-ins vor und nach dem Essen, die begleitete erste Woche, deine Geschichte, dein erstes Muster, die ruhige Ansicht, Stimmung, Körpernotizen, Gewicht, Serien, private Fortschrittsfotos, Aktivität aus Apple Health sowie das Heute- und das Check-in-Widget. Dazu bekommst du 3 Foto-Scans und deinen ersten Wochenrückblick, um die KI auszuprobieren, und auf iPhones mit Apple Intelligence bleiben Foto-Scans und Mahlzeitbeschreibungen danach kostenlos. Fimbl Premium ergänzt Foto-Scans über die kostenlosen hinaus, Erfassen per Sprache, Noten, Tipps und Alternativen in der ruhigen Ansicht, KI-Wochenrückblicke und den Coach, jedes Muster, das Fimbl findet, Rezepte aus Videos, gesündere Produktalternativen, Makro-Ziele, weitere Widgets und Serien-Wiederherstellung. Premium gibt es jährlich mit 7 Tagen gratis zum Testen oder monatlich, und die Preise siehst du immer vor dem Abschluss.
+Ja. Fimbl ist kostenlos, und das Herzstück ist es auch: dein Ernährungstagebuch mit Suche und Barcode-Scan, Check-ins vor und nach dem Essen, die begleitete erste Woche, deine Geschichte, dein erstes Muster, Mahlzeiten mit Noten, Makros und Makro-Ziele, Stimmung, Körpernotizen, Gewicht, Serien, private Fortschrittsfotos, Aktivität aus Apple Health sowie das Heute- und das Check-in-Widget. Dazu bekommst du 3 Foto-Scans und deinen ersten Wochenrückblick, um die KI auszuprobieren, und auf iPhones mit Apple Intelligence bleiben Foto-Scans und Mahlzeitbeschreibungen danach kostenlos. Fimbl Premium ergänzt Foto-Scans über die kostenlosen hinaus, Erfassen per Sprache, KI-Noten mit Tipps und Alternativen, KI-Wochenrückblicke und den Coach, jedes Muster, das Fimbl findet, Rezepte aus Videos, gesündere Produktalternativen, weitere Widgets und Serien-Wiederherstellung. Premium gibt es jährlich mit 7 Tagen gratis zum Testen oder monatlich, und die Preise siehst du immer vor dem Abschluss.
 
 ### Brauche ich ein Konto, um anzufangen?
 
@@ -266,7 +266,7 @@ Den meisten von uns geht irgendwo um Woche zwei die Motivation aus. Deine Geschi
 
 ### Ist Fimbl eine Diät-App?
 
-Nicht im üblichen Sinn. Du kannst ein Kalorienziel setzen, wenn es dir hilft, oder die ruhige Ansicht einschalten, in der die Zahlen zurücktreten und jedes Lebensmittel eine sanfte Balance-Markierung bekommt. Bei Fimbl geht es um Balance, Achtsamkeit und Gewohnheiten, und es soll eine gesündere Beziehung zum Essen unterstützen, dir aber nie ein schlechtes Gefühl geben. Fimbl ist kein Medizinprodukt und keine Behandlung von Essstörungen. Wenn dich das Thema Essen einmal überfordert, kann dir eine Fachperson helfen.
+Nicht im üblichen Sinn. Du kannst ein Kalorienziel setzen, wenn es dir hilft, oder zu Mahlzeiten mit Noten wechseln, wo die Zahlen zurücktreten und jedes Lebensmittel ein einfaches Balance-Zeichen bekommt. Bei Fimbl geht es um Balance, Bewusstsein und Gewohnheiten, und es soll eine gesündere Beziehung zum Essen unterstützen, dir aber nie ein schlechtes Gefühl geben. Fimbl ist kein Medizinprodukt und keine Behandlung von Essstörungen. Wenn dich das Thema Essen einmal überfordert, kann dir eine Fachperson helfen.
 
 ### Sind meine Fortschrittsfotos privat?
 
@@ -292,7 +292,7 @@ Ja, in beide Richtungen. Mit deiner Erlaubnis liest Fimbl deine Schritte, Geh- u
 
 Mit einem Konto wird dein Tagebuch verschlüsselt übertragen und auf den Servern von Fimbl gespeichert, damit es beim Handywechsel da ist. Fortschrittsfotos, Mahlzeitenfotos und Periodentage bleiben auf deinem iPhone. Wir verkaufen deine Daten nicht, und es gibt keine Werbung und keine Werbe-Tracker. Du kannst deine Daten als CSV-Dateien exportieren und dein Konto jederzeit in den Einstellungen löschen: Deine personenbezogenen Daten werden gelöscht, und KI-Daten, die wir behalten, werden anonymisiert. Lies die vollständige [Datenschutzerklärung](https://fimbl.app/privacy/) (auf Englisch).
 
-## Versteh dich selbst. Veränderung, die bleibt.
+## Erste Mahlzeit fotografieren. Dranbleiben.
 
 Trag deine erste Mahlzeit in Sekunden ein. Zum Start brauchst du kein Konto.
 

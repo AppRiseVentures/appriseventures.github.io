@@ -1,6 +1,6 @@
 ---
-title: "Fimbl Blog: Mindful Eating, Calorie Tracking & Habits"
-description: "Guides to calorie tracking apps, mindful eating and habits that last, from the team behind Fimbl, the calm food diary for iPhone and iPad."
+title: "Fimbl Blog: Calorie Tracking, Eating Habits & Food Diaries"
+description: "Guides to calorie tracking apps, eating habits and food diaries that last, from the team behind Fimbl, the photo calorie counter and food diary for iPhone and iPad."
 url: "https://fimbl.app/blog/"
 language: "en"
 ---
@@ -10,9 +10,9 @@ language: "en"
 
 The Fimbl blog
 
-# Eat with awareness, not guilt
+# Eat better, one meal at a time
 
-Clear writing on food tracking, hunger and habits: what the research says, what the apps actually do, and how we think about building a calmer one.
+Clear writing on food tracking, hunger and habits: what the research says, what the apps actually do, and how we think about building one that keeps you going.
 
 Comparison 11 min read
 
@@ -72,6 +72,6 @@ October 17, 2026
 
 ## Start your wellness journey
 
-Free to download. Gentle from day one.
+Free to download. Your first scan takes seconds.
 
 [Download on the App Store](https://apps.apple.com/app/id6443701726)

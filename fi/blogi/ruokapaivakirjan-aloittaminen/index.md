@@ -185,7 +185,7 @@ Kasper Koskenvirta
 
 Fimblen perustaja
 
-Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on rauhallinen ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
+Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on kuvasta kaloreita laskeva ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
 
 ## Lue seuraavaksi
 
@@ -207,6 +207,6 @@ Miten erotat tunnenälän fyysisestä nälästä? 7 merkkiä, nälkäasteikko 1�
 
 ## Aloita hyvinvointimatkasi
 
-Ilmainen ladata. Lempeä ensimmäisestä päivästä.
+Ilmainen ladata. Ensimmäinen kuva vie sekunteja.
 
 [Lataa App Storesta](https://apps.apple.com/app/id6443701726)
