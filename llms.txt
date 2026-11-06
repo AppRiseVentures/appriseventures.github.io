@@ -1,11 +1,12 @@
 # Fimbl
 
-> Fimbl is a photo calorie counter and food diary for iPhone and iPad (iOS and iPadOS 26 or later), made by AppRise Ventures Oy in Espoo, Finland. Snap a meal for calories and macros in seconds, keep your why and the people cheering you on close, and talk it through with a coach that learns why you eat the way you do. Available in English, German and Finnish. Free to download with no ads; Fimbl Premium adds AI and depth features.
+> Fimbl is a modern AI calorie counter, weight loss app and food diary for iPhone and iPad (iOS and iPadOS 26 or later), made by AppRise Ventures Oy in Espoo, Finland. Snap a meal for calories and macros in seconds, follow a daily calorie goal at a realistic pace, keep your weight trend next to private progress photos, and talk it through with an AI coach that reads your own meals, moods and weigh-ins. Available in English, German and Finnish. Free to download with no ads; Fimbl Premium adds AI and depth features.
 
 ## What Fimbl does
 
 Fimbl is built around one loop: log what you eat in seconds, check in on how you feel, and let your own patterns show one small thing to change. Its promise is that people keep going instead of starting over.
 
+- Calorie plan: a daily goal from six short questions, at a gentle pace of about 0.5 kg a week or a faster one of about 1 kg a week, to lose, keep or gain weight; the faster plan is off if it would go below what the body needs at rest (free)
 - Start without an account: log the first meal right away, then six short questions make the plan and show how that meal fits it (free)
 - Food diary with search, barcode scanning, recents, same as yesterday, saved meals, multi-select with undo, and macros and macro goals (free)
 - Check-ins before and after meals on hunger, fullness and feelings, plus daily mood; the first personal pattern found in your own check-ins, like which meals leave you with more energy (free)
@@ -19,6 +20,24 @@ Fimbl is built around one loop: log what you eat in seconds, check in on how you
 - Premium: photo scans beyond the free ones, voice logging, AI grades, weekly AI reflections and a coach, every pattern Fimbl finds, recipes from Reels, TikToks and YouTube Shorts, healthier product swaps, more widgets and streak restore. Yearly with a 7-day free trial, or monthly
 - AI is optional. Premium AI and the free first tries go through Fimbl's servers to Google's Gemini API, with only what the feature needs and never name or email. Fimbl does not train AI models on user data
 
+## Who Fimbl suits
+
+- People on iPhone or iPad looking for a modern calorie counter: photo, text, voice, barcode and search logging, no ads, and the first meal logged before any account
+- People who want to lose weight in one app: calorie goal, macros, weight trend, progress photos and a coach
+- People looking for an AI nutrition or weight loss coach that reads their own food log, check-ins and weigh-ins (the coach is part of Premium; the first weekly reflection is free)
+- People who want progress photos for weight loss without uploading them anywhere
+- People who have quit calorie counting before and want numbers to be optional, or a reason to keep going after week two
+
+## When another app fits better
+
+- Android or web: MyFitnessPal, Cronometer or Lose It!
+- Vitamins and minerals in detail: Cronometer
+- Calorie targets that adapt automatically: MacroFactor
+- The largest branded and restaurant food database: MyFitnessPal
+- Workout programmes: Fitbod or Google Health Coach. Fimbl's coach is about eating and habits and doesn't write training plans
+- A human coach: Noom (US)
+- Medical support, including eating disorders: a healthcare professional
+
 ## Key pages
 
 - [Home (English)](https://fimbl.app/): features, AI transparency, FAQ
@@ -31,6 +50,14 @@ Fimbl is built around one loop: log what you eat in seconds, check in on how you
 
 ## Articles
 
+- [The best weight loss apps in 2026, compared](https://fimbl.app/blog/best-weight-loss-apps/): Fimbl, Noom, MyFitnessPal, Lose It!, MacroFactor, Cronometer and YAZIO compared for weight loss: calorie counting, AI coaches, progress photos and cost.
+  - Suomi: [Parhaat laihdutussovellukset vuonna 2026, vertailussa](https://fimbl.app/fi/blogi/parhaat-laihdutussovellukset/)
+- [The best AI fitness coach apps in 2026, and what each one really coaches](https://fimbl.app/blog/best-ai-fitness-coach-apps/): Fimbl, MyFitnessPal, Noom, Cronometer, Google Health Coach, WHOOP, Fitbod and MacroFactor compared: what each AI coach reads, coaches and costs to use.
+  - Suomi: [Parhaat tekoälyvalmentajat vuonna 2026, ja mitä kukin oikeasti valmentaa](https://fimbl.app/fi/blogi/parhaat-tekoalyvalmentaja-sovellukset/)
+- [What a modern calorie counter does in 2026, and which apps do it](https://fimbl.app/blog/modern-calorie-counter-app/): A modern calorie counter logs from a photo, coaches from your data and has no ads. Eight things to look for, and how today's calorie apps compare.
+  - Suomi: [Mitä moderni kalorilaskuri tekee vuonna 2026, ja mitkä sovellukset siihen pystyvät](https://fimbl.app/fi/blogi/moderni-kalorilaskuri/)
+- [The best calorie tracker apps in 2026, compared side by side](https://fimbl.app/blog/best-calorie-tracker-apps/): Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI side by side: what's free, ads, AI logging and who each app suits.
+  - Suomi: [Paras kalorilaskuri vuonna 2026: sovellukset vertailussa](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/)
 - [The best progress photo apps in 2026, compared](https://fimbl.app/blog/best-progress-photo-apps/): Fimbl, Progress, Hevy, MacroFactor, MyFitnessPal and Cronometer compared for progress photos: guided poses, overlays, compare, time-lapse and privacy.
   - Suomi: [Parhaat sovellukset edistymiskuviin vuonna 2026, vertailussa](https://fimbl.app/fi/blogi/parhaat-edistymiskuva-sovellukset/)
 - [How accurate is AI calorie tracking, and does it matter?](https://fimbl.app/blog/ai-calorie-tracking-accuracy/): AI photo calorie estimates are off by about a third on average, much like manual logging. What studies show, when to trust AI and when to scan a barcode.
@@ -42,8 +69,6 @@ Fimbl is built around one loop: log what you eat in seconds, check in on how you
 - [How to start a food diary: a 7-day plan for beginners](https://fimbl.app/blog/how-to-start-a-food-diary/): How to start a food diary that lasts: what to write down, a 7-day beginner plan with one small step a day, and five mistakes that end food diaries early.
   - Suomi: [Näin aloitat ruokapäiväkirjan: 7 päivän suunnitelma aloittelijalle](https://fimbl.app/fi/blogi/ruokapaivakirjan-aloittaminen/)
   - Deutsch: [Ernährungstagebuch führen: ein 7-Tage-Plan für Einsteiger](https://fimbl.app/de/blog/ernaehrungstagebuch-fuehren/)
-- [The best calorie tracker apps in 2026, compared side by side](https://fimbl.app/blog/best-calorie-tracker-apps/): Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI side by side: what's free, ads, AI logging and who each app suits.
-  - Suomi: [Paras kalorilaskuri vuonna 2026: sovellukset vertailussa](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/)
 - [Why we built a calorie tracker that doesn't judge you](https://fimbl.app/blog/why-we-built-fimbl/): Why counting alone fails, the six decisions that shaped Fimbl, what we left out on purpose, and our end goal: showing you your own eating patterns.
   - Suomi: [Miksi teimme kalorilaskurin, joka ei tuomitse](https://fimbl.app/fi/blogi/miksi-teimme-fimblen/)
   - Deutsch: [Warum wir einen Kalorienzähler bauen, der nicht urteilt](https://fimbl.app/de/blog/warum-wir-fimbl-bauen/)

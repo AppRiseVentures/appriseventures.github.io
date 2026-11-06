@@ -15,9 +15,9 @@
   "about": ["Achtsames Essen", "Kalorien zählen", "Gewohnheiten aufbauen", "Produktdesign"],
   "mentions": ["Fimbl"],
   "published": "2026-10-17",
-  "modified": "2026-10-17",
+  "modified": "2026-11-06",
   "cover": ["04-meal-grades", "09-ai", "goals"],
-  "cover_alt": ["Ruhiger Modus in Fimbl bewertet Haferflocken mit der Note A für langsame, stetige Energie am Morgen", "Wochenrückblick in Fimbl für die vergangene Woche"],
+  "cover_alt": ["Die KI-Note in Fimbl bewertet Haferflocken mit der Note A für langsame, stetige Energie am Morgen", "Wochenrückblick in Fimbl für die vergangene Woche"],
   "chips": [
     { "emoji": "🌱", "title": "Einen Tag verpasst?", "sub": "Nur nicht zwei hintereinander" },
     { "emoji": "✨", "title": "Wochenrückblick", "sub": "Morgen, die dich getragen haben" }
@@ -29,11 +29,11 @@
     },
     {
       "q": "Ist Fimbl eine Diät-App?",
-      "a": "Nicht im üblichen Sinn. Du kannst ein Kalorienziel festlegen, wenn es dir hilft, oder in den Ruhigen Modus wechseln und Noten statt Zahlen sehen. Bei Fimbl geht es um Balance, Achtsamkeit und Gewohnheiten, und die App soll ein entspannteres Verhältnis zum Essen unterstützen. Sie ist kein Medizinprodukt und keine Behandlung von Essstörungen."
+      "a": "Fimbl ist ein Kalorienzähler, mit dem du abnehmen, dein Gewicht halten oder zunehmen kannst, aber keine strenge Diät. Setz dir ein Kalorienziel, wenn es dir hilft, oder wechsle zu Mahlzeiten mit Noten und sieh ein einfaches Zeichen statt Zahlen. Die App soll ein entspannteres Verhältnis zum Essen unterstützen. Sie ist kein Medizinprodukt und keine Behandlung von Essstörungen."
     },
     {
       "q": "Was ist bei Fimbl kostenlos und was gehört zu Premium?",
-      "a": "Das Herz der App ist kostenlos und werbefrei: das Ernährungstagebuch, Suche und Barcode-Scanner, gespeicherte Mahlzeiten, Gewicht, Stimmung und Check-ins zu Mahlzeiten, Aktivität aus Apple Health, Ziele und Serien, Fortschrittsfotos und Deine erste Woche. Premium ergänzt Makro-Ziele, die KI-Funktionen (Foto-Scan, Mahlzeiten per Sprache oder Text beschreiben, Etiketten-Scan, Rezepte aus Videos, Wochenrückblicke und den Coach, den Ruhigen Modus und gesündere Alternativen), Widgets, zusätzliche Mahlzeiten und Serie wiederherstellen."
+      "a": "Das Herz der App ist kostenlos und werbefrei: das Ernährungstagebuch, Suche und Barcode-Scanner, gespeicherte Mahlzeiten, Makros und Makro-Ziele, Gewicht, Stimmung und Check-ins zu Mahlzeiten, Aktivität aus Apple Health, Ziele und Serien, Fortschrittsfotos, Mahlzeiten mit Noten, deine Geschichte und Deine erste Woche, dazu 3 Foto-Scans und dein erster Wochenrückblick. Premium ergänzt weitere Foto-Scans, Eintragen per Sprache, Rezepte aus Videos, Wochenrückblicke und den Coach, KI-Noten und gesündere Alternativen, mehr Widgets und Serie wiederherstellen."
     },
     {
       "q": "Nutzt Fimbl meine Daten für KI-Training?",

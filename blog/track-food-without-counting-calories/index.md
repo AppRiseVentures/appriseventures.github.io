@@ -9,13 +9,13 @@ language: "en"
 2. [Blog](https://fimbl.app/blog/)
 3. How to track what you eat without counting calories
 
-Mindful eating 7 min read
+Mindful eating 8 min read
 
 # How to track what you eat without counting calories
 
 The plate method, hand portions, a hunger scale, a photo diary and meal grades: five ways to stay aware of what you eat without adding up a single number, and how to tell whether numbers help you or hold you back.
 
-**Kasper Koskenvirta** Founder of Fimbl · Published October 19, 2026
+**Kasper Koskenvirta** Founder of Fimbl · Published October 19, 2026 · Updated November 6, 2026
 
 ![Three Fimbl app screens on iPhone](https://fimbl.app/assets/img/covers/en-without-counting-1200.webp)
 
@@ -27,7 +27,7 @@ You can track what you eat without counting calories by changing **what you meas
 
 - **Five methods that work:** the plate method, hand portions, a hunger scale, a photo food diary, and meal grades instead of numbers.
 - **Start with one.** The plate method or a hunger check-in takes seconds and needs no app, no scale and no maths.
-- **In Fimbl,** Calm mode (Premium) swaps calorie numbers for gentle grades, while the diary keeps counting quietly in the background.
+- **In Fimbl,** Graded meals (free) lets calorie numbers step back and gives each food a simple mark, while the diary keeps counting quietly in the background.
 
 ## Why some people track better without numbers
 
@@ -47,7 +47,7 @@ Effort is the time per meal once the method is familiar. Most people combine two
 | 2. Hand portions | Portion sizes, using your hand | A glance | Eating out, travel | No tools needed |
 | 3. Hunger scale | Hunger before, fullness after | Ten seconds | Overeating, emotional eating | Meal check-ins, free |
 | 4. Photo food diary | A picture of each meal | Five seconds | Spotting patterns at a glance | Photo scan, Premium |
-| 5. Meal grades | How well a meal served you | Automatic | Stepping back from numbers | Calm mode, Premium |
+| 5. Meal grades | How well a meal served you | Automatic | Stepping back from numbers | Graded meals, free |
 
 ### 1. The plate method
 
@@ -74,15 +74,15 @@ Free in Fimbl **Hunger and feelings, logged in seconds** Fimbl asks at your meal
 
 ### 4. A photo food diary
 
-Take a picture before every meal and snack, and look back at the end of the week. A photo is faster than writing and harder to fudge, and a week of plates side by side shows patterns instantly: how many meals had vegetables, how often dinner came from a box, how big the evening snacks got. Your camera roll works, or a dedicated album. In Fimbl, a photo scan (Premium) also logs the meal for you, and you can hide the numbers it produces with Calm mode.
+Take a picture before every meal and snack, and look back at the end of the week. A photo is faster than writing and harder to fudge, and a week of plates side by side shows patterns instantly: how many meals had vegetables, how often dinner came from a box, how big the evening snacks got. Your camera roll works, or a dedicated album. In Fimbl, a photo scan also logs the meal for you (three are free), and Graded meals keeps the numbers it produces out of sight.
 
 ### 5. Meal grades instead of numbers
 
-The newest approach replaces the number with a judgement about the meal itself: did it fit your goals, keep you full, leave you feeling good? It's the method we built Fimbl's Calm mode around, because it keeps the useful information and drops the part that makes people anxious.
+The newest approach replaces the number with a judgement about the meal itself: did it fit your goals, keep you full, leave you feeling good? It's the method we built Fimbl's Graded meals around, because it keeps the useful information and drops the part that makes people anxious.
 
-![Fimbl Calm mode grading rolled oats with an A: slow, steady morning energy, a great fit, with notes on goals, hunger and feelings and a tip for next time](https://fimbl.app/assets/img/app/en/04-meal-grades.webp)
+![Fimbl AI grade for rolled oats with an A: slow, steady morning energy, a great fit, with notes on goals, hunger and feelings and a tip for next time](https://fimbl.app/assets/img/app/en/04-meal-grades.webp)
 
-Premium **Calm mode: grades, not guilt** Each food and meal gets a gentle grade from A to F for how well it served your goals, hunger and mood, from "Great fit" to "Room to grow", with a short note and one idea for next time. Your day gets a grade too.
+Free · AI grades in Premium **Graded meals: grades, not guilt** Each food gets a simple balance mark for free. With Premium, each food and meal gets an AI grade from A to F for how well it served your goals, hunger and mood, from "Great fit" to "Room to grow", with a short note and one idea for next time. Your day gets a grade too.
 
 - Calorie numbers are hidden, not deleted
 - The diary keeps counting in the background, so you can switch back any time
@@ -107,7 +107,7 @@ Going number-free isn't better for everyone. It's a choice, and it helps to know
 
 **You've quit tracking before**: Burn-out after a few weeks usually means the method asked too much.
 
-There's also a middle path: keep logging food so the record exists, but hide the totals. That's what Calm mode does, and it's why switching back never loses anything. If you'd like to see how other apps handle numbers, our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/) covers each one.
+There's also a middle path: keep logging food so the record exists, but hide the totals. That's what Graded meals does, and it's why switching back never loses anything. If you'd like to see how other apps handle numbers, our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/) covers each one.
 
 ## How to get started this week
 
@@ -122,10 +122,10 @@ Track your way
 
 ### Keep the awareness, lose the arithmetic
 
-Start with Fimbl's free diary and meal check-ins. When numbers get loud, Calm mode swaps them for gentle grades, and switching back never loses a thing.
+Start with Fimbl's free diary and meal check-ins. When numbers get loud, Graded meals swaps them for a simple mark, and switching back never loses a thing.
 
 - Free hunger and feeling check-ins
-- Calm mode: grades instead of calories
+- Graded meals: grades instead of calories
 - No ads, no streak shame
 
 [Get Fimbl free](https://apps.apple.com/app/id6443701726)
@@ -150,7 +150,7 @@ A common guide uses one palm for a portion of protein, a fist for carbohydrates 
 
 ### Is there a calorie tracker app that doesn't show calories?
 
-Yes. Fimbl for iPhone and iPad has Calm mode (part of Fimbl Premium), which hides calorie numbers and grades each meal from A to F for how well it served your goals, hunger and mood. The diary keeps counting in the background, so you can switch back at any time without losing anything.
+Yes. Fimbl for iPhone and iPad has Graded meals, a free view where calorie numbers step back and each food gets a simple balance mark. Premium adds an AI grade from A to F for how well each food served your goals, hunger and mood. The diary keeps counting in the background, so you can switch back at any time without losing anything.
 
 ### Will I still lose weight without counting calories?
 
@@ -168,7 +168,7 @@ Kasper Koskenvirta
 
 Founder of Fimbl
 
-Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a photo calorie counter and food diary for iPhone and iPad. Our articles are general information, not medical advice.
+Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a modern AI calorie counter with a coach and private progress photos for iPhone and iPad. Our articles are general information, not medical advice.
 
 ## Keep reading
 
@@ -188,7 +188,7 @@ How to tell emotional hunger from physical hunger: 7 key differences, a 1–10 h
 
 October 17, 2026
 
-## Start your wellness journey
+## Snap your first meal. Keep going.
 
 Free to download. Your first scan takes seconds.
 

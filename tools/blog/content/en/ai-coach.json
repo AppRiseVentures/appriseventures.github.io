@@ -1,0 +1,146 @@
+{
+  "id": "ai-coach",
+  "slug": "best-ai-fitness-coach-apps",
+  "title": "Best AI Fitness Coach Apps 2026: Workouts, Food & Weight Loss",
+  "headline": "The best AI fitness coach apps in 2026, and what each one really coaches",
+  "h1": "The best AI fitness coach apps in 2026, <span class=\"accent\">and what each one really coaches</span>",
+  "dek": "Workouts, sleep or what's on your plate? Fimbl, MyFitnessPal, Cronometer, Noom, Google Health Coach, WHOOP, Fitbod and MacroFactor compared: what each AI coach can actually see, what it costs to use and who it suits.",
+  "description": "Fimbl, MyFitnessPal, Noom, Cronometer, Google Health Coach, WHOOP, Fitbod and MacroFactor compared: what each AI coach reads, coaches and costs to use.",
+  "tag": "Comparison",
+  "og_title": "The best AI fitness coach apps in 2026, compared",
+  "og_kicker": "Comparison · 2026",
+  "og_heading": "AI fitness coach apps, <span>compared</span>",
+  "og_alt": "Fimbl coach and weekly reflection screens next to the headline: AI fitness coach apps, compared",
+  "keywords": [
+    "best AI fitness coach app",
+    "AI nutrition coach app",
+    "AI weight loss coach",
+    "AI personal trainer app",
+    "AI health coach comparison",
+    "can ChatGPT be a fitness coach"
+  ],
+  "about": [
+    "AI coaching",
+    "Nutrition coaching",
+    "Fitness apps",
+    "Weight loss"
+  ],
+  "mentions": [
+    "Fimbl",
+    "MyFitnessPal",
+    "Cronometer",
+    "Noom",
+    "Google Health",
+    "WHOOP",
+    "Fitbod",
+    "MacroFactor",
+    "ChatGPT"
+  ],
+  "published": "2026-11-06",
+  "modified": "2026-11-06",
+  "related": [
+    "weight-loss-apps",
+    "modern-calorie-counter"
+  ],
+  "cover": [
+    "09-ai",
+    "your-why",
+    "03-feelings"
+  ],
+  "cover_alt": [
+    "Fimbl weekly reflection titled Mornings that carried you, with days logged and weight change",
+    "Fimbl Your why card with a photo of the people cheering you on"
+  ],
+  "chips": [
+    {
+      "emoji": "💬",
+      "title": "Ask your coach",
+      "sub": "Answers from your own days"
+    },
+    {
+      "emoji": "🌅",
+      "title": "Your week",
+      "sub": "Read back to you"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best AI fitness coach app?",
+      "a": "It depends on what you want coached. Fitbod is strongest for AI-generated strength workouts, Google Health Coach for all-round fitness and sleep with a Fitbit or Pixel Watch, and WHOOP Coach for recovery data if you wear a WHOOP. For losing weight through what you eat on iPhone, we recommend Fimbl, whose coach reads your meals, check-ins, mood, weigh-ins and activity."
+    },
+    {
+      "q": "What is the best AI nutrition coach app?",
+      "a": "On iPhone, Fimbl is our pick if you want a coach that looks at why you eat as well as what, because it also knows your hunger and feelings at meals. MyFitnessPal Coach suits people who already use its food database, and Cronometer's Crono Coach suits people focused on vitamins, minerals and nutrient targets."
+    },
+    {
+      "q": "What is the best AI coach for weight loss?",
+      "a": "Look for a coach that reads your food log and your weight. Fimbl does that on iPhone and iPad, alongside a photo calorie counter, a plan at a gentle pace and private progress photos. Noom is a good choice if you want a structured programme with a human coach in the US, and MacroFactor if you want your calorie targets adjusted automatically every week."
+    },
+    {
+      "q": "Is there a free AI fitness coach?",
+      "a": "Most personal AI coaches are part of a paid plan, including those from Fimbl, MyFitnessPal, Cronometer and Google Health. Fimbl gives you your first weekly reflection and your first personal pattern for free. Noom says members keep access to Welli without its Premium tier, but Noom itself is a subscription. A general assistant like ChatGPT can answer fitness questions for free, but it mostly knows only what you tell it."
+    },
+    {
+      "q": "Can ChatGPT replace a fitness coach?",
+      "a": "For general knowledge and simple plans, it can go a long way. It doesn't log your meals or workouts or follow up by itself, though, and it mostly knows only what you share. A dedicated coach has your data in front of it. Neither replaces a doctor, dietitian or qualified trainer when you have a medical condition or an injury."
+    },
+    {
+      "q": "Is an AI coach as good as a human coach?",
+      "a": "Not for everything. An AI coach is available at any hour, cheaper and good at spotting patterns in your data, but research on AI coaching is still early, and a person is better at accountability, judgement and complex situations. Noom's US Premium tier combines both. If you have a medical condition or a history of disordered eating, please see a professional."
+    },
+    {
+      "q": "Does Fimbl's coach make workout plans?",
+      "a": "No. Fimbl's coach focuses on eating, habits, mood and weight, and it can take your Apple Health activity into account if you allow it. For a training plan, Fitbod or Google Health Coach are better fits. Fimbl does have simple workout goals and reads your workouts from Apple Health."
+    },
+    {
+      "q": "Does Fimbl train AI on my data?",
+      "a": "No. Fimbl doesn't train AI models on your data or sell it. When you ask the coach something, the request goes through Fimbl's servers to Google's Gemini API with only what the feature needs, and never your name, email, period days, Your story or progress photos. AI is optional, and everything else in Fimbl works without it."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Oh YJ, Zhang J, Fang ML, Fukuoka Y (2021). A systematic review of artificial intelligence chatbots for promoting physical activity, healthy diet, and weight loss. International Journal of Behavioral Nutrition and Physical Activity 18:160.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8665320/"
+    },
+    {
+      "text": "Singh B et al. (2023). Systematic review and meta-analysis of the effectiveness of chatbots on lifestyle behaviours. npj Digital Medicine 6:118.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10290125/"
+    },
+    {
+      "text": "9to5Mac (June 2026): MyFitnessPal adds AI-powered Coach for Premium and Premium+ subscribers.",
+      "url": "https://9to5mac.com/2026/06/16/myfitnesspal-adds-ai-powered-coach-for-personalized-nutrition-guidance/"
+    },
+    {
+      "text": "MyFitnessPal App Store listing, AI Coach. Checked November 2026.",
+      "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+    },
+    {
+      "text": "Google (May 2026): Google Health Coach, features, subscription and eligible devices.",
+      "url": "https://blog.google/intl/en-in/products/hardware/google-health-coach-is-coming-to-india/"
+    },
+    {
+      "text": "Google Health (Fitbit) App Store listing. Checked November 2026.",
+      "url": "https://apps.apple.com/us/app/google-health-fitbit/id462638897"
+    },
+    {
+      "text": "Fitbod App Store listing. Checked November 2026.",
+      "url": "https://apps.apple.com/us/app/fitbod-gym-fitness-planner/id1041517543"
+    },
+    {
+      "text": "WHOOP App Store listing, including WHOOP Coach and the wearable requirement. Checked November 2026.",
+      "url": "https://apps.apple.com/us/app/whoop/id933944389"
+    },
+    {
+      "text": "Noom support: What is the Premium subscription? Checked November 2026.",
+      "url": "https://www.noom.com/support/faqs/using-the-app/daily-features/2025/10/what-is-the-premium-subscription/"
+    },
+    {
+      "text": "Cronometer: Crono Coach. Checked November 2026.",
+      "url": "https://cronometer.com/blog/crono-coach/"
+    },
+    {
+      "text": "MacroFactor app overview and App Store listing. Checked November 2026.",
+      "url": "https://macrofactor.com/macrofactor/"
+    }
+  ]
+}

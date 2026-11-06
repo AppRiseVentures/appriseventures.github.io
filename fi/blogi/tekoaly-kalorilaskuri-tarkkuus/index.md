@@ -67,7 +67,7 @@ Virheetkin merkitsevät vähemmän kuin miltä näyttää, koska ne ovat yleens�
 
 ![Fimblen tekoälykaloriskannaus arvioi acai-kulhon 380 grammaksi ja 460 kilokaloriksi, annospainikkeet puolikkaasta tuplaan sekä hiilihydraatit, rasva ja proteiini](https://fimbl.app/assets/img/app/fi/02-photo-scan.webp)
 
-Premium **Kuva, arvio ja päätösvalta sinulla** Ota kuva lautasesta tai kuvaile ateria tekstillä tai äänellä, niin Fimbl arvioi annoksen, kalorit ja makrot. Sitten säädät: puolikas, puolitoista tai tupla-annos, tai hienosäädät yksityiskohtia. Arviot voivat heittää vähän, joten viimeinen sana on aina sinun.
+ 3 ilmaista, sitten Premium **Kuva, arvio ja päätösvalta sinulla** Ota kuva lautasesta tai kuvaile ateria tekstillä tai äänellä, niin Fimbl arvioi annoksen, kalorit ja makrot. Sitten säädät: puolikas, puolitoista tai tupla-annos, tai hienosäädät yksityiskohtia. Arviot voivat heittää vähän, joten viimeinen sana on aina sinun.
 
 - Kuvaskannaus, teksti tai ääni sekä ravintoarvomerkinnän skannaus
 - Reseptit Reelseistä, TikTokeista, YouTube Shortseista ja reseptisivustoilta
@@ -106,7 +106,7 @@ Pakattuun ruokaan et tarvitse arviota. Ravintoarvot on painettu pakkaukseen, ja 
 
 **Kiireiset hetket**: Kun vaihtoehtoina on kuva tai ei mitään, ota kuva.
 
-Ja kun aikaa tai jaksamista ei ole kumpaankaan, karkean kalorimäärän pikalisäys pitää päivän päiväkirjassa. Suunnilleen riittää. Voittaja on se laskuri, jota jaksat avata, ja samaan päädyimme [kalorilaskurivertailussamme](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/).
+Ja kun aikaa tai jaksamista ei ole kumpaankaan, karkean kalorimäärän pikalisäys pitää päivän päiväkirjassa. Suunnilleen riittää. Voittaja on se laskuri, jota jaksat avata, ja samaan päädyimme [kalorilaskurivertailussamme](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/). Sen, mitä skannauksen lisäksi kannattaa odottaa, kerromme oppaassa [moderni kalorilaskuri](https://fimbl.app/fi/blogi/moderni-kalorilaskuri/).
 
 ## Viisi tapaa saada parempia arvioita tekoälyltä
 
@@ -126,10 +126,10 @@ Parhaat puolet molemmista
 
 ### Tekoäly, kun se on helpompaa, pakkausmerkintä, kun sillä on väliä
 
-Fimblen ilmainen päiväkirja tarjoaa viivakoodin skannauksen, haun ja tallennetut ateriat. Premium tuo mukaan kuva-, ääni- ja tekstikirjauksen niihin aterioihin, joissa ei ole pakkausmerkintää. Sinä valitset, ateria kerrallaan.
+Fimblen ilmainen päiväkirja tarjoaa viivakoodin skannauksen, haun, tallennetut ateriat ja 3 kuvaskannausta kokeiltavaksi. Apple Intelligencea tukevissa iPhoneissa skannaukset pysyvät ilmaisina, ja Premium tuo kuvaskannaukset ja äänikirjauksen niihin aterioihin, joissa ei ole pakkausmerkintää. Sinä valitset, ateria kerrallaan.
 
 - Ilmainen viivakoodinlukija, ei mainoksia
-- Kuva-, ääni- ja tekstikirjaus Premiumilla
+- 3 ilmaista kuvaskannausta, lisää Premiumilla
 - Jokaista arviota voi säätää
 
 [Lataa Fimbl ilmaiseksi](https://apps.apple.com/app/id6443701726)
@@ -176,11 +176,11 @@ Kasper Koskenvirta
 
 Fimblen perustaja
 
-Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on kuvasta kaloreita laskeva ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
+Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on moderni tekoälykalorilaskuri, jossa on valmentaja ja yksityiset edistymiskuvat, iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
 
 ## Lue seuraavaksi
 
-Vertailu 12 min lukuaika
+Vertailu 13 min lukuaika
 
 ### [Paras kalorilaskuri vuonna 2026: sovellukset vertailussa](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/)
 
@@ -196,7 +196,7 @@ Näin aloitat ruokapäiväkirjan, joka kestää: mitä kirjata, 7 päivän suunn
 
  19. lokakuuta 2026
 
-## Aloita hyvinvointimatkasi
+## Kuvaa ensimmäinen ateriasi. Jatka eteenpäin.
 
 Ilmainen ladata. Ensimmäinen kuva vie sekunteja.
 

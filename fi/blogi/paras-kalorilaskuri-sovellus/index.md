@@ -9,13 +9,13 @@ language: "fi"
 2. [Blogi](https://fimbl.app/fi/blogi/)
 3. Paras kalorilaskuri vuonna 2026: sovellukset vertailussa
 
-Vertailu 12 min lukuaika
+Vertailu 13 min lukuaika
 
 # Paras kalorilaskuri vuonna 2026: sovellukset vertailussa
 
 Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum ja Cal AI rinnakkain: missä kukin on oikeasti paras, mitä saat ilmaiseksi ja miten valitset sovelluksen, jota käytät vielä kuukauden päästä.
 
-**Kasper Koskenvirta** Fimblen perustaja · Julkaistu 17. lokakuuta 2026
+**Kasper Koskenvirta** Fimblen perustaja · Julkaistu 17. lokakuuta 2026 · Päivitetty 6. marraskuuta 2026
 
 ![Kolme Fimbl-sovelluksen näkymää iPhonessa](https://fimbl.app/assets/img/covers/fi-calorie-trackers-1200.webp)
 
@@ -23,9 +23,9 @@ Lähes jokainen kalorilaskuri osaa laskea. Hae ruoka, skannaa viivakoodi, katso 
 
 Lyhyesti
 
-Useimmille, jotka haluavat kestävän tavan, **Fimbl** on suosikkimme: nopea kirjaaminen ilmaisella viivakoodiskannerilla, ei mainoksia, nälän ja tuntemusten kirjaus jokaisen aterian yhteydessä ja valinnainen Rauhallinen tila, joka vaihtaa kaloriluvut lempeisiin arvosanoihin. Kaikki myös suomeksi. Jos tarvitset jotain tiettyä, nämä ovat erinomaisia:
+Useimmille iPhonen käyttäjille, jotka haluavat laihtua ja seurata syömistään vielä kuukauden päästä, **Fimbl** on suosikkimme: kalorit ja makrot kuvasta, ilmainen viivakoodiskanneri, ilmaiset makrotavoitteet ja yksityiset edistymiskuvat, ei mainoksia, nälän ja tuntemusten kirjaus jokaisen aterian yhteydessä, omat päiväsi lukeva tekoälyvalmentaja (Premium) ja ateriat arvosanoin silloin, kun numerot uuvuttavat. Kaikki myös suomeksi. Jos tarvitset jotain tiettyä, nämä ovat erinomaisia:
 
-- **Cronometer** hivenaineiden tarkkaan seurantaan (84 ravintoainetta ilmaiseksi).
+- **Cronometer** hivenaineiden tarkkaan seurantaan (yli 95 vitamiinia ja kivennäisainetta ilmaiseksi).
 - **MacroFactor** mukautuviin kalori- ja makrotavoitteisiin.
 - **MyFitnessPal** laajimpaan ruokatietokantaan.
 - **YAZIO** tai **Lifesum** ilmaiseen viivakoodiskanneriin suomeksi myös Androidilla.
@@ -51,11 +51,13 @@ Kolme viimeistä ovat tärkeämpiä kuin miltä kuulostavat. Painonhallintatutki
 |---|---|---|---|---|---|---|---|---|
 | Viivakoodiskannaus | Ilmainen | Premium | Ilmainen | Tilauksessa | Premium | Ilmainen | Ilmainen | Tilauksessa |
 | Ei mainoksia | Ilmainen & Premium | Vain Premium | Vain Gold | Ei koskaan mainoksia | Vain maksullinen | Vain PRO | Ei mainintaa mainoksista | Ei mainintaa mainoksista |
-| Kuvakirjaus tekoälyllä | Premium | Premium | Gold | Tilauksessa | Premium | PRO | Premium | Pääominaisuus |
-| Aterian kuvailu äänellä tai tekstillä | Premium | Premium | Gold | Tilauksessa | Premium | | Premium | Teksti |
+| Kuvakirjaus tekoälyllä | 3 ilmaista, sitten Premium tai Apple Intelligence | Premium | Gold | Tilauksessa | Premium | PRO | Premium | Pääominaisuus |
+| Aterian kuvailu äänellä tai tekstillä | Teksti ilmaisskannauksista, ääni Premiumissa | Premium | Gold | Tilauksessa | Premium | | Premium | Teksti |
 | Reseptien tuonti linkeistä tai videoista | Premium · Reelit, TikTokit, Shortsit, sivut | Verkkolinkit | Gold · verkkolinkit | Linkit, keittokirjakuvat | | | | |
 | Nälän ja tuntemusten kirjaus aterioilla | Ilmainen | | Päivän mieliala ja energia | | | PRO-mielialapäiväkirja | | |
-| Kalorilukujen piilotus | Rauhallinen tila, Premium | | | | | | | |
+| Kalorilukujen piilotus | Ateriat arvosanoin, ilmainen | | | | | | | |
+| Tekoälyvalmentaja, jolta voi kysyä | Premium, lukee ateriasi ja mielialasi | Premium, 5 maassa | Gold, Crono Coach | Algoritmin tarkistukset, keskustelua ei kuvattu | | | | |
+| Edistymiskuvat | Ilmainen, opastettu, pysyy iPhonessa | Yksi punnitusta kohden | ”Snapshots” | Tilauksessa | | | | |
 | Mukautuvat kaloritavoitteet | | | | Päivittyy viikoittain | | | | |
 | Android tai verkkoversio | Vain iPhone ja iPad | Molemmat | Molemmat | Android | Molemmat | Android | Android | Android |
 | Suomenkielinen sovellus | | | | | | | Joulukuusta 2025 | |
@@ -63,7 +65,7 @@ Kolme viimeistä ovat tärkeämpiä kuin miltä kuulostavat. Painonhallintatutki
 
 Saatavilla Vain maksullisessa tilauksessa Ei saatavilla tai ei kuvattu Tarkistettu kunkin palveluntarjoajan verkkosivuilta, ohjekeskuksesta ja App Store -sivulta lokakuussa 2026. Sovellukset muuttuvat usein, joten tarkista tiedot ennen kuin tilaat.
 
-Kaksi riviä erottuu. Vain Fimbl kysyy, miltä sinusta tuntuu juuri syödessäsi, ja vain Fimbl kuvaa tavan lakata näkemästä kalorilukuja menettämättä historiaasi. Muut ovat pohjimmiltaan erittäin hyviä laskureita. Myös australialainen FatSecret toimii suomeksi ja skannaa viivakoodit ilmaiseksi, joten se on hyvä lisävaihtoehto, jos etsit perinteistä laskuria.[20]
+Kaksi riviä erottuu. Vain Fimbl kysyy, miltä sinusta tuntuu juuri syödessäsi, ja vain Fimbl kuvaa tavan lakata näkemästä kalorilukuja menettämättä historiaasi. Muut ovat pohjimmiltaan erittäin hyviä laskureita. Myös australialainen FatSecret toimii suomeksi ja skannaa viivakoodit ilmaiseksi, joten se on hyvä lisävaihtoehto, jos etsit perinteistä laskuria.[20] Tekoälyvalmentajat ovat myös muuttuneet vuodessa harvinaisuudesta yleisiksi, joten kannattaa kysyä, mitä kukin oikeasti lukee ja valmentaa. Vertailemme ne [tekoälyvalmentajien oppaassamme](https://fimbl.app/fi/blogi/parhaat-tekoalyvalmentaja-sovellukset/).
 
 ## Missä kukin sovellus on oikeasti paras
 
@@ -71,7 +73,7 @@ Kaksi riviä erottuu. Vain Fimbl kysyy, miltä sinusta tuntuu juuri syödessäsi
 
 ### MyFitnessPal
 
-Kalorilaskennan tunnetuin nimi: yli 20 miljoonaa ruokaa ja yhteydet kymmeniin sovelluksiin ja laitteisiin. Joulukuusta 2025 lähtien se on omistanut myös Cal AI:n.
+Kalorilaskennan tunnetuin nimi: yli 20 miljoonaa ruokaa ja yhteydet kymmeniin sovelluksiin ja laitteisiin. Joulukuusta 2025 lähtien se on omistanut myös Cal AI:n, ja kesäkuusta 2026 lähtien Premiumiin kuuluu tekoälyvalmentaja Yhdysvalloissa, Britanniassa, Kanadassa, Australiassa ja Uudessa-Seelannissa.[21]
 
 **Huomaa:** viivakoodiskannaus, mainokseton käyttö ja omat makrotavoitteet kuuluvat Premiumiin, ilmaisversiossa on mainoksia, eikä sovellusta ole suomeksi.
 
@@ -79,7 +81,7 @@ Kalorilaskennan tunnetuin nimi: yli 20 miljoonaa ruokaa ja yhteydet kymmeniin so
 
 ### Cronometer
 
-Tarkkuuden työkalu. Se seuraa ilmaiseksi 84 ravintoainetta kuratoidusta, laboratorioanalyyseihin perustuvasta datasta, ja siksi se on ravitsemusterapeuttien ja tiettyjä ravintoaineita seuraavien suosikki.
+Tarkkuuden työkalu. Se seuraa ilmaiseksi yli 95 vitamiinia ja kivennäisainetta kuratoidusta, tarkistetusta tietokannasta, ja siksi se on ravitsemusterapeuttien ja tiettyjä ravintoaineita seuraavien suosikki. Gold tuo kuva- ja äänikirjauksen sekä tekoälyassistentti Crono Coachin.
 
 **Huomaa:** ilmaisversiossa on mainoksia, sovellus ei ole suomeksi, ja yksityiskohtien määrä voi tuntua laboratorioraportilta, jos haluat vain syödä vähän paremmin.
 
@@ -143,9 +145,9 @@ Suomalainen jäsenpalvelu, jossa on ruokapäiväkirja, kaloritasoosi sovitettu a
 
 ### Fimbl
 
-Rauhallinen ruokapäiväkirja iPhonelle ja iPadille. Se seuraa kaloreita ja makroja kuten muutkin ja lisää sen, mikä muilta puuttuu: kuinka nälkäinen olit, miltä sinusta tuntui ja mitä se kertoo juuri sinusta. Ilmaisversio on täydellinen päiväkirja ilmaisella viivakoodiskannerilla, ilman mainoksia ja suomeksi. Alempana kerromme, miksi nostamme sen kärkeen.
+Moderni kuvasta kaloreita laskeva kalorilaskuri iPhonelle ja iPadille. Se seuraa kaloreita ja makroja kuten muutkin ja lisää sen, mikä muilta puuttuu: kuinka nälkäinen olit, miltä tuntui, ja valmentajan, joka yhdistää nämä. Ilmaisversio on täysi päiväkirja, jossa on viivakoodiskanneri, makrotavoitteet, yksityiset edistymiskuvat eikä mainoksia. Lisää siitä, miksi se on listan kärjessä, alempana.
 
-**Huomaa:** vain iPhone ja iPad, ei syvällistä hivenaineseurantaa, ja makrotavoitteet ja tekoälyominaisuudet kuuluvat Premiumiin.
+**Huomaa:** vain iPhone ja iPad, ei syvällistä hivenaineseurantaa, MyFitnessPalia pienempi ruokatietokanta, ja ilmaisskannaukset ylittävät kuvaskannaukset ja valmentaja kuuluvat Premiumiin.
 
 ## Kysymys, jonka useimmat vertailut ohittavat
 
@@ -166,16 +168,16 @@ Ilmainen **Se kysyy, miltä sinusta tuntuu, ei vain mitä söit** Kymmenen sekun
 - Mikään muu vertailun sovellus ei kuvaa kirjausta aterioiden yhteydessä
 - Päivän mieliala ja nälkäisyyden kehitys ajan mittaan
 
-![Fimblen Rauhallinen tila antaa kaurahiutaleille arvosanan A ja kertoo, miten ateria tuki tavoitetta, nälkää ja tuntemuksia](https://fimbl.app/assets/img/app/fi/04-meal-grades.webp)
+![Fimblen tekoäly antaa kaurahiutaleille arvosanan A ja kertoo, miten ateria tuki tavoitetta, nälkää ja tuntemuksia](https://fimbl.app/assets/img/app/fi/04-meal-grades.webp)
 
-Premium **Luvut kun haluat, arvosanat kun et** Rauhallinen tila korvaa kaloriluvut lempeillä arvosanoilla sen mukaan, miten hyvin ateria tuki tavoitteitasi, nälkääsi ja mielialaasi, ja antaa yhden idean seuraavaan kertaan. Fimbl laskee hiljaa taustalla, joten takaisin vaihtaessa mitään ei katoa.
+Ilmainen & Premium **Luvut kun haluat, arvosanat kun et** Vaihda aterioihin arvosanoin, niin kaloriluvut väistyvät: jokainen ruoka saa yksinkertaisen tasapainomerkin, ilmaiseksi. Premium tuo jokaiselle ruoalle tekoälyn arvosanan, syyn sen taakse, vinkit ja vaihtoehdot. Fimbl laskee hiljaa taustalla, joten takaisin vaihtaessa mitään ei katoa.
 
 - Herkkupäivät saavat kontekstia, eivät punaisia lukuja
 - Ainoa löytämämme tila, jossa luvut ovat valinnaisia
 
 ![Fimblen tekoälykaloriskannaus arvioi açaí-kulhon 460 kilokaloriksi ja näyttää hiilihydraatit, rasvan ja proteiinin](https://fimbl.app/assets/img/app/fi/02-photo-scan.webp)
 
-Ilmainen & Premium **Kirjaaminen sekunneissa, juuri sinulle sopivalla tavalla** Hae nimellä tai merkillä ja skannaa viivakoodit ilmaiseksi, tallenna tavalliset ateriasi ja kirjaa ne yhdellä napautuksella tai pyydä Siriä. Premiumilla voit kuvata lautasesi, kuvailla aterian äänellä tai tekstillä tai skannata ravintoarvotaulukon. Voit muokata jokaista arviota ennen tallennusta.
+Ilmainen & Premium **Kirjaaminen sekunneissa, juuri sinulle sopivalla tavalla** Hae nimellä tai merkillä ja skannaa viivakoodit ilmaiseksi, tallenna tavalliset ateriasi ja kirjaa ne yhdellä napautuksella tai pyydä Siriä. Kuvaa lautasesi tai kuvaile se muutamalla sanalla: kolme ensimmäistä on ilmaisia, ja Apple Intelligencea tukevissa iPhoneissa ne pysyvät ilmaisina. Premium tuo kuvaskannaukset jokaiselle aterialle, äänikirjauksen ja ravintoarvotaulukon skannauksen. Voit muokata jokaista arviota ennen tallennusta.
 
 - Viivakoodiskannaus on ilmainen, eikä mainoksia ole
 - Tuotteen arvot väärin? Korjaa ne kerran, niin Fimbl muistaa
@@ -190,7 +192,7 @@ Ilmainen & Premium **Kirjaaminen sekunneissa, juuri sinulle sopivalla tavalla** 
 
 ![Fimblen viikon pohdinta otsikolla Aamut, jotka kantoivat sinua: kirjatut päivät 6/7, keskimäärin 1 840 kcal, painon muutos −0,4 kg ja mieliala 3,8/5](https://fimbl.app/assets/img/app/fi/09-ai.webp)
 
-**Viikon pohdinta** Onnistumiset, kuviot ja yksi lempeä painopiste, kirjoitettuna sinun viikostasi.
+**Viikon pohdinta ja valmentaja** Onnistumiset, kuviot ja yksi lempeä painopiste, kirjoitettuna sinun viikostasi. Sitten voit kysyä valmentajaltasi lisää.
 
 ![Fimblen edistymiskuvien vertailu: ENNEN- ja JÄLKEEN-kuvat 195 päivän välein ja painon muutos −13,8 kg](https://fimbl.app/assets/img/app/fi/photos-compare.webp)
 
@@ -237,7 +239,7 @@ Anna sille sitten oikea viikko. Ei täydellistä viikkoa, vaan ihan tavallinen. 
 
 ### Mikä on paras kalorilaskuri vuonna 2026?
 
-Se riippuu siitä, mitä tarvitset. Useimmille, jotka haluavat kestävän tavan ilman syyllisyyttä, suosittelemme Fimbleä: siinä yhdistyvät nopea kirjaaminen, nälän ja tuntemusten kirjaus aterioiden yhteydessä ja valinnainen Rauhallinen tila ilman kalorilukuja. Cronometer on paras hivenaineiden tarkkaan seurantaan, MacroFactor mukautuviin makrotavoitteisiin ja MyFitnessPal laajimpaan ruokatietokantaan.
+Se riippuu siitä, mitä tarvitset. iPhonella suosittelemme Fimbleä useimmille, jotka haluavat laihtua ja pysyä mukana: siinä yhdistyvät kalorit kuvasta, ilmaiset makrotavoitteet ja yksityiset edistymiskuvat, nälän ja tuntemusten kirjaus sekä omat päiväsi lukeva tekoälyvalmentaja. Cronometer on paras hivenaineiden tarkkaan seurantaan, MacroFactor mukautuviin makrotavoitteisiin ja MyFitnessPal laajimpaan ruokatietokantaan.
 
 ### Mikä on paras ilmainen kalorilaskuri?
 
@@ -253,7 +255,7 @@ Fimblessä ei ole mainoksia ilmais- eikä Premium-versiossa. MacroFactor ei käy
 
 ### Voiko ruokaa seurata näkemättä kaloreita?
 
-Voi. Fimblen Rauhallinen tila (Premium) korvaa kaloriluvut lempeillä A–C-arvosanoilla sen mukaan, miten hyvin ateria tuki tavoitteitasi, nälkääsi ja mielialaasi. Fimbl laskee taustalla edelleen, joten voit palata lukuihin milloin tahansa. Muut tämän vertailun sovellukset eivät kuvaa vastaavaa tilaa.
+Voi. Fimblen ateriat arvosanoin -näkymä on ilmainen: kaloriluvut väistyvät ja jokainen ruoka saa yksinkertaisen tasapainomerkin. Premium tuo tekoälyn arvosanan syineen, vinkkeineen ja vaihtoehtoineen. Fimbl laskee taustalla edelleen, joten voit palata lukuihin milloin tahansa. Muut tämän vertailun sovellukset eivät kuvaa vastaavaa tilaa.
 
 ### Mikä on hyvä MyFitnessPal-vaihtoehto?
 
@@ -262,6 +264,10 @@ iPhonella Fimbl on hyvä vaihtoehto, jos haluat ilmaisen viivakoodiskannauksen, 
 ### Onko kalorien laskeminen haitallista mielenterveydelle?
 
 Monelle se on hyödyllinen ja neutraali työkalu. Osa tutkimuksista yhdistää kalorilaskurien käytön joillakin käyttäjillä lisääntyneeseen syömiseen liittyvään huoleen, kun taas satunnaistetussa tutkimuksessa matalan riskin opiskelijoiden syömishäiriöriski ei kasvanut. Jos seuranta ahdistaa, kokeile tapaa, jossa luvut ovat valinnaisia. Jos ruoka tuntuu ylivoimaiselta, puhu terveydenhuollon ammattilaisen kanssa.
+
+### Missä kalorilaskureissa on tekoälyvalmentaja?
+
+Marraskuussa 2026 oman datasi pohjalta vastaavan tekoälyvalmentajan kuvaavat Fimbl (Premium), MyFitnessPal (Premium, viidessä maassa) ja Cronometer (Gold, nimeltään Crono Coach). MacroFactor säätää tavoitteitasi viikoittaisella valmennusalgoritmilla keskustelun sijaan. Katso koko vertailumme tekoälyvalmentajista.
 
 ### Toimiiko Fimbl Androidilla?
 
@@ -289,32 +295,34 @@ Ei. Fimbl on tehty natiivisti iPhonelle ja iPadille, joissa on iOS tai iPadOS 26
 18. Keventäjät-sovelluksen App Store -sivu ja versiohistoria. [apps.apple.com](https://apps.apple.com/fi/app/keventajat/id1284491297)
 19. Lifesum: sovelluksen kielen vaihtaminen (Lifesumin ohjekeskus). [help.lifesum.com](https://help.lifesum.com/en/article/how-can-i-change-the-language-in-the-app-ios-irx33t/)
 20. FatSecretin App Store -sivu (Suomi). [apps.apple.com](https://apps.apple.com/fi/app/fatsecret-calorie-counter/id347184248)
+21. 9to5Mac (kesäkuu 2026): MyFitnessPal lisää tekoälyvalmentajan Premium- ja Premium+-tilaajille (englanniksi). [9to5mac.com](https://9to5mac.com/2026/06/16/myfitnesspal-adds-ai-powered-coach-for-personalized-nutrition-guidance/)
+22. Cronometer: Crono Coach ja Cronometerin App Store -sivu. Tarkistettu marraskuussa 2026 (englanniksi). [cronometer.com](https://cronometer.com/blog/crono-coach/)
 
 Kasper Koskenvirta
 
 Fimblen perustaja
 
-Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on kuvasta kaloreita laskeva ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
+Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on moderni tekoälykalorilaskuri, jossa on valmentaja ja yksityiset edistymiskuvat, iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
 
 ## Lue seuraavaksi
 
 Vertailu 12 min lukuaika
 
-### [Parhaat sovellukset edistymiskuviin vuonna 2026, vertailussa](https://fimbl.app/fi/blogi/parhaat-edistymiskuva-sovellukset/)
+### [Parhaat laihdutussovellukset vuonna 2026, vertailussa](https://fimbl.app/fi/blogi/parhaat-laihdutussovellukset/)
 
-Fimbl, Progress, Hevy, MacroFactor, MyFitnessPal ja Cronometer vertailussa edistymiskuville: opastetut asennot, päällekkäiskuva, vertailu ja yksityisyys.
+Fimbl, Noom, MyFitnessPal, Lose It!, MacroFactor, Cronometer ja YAZIO vertailussa laihdutukseen: kalorit, tekoälyvalmentajat, edistymiskuvat ja hinta.
 
- 19. lokakuuta 2026
+ 6. marraskuuta 2026
 
-Kalorien seuranta 8 min lukuaika
+Vertailu 11 min lukuaika
 
-### [Kuinka tarkka tekoälykalorilaskuri on, ja onko sillä väliä?](https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/)
+### [Parhaat tekoälyvalmentajat vuonna 2026, ja mitä kukin oikeasti valmentaa](https://fimbl.app/fi/blogi/parhaat-tekoalyvalmentaja-sovellukset/)
 
-Tekoälyn kuvasta tekemät kaloriarviot heittävät keskimäärin noin kolmanneksen, kuten käsin kirjauskin. Mitä tutkimukset sanovat ja milloin skannata viivakoodi.
+Fimbl, MyFitnessPal, Noom, Cronometer, Google Health Coach, WHOOP, Fitbod ja MacroFactor vertailussa: mitä kukin tekoälyvalmentaja näkee ja mitä se maksaa.
 
- 19. lokakuuta 2026
+ 6. marraskuuta 2026
 
-## Aloita hyvinvointimatkasi
+## Kuvaa ensimmäinen ateriasi. Jatka eteenpäin.
 
 Ilmainen ladata. Ensimmäinen kuva vie sekunteja.
 

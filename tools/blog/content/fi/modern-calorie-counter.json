@@ -1,0 +1,144 @@
+{
+  "id": "modern-calorie-counter",
+  "slug": "moderni-kalorilaskuri",
+  "title": "Moderni kalorilaskuri 2026: mitä siltä kannattaa vaatia",
+  "headline": "Mitä moderni kalorilaskuri tekee vuonna 2026, ja mitkä sovellukset siihen pystyvät",
+  "h1": "Mitä moderni kalorilaskuri tekee vuonna 2026, <span class=\"accent\">ja mitkä sovellukset siihen pystyvät</span>",
+  "dek": "Kirjaus kuvasta, valmentaja, joka lukee tietojasi, luvut, jotka voi kytkeä pois, eikä mainoksia. Kahdeksan asiaa, jotka erottavat modernin kalorilaskurin hakukentästä, ja miten Fimbl, Cal AI, MyFitnessPal, MacroFactor, Lifesum, Lose It! ja Cronometer pärjäävät.",
+  "description": "Moderni kalorilaskuri kirjaa kuvasta, valmentaa omista tiedoistasi eikä näytä mainoksia. Kahdeksan asiaa, joita etsiä, ja nykyiset sovellukset vertailussa.",
+  "tag": "Kalorien seuranta",
+  "og_title": "Mitä moderni kalorilaskuri tekee vuonna 2026, ja mitkä sovellukset siihen pystyvät",
+  "og_kicker": "Kalorien seuranta · 2026",
+  "og_heading": "Mitä moderni kalorilaskuri <span>oikeasti tekee</span>",
+  "og_alt": "Fimblen kuvaskannaus ja päiväkirja otsikon vieressä: mitä moderni kalorilaskuri oikeasti tekee",
+  "keywords": [
+    "moderni kalorilaskuri",
+    "kalorilaskuri kuvasta",
+    "tekoäly kalorilaskuri",
+    "kalorilaskuri sovellus",
+    "MyFitnessPal vaihtoehto",
+    "kalorilaskuri ilman mainoksia"
+  ],
+  "about": [
+    "Kalorien laskeminen",
+    "Tekoälyn ruokakirjaus",
+    "Ruokapäiväkirjasovellukset"
+  ],
+  "mentions": [
+    "Fimbl",
+    "Cal AI",
+    "MyFitnessPal",
+    "MacroFactor",
+    "Lifesum",
+    "Lose It!",
+    "Cronometer",
+    "YAZIO"
+  ],
+  "published": "2026-11-06",
+  "modified": "2026-11-06",
+  "related": [
+    "calorie-trackers",
+    "ai-calorie-tracking"
+  ],
+  "cover": [
+    "02-photo-scan",
+    "01-diary",
+    "04-meal-grades"
+  ],
+  "cover_alt": [
+    "Fimblen kaloriskannaus kuvasta arvioi açaí-kulhon 460 kilokaloriksi",
+    "Fimblen ruokapäiväkirja, jossa näkyvät jäljellä olevat kalorit ja renkaat hiilihydraateille, rasvalle ja proteiinille"
+  ],
+  "chips": [
+    {
+      "emoji": "📷",
+      "title": "460 kcal",
+      "sub": "Yhdestä kuvasta"
+    },
+    {
+      "emoji": "🥣",
+      "title": "Aamiainen kirjattu",
+      "sub": "Ilman tiliä"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Mikä on modernein kalorilaskuri?",
+      "a": "iPhonella valitsisimme Fimblen: kirjaus kuvasta, äänellä ja tekstillä, ilmainen viivakoodiskanneri, ensimmäinen ateria ilman tiliä, omat päiväsi lukeva tekoälyvalmentaja, valinnaiset luvut ateriat arvosanoin -näkymällä, yksityiset edistymiskuvat eikä mainoksia. Cal AI on yksinkertaisin kuvapohjainen laskuri, ja MacroFactor on edistynein mukautuvissa tavoitteissa."
+    },
+    {
+      "q": "Mikä on paras tekoälykalorilaskuri?",
+      "a": "Se riippuu siitä, mitä haluat skannauksen ympärille. Fimbl yhdistää kuvaskannauksen valmentajaan, kirjauksiin ja edistymiskuviin: 3 skannausta on ilmaisia, ja iPhoneissa, joissa on Apple Intelligence, skannaukset pysyvät ilmaisina senkin jälkeen. Cal AI rakentuu pelkästään kuvan ympärille, mutta sen skannaustulokset vaativat tilauksen. MacroFactor ja MyFitnessPal tarjoavat tekoälykirjauksen laajempien seurantatyökalujen päälle."
+    },
+    {
+      "q": "Kuinka tarkkoja kuvasta laskevat kalorilaskurit ovat?",
+      "a": "Ne ovat karkeita mutta hyödyllisiä. Vuoden 2025 tutkimuksessa parhaat yleiskäyttöiset tekoälymallit heittivät keskimäärin noin 36 % kuvaa kohden, mikä on verrattavissa perinteisiin itse täytettyihin ruokapäiväkirjoihin, ja ne aliarvioivat yleensä suuria annoksia. Aterian kuvailu parilla sanalla parantaa arviota, ja pakatuissa ruoissa viivakoodi on luotettavampi."
+    },
+    {
+      "q": "Onko olemassa kalorilaskuria ilman mainoksia?",
+      "a": "On. Fimblessä ei ole mainoksia ilmais- eikä Premium-versiossa. MacroFactor ei käytä mainoksia, mutta siinä ei ole ilmaisversiota, eivätkä Lifesum ja Cal AI ilmoita mainoksista. MyFitnessPalin, Cronometerin, Lose It!:n ja YAZIOn ilmaisversioissa on mainoksia, jotka poistuvat maksullisella tilauksella."
+    },
+    {
+      "q": "Voiko kalorilaskuria käyttää ilman tiliä?",
+      "a": "Fimblessä voit kirjata ensimmäisen ateriasi ja käyttää päiväkirjaa ilman tiliä, ja päiväkirja siirtyy tilillesi, kun luot sellaisen. Valmentaja ja viikon pohdinnat vaativat ilmaisen tilin, jotta ne voivat muistaa viikkosi. Muista vertailemistamme sovelluksista emme löytäneet tästä kuvausta."
+    },
+    {
+      "q": "Mikä on paras moderni MyFitnessPal-vaihtoehto?",
+      "a": "iPhonella Fimbl on hyvä vaihtoehto, jos haluat ilmaisen viivakoodiskannerin, ei mainoksia, kuvakirjauksen ja valmentajan. Cronometer sopii niille, jotka haluavat tarkkaa hivenaineseurantaa, ja se toimii Androidilla ja verkossa. MacroFactor sopii niille, jotka haluavat mukautuvat tavoitteet. Jos MyFitnessPalin tietokanta on sinulle tärkein, sitä on yhä vaikea voittaa."
+    },
+    {
+      "q": "Pitääkö kaloreita laskea, jotta laihtuu?",
+      "a": "Ei, mutta moni näkee sen avulla, mitä oikeasti syö. Jos luvut uuvuttavat, kalorilaskuri, jossa luvut ovat valinnaisia, kuten Fimblen ateriat arvosanoin, pitää kirjanpidon ilman päivän summaa. Muitakin seurantatapoja on, kuten lautasmalli ja nälkäasteikko. Niistä kerromme oppaassamme syömisen seurannasta laskematta kaloreita."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Fridolfsson J, Sjöberg E, Thiwång M ym. (2025). Kolmen suuren kielimallin suorituskyky ravintosisällön arvioinnissa ruokakuvista. Current Developments in Nutrition 9(10).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41081011/"
+    },
+    {
+      "text": "Rodríguez-Jiménez M ym. (2025). Energian ja makroravinteiden arviointi kuvista ChatGPT-5:llä: lähteiden välinen arviointi kontekstia lisäävissä skenaarioissa. Nutrients 17(22).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41305663/"
+    },
+    {
+      "text": "MyFitnessPal Premiumin ominaisuudet. Tarkistettu marraskuussa 2026 (englanniksi).",
+      "url": "https://www.myfitnesspal.com/premium"
+    },
+    {
+      "text": "9to5Mac (kesäkuu 2026): MyFitnessPal tuo tekoälypohjaisen Coachin (englanniksi).",
+      "url": "https://9to5mac.com/2026/06/16/myfitnesspal-adds-ai-powered-coach-for-personalized-nutrition-guidance/"
+    },
+    {
+      "text": "Cal AI:n App Store -sivu. Tarkistettu marraskuussa 2026 (englanniksi).",
+      "url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616"
+    },
+    {
+      "text": "MacroFactor-sovelluksen esittely ja hinnat. Tarkistettu marraskuussa 2026 (englanniksi).",
+      "url": "https://macrofactor.com/macrofactor/"
+    },
+    {
+      "text": "Lifesumin App Store -sivu. Tarkistettu marraskuussa 2026 (englanniksi).",
+      "url": "https://apps.apple.com/us/app/lifesum-ai-calorie-counter/id286906691"
+    },
+    {
+      "text": "Lifesum Premiumin ominaisuudet (Lifesumin ohjekeskus). Tarkistettu marraskuussa 2026 (englanniksi).",
+      "url": "https://help.lifesum.com/en/article/what-do-i-get-when-i-buy-premium-1vzq8pz/"
+    },
+    {
+      "text": "Lose It! -sovelluksen App Store -sivu. Tarkistettu marraskuussa 2026 (englanniksi).",
+      "url": "https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629"
+    },
+    {
+      "text": "Cronometerin App Store -sivu. Tarkistettu marraskuussa 2026 (englanniksi).",
+      "url": "https://apps.apple.com/us/app/cronometer-calorie-counter/id1145935738"
+    },
+    {
+      "text": "Cronometer: Crono Coach. Tarkistettu marraskuussa 2026 (englanniksi).",
+      "url": "https://cronometer.com/blog/crono-coach/"
+    },
+    {
+      "text": "YAZIO PRO -ominaisuudet (YAZIOn ohjekeskus). Tarkistettu marraskuussa 2026 (englanniksi).",
+      "url": "https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals"
+    }
+  ]
+}

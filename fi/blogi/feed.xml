@@ -4,8 +4,36 @@
     <title>Fimbl-blogi</title>
     <link>https://fimbl.app/fi/blogi/</link>
     <atom:link href="https://fimbl.app/fi/blogi/feed.xml" rel="self" type="application/rss+xml"/>
-    <description>Oppaita kalorilaskureista, syömistottumuksista ja kestävistä tavoista. Kirjoittajina Fimblen, kuvasta kaloreita laskevan ruokapäiväkirjan, tekijät.</description>
+    <description>Oppaita kalorilaskureista, tekoälyvalmentajista, laihdutussovelluksista ja edistymiskuvista. Kirjoittajina Fimblen, modernin tekoälykalorilaskurin, tekijät.</description>
     <language>fi-fi</language>
+    <item>
+      <title>Parhaat laihdutussovellukset vuonna 2026, vertailussa</title>
+      <link>https://fimbl.app/fi/blogi/parhaat-laihdutussovellukset/</link>
+      <guid isPermaLink="true">https://fimbl.app/fi/blogi/parhaat-laihdutussovellukset/</guid>
+      <pubDate>Fri, 06 Nov 2026 08:00:00 +0300</pubDate>
+      <description>Fimbl, Noom, MyFitnessPal, Lose It!, MacroFactor, Cronometer ja YAZIO vertailussa laihdutukseen: kalorit, tekoälyvalmentajat, edistymiskuvat ja hinta.</description>
+    </item>
+    <item>
+      <title>Parhaat tekoälyvalmentajat vuonna 2026, ja mitä kukin oikeasti valmentaa</title>
+      <link>https://fimbl.app/fi/blogi/parhaat-tekoalyvalmentaja-sovellukset/</link>
+      <guid isPermaLink="true">https://fimbl.app/fi/blogi/parhaat-tekoalyvalmentaja-sovellukset/</guid>
+      <pubDate>Fri, 06 Nov 2026 08:00:00 +0300</pubDate>
+      <description>Fimbl, MyFitnessPal, Noom, Cronometer, Google Health Coach, WHOOP, Fitbod ja MacroFactor vertailussa: mitä kukin tekoälyvalmentaja näkee ja mitä se maksaa.</description>
+    </item>
+    <item>
+      <title>Mitä moderni kalorilaskuri tekee vuonna 2026, ja mitkä sovellukset siihen pystyvät</title>
+      <link>https://fimbl.app/fi/blogi/moderni-kalorilaskuri/</link>
+      <guid isPermaLink="true">https://fimbl.app/fi/blogi/moderni-kalorilaskuri/</guid>
+      <pubDate>Fri, 06 Nov 2026 08:00:00 +0300</pubDate>
+      <description>Moderni kalorilaskuri kirjaa kuvasta, valmentaa omista tiedoistasi eikä näytä mainoksia. Kahdeksan asiaa, joita etsiä, ja nykyiset sovellukset vertailussa.</description>
+    </item>
+    <item>
+      <title>Paras kalorilaskuri vuonna 2026: sovellukset vertailussa</title>
+      <link>https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/</link>
+      <guid isPermaLink="true">https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/</guid>
+      <pubDate>Sat, 17 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Kalorilaskurivertailu 2026: Fimbl, MyFitnessPal, Cronometer, YAZIO, Lifesum ja muut. Ilmaisominaisuudet, mainokset, suomen kieli ja kenelle mikin sopii.</description>
+    </item>
     <item>
       <title>Parhaat sovellukset edistymiskuviin vuonna 2026, vertailussa</title>
       <link>https://fimbl.app/fi/blogi/parhaat-edistymiskuva-sovellukset/</link>
@@ -33,13 +61,6 @@
       <guid isPermaLink="true">https://fimbl.app/fi/blogi/ruokapaivakirjan-aloittaminen/</guid>
       <pubDate>Mon, 19 Oct 2026 08:00:00 +0300</pubDate>
       <description>Näin aloitat ruokapäiväkirjan, joka kestää: mitä kirjata, 7 päivän suunnitelma aloittelijalle yksi askel päivässä ja viisi virhettä, jotka lopettavat sen.</description>
-    </item>
-    <item>
-      <title>Paras kalorilaskuri vuonna 2026: sovellukset vertailussa</title>
-      <link>https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/</link>
-      <guid isPermaLink="true">https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/</guid>
-      <pubDate>Sat, 17 Oct 2026 08:00:00 +0300</pubDate>
-      <description>Kalorilaskurivertailu 2026: Fimbl, MyFitnessPal, Cronometer, YAZIO, Lifesum ja muut. Ilmaisominaisuudet, mainokset, suomen kieli ja kenelle mikin sopii.</description>
     </item>
     <item>
       <title>Miksi teimme kalorilaskurin, joka ei tuomitse</title>

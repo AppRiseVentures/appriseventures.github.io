@@ -959,12 +959,21 @@ def render_home_cards(lang: str, posts: dict) -> str:
     return '        <ul class="post-cards post-cards-home">\n' + "\n".join(cards) + "\n        </ul>"
 
 
+def render_home_faq_schema(page: str, lang: str) -> str:
+    """FAQPage structured data read from the landing page's visible FAQ, so the two can't drift apart."""
+    faq = page[page.index('id="faq"') :]
+    questions = [{"@type": "Question", "name": strip_tags(q), "acceptedAnswer": {"@type": "Answer", "text": strip_tags(a)}} for q, a in re.findall(r"<summary>(.*?)</summary>\s*<p>(.*?)</p>", faq, re.S)]
+    data = {"@context": "https://schema.org", "@type": "FAQPage", "@id": url(SITE["languages"][lang]["home"]) + "#faq", "inLanguage": SITE["languages"][lang]["locale"].replace("_", "-"), "mainEntity": questions}
+    return ld(data).rstrip("\n")
+
+
 def update_home_pages(posts: dict) -> None:
-    """Refreshes the "From the blog" cards between the markers on each landing page; the rest of the page is hand-written."""
+    """Refreshes the "From the blog" cards and the FAQ schema between the markers on each landing page; the rest of the page is hand-written."""
     for lang in LANGS:
         path = ROOT / SITE["languages"][lang]["home"].strip("/") / "index.html"
         text = path.read_text()
         new = re.sub(r"(<!-- blog-cards:start -->\n).*?(\n\s*<!-- blog-cards:end -->)", lambda m: m.group(1) + render_home_cards(lang, posts) + m.group(2), text, flags=re.S)
+        new = re.sub(r"(<!-- faq-schema:start -->\n).*?(\s*<!-- faq-schema:end -->)", lambda m: m.group(1) + render_home_faq_schema(new, lang) + m.group(2), new, flags=re.S)
         if new != text:
             path.write_text(new)
         print("updated", path.relative_to(ROOT))

@@ -1,6 +1,6 @@
 ---
 title: "Fimbl Blog: Kalorien zählen, Essgewohnheiten, Ernährungstagebuch"
-description: "Ratgeber zu Kalorienzähler-Apps, Essgewohnheiten und Routinen, die bleiben. Vom Team hinter Fimbl, dem Foto-Kalorienzähler fürs iPhone."
+description: "Ratgeber zu Kalorienzählern, Abnehmen und Gewohnheiten, die bleiben. Vom Team hinter Fimbl, dem modernen KI-Kalorienzähler fürs iPhone."
 url: "https://fimbl.app/de/blog/"
 language: "de"
 ---
@@ -22,7 +22,7 @@ KI-Kalorienschätzungen per Foto liegen im Schnitt um etwa ein Drittel daneben, 
 
  19. Oktober 2026
 
-Achtsam essen 8 Min. Lesezeit
+Achtsam essen 9 Min. Lesezeit
 
 ## [So hältst du fest, was du isst, ohne Kalorien zu zählen](https://fimbl.app/de/blog/essen-tracken-ohne-kalorien-zaehlen/)
 
@@ -54,7 +54,7 @@ Emotionaler oder echter Hunger? 7 Unterschiede, eine Hungerskala von 1 bis 10 un
 
  17. Oktober 2026
 
-## Starte deine Wellness-Reise
+## Erste Mahlzeit fotografieren. Dranbleiben.
 
 Kostenlos laden. Dein erster Scan dauert Sekunden.
 

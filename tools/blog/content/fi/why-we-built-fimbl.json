@@ -15,9 +15,9 @@
   "about": ["Tietoinen syöminen", "Kalorien laskeminen", "Tapojen muodostuminen", "Tuotesuunnittelu"],
   "mentions": ["Fimbl"],
   "published": "2026-10-17",
-  "modified": "2026-10-17",
+  "modified": "2026-11-06",
   "cover": ["04-meal-grades", "09-ai", "goals"],
-  "cover_alt": ["Fimblen rauhallinen tila antaa kaurahiutaleille arvosanan A: tasaista energiaa aamuun", "Fimblen viikon pohdinta otsikolla Aamut, jotka kantoivat sinua"],
+  "cover_alt": ["Fimblen tekoäly antaa kaurahiutaleille arvosanan A: tasaista energiaa aamuun", "Fimblen viikon pohdinta otsikolla Aamut, jotka kantoivat sinua"],
   "chips": [
     { "emoji": "🌱", "title": "Jäikö päivä väliin?", "sub": "Kunhan kahta ei jää peräkkäin" },
     { "emoji": "✨", "title": "Viikon pohdinta", "sub": "Aamut, jotka kantoivat sinua" }
@@ -33,7 +33,7 @@
     },
     {
       "q": "Mitä Fimblessä saa ilmaiseksi ja mitä Premiumilla?",
-      "a": "Sovelluksen ydin on ilmainen ja ilman mainoksia: ruokapäiväkirja, haku ja viivakoodiskannaus, tallennetut ateriat, paino, mieliala ja aterioiden tuntemusten kirjaukset, aktiivisuus Terveys-apista, tavoitteet ja putket, edistymiskuvat sekä Ensimmäinen viikkosi -opastus. Premium tuo makrotavoitteet, tekoälyominaisuudet (kuvaskannaus, aterian kuvailu äänellä tai tekstillä, ravintoarvomerkinnän skannaus, reseptit videoista, viikon pohdinnat ja valmentaja, rauhallinen tila sekä terveellisemmät vaihtoehdot), widgetit, lisää ateriapaikkoja ja putken palautuksen."
+      "a": "Sovelluksen ydin on ilmainen ja ilman mainoksia: ruokapäiväkirja, haku ja viivakoodiskannaus, tallennetut ateriat, makrot ja makrotavoitteet, paino, mieliala ja aterioiden tuntemusten kirjaukset, aktiivisuus Terveys-apista, tavoitteet ja putket, edistymiskuvat, ateriat arvosanoin, oma tarinasi ja Ensimmäinen viikkosi -opastus sekä 3 kuvaskannausta ja ensimmäinen viikon pohdintasi. Premium tuo lisää kuvaskannauksia, äänikirjauksen, reseptit videoista, viikon pohdinnat ja valmentajan, tekoälyn arvosanat ja terveellisemmät vaihtoehdot, lisää widgettejä ja putken palautuksen."
     },
     {
       "q": "Käytetäänkö tietojani tekoälyn kouluttamiseen?",

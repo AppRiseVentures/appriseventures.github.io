@@ -1,0 +1,144 @@
+{
+  "id": "modern-calorie-counter",
+  "slug": "modern-calorie-counter-app",
+  "title": "Modern Calorie Counter Apps: What to Look For in 2026",
+  "headline": "What a modern calorie counter does in 2026, and which apps do it",
+  "h1": "What a modern calorie counter does in 2026, <span class=\"accent\">and which apps do it</span>",
+  "dek": "Photo logging, a coach that reads your data, numbers you can switch off and no ads. Eight things that separate a modern calorie counter from a search box, and how Fimbl, Cal AI, MyFitnessPal, MacroFactor, Lifesum, Lose It! and Cronometer score.",
+  "description": "A modern calorie counter logs from a photo, coaches from your data and has no ads. Eight things to look for, and how today's calorie apps compare.",
+  "tag": "Calorie tracking",
+  "og_title": "What a modern calorie counter does in 2026, and which apps do it",
+  "og_kicker": "Calorie tracking · 2026",
+  "og_heading": "What a modern calorie counter <span>actually does</span>",
+  "og_alt": "Fimbl photo scan and diary screens next to the headline: what a modern calorie counter actually does",
+  "keywords": [
+    "modern calorie counter",
+    "modern calorie tracker app",
+    "AI calorie counter",
+    "photo calorie counter app",
+    "MyFitnessPal alternative",
+    "calorie counter without ads"
+  ],
+  "about": [
+    "Calorie counting",
+    "AI food logging",
+    "Food tracking apps"
+  ],
+  "mentions": [
+    "Fimbl",
+    "Cal AI",
+    "MyFitnessPal",
+    "MacroFactor",
+    "Lifesum",
+    "Lose It!",
+    "Cronometer",
+    "YAZIO"
+  ],
+  "published": "2026-11-06",
+  "modified": "2026-11-06",
+  "related": [
+    "calorie-trackers",
+    "ai-calorie-tracking"
+  ],
+  "cover": [
+    "02-photo-scan",
+    "01-diary",
+    "04-meal-grades"
+  ],
+  "cover_alt": [
+    "Fimbl photo calorie scan estimating an açaí bowl at 460 kcal",
+    "Fimbl eating diary with calories left and rings for carbs, fat and protein"
+  ],
+  "chips": [
+    {
+      "emoji": "📷",
+      "title": "460 kcal",
+      "sub": "From one photo"
+    },
+    {
+      "emoji": "🥣",
+      "title": "Breakfast logged",
+      "sub": "No account needed"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the most modern calorie counter app?",
+      "a": "On iPhone, we'd pick Fimbl: photo, voice and text logging, a free barcode scanner, no account needed for your first meal, an AI coach that reads your own days, optional numbers with Graded meals, private progress photos and no ads. Cal AI is the simplest photo-first tracker, and MacroFactor is the most advanced on adaptive targets."
+    },
+    {
+      "q": "What is the best AI calorie counter?",
+      "a": "It depends on what you want around the scan. Fimbl pairs photo scans with a coach, check-ins and progress photos, with 3 free scans and free scans afterwards on iPhones with Apple Intelligence. Cal AI is built purely around the photo, though its scan results need a subscription. MacroFactor and MyFitnessPal offer AI logging on top of larger tracking tools."
+    },
+    {
+      "q": "How accurate are photo calorie counters?",
+      "a": "They're rough but useful. In a 2025 study, the best general-purpose AI models were off by about 36% per photo on average, comparable to traditional self-reported diaries, and they tended to underestimate large portions. Describing the meal in a few words improves the estimate, and for packaged food a barcode scan is more reliable."
+    },
+    {
+      "q": "Is there a calorie counter without ads?",
+      "a": "Yes. Fimbl has no ads in either its free or Premium version. MacroFactor never uses ads but has no free tier, and Lifesum and Cal AI list none. MyFitnessPal, Cronometer, Lose It! and YAZIO show ads in their free versions and remove them with a paid plan."
+    },
+    {
+      "q": "Can I use a calorie counter without making an account?",
+      "a": "Fimbl lets you log your first meal and use your diary without an account, and it moves to your account whenever you make one. The coach and weekly reflections need a free account so they can remember your weeks. We didn't find this documented for the other apps we compared."
+    },
+    {
+      "q": "What is the best modern alternative to MyFitnessPal?",
+      "a": "On iPhone, Fimbl is a good alternative if you want a free barcode scanner, no ads, photo logging and a coach. Cronometer suits people who want micronutrient detail and works on Android and the web. MacroFactor suits people who want adaptive targets. If MyFitnessPal's database matters most to you, it's still hard to beat."
+    },
+    {
+      "q": "Do I need to count calories to lose weight?",
+      "a": "No, though it helps many people see what they're really eating. If numbers wear you out, a calorie counter with a numbers-optional view, like Fimbl's Graded meals, keeps the record without the daily total. There are also other ways to track, such as the plate method and hunger scales, which we cover in our guide to tracking food without counting calories."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Fridolfsson J, Sjöberg E, Thiwång M et al. (2025). Performance evaluation of 3 large language models for nutritional content estimation from food images. Current Developments in Nutrition 9(10).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41081011/"
+    },
+    {
+      "text": "Rodríguez-Jiménez M et al. (2025). Image-based dietary energy and macronutrients estimation with ChatGPT-5: cross-source evaluation across escalating context scenarios. Nutrients 17(22).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41305663/"
+    },
+    {
+      "text": "MyFitnessPal Premium features. Checked November 2026.",
+      "url": "https://www.myfitnesspal.com/premium"
+    },
+    {
+      "text": "9to5Mac (June 2026): MyFitnessPal adds AI-powered Coach.",
+      "url": "https://9to5mac.com/2026/06/16/myfitnesspal-adds-ai-powered-coach-for-personalized-nutrition-guidance/"
+    },
+    {
+      "text": "Cal AI App Store listing. Checked November 2026.",
+      "url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616"
+    },
+    {
+      "text": "MacroFactor app overview and pricing. Checked November 2026.",
+      "url": "https://macrofactor.com/macrofactor/"
+    },
+    {
+      "text": "Lifesum App Store listing. Checked November 2026.",
+      "url": "https://apps.apple.com/us/app/lifesum-ai-calorie-counter/id286906691"
+    },
+    {
+      "text": "Lifesum Premium features (Lifesum help center). Checked November 2026.",
+      "url": "https://help.lifesum.com/en/article/what-do-i-get-when-i-buy-premium-1vzq8pz/"
+    },
+    {
+      "text": "Lose It! App Store listing. Checked November 2026.",
+      "url": "https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629"
+    },
+    {
+      "text": "Cronometer App Store listing. Checked November 2026.",
+      "url": "https://apps.apple.com/us/app/cronometer-calorie-counter/id1145935738"
+    },
+    {
+      "text": "Cronometer: Crono Coach. Checked November 2026.",
+      "url": "https://cronometer.com/blog/crono-coach/"
+    },
+    {
+      "text": "YAZIO PRO features (YAZIO help center). Checked November 2026.",
+      "url": "https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals"
+    }
+  ]
+}

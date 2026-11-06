@@ -1,6 +1,6 @@
 ---
-title: "Fimbl – Photo Calorie Counter & AI Coach for iPhone"
-description: "Snap your meal and know your calories in seconds. Fimbl keeps your why and your people close, and its coach learns why you eat the way you do. Log your first meal with no account. Free, with no ads."
+title: "Fimbl – AI Calorie Counter & Coach for Weight Loss on iPhone"
+description: "Fimbl is a modern AI calorie counter for iPhone: snap a meal for calories and macros, lose weight with a coach that knows your days, and keep private progress photos. Free to start, no ads."
 url: "https://fimbl.app/"
 language: "en"
 ---
@@ -214,7 +214,31 @@ From the blog
 
 ## Eat better, one meal at a time
 
-Guides to calorie tracking, hunger and habits, and how we think about building a food diary that keeps you going.
+Guides to calorie counters, AI coaches, weight loss and habits, and how we think about building an app that keeps you going.
+
+Comparison
+
+### [The best weight loss apps in 2026, compared](https://fimbl.app/blog/best-weight-loss-apps/)
+
+Fimbl, Noom, MyFitnessPal, Lose It!, MacroFactor, Cronometer and YAZIO compared for weight loss: calorie counting, AI coaches, progress photos and cost.
+
+Comparison
+
+### [The best AI fitness coach apps in 2026, and what each one really coaches](https://fimbl.app/blog/best-ai-fitness-coach-apps/)
+
+Fimbl, MyFitnessPal, Noom, Cronometer, Google Health Coach, WHOOP, Fitbod and MacroFactor compared: what each AI coach reads, coaches and costs to use.
+
+Calorie tracking
+
+### [What a modern calorie counter does in 2026, and which apps do it](https://fimbl.app/blog/modern-calorie-counter-app/)
+
+A modern calorie counter logs from a photo, coaches from your data and has no ads. Eight things to look for, and how today's calorie apps compare.
+
+Comparison
+
+### [The best calorie tracker apps in 2026, compared side by side](https://fimbl.app/blog/best-calorie-tracker-apps/)
+
+Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI side by side: what's free, ads, AI logging and who each app suits.
 
 Comparison
 
@@ -228,35 +252,27 @@ Calorie tracking
 
 AI photo calorie estimates are off by about a third on average, much like manual logging. What studies show, when to trust AI and when to scan a barcode.
 
-Mindful eating
-
-### [How to track what you eat without counting calories](https://fimbl.app/blog/track-food-without-counting-calories/)
-
-Five ways to track food without counting calories: the plate method, hand portions, a hunger scale, a photo food diary and meal grades instead of numbers.
-
-Habits
-
-### [How to start a food diary: a 7-day plan for beginners](https://fimbl.app/blog/how-to-start-a-food-diary/)
-
-How to start a food diary that lasts: what to write down, a 7-day beginner plan with one small step a day, and five mistakes that end food diaries early.
-
-Comparison
-
-### [The best calorie tracker apps in 2026, compared side by side](https://fimbl.app/blog/best-calorie-tracker-apps/)
-
-Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI side by side: what's free, ads, AI logging and who each app suits.
-
-Behind Fimbl
-
-### [Why we built a calorie tracker that doesn't judge you](https://fimbl.app/blog/why-we-built-fimbl/)
-
-Why counting alone fails, the six decisions that shaped Fimbl, what we left out on purpose, and our end goal: showing you your own eating patterns.
-
 [All articles](https://fimbl.app/blog/)
 
 FAQ
 
 ## Questions, answered
+
+### What is Fimbl?
+
+Fimbl is a modern AI calorie counter and weight loss app for iPhone and iPad, made in Finland. Snap a meal for calories and macros in seconds, or use search and a barcode scanner. Fimbl sets a daily calorie goal at a realistic pace, shows your weight trend next to private progress photos, and has an AI coach that reads your own meals, moods and weigh-ins. It's free to download with no ads, and Premium adds photo scans for every meal and the coach.
+
+### Is Fimbl good for weight loss?
+
+Yes, if you're on iPhone or iPad and like to steer it yourself. Six short questions set a daily calorie goal at a gentle pace of about 0.5 kg a week or a faster one of about 1 kg a week, and the faster plan is off if it would go below what your body needs at rest. You also get macro goals, a weight trend, guided progress photos and a coach for the weeks when motivation dips. It isn't a medical programme, so talk to a doctor before big changes if you have a health condition. Our [weight loss app comparison](https://fimbl.app/blog/best-weight-loss-apps/) shows how it stacks up.
+
+### Does Fimbl have an AI coach?
+
+Yes. Fimbl's coach is an eating and habits coach: ask about your meals, mood or plan, and the answers come from your own days, including your hunger and feelings check-ins, weigh-ins and, if you allow it, Apple Health activity. It finds patterns and suggests one small thing to try. The coach is part of Premium, and your first weekly reflection is free. It doesn't write workout programmes, and it offers general guidance rather than medical advice. See how it compares in our [guide to AI fitness and nutrition coaches](https://fimbl.app/blog/best-ai-fitness-coach-apps/).
+
+### Is Fimbl a good alternative to MyFitnessPal?
+
+On iPhone it can be, especially if you want a free barcode scanner, no ads, photo calorie scans, free macro goals and private progress photos. MyFitnessPal still has a larger food database and runs on Android and the web. We compare them in our [calorie counter comparison](https://fimbl.app/blog/best-calorie-tracker-apps/).
 
 ### Is Fimbl free?
 
@@ -272,7 +288,7 @@ Most of us lose motivation somewhere around week two. Your story is how Fimbl he
 
 ### Is Fimbl a diet app?
 
-Not in the usual sense. You can set a calorie goal if it helps you, or switch to Graded meals, where the numbers step back and each food gets a simple balance mark instead. Fimbl is about balance, awareness and habits, and it's built to support a healthier relationship with food, never to make you feel bad about it. It isn't a medical tool or a treatment for eating disorders, and if food ever feels overwhelming, a healthcare professional can help.
+Fimbl is a calorie counter you can use to lose weight, keep it steady or gain, but it isn't a strict diet. Set a calorie goal if it helps you, or switch to Graded meals, where the numbers step back and each food gets a simple balance mark instead. It's built to support a healthier relationship with food, never to make you feel bad about it. It isn't a medical tool or a treatment for eating disorders, and if food ever feels overwhelming, a healthcare professional can help.
 
 ### Are my progress photos private?
 

@@ -10,7 +10,7 @@
   "og_title": "How to track what you eat without counting calories",
   "og_kicker": "Mindful eating guide",
   "og_heading": "Track what you eat, <span>without the numbers</span>",
-  "og_alt": "Fimbl Calm mode meal grade and check-in screens next to the headline: track what you eat, without the numbers",
+  "og_alt": "Fimbl meal grade and check-in screens next to the headline: track what you eat, without the numbers",
   "keywords": [
     "track food without counting calories",
     "food diary without calories",
@@ -29,7 +29,7 @@
     "Fimbl"
   ],
   "published": "2026-10-19",
-  "modified": "2026-10-19",
+  "modified": "2026-11-06",
   "related": [
     "food-diary",
     "emotional-hunger"
@@ -40,7 +40,7 @@
     "01-diary"
   ],
   "cover_alt": [
-    "Fimbl Calm mode grading rolled oats with an A for slow, steady morning energy",
+    "Fimbl AI grade for rolled oats with an A for slow, steady morning energy",
     "Fimbl meal check-in asking which feelings you had before breakfast"
   ],
   "chips": [
@@ -74,7 +74,7 @@
     },
     {
       "q": "Is there a calorie tracker app that doesn't show calories?",
-      "a": "Yes. Fimbl for iPhone and iPad has Calm mode (part of Fimbl Premium), which hides calorie numbers and grades each meal from A to F for how well it served your goals, hunger and mood. The diary keeps counting in the background, so you can switch back at any time without losing anything."
+      "a": "Yes. Fimbl for iPhone and iPad has Graded meals, a free view where calorie numbers step back and each food gets a simple balance mark. Premium adds an AI grade from A to F for how well each food served your goals, hunger and mood. The diary keeps counting in the background, so you can switch back at any time without losing anything."
     },
     {
       "q": "Will I still lose weight without counting calories?",

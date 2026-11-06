@@ -15,7 +15,7 @@ Vertailu 12 min lukuaika
 
 Vaaka ei erota rasvaa nesteestä tai lihaksesta. Kuvat erottavat, jos jokainen otetaan samalla tavalla. Vertailimme, miten Fimbl, Progress, Hevy, MacroFactor, MyFitnessPal ja Cronometer auttavat ottamaan, vertaamaan ja suojaamaan kehonmuutoksesi kuvat.
 
-**Kasper Koskenvirta** Fimblen perustaja · Julkaistu 19. lokakuuta 2026
+**Kasper Koskenvirta** Fimblen perustaja · Julkaistu 19. lokakuuta 2026 · Päivitetty 6. marraskuuta 2026
 
 ![Kolme Fimbl-sovelluksen näkymää iPhonessa](https://fimbl.app/assets/img/covers/fi-progress-photos-1200.webp)
 
@@ -178,7 +178,7 @@ Jotkin sovellukset arvioivat nykyään rasvaprosentin kuvista tai lyhyestä vide
 3. **Elätkö jo treenipäiväkirjassa?** Hevyn kuva ja päällekkäiskuva sopivat suoraan rutiiniisi.
 4. **Androidilla?** Fimbl ja Progress ovat iPhone-sovelluksia. Mitä ikinä valitsetkin, etsi kahta asiaa: edellisen kuvan päällekkäiskuvaa ja selvää vastausta siihen, missä kuvasi säilytetään.
 
-Valitsitpa minkä tahansa, sääntö on sama: sama paikka, sama valo, sama asento, viikon tai kahden välein. Ja jos vaaka ja peili ovat yhä eri mieltä, muista yllä mainittu tutkimus: kuuden kilon muutos voi näyttää vaa'alla kolmelta ja puolelta. Oppaamme [ruokapäiväkirjan aloittamisesta](https://fimbl.app/fi/blogi/ruokapaivakirjan-aloittaminen/) kertoo syömisen puolen tarinasta, ja [kalorilaskurivertailumme](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/) katsoo sovelluksia kuvien ulkopuolelta.
+Valitsitpa minkä tahansa, sääntö on sama: sama paikka, sama valo, sama asento, viikon tai kahden välein. Ja jos vaaka ja peili ovat yhä eri mieltä, muista yllä mainittu tutkimus: kuuden kilon muutos voi näyttää vaa'alla kolmelta ja puolelta. Oppaamme [ruokapäiväkirjan aloittamisesta](https://fimbl.app/fi/blogi/ruokapaivakirjan-aloittaminen/) kertoo syömisen puolen tarinasta, ja [kalorilaskurivertailumme](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/) katsoo sovelluksia kuvien ulkopuolelta. Jos seuraat laihtumista kuvilla, [laihdutussovellusten vertailumme](https://fimbl.app/fi/blogi/parhaat-laihdutussovellukset/) näyttää, miten kuvat sopivat yhteen kalorilaskurin ja valmentajan kanssa.
 
 Meidän valinta
 
@@ -244,11 +244,11 @@ Kasper Koskenvirta
 
 Fimblen perustaja
 
-Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on kuvasta kaloreita laskeva ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
+Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on moderni tekoälykalorilaskuri, jossa on valmentaja ja yksityiset edistymiskuvat, iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
 
 ## Lue seuraavaksi
 
-Vertailu 12 min lukuaika
+Vertailu 13 min lukuaika
 
 ### [Paras kalorilaskuri vuonna 2026: sovellukset vertailussa](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/)
 
@@ -264,7 +264,7 @@ Näin aloitat ruokapäiväkirjan, joka kestää: mitä kirjata, 7 päivän suunn
 
  19. lokakuuta 2026
 
-## Aloita hyvinvointimatkasi
+## Kuvaa ensimmäinen ateriasi. Jatka eteenpäin.
 
 Ilmainen ladata. Ensimmäinen kuva vie sekunteja.
 

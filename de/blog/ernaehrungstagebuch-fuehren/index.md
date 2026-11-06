@@ -15,7 +15,7 @@ Gewohnheiten 10 Min. Lesezeit
 
 Die meisten Ernährungstagebücher landen an Tag vier in der Ecke, weil Tag eins zu viel verlangt hat. Hier erfährst du, was du aufschreiben solltest, wie ein Sieben-Tage-Plan mit einem kleinen Schritt pro Tag aussieht und welche Fehler Tagebücher still und leise beenden.
 
-**Kasper Koskenvirta** Gründer von Fimbl · Veröffentlicht am 19. Oktober 2026
+**Kasper Koskenvirta** Gründer von Fimbl · Veröffentlicht am 19. Oktober 2026 · Aktualisiert am 6. November 2026
 
 ![Drei Ansichten der Fimbl-App auf dem iPhone](https://fimbl.app/assets/img/covers/de-food-diary-1200.webp)
 
@@ -154,7 +154,7 @@ Gib dir mindestens eine volle Woche, um die Gewohnheit aufzubauen, und dann zwei
 
 ### Muss ich in einem Ernährungstagebuch Kalorien zählen?
 
-Nein. Ein Ernährungstagebuch kann so einfach sein wie: was, wann und wie du dich gefühlt hast. Kalorien sind für manche Ziele nützlich, aber viele Menschen haben den größten Nutzen schon davon, Muster zu bemerken. Der ruhige Modus in Fimbl (Premium) ersetzt Kalorienzahlen sogar durch sanfte Noten.
+Nein. Ein Ernährungstagebuch kann so einfach sein wie: was, wann und wie du dich gefühlt hast. Kalorien sind für manche Ziele nützlich, aber viele Menschen haben den größten Nutzen schon davon, Muster zu bemerken. In der kostenlosen Ansicht Mahlzeiten mit Noten treten die Kalorienzahlen in Fimbl sogar zurück, und jedes Lebensmittel bekommt ein einfaches Balance-Zeichen.
 
 ### Ist eine Ernährungstagebuch-App besser als Papier?
 
@@ -183,11 +183,11 @@ Kasper Koskenvirta
 
 Gründer von Fimbl
 
-Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein Foto-Kalorienzähler und Ernährungstagebuch für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.
+Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein moderner KI-Kalorienzähler mit Coach und privaten Fortschrittsfotos für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.
 
 ## Weiterlesen
 
-Achtsam essen 8 Min. Lesezeit
+Achtsam essen 9 Min. Lesezeit
 
 ### [So hältst du fest, was du isst, ohne Kalorien zu zählen](https://fimbl.app/de/blog/essen-tracken-ohne-kalorien-zaehlen/)
 
@@ -203,7 +203,7 @@ Emotionaler oder echter Hunger? 7 Unterschiede, eine Hungerskala von 1 bis 10 un
 
  17. Oktober 2026
 
-## Starte deine Wellness-Reise
+## Erste Mahlzeit fotografieren. Dranbleiben.
 
 Kostenlos laden. Dein erster Scan dauert Sekunden.
 

@@ -15,7 +15,7 @@ Kalorien zählen 9 Min. Lesezeit
 
 KI-Schätzungen per Foto sind grob, das zeigt auch die Forschung. Das gilt aber für jede Art, Essen einzutragen. Was die Studien herausgefunden haben, warum Leichtigkeit für die meisten wichtiger ist als Präzision und wann du lieber einen Barcode scannst.
 
-**Kasper Koskenvirta** Gründer von Fimbl · Veröffentlicht am 19. Oktober 2026
+**Kasper Koskenvirta** Gründer von Fimbl · Veröffentlicht am 19. Oktober 2026 · Aktualisiert am 6. November 2026
 
 ![Drei Ansichten der Fimbl-App auf dem iPhone](https://fimbl.app/assets/img/covers/de-ai-calorie-tracking-1200.webp)
 
@@ -67,7 +67,7 @@ Fehler wiegen außerdem weniger schwer, als es aussieht, weil sie meist gleichbl
 
 ![Kalorien-Scan in Fimbl: eine Açaí-Bowl, geschätzt auf 380 g und 460 kcal, mit Portionstasten von 0,5× bis 2× und einer Aufteilung in Carbs, Fett und Protein](https://fimbl.app/assets/img/app/de/02-photo-scan.webp)
 
-Premium **Ein Foto, eine Schätzung, und du entscheidest** Fotografiere einen Teller oder beschreib ihn per Text oder Sprache, und Fimbl schätzt Portion, Kalorien und Makros. Dann passt du an: die halbe, anderthalbfache oder doppelte Portion, oder du feilst an den Details. Schätzungen können ein wenig danebenliegen, deshalb hast du immer das letzte Wort.
+ 3 kostenlos, dann Premium **Ein Foto, eine Schätzung, und du entscheidest** Fotografiere einen Teller oder beschreib ihn per Text oder Sprache, und Fimbl schätzt Portion, Kalorien und Makros. Dann passt du an: die halbe, anderthalbfache oder doppelte Portion, oder du feilst an den Details. Schätzungen können ein wenig danebenliegen, deshalb hast du immer das letzte Wort.
 
 - Foto-Scan, Text oder Sprache und Scan von Nährwerttabellen
 - Rezepte aus Reels, TikToks, YouTube Shorts und von Rezeptseiten
@@ -126,10 +126,10 @@ Das Beste aus beidem
 
 ### KI, wenn es leichter ist, Etiketten, wenn es zählt
 
-Das kostenlose Tagebuch in Fimbl bietet dir Barcode-Scanner, Suche und gespeicherte Mahlzeiten. Premium ergänzt Eintragen per Foto, Sprache und Text für die Mahlzeiten ohne Etikett. Du entscheidest, Mahlzeit für Mahlzeit.
+Das kostenlose Tagebuch in Fimbl bietet dir Barcode-Scanner, Suche, gespeicherte Mahlzeiten und 3 Foto-Scans zum Ausprobieren. Auf iPhones mit Apple Intelligence bleiben Scans kostenlos, und Premium ergänzt Foto-Scans und Eintragen per Sprache für die Mahlzeiten ohne Etikett. Du entscheidest, Mahlzeit für Mahlzeit.
 
 - Kostenloser Barcode-Scanner, keine Werbung
-- Eintragen per Foto, Sprache und Text mit Premium
+- 3 kostenlose Foto-Scans, mehr mit Premium
 - Jede Schätzung anpassbar
 
 [Fimbl kostenlos laden](https://apps.apple.com/app/id6443701726)
@@ -176,7 +176,7 @@ Kasper Koskenvirta
 
 Gründer von Fimbl
 
-Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein Foto-Kalorienzähler und Ernährungstagebuch für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.
+Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein moderner KI-Kalorienzähler mit Coach und privaten Fortschrittsfotos für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.
 
 ## Weiterlesen
 
@@ -188,7 +188,7 @@ Ernährungstagebuch führen, das bleibt: was du notieren solltest, ein 7-Tage-Pl
 
  19. Oktober 2026
 
-Achtsam essen 8 Min. Lesezeit
+Achtsam essen 9 Min. Lesezeit
 
 ### [So hältst du fest, was du isst, ohne Kalorien zu zählen](https://fimbl.app/de/blog/essen-tracken-ohne-kalorien-zaehlen/)
 
@@ -196,7 +196,7 @@ Essen tracken ohne Kalorienzählen: Tellermethode, Portionen mit der Hand, Hunge
 
  19. Oktober 2026
 
-## Starte deine Wellness-Reise
+## Erste Mahlzeit fotografieren. Dranbleiben.
 
 Kostenlos laden. Dein erster Scan dauert Sekunden.
 

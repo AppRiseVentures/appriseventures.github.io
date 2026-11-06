@@ -185,7 +185,7 @@ Kasper Koskenvirta
 
 Gründer von Fimbl
 
-Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein Foto-Kalorienzähler und Ernährungstagebuch für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.
+Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein moderner KI-Kalorienzähler mit Coach und privaten Fortschrittsfotos für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.
 
 ## Weiterlesen
 
@@ -197,7 +197,7 @@ KI-Kalorienschätzungen per Foto liegen im Schnitt um etwa ein Drittel daneben, 
 
  19. Oktober 2026
 
-Achtsam essen 8 Min. Lesezeit
+Achtsam essen 9 Min. Lesezeit
 
 ### [So hältst du fest, was du isst, ohne Kalorien zu zählen](https://fimbl.app/de/blog/essen-tracken-ohne-kalorien-zaehlen/)
 
@@ -205,7 +205,7 @@ Essen tracken ohne Kalorienzählen: Tellermethode, Portionen mit der Hand, Hunge
 
  19. Oktober 2026
 
-## Starte deine Wellness-Reise
+## Erste Mahlzeit fotografieren. Dranbleiben.
 
 Kostenlos laden. Dein erster Scan dauert Sekunden.
 

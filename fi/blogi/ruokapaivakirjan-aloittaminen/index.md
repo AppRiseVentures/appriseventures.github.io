@@ -15,7 +15,7 @@ Tavat 9 min lukuaika
 
 Useimmat ruokapäiväkirjat hylätään neljäntenä päivänä, koska ensimmäinen päivä pyysi liikaa. Tässä on, mitä kannattaa kirjata, seitsemän päivän suunnitelma yksi pieni askel kerrallaan ja virheet, jotka lopettavat päiväkirjan huomaamatta.
 
-**Kasper Koskenvirta** Fimblen perustaja · Julkaistu 19. lokakuuta 2026
+**Kasper Koskenvirta** Fimblen perustaja · Julkaistu 19. lokakuuta 2026 · Päivitetty 6. marraskuuta 2026
 
 ![Kolme Fimbl-sovelluksen näkymää iPhonessa](https://fimbl.app/assets/img/covers/fi-food-diary-1200.webp)
 
@@ -154,7 +154,7 @@ Anna sille vähintään yksi kokonainen viikko tavan rakentumiseen ja sitten kah
 
 ### Pitääkö ruokapäiväkirjassa laskea kaloreita?
 
-Ei. Ruokapäiväkirja voi olla niinkin yksinkertainen kuin mitä, milloin ja miltä tuntui. Kaloreista on hyötyä joihinkin tavoitteisiin, mutta moni saa suurimman hyödyn pelkästä kuvioiden huomaamisesta. Fimblen Rauhallinen tila (Premium) jopa korvaa kalorimäärät lempeillä arvosanoilla.
+Ei. Ruokapäiväkirja voi olla niinkin yksinkertainen kuin mitä, milloin ja miltä tuntui. Kaloreista on hyötyä joihinkin tavoitteisiin, mutta moni saa suurimman hyödyn pelkästä kuvioiden huomaamisesta. Fimblen ilmaisessa ateriat arvosanoin -näkymässä kaloriluvut jopa väistyvät, ja jokainen ruoka saa yksinkertaisen tasapainomerkin.
 
 ### Onko ruokapäiväkirjasovellus parempi kuin paperi?
 
@@ -185,7 +185,7 @@ Kasper Koskenvirta
 
 Fimblen perustaja
 
-Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on kuvasta kaloreita laskeva ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
+Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on moderni tekoälykalorilaskuri, jossa on valmentaja ja yksityiset edistymiskuvat, iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
 
 ## Lue seuraavaksi
 
@@ -205,7 +205,7 @@ Miten erotat tunnenälän fyysisestä nälästä? 7 merkkiä, nälkäasteikko 1�
 
  17. lokakuuta 2026
 
-## Aloita hyvinvointimatkasi
+## Kuvaa ensimmäinen ateriasi. Jatka eteenpäin.
 
 Ilmainen ladata. Ensimmäinen kuva vie sekunteja.
 

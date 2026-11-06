@@ -71,7 +71,7 @@ English is the default and lives at the root. Finnish is under `/fi/` and German
 - A language picked in the menu is remembered in `localStorage` (`fimbl-lang`, disclosed in the privacy policy, section 13). Then `/` opens the saved language, and the English-only pages (`<body data-shared>`) point their home, section and blog links at it. The 404 page also follows the `/fi/` or `/de/` prefix of the missing address.
 - Visitors whose browser prefers another available language see a small hint to switch, never a redirect, so search engines always get the page they asked for.
 
-The Finnish and German landing pages are hand-written HTML like `index.html`. Keep their structure in step when the English page changes. The one exception is the "From the blog" cards between the `blog-cards` comments: the blog build rewrites them with the newest six posts, so don't edit them by hand.
+The Finnish and German landing pages are hand-written HTML like `index.html`. Keep their structure in step when the English page changes. The exceptions are the "From the blog" cards between the `blog-cards` comments, which the blog build rewrites with the first six posts in `order`, and the `FAQPage` data between the `faq-schema` comments, which it reads from the visible FAQ. Don't edit either by hand.
 
 ## Blog
 
@@ -107,4 +107,4 @@ The progress photos in those screens show a fictional woman generated with Nano 
 
 Other apps are only ever described in text, never shown.
 
-The German site never names other apps. Comparative advertising follows the same EU rules everywhere, but in Germany (UWG §6) competitors and associations enforce them with costly cease-and-desist letters, so the comparison post has no German version (`untranslated` in `site.json`) and German posts don't link to it. Keep competitor names out of `tools/blog/content/de/` and `de/`.
+The German site never names other apps. Comparative advertising follows the same EU rules everywhere, but in Germany (UWG §6) competitors and associations enforce them with costly cease-and-desist letters, so the comparison posts have no German version (`untranslated` in `site.json`) and German posts don't link to them. Keep competitor names out of `tools/blog/content/de/` and `de/`.

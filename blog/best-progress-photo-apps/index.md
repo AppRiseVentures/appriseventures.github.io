@@ -15,7 +15,7 @@ Comparison 11 min read
 
 The scale can't tell fat from water or muscle. Photos can, if every one is taken the same way. We compared how Fimbl, Progress, Hevy, MacroFactor, MyFitnessPal and Cronometer help you capture, compare and protect your body transformation photos.
 
-**Kasper Koskenvirta** Founder of Fimbl · Published October 19, 2026
+**Kasper Koskenvirta** Founder of Fimbl · Published October 19, 2026 · Updated November 6, 2026
 
 ![Three Fimbl app screens on iPhone](https://fimbl.app/assets/img/covers/en-progress-photos-1200.webp)
 
@@ -178,7 +178,7 @@ Some apps now estimate body-fat percentage from photos or a short video. Noom's 
 3. **Already living in a workout log?** Hevy's photo and overlay will fit right into your routine.
 4. **On Android?** Fimbl and Progress are iPhone apps. Whatever you choose, look for two things: an overlay of your last photo, and a clear answer on where your photos are stored.
 
-Whichever you pick, the rule is the same: same spot, same light, same pose, every week or two. And if the scale and the mirror still disagree, remember the study above: six kilograms of change can look like three and a half on the scale. Our guide on [how to start a food diary](https://fimbl.app/blog/how-to-start-a-food-diary/) covers the eating side of the story, and our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/) looks at the apps beyond photos.
+Whichever you pick, the rule is the same: same spot, same light, same pose, every week or two. And if the scale and the mirror still disagree, remember the study above: six kilograms of change can look like three and a half on the scale. Our guide on [how to start a food diary](https://fimbl.app/blog/how-to-start-a-food-diary/) covers the eating side of the story, and our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/) looks at the apps beyond photos. If you're using photos to track weight loss, our [weight loss app comparison](https://fimbl.app/blog/best-weight-loss-apps/) shows how they fit with a calorie counter and a coach.
 
 Our pick
 
@@ -243,11 +243,11 @@ Kasper Koskenvirta
 
 Founder of Fimbl
 
-Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a photo calorie counter and food diary for iPhone and iPad. Our articles are general information, not medical advice.
+Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a modern AI calorie counter with a coach and private progress photos for iPhone and iPad. Our articles are general information, not medical advice.
 
 ## Keep reading
 
-Comparison 11 min read
+Comparison 12 min read
 
 ### [The best calorie tracker apps in 2026, compared side by side](https://fimbl.app/blog/best-calorie-tracker-apps/)
 
@@ -263,7 +263,7 @@ How to start a food diary that lasts: what to write down, a 7-day beginner plan 
 
 October 19, 2026
 
-## Start your wellness journey
+## Snap your first meal. Keep going.
 
 Free to download. Your first scan takes seconds.
 

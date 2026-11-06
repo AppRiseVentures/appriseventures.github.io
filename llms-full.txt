@@ -1,11 +1,12 @@
 # Fimbl
 
-> Fimbl is a photo calorie counter and food diary for iPhone and iPad (iOS and iPadOS 26 or later), made by AppRise Ventures Oy in Espoo, Finland. Snap a meal for calories and macros in seconds, keep your why and the people cheering you on close, and talk it through with a coach that learns why you eat the way you do. Available in English, German and Finnish. Free to download with no ads; Fimbl Premium adds AI and depth features.
+> Fimbl is a modern AI calorie counter, weight loss app and food diary for iPhone and iPad (iOS and iPadOS 26 or later), made by AppRise Ventures Oy in Espoo, Finland. Snap a meal for calories and macros in seconds, follow a daily calorie goal at a realistic pace, keep your weight trend next to private progress photos, and talk it through with an AI coach that reads your own meals, moods and weigh-ins. Available in English, German and Finnish. Free to download with no ads; Fimbl Premium adds AI and depth features.
 
 ## What Fimbl does
 
 Fimbl is built around one loop: log what you eat in seconds, check in on how you feel, and let your own patterns show one small thing to change. Its promise is that people keep going instead of starting over.
 
+- Calorie plan: a daily goal from six short questions, at a gentle pace of about 0.5 kg a week or a faster one of about 1 kg a week, to lose, keep or gain weight; the faster plan is off if it would go below what the body needs at rest (free)
 - Start without an account: log the first meal right away, then six short questions make the plan and show how that meal fits it (free)
 - Food diary with search, barcode scanning, recents, same as yesterday, saved meals, multi-select with undo, and macros and macro goals (free)
 - Check-ins before and after meals on hunger, fullness and feelings, plus daily mood; the first personal pattern found in your own check-ins, like which meals leave you with more energy (free)
@@ -19,7 +20,960 @@ Fimbl is built around one loop: log what you eat in seconds, check in on how you
 - Premium: photo scans beyond the free ones, voice logging, AI grades, weekly AI reflections and a coach, every pattern Fimbl finds, recipes from Reels, TikToks and YouTube Shorts, healthier product swaps, more widgets and streak restore. Yearly with a 7-day free trial, or monthly
 - AI is optional. Premium AI and the free first tries go through Fimbl's servers to Google's Gemini API, with only what the feature needs and never name or email. Fimbl does not train AI models on user data
 
+## Who Fimbl suits
+
+- People on iPhone or iPad looking for a modern calorie counter: photo, text, voice, barcode and search logging, no ads, and the first meal logged before any account
+- People who want to lose weight in one app: calorie goal, macros, weight trend, progress photos and a coach
+- People looking for an AI nutrition or weight loss coach that reads their own food log, check-ins and weigh-ins (the coach is part of Premium; the first weekly reflection is free)
+- People who want progress photos for weight loss without uploading them anywhere
+- People who have quit calorie counting before and want numbers to be optional, or a reason to keep going after week two
+
+## When another app fits better
+
+- Android or web: MyFitnessPal, Cronometer or Lose It!
+- Vitamins and minerals in detail: Cronometer
+- Calorie targets that adapt automatically: MacroFactor
+- The largest branded and restaurant food database: MyFitnessPal
+- Workout programmes: Fitbod or Google Health Coach. Fimbl's coach is about eating and habits and doesn't write training plans
+- A human coach: Noom (US)
+- Medical support, including eating disorders: a healthcare professional
+
 > The full text of the English articles on fimbl.app. Finnish and German versions are listed in llms.txt.
+
+
+---
+
+# The best weight loss apps in 2026, compared
+
+URL: https://fimbl.app/blog/best-weight-loss-apps/
+Published: 2026-11-06 · Updated: 2026-11-06 · By Kasper Koskenvirta
+
+> An app can help with four things when you're losing weight: showing what you eat, setting a realistic pace, showing change the scale misses, and keeping you going in week three. We compared Fimbl, Noom, MyFitnessPal, Lose It!, MacroFactor, Cronometer and YAZIO on all four.
+
+Most weight loss apps get the first week right. You scan your breakfast, the number goes down, a ring fills up. Then week three arrives, with a birthday, a bad night's sleep and a scale that hasn't moved in nine days. The best weight loss app isn't the one with the cleverest first week. It's the one you're still opening after that.
+
+ The short answer
+
+For most people on iPhone, Fimbl is our pick for losing weight: an AI calorie counter that reads your meals from a photo, a plan at a realistic pace, private progress photos next to your weight trend, and a coach that reads your own days. The diary, barcode scanner, macro goals and progress photos are free, with no ads. If you need something specific, these are strong too:
+
+- Noom for a structured programme with lessons, and a human coach as a US add-on.
+- MacroFactor for calorie targets that adapt to your weight trend every week.
+- MyFitnessPal for the biggest food database, on iPhone and Android.
+- Lose It! for a simple daily calorie budget.
+- Cronometer for vitamins and minerals in detail.
+- YAZIO if you want fasting timers next to your food log.
+
+A note on bias. We make Fimbl, so we're not neutral. Every claim about another app was checked against that company's own website, help centre or App Store listing in November 2026, each app gets credit for what it does better than ours, and all sources are listed at the end.
+
+## What a weight loss app actually needs to do
+
+An app can't lose weight for you. It can help with four things, and most apps are only strong at one or two of them.
+
+- Show what you eatA calorie counter you'll actually use, with logging fast enough to survive a busy Tuesday.
+- Set a realistic paceA daily target you can live with, based on your body rather than a promise.
+- Show real progressA weight trend instead of one morning's number, and progress photos for what the scale misses.
+- Keep you goingA coach, a reason and people in your corner for the weeks when motivation is gone.
+
+The first item has the best evidence behind it. Reviews of weight loss research consistently link self-monitoring with losing more weight, and in digital programmes, logging more often goes with better results.[1, 2] Most of that evidence is observational, so it can't prove the logging caused the loss. It does make a practical point, though: the app has to be easy enough to keep using. The other three items are what keep you logging.
+
+## Weight loss apps at a glance
+
+| Feature | Our pick Fimbl | Noom | MyFitnessPal | Lose It! | MacroFactor | Cronometer | YAZIO |
+|---|---|---|---|---|---|---|---|
+| Free to use | Yes: Free diary, no ads | Paid plan only: Subscription programme | Yes: With ads | Yes: With ads | Paid plan only: 7-day trial, then paid | Yes: With ads | Yes: With ads |
+| AI photo logging | Yes: 3 free, then Premium or Apple Intelligence | Yes: In subscription | Paid plan only: Premium | Paid plan only: Premium | Yes: In subscription | Paid plan only: Gold | Paid plan only: PRO |
+| AI coach you can ask | Paid plan only: Premium, reads your meals and moods | Yes: Welli, general answers | Paid plan only: Premium, 5 countries | Not documented | No chat documented: Weekly algorithm check-ins | Paid plan only: Gold, Crono Coach | Not documented |
+| Human coach | No | Paid plan only: Premium add-on, US | Not documented | Not documented | Not documented | Not documented | Not documented |
+| Progress photos | Yes: Free, guided, stay on your iPhone | Different feature: Body scans instead | Yes: One per weigh-in | Not documented | Paid plan only: In subscription | Yes: "Snapshots" | Not documented |
+| Adaptive calorie targets | No: Plan you choose | Yes: Dynamic goals[17] | Not documented | Not documented | Yes: Weekly updates | Not documented | Not documented |
+| Hunger & feelings check-ins at meals | Yes: Free | Not documented | Not documented | Not documented | Not documented | Not at meals: Daily mood & energy | Not at meals: PRO mood diary |
+| Android | No: iPhone & iPad only | Yes | Yes | Yes | Yes | Yes | Yes |
+
+ Available Paid plan only No, or not documented Checked against each provider's website, help centre and App Store listing, November 2026. Apps change often, so check before you subscribe.
+
+For barcode scanners and the other logging details, our [calorie counter comparison](https://fimbl.app/blog/best-calorie-tracker-apps/) goes row by row.
+
+## The apps, and who each one suits
+
+ Best structured programme
+
+### Noom
+
+Less a tracker than a programme, built around psychology lessons, with AI food logging and body scans. Its AI assistant Welli answers general questions any time, and new US members can add a Premium tier with a human 1:1 coach who replies within 24 hours on business days.[8, 9]
+
+Keep in mind: it's a subscription programme rather than a free tool, and the human coach is US-only.
+
+ Best adaptive targets
+
+### MacroFactor
+
+Its algorithm estimates what you really burn from your weight trend and logged food, then adjusts your calorie and macro targets every week, without scolding you for imperfect days. AI photo logging and progress photos are included.[14]
+
+Keep in mind: no free tier, just a 7-day trial, and no hunger or feelings check-ins.
+
+ Best for the biggest database
+
+### MyFitnessPal
+
+The default name in calorie counting. If a branded food exists, it's probably in there. Since June 2026 Premium subscribers in five countries also get an AI Coach that reads their logs.[10, 11]
+
+Keep in mind: barcode scanning, meal scan, voice logging and ad-free use are all part of Premium.
+
+ Best simple calorie budget
+
+### Lose It!
+
+Tell it your goal and it builds a daily calorie budget and a weight loss schedule. Clean and familiar, and it has been helping people count since 2008.[12]
+
+Keep in mind: its App Store listing puts barcode scanning, photo logging and voice logging under Premium, and the free version shows ads.
+
+ Best for nutrient detail
+
+### Cronometer
+
+More than 95 vitamins and minerals from a curated, verified database, with a free barcode scanner. Useful if you're losing weight and want to be sure you aren't short on anything. Gold adds photo and voice logging and Crono Coach.[13, 15]
+
+Keep in mind: the free version shows ads, and the detail can feel like a lab report if you simply want to eat a little less.
+
+ Best with fasting
+
+### YAZIO
+
+A German calorie counter with a free barcode scanner and popular intermittent fasting timers, available on iPhone and Android.[16]
+
+Keep in mind: the free version shows ads, and photo logging, the mood diary and most fasting plans are part of PRO.
+
+ Best for losing weight and keeping going, on iPhone
+
+### Fimbl
+
+A modern AI calorie counter for iPhone and iPad that covers all four jobs in one app: snap a meal for calories and macros, follow a plan at a gentle pace, see your weight trend next to guided progress photos, and talk it through with a coach that knows your days. The diary, barcode scanner, macro goals and progress photos are free, with no ads.
+
+Keep in mind: iPhone and iPad only, a smaller food database than MyFitnessPal, no adaptive targets, and photo scans beyond the free ones and the coach are part of Premium.
+
+## How fast should you lose weight?
+
+The UK's National Health Service gives a clear number: aim to lose 0.5 to 1 kg (1 to 2 lb) a week. It also notes that losing just 5 to 10% of your body weight can improve your health.[3] For someone who weighs 90 kg, that first goal is 4.5 to 9 kg, not a whole new body.
+
+In Fimbl, six short questions turn into a daily calorie goal at one of two paces. A gentle plan is about 500 kcal a day under what your body uses, and a faster one is about 1,000 kcal. With roughly 7,700 kcal in a kilogram of body weight, that's about 0.5 or 1 kg a week. If the faster plan would take you below what your body needs at rest, Fimbl turns it off. Bodies adapt as weight changes, so real progress is usually slower than the formula, and that's normal rather than failure.
+
+ Free A trend instead of one bad morning Log your weight, or let weigh-ins arrive from your smart scale through Apple Health. The trend line shows where you're really heading, and your goal stays in view.
+
+- Calorie goal and macro goals for free
+- Exercise isn't added to your budget, so your plan stays steady
+
+## Why progress photos help when the scale won't
+
+The scale can stall while your body changes. Weight naturally rises over the weekend and falls during the week, as a study of 1,421 adults showed.[4] And when you train while eating less, you can build muscle as you lose fat: in one four-week trial of intense training, a calorie deficit and higher protein, participants gained 1.2 kg of lean mass while losing 4.8 kg of fat.[5] The scale showed 3.6 kg. The body changed by six.
+
+That's why progress photos belong in a weight loss app rather than a separate one. They answer the question the scale can't, on exactly the days you're tempted to quit. The catch is that they only work if every photo is taken the same way, and they're among the most private pictures on your phone. Our [progress photo app comparison](https://fimbl.app/blog/best-progress-photo-apps/) looks at how each app handles both.
+
+ Free Before and after, with your weight next to it Fimbl's camera lines you up the same way every time and can take the photo itself. Compare any two days side by side or with a swipe, or play a time-lapse. Your photos stay on your iPhone: never uploaded to our servers, never used for AI and never in iCloud backups. Shown with Fimbl's demo account. The person and photos are AI-generated examples, not a real customer.
+
+Photos and numbers should inform you, not judge you. Repeatedly checking your body can increase body dissatisfaction, especially for people who already worry about how they look.[7] Every week or two is plenty. If thoughts about food or your body take up much of your day, a doctor or an eating-disorder service can help. Fimbl isn't a medical tool or a treatment for eating disorders, and you should talk to a doctor before big changes if you're pregnant, under 18, have a medical condition or take medication that affects your weight.
+
+## The part most apps skip: week three
+
+Almost every "best weight loss app" list ranks databases and AI accuracy. But if you've tried before, a missing food probably isn't why you stopped. Motivation simply ran out, usually around the time the first results slowed down.
+
+What helps at that point is other people. In a classic trial of 166 adults, 66% of those who joined with friends and were given social support strategies kept off all their lost weight over the next six months, compared with 24% of those who joined alone with standard treatment.[6] An app can't recreate that, and we wouldn't claim it does. It can keep the idea in front of you, though.
+
+Weight loss rarely fails on the good days. An app earns its place on the day you'd rather not open it.
+
+-
+
+Your why and your cheerleadersAfter your first week, write down why you started and add photos of the people cheering you on. Both can live on your Home Screen, right when a day gets hard. Free.
+
+-
+
+A coach that knows your weekA weekly reflection connects food, mood and energy, and your coach answers questions from your own days. Your first reflection is free, and the coach is part of Premium.
+
+Fimbl also starts small on purpose. You can log your first meal before making an account, and the First Week is seven days with one small step a day. Miss a day? That's fine. Just don't miss two. If you're curious how AI coaches differ, we compare them in our [guide to AI fitness and nutrition coaches](https://fimbl.app/blog/best-ai-fitness-coach-apps/).
+
+## Where Fimbl isn't the best choice
+
+- You use Android or want a web app. Fimbl is iPhone and iPad only. MyFitnessPal, Cronometer, Lose It! and YAZIO are all on Android.
+- You want lessons and a human coach. Noom's programme is built for that, and Fimbl doesn't have human coaches.
+- You want targets that adjust themselves. MacroFactor does this better. Fimbl's plan stays where you set it.
+- You eat at many US restaurant chains. MyFitnessPal's database is hard to beat for branded and restaurant items.
+- You're using weight loss medication. Your prescriber comes first, and some programmes, such as Noom's in the US, are built around it. Fimbl doesn't offer medical support.
+
+ Our pick
+
+### Fimbl: lose weight without starting over
+
+Snap your meals, follow a pace you can live with, watch your trend and your photos change, and keep your why close when the scale goes quiet. It's the weight loss app we built for the weeks after week two.
+
+- AI calorie counter with 3 free photo scans
+- Free macro goals and private progress photos
+- No ads, and no account needed to start
+
+ [Get Fimbl free](https://apps.apple.com/app/id6443701726)
+
+## How to choose in one minute
+
+-
+
+Start with your phone. On Android, narrow it to Noom, MyFitnessPal, Lose It!, MacroFactor, Cronometer or YAZIO. On iPhone, everything here is open to you.
+
+-
+
+Decide how much structure you want. A full programme with lessons points to Noom. A tool you steer yourself points to Fimbl, Lose It! or MyFitnessPal.
+
+-
+
+Think about what made you stop last time. Typing fatigue calls for photo logging. A stuck scale calls for a trend and progress photos. Lost motivation calls for a coach and a reason to keep going.
+
+-
+
+Check what's free. Make sure what you'll use every day isn't behind a paywall, and that the free version doesn't fill your diary with ads.
+
+Then give it three real weeks, including a bad one. The right app is the one that's still on your home screen afterwards.
+
+## Questions, answered
+
+### What is the best app for weight loss?
+
+It depends on how you like to work. On iPhone, we recommend Fimbl for most people: an AI calorie counter with a realistic plan, a weight trend, private progress photos and a coach that reads your own days. Noom is the strongest structured programme, MacroFactor has the best adaptive calorie targets, and MyFitnessPal has the largest food database.
+
+### What is the best free weight loss app?
+
+Fimbl's free version has no ads and includes the food diary, barcode scanner, a calorie plan, macro goals, weight trend, check-ins and progress photos, plus 3 AI photo scans. It's iPhone and iPad only. On Android, Cronometer and YAZIO have free barcode scanners, and MyFitnessPal and Lose It! offer free calorie budgets, all with ads.
+
+### Do calorie counting apps work for weight loss?
+
+They can help. Reviews of weight loss research consistently link self-monitoring what you eat with losing more weight, and logging more often goes with better results, though most of this evidence is observational. Being consistent matters more than being exact, so choose an app that's quick enough to keep using.
+
+### Which weight loss app has progress photos?
+
+Fimbl has free guided progress photos stored only on your iPhone, with side-by-side and swipe compare, a time-lapse and your weight alongside. MyFitnessPal lets you add one photo per weigh-in, MacroFactor includes front, side and back photos in its subscription, and Cronometer has Snapshots. See our full progress photo app comparison.
+
+### How much weight is it safe to lose in a month?
+
+The NHS suggests aiming for 0.5 to 1 kg (1 to 2 lb) a week, which works out at roughly 2 to 4 kg a month. Progress usually slows as your body adapts. If you're pregnant, under 18, have a medical condition, take medication that affects your weight or have a history of disordered eating, talk to a doctor first.
+
+### Is Fimbl good for weight loss?
+
+Yes, if you're on iPhone or iPad and want to steer it yourself. Six short questions set a daily calorie goal at a gentle pace of about 0.5 kg a week or a faster one of about 1 kg a week, and Fimbl turns the faster plan off if it would go below what your body needs at rest. It adds photo calorie scans, macro goals, a weight trend, progress photos and a coach. It isn't a medical programme and doesn't offer human coaches.
+
+### Why has my weight stopped dropping?
+
+Weight naturally moves through the week, and water, food and new muscle can all hide fat loss for a while. Your body also uses less energy as you get lighter, so progress slows over time. Look at the trend over several weeks along with progress photos and how your clothes fit before changing your plan.
+
+## Sources
+
+- Burke LE, Wang J, Sevick MA (2011). Self-monitoring in weight loss: a systematic review of the literature. Journal of the American Dietetic Association 111(1). https://pubmed.ncbi.nlm.nih.gov/21185970/
+- Patel ML, Wakayama LN, Bennett GG (2021). Self-monitoring via digital health in weight loss interventions: a systematic review among adults with overweight or obesity. Obesity 29(3). https://pubmed.ncbi.nlm.nih.gov/33624440/
+- NHS: Overweight and obesity in adults. Checked November 2026. https://www.nhs.uk/conditions/overweight-and-obesity/
+- Turicchi J et al. (2020). Weekly, seasonal and holiday body weight fluctuation patterns among individuals engaged in a European multi-centre behavioural weight loss maintenance intervention. PLoS ONE 15(4). https://pubmed.ncbi.nlm.nih.gov/32353079/
+- Longland TM et al. (2016). Higher compared with lower dietary protein during an energy deficit combined with intense exercise promotes greater lean mass gain and fat mass loss: a randomized trial. American Journal of Clinical Nutrition 103(3). https://pubmed.ncbi.nlm.nih.gov/26817506/
+- Wing RR, Jeffery RW (1999). Benefits of recruiting participants with friends and increasing social support for weight loss and maintenance. Journal of Consulting and Clinical Psychology 67(1). https://pubmed.ncbi.nlm.nih.gov/10028217/
+- Geiger G et al. (2024). Longer-term consequences of increased body checking in women at risk for eating disorders: a naturalistic experimental online study. PLoS ONE 19(12). https://pubmed.ncbi.nlm.nih.gov/39724236/
+- Noom support: What is the Premium subscription? Checked November 2026. https://www.noom.com/support/faqs/using-the-app/daily-features/2025/10/what-is-the-premium-subscription/
+- Noom App Store listing. Checked November 2026. https://apps.apple.com/us/app/noom-weight-loss-food-tracker/id634598719
+- MyFitnessPal Premium features, including barcode scan, meal scan, voice log and ad-free use. Checked November 2026. https://www.myfitnesspal.com/premium
+- 9to5Mac (June 2026): MyFitnessPal adds AI-powered Coach for Premium and Premium+ subscribers. https://9to5mac.com/2026/06/16/myfitnesspal-adds-ai-powered-coach-for-personalized-nutrition-guidance/
+- Lose It! App Store listing, free and Premium features. Checked November 2026. https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629
+- Cronometer App Store listing, including free barcode scanning and Gold features. Checked November 2026. https://apps.apple.com/us/app/cronometer-calorie-counter/id1145935738
+- MacroFactor app overview, pricing and features. Checked November 2026. https://macrofactor.com/macrofactor/
+- Cronometer: Crono Coach. Checked November 2026. https://cronometer.com/blog/crono-coach/
+- YAZIO PRO features (YAZIO help center). Checked November 2026. https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals
+- Noom (January 2025): AI-driven Dynamic Calorie Goals, announced with its GLP-1 Companion update. https://insider.fitt.co/press-release/nooms-glp-1-companion-update/
+
+
+---
+
+# The best AI fitness coach apps in 2026, and what each one really coaches
+
+URL: https://fimbl.app/blog/best-ai-fitness-coach-apps/
+Published: 2026-11-06 · Updated: 2026-11-06 · By Kasper Koskenvirta
+
+> Workouts, sleep or what's on your plate? Fimbl, MyFitnessPal, Cronometer, Noom, Google Health Coach, WHOOP, Fitbod and MacroFactor compared: what each AI coach can actually see, what it costs to use and who it suits.
+
+Everything has a coach now: your calorie counter, your watch, your workout log. In about a year, "AI coach" went from a rare feature to a headline on the App Store pages of some of the biggest health apps. What that headline doesn't tell you is what the coach can actually see, and that decides whether it's talking about you or about people in general.
+
+ The short answer
+
+The best AI fitness coach depends on what you want coached. For losing weight through what you eat on iPhone, Fimbl is our pick: its coach reads your meals, moods, weigh-ins and activity, and connects them to why you eat the way you do. For other goals:
+
+- Google Health Coach for all-round fitness, sleep and wellbeing with a Fitbit or Pixel Watch.
+- Fitbod for AI-generated strength workouts.
+- WHOOP Coach for recovery and strain, if you wear a WHOOP.
+- MyFitnessPal Coach for nutrition advice on top of the biggest food database.
+- Noom for an AI assistant plus a real human coach, in the US.
+- MacroFactor for a weekly algorithm that adjusts your calories and macros.
+
+A note on bias. We make Fimbl, and its coach is an eating and habits coach, not a personal trainer. Every claim about another app was checked against that company's own website, help centre, App Store listing or a named news report in November 2026. "Not documented" means we couldn't find the feature there, not that it definitely doesn't exist.
+
+## "AI fitness coach" can mean three different things
+
+Search for an AI fitness coach and you'll get three kinds of app under one label. Knowing which one you need saves you from paying for the wrong coach.
+
+- Workout coachesBuild and adjust your training plan. Fitbod is the classic example. They rarely know what you ate.
+- Body-data coachesRead a wearable's sleep, strain and recovery data. Think WHOOP Coach and Google Health Coach.
+- Eating coachesRead your food log and goals. Fimbl, MyFitnessPal, Cronometer and Noom sit here, each in its own way.
+
+If your goal is building muscle or running faster, start with the first two. If your goal is losing weight, you want a coach that can see your food, because a coach that can't see your plate can only talk in generalities.
+
+## AI coaches compared
+
+| Feature | Our pick for eating Fimbl | MyFitnessPal | Cronometer | Noom | Google Health | WHOOP | Fitbod | MacroFactor |
+|---|---|---|---|---|---|---|---|---|
+| Coaches best | Eating, habits and the why | Nutrition and macros | Nutrients and targets | Behaviour change | Fitness, sleep and health | Recovery and strain | Strength workouts | Calories and macros |
+| Coach you can ask | Paid plan only: Premium | Paid plan only: Premium, 5 countries | Paid plan only: Gold, Crono Coach | Yes: Welli, general answers | Paid plan only: Premium, certain countries | Yes: With membership | Not documented | No chat documented: Weekly check-ins |
+| Reads your food log | Yes | Yes | Yes | Not documented: Not documented for Welli | Yes: Meal photos analysed | Not documented | Not documented | Yes |
+| Knows your hunger and feelings at meals | Yes: From your check-ins | Not documented | Not documented | Not documented | Not documented | Not documented | Not documented | Not documented |
+| Workout plans | No: Reads Apple Health activity | Answers only: Answers workout questions | Not documented | Paid plan only: Premium add-on, US | Yes: Weekly plan | Daily targets: Daily strain target | Yes: Core feature | Not documented |
+| Human coach | No | Not documented | Not documented | Paid plan only: Premium add-on, US | Not documented | Not documented | Not documented | Not documented |
+| Needs a wearable | No | No | No | No | Started with Fitbit and Pixel Watch | Yes, WHOOP | No | No |
+| Way in for free | Free diary, first weekly reflection free | Free app, coach is paid | Free app, coach is paid | None listed | Free app, coach is paid | 1-month trial | Free trial | 7-day trial |
+| Android | No: iPhone & iPad only | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+
+ Available Paid plan only No, or not documented Checked against each provider's website, help centre and App Store listing, November 2026. AI features change quickly, so check before you subscribe.
+
+## The coaches, and who each one suits
+
+ Best all-round health coach
+
+### Google Health Coach
+
+Built with Gemini, it aims to be a fitness trainer, sleep coach and wellbeing adviser in one. It builds a weekly workout plan, reads your sleep, and analyses photos of your meals. The Fitbit app is now Google Health, on iPhone and Android.[5, 6]
+
+Keep in mind: it needs Google Health Premium, is available only in certain countries, and launched first for Fitbit and Pixel Watch owners.
+
+ Best for strength workouts
+
+### Fitbod
+
+AI-generated gym workouts that balance your exercises, track muscle recovery and learn from your edits. If what you want is someone to tell you what to lift today, this is the one to try.[7]
+
+Keep in mind: a subscription after a free trial, and its listing doesn't document food logging or a chat coach.
+
+ Best for recovery data
+
+### WHOOP Coach
+
+Ask questions and get on-demand answers based on your own biometric data: sleep, strain, recovery and stress. Hard to match if you're training for something specific and already wear the strap.[8]
+
+Keep in mind: the app requires a WHOOP wearable and membership, and it isn't built around what you eat.
+
+ Best on top of a huge database
+
+### MyFitnessPal Coach
+
+Launched in June 2026, Coach turns your logged meals, goals and habits into nutrition guidance: food swaps, recipes, portion changes and restaurant picks. It can also answer questions about workouts.[3, 4]
+
+Keep in mind: Premium and Premium+ only, in the US, UK, Canada, Australia and New Zealand.
+
+ Best for a real person too
+
+### Noom
+
+Welli, Noom's AI assistant, gives fast, general answers on food, fitness and the programme. New US members can add a Premium tier with a dedicated human coach who checks in weekly, plus meal and exercise plans.[9]
+
+Keep in mind: Premium is billed separately from the Noom Weight subscription and is US-only. Noom describes Welli's answers as general.
+
+ Best for nutrient-minded eaters
+
+### Cronometer Crono Coach
+
+An AI assistant in Cronometer Gold that reviews your diary, nutrient averages and targets to spot patterns, and you can tell it what to watch, like a fibre target. Cronometer says it won't change your diary or targets by itself.[10]
+
+Keep in mind: Gold only, and it's built around nutrition data rather than hunger or mood.
+
+ Best hands-off numbers
+
+### MacroFactor
+
+Less a chat than an algorithm: it estimates your energy use from your weight trend and logged food, and adjusts your calorie and macro targets every week, however closely you followed them.[11]
+
+Keep in mind: no free tier, and no chat coach documented.
+
+ Best AI coach for losing weight through eating, on iPhone
+
+### Fimbl
+
+A coach that knows why, not just how much. It reads your meals, the hunger and feelings you check in with, your mood, weigh-ins and Apple Health activity, finds your own patterns and suggests one small thing to try. The food diary, photo calorie counter and progress photos sit in the same app.
+
+Keep in mind: iPhone and iPad only, the coach is part of Premium, and it doesn't write workout programmes.
+
+## Four questions to ask any AI coach
+
+A confident, friendly answer is the easy part. Any modern AI can produce one. These questions show whether there's substance behind it.
+
+-
+
+What can it actually read? Your food, your workouts, your sleep, how you felt? A coach can only be as personal as what it sees, so look for a clear list.
+
+-
+
+Does it end in something to do? Good coaching narrows things down to one small change you can try this week, not a wall of general advice.
+
+-
+
+Does it know its limits? An AI coach isn't a doctor, dietitian or therapist. It should say so, and point you to a person when it matters.
+
+-
+
+Where does your data go? Food, mood and body data are personal. Ask whether AI is optional, what gets sent, and whether it's used to train models.
+
+## Does AI coaching actually work?
+
+Honestly, it's too early to say much. A 2021 systematic review of AI chatbots for activity, diet and weight loss couldn't reach definitive conclusions, and found only one study that measured weight objectively.[1] A 2023 meta-analysis was more encouraging about chatbots for physical activity, fruit and vegetable intake and sleep, but most of its studies were short and of weak quality, and it didn't look at body weight.[2] We didn't find a large peer-reviewed trial showing that today's generative AI coaches lead to more weight loss.
+
+The better-tested idea is simpler. Self-monitoring is one of the most consistent habits linked to weight loss, so a good way to think about a coach is as a reason to keep logging, and as a way to get something useful back when you do. If you want the bigger picture, see our [weight loss app comparison](https://fimbl.app/blog/best-weight-loss-apps/).
+
+The best coach isn't the one that sounds smartest. It's the one that gives you a reason to come back tomorrow.
+
+## Inside Fimbl's coach
+
+We built Fimbl's coach around one question most calorie counters never ask: why? It works in three steps.
+
+- NoticeLog a meal with a photo, your voice, a barcode or a search, and check in before and after: how hungry you were, how full you got, how you felt. It takes seconds, and you can skip it.
+- FindFimbl looks for patterns in your own days, like which meals leave you with more energy or when snacking starts. Your first pattern is free. Every week, a reflection connects food, mood and energy.
+- AskAsk your coach about your meals, mood or plan, and the answers come from your own days. It suggests one small thing to try instead of a new regime.
+
+-
+
+A week, read back to youWins, patterns and one gentle focus, written about your week. Your first reflection is free.
+
+-
+
+What other coaches can't seeTen-second check-ins tell your coach how hungry you were and how you felt, not just what you ate.
+
+What the coach sees, and what it never does. When you ask something, your message and the last 14 days of your diary, check-ins, mood, body-note symptoms, weigh-ins and goals go through Fimbl's servers to Google's Gemini API, along with steps and active calories if you've turned on Health sync. Your name, email, period days, Your story and your progress photos are never sent, and we don't train AI models on your data. Everything else in Fimbl works without AI. The [privacy policy](https://fimbl.app/privacy/#ai) explains each feature. The coach offers general guidance and isn't a doctor, dietitian or therapist.
+
+## Can ChatGPT be your fitness coach?
+
+For knowledge, it's very good. A general AI assistant can explain progressive overload, sketch a beginner's gym plan or suggest high-protein lunches, and it's a great place to start. Its limit is that it mostly knows what you tell it. It doesn't log your meals, it doesn't remember to ask on Thursday how Tuesday went, and copying your diary into a chat gets old quickly. Some assistants can now connect to health apps if you allow it, so check what that covers and what happens to your data.
+
+A dedicated coach trades range for context: it can do less, but it already has your week in front of it. Plenty of people will use both, and that's a perfectly good answer.
+
+## Where Fimbl isn't the best choice
+
+- You want a training plan. Fimbl doesn't write workouts. Try Fitbod or Google Health Coach.
+- You want advice from your sleep and recovery data. WHOOP and Google Health are built around wearables.
+- You want a real person. Noom's Premium tier in the US has human coaches, and a dietitian is better still for medical needs.
+- You're on Android. Fimbl is iPhone and iPad only.
+
+ Our pick for eating
+
+### A coach that knows why you eat the way you do
+
+Most coaches can tell you what to change. Fimbl's starts with what's actually going on in your days: your meals, your hunger, your mood, your weight. Then it suggests one small thing to try.
+
+- Answers come from your own days
+- Your first pattern and weekly reflection are free
+- AI is optional, and never trained on your data
+
+ [Get Fimbl free](https://apps.apple.com/app/id6443701726)
+
+## Questions, answered
+
+### What is the best AI fitness coach app?
+
+It depends on what you want coached. Fitbod is strongest for AI-generated strength workouts, Google Health Coach for all-round fitness and sleep with a Fitbit or Pixel Watch, and WHOOP Coach for recovery data if you wear a WHOOP. For losing weight through what you eat on iPhone, we recommend Fimbl, whose coach reads your meals, check-ins, mood, weigh-ins and activity.
+
+### What is the best AI nutrition coach app?
+
+On iPhone, Fimbl is our pick if you want a coach that looks at why you eat as well as what, because it also knows your hunger and feelings at meals. MyFitnessPal Coach suits people who already use its food database, and Cronometer's Crono Coach suits people focused on vitamins, minerals and nutrient targets.
+
+### What is the best AI coach for weight loss?
+
+Look for a coach that reads your food log and your weight. Fimbl does that on iPhone and iPad, alongside a photo calorie counter, a plan at a gentle pace and private progress photos. Noom is a good choice if you want a structured programme with a human coach in the US, and MacroFactor if you want your calorie targets adjusted automatically every week.
+
+### Is there a free AI fitness coach?
+
+Most personal AI coaches are part of a paid plan, including those from Fimbl, MyFitnessPal, Cronometer and Google Health. Fimbl gives you your first weekly reflection and your first personal pattern for free. Noom says members keep access to Welli without its Premium tier, but Noom itself is a subscription. A general assistant like ChatGPT can answer fitness questions for free, but it mostly knows only what you tell it.
+
+### Can ChatGPT replace a fitness coach?
+
+For general knowledge and simple plans, it can go a long way. It doesn't log your meals or workouts or follow up by itself, though, and it mostly knows only what you share. A dedicated coach has your data in front of it. Neither replaces a doctor, dietitian or qualified trainer when you have a medical condition or an injury.
+
+### Is an AI coach as good as a human coach?
+
+Not for everything. An AI coach is available at any hour, cheaper and good at spotting patterns in your data, but research on AI coaching is still early, and a person is better at accountability, judgement and complex situations. Noom's US Premium tier combines both. If you have a medical condition or a history of disordered eating, please see a professional.
+
+### Does Fimbl's coach make workout plans?
+
+No. Fimbl's coach focuses on eating, habits, mood and weight, and it can take your Apple Health activity into account if you allow it. For a training plan, Fitbod or Google Health Coach are better fits. Fimbl does have simple workout goals and reads your workouts from Apple Health.
+
+### Does Fimbl train AI on my data?
+
+No. Fimbl doesn't train AI models on your data or sell it. When you ask the coach something, the request goes through Fimbl's servers to Google's Gemini API with only what the feature needs, and never your name, email, period days, Your story or progress photos. AI is optional, and everything else in Fimbl works without it.
+
+## Sources
+
+- Oh YJ, Zhang J, Fang ML, Fukuoka Y (2021). A systematic review of artificial intelligence chatbots for promoting physical activity, healthy diet, and weight loss. International Journal of Behavioral Nutrition and Physical Activity 18:160. https://pmc.ncbi.nlm.nih.gov/articles/PMC8665320/
+- Singh B et al. (2023). Systematic review and meta-analysis of the effectiveness of chatbots on lifestyle behaviours. npj Digital Medicine 6:118. https://pmc.ncbi.nlm.nih.gov/articles/PMC10290125/
+- 9to5Mac (June 2026): MyFitnessPal adds AI-powered Coach for Premium and Premium+ subscribers. https://9to5mac.com/2026/06/16/myfitnesspal-adds-ai-powered-coach-for-personalized-nutrition-guidance/
+- MyFitnessPal App Store listing, AI Coach. Checked November 2026. https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718
+- Google (May 2026): Google Health Coach, features, subscription and eligible devices. https://blog.google/intl/en-in/products/hardware/google-health-coach-is-coming-to-india/
+- Google Health (Fitbit) App Store listing. Checked November 2026. https://apps.apple.com/us/app/google-health-fitbit/id462638897
+- Fitbod App Store listing. Checked November 2026. https://apps.apple.com/us/app/fitbod-gym-fitness-planner/id1041517543
+- WHOOP App Store listing, including WHOOP Coach and the wearable requirement. Checked November 2026. https://apps.apple.com/us/app/whoop/id933944389
+- Noom support: What is the Premium subscription? Checked November 2026. https://www.noom.com/support/faqs/using-the-app/daily-features/2025/10/what-is-the-premium-subscription/
+- Cronometer: Crono Coach. Checked November 2026. https://cronometer.com/blog/crono-coach/
+- MacroFactor app overview and App Store listing. Checked November 2026. https://macrofactor.com/macrofactor/
+
+
+---
+
+# What a modern calorie counter does in 2026, and which apps do it
+
+URL: https://fimbl.app/blog/modern-calorie-counter-app/
+Published: 2026-11-06 · Updated: 2026-11-06 · By Kasper Koskenvirta
+
+> Photo logging, a coach that reads your data, numbers you can switch off and no ads. Eight things that separate a modern calorie counter from a search box, and how Fimbl, Cal AI, MyFitnessPal, MacroFactor, Lifesum, Lose It! and Cronometer score.
+
+The classic calorie counter is a search box. Type "chicken", choose from forty entries, guess the grams, and do it again six times a day. It works, and plenty of people have lost weight that way. It's also why so many of us have a calorie app we opened for nine days and never again. In the last two years, that has finally started to change.
+
+ The short answer
+
+A modern calorie counter lets you log a meal in seconds from a photo, your voice or a barcode, lets you correct what the AI gets wrong, coaches you from your own data, and doesn't charge you in ads or your privacy. On iPhone, Fimbl is our pick because it does all of that in one app, and it lets you log your first meal before making an account. Other good options:
+
+- Cal AI if you want the simplest possible photo-first tracker.
+- MyFitnessPal if you want the classic database with new AI on top.
+- MacroFactor if you want targets that adapt to you every week.
+- Lifesum if you want AI logging, meal plans and an Android app.
+
+A note on bias. We make Fimbl, and we chose this checklist knowing how Fimbl does on it, so read it with that in mind. Every claim about another app was checked against that company's own website, help centre or App Store listing in November 2026, and sources are listed at the end.
+
+## What changed: the old way and the modern way
+
+| | Classic calorie counter | What to look for now Modern calorie counter |
+|---|---|---|
+| Logging | Search, pick an entry, enter grams | Photo, voice, text or barcode, in seconds |
+| Getting started | Account and a long questionnaire first | Log something first, set up later |
+| Feedback | A number and a red bar | A coach that reads your days and suggests one thing |
+| Off days | Over budget, in red | Context, and a way to keep going |
+| Progress | Today's weight | A trend, plus progress photos |
+| Business model | Ads, or a paywall on the basics | No ads, and the basics stay free |
+| Privacy | Everything in the company's cloud | The most personal data stays on your phone |
+
+None of this means older apps are bad. Several have added AI features and kept what made them popular, like a huge food database. "Modern" isn't about an app's age. It's about whether using it still feels like homework.
+
+## Eight things a modern calorie counter should do
+
+-
+
+Log from a photo. Snap the plate and get calories, protein, carbs and fat. It's the biggest change in calorie counting in a decade, because mixed meals no longer take ten entries.
+
+-
+
+Understand your voice and plain words. "A chicken wrap and a latte" should be enough.
+
+-
+
+Keep a free barcode scanner. For packaged food, the label beats any AI estimate. It's a basic that shouldn't sit behind a paywall.
+
+-
+
+Let you start in seconds. The first log should come before the long questionnaire and the account.
+
+-
+
+Coach from your data. Not generic tips, but answers based on what you actually ate this week.
+
+-
+
+Make numbers optional. Calories motivate some people and wear others out. A modern app lets you step back without losing your history.
+
+-
+
+Show progress beyond the scale. A weight trend and progress photos, in the same place as your food.
+
+-
+
+Respect you. No ads in your diary, and a clear answer on where your data and photos go.
+
+## How today's apps score
+
+| Feature | Our pick Fimbl | Cal AI | MyFitnessPal | MacroFactor | Lifesum | Lose It! | Cronometer |
+|---|---|---|---|---|---|---|---|
+| Photo logging | Yes: 3 free, then Premium or Apple Intelligence | Paid plan only: Results need a subscription | Paid plan only: Premium | Yes: In subscription | Paid plan only: Premium | Paid plan only: Premium | Paid plan only: Gold |
+| Voice logging | Paid plan only: Premium | Not documented | Paid plan only: Premium | Yes: In subscription | Paid plan only: Premium | Paid plan only: Premium | Paid plan only: Gold |
+| Free barcode scanner | Yes | In subscription: In subscription | Premium: Premium | In subscription: In subscription | Yes | Premium: Premium | Yes |
+| First log before an account | Yes | Not documented | Not documented | Not documented | Not documented | Not documented | Not documented |
+| AI coach from your data | Paid plan only: Premium | Not documented | Paid plan only: Premium, 5 countries | No chat documented: Weekly algorithm | Not documented | Not documented | Paid plan only: Gold |
+| Numbers optional | Yes: Graded meals, free | Not documented | Not documented | Not documented | Not documented | Not documented | Not documented |
+| Progress photos | Yes: Free, guided, stay on your iPhone | Not documented | Yes: One per weigh-in | Paid plan only: In subscription | Not documented | Not documented | Yes: "Snapshots" |
+| No ads | Yes: Free & Premium | Yes: None listed | Paid plan only: Premium only | Yes: Never uses ads | Yes: None listed | Paid plan only: Paid only | Paid plan only: Gold only |
+| Android | No: iPhone & iPad only | Yes | Yes | Yes | Yes | Yes | Yes |
+
+ Available Paid plan only No, or not documented Checked against each provider's website, help centre and App Store listing, November 2026. Apps change often, so check before you subscribe.
+
+No app ticks every box, including ours: Fimbl has no Android version and keeps voice logging and the coach in Premium. The wider comparison, with what each app is genuinely best at, is in our [calorie counter comparison](https://fimbl.app/blog/best-calorie-tracker-apps/).
+
+## Is photo calorie counting accurate enough?
+
+Accurate enough to be useful, yes. Exact, no. In a 2025 study, the best general-purpose AI models were off by about 36% per photo on average, and they tended to underestimate large portions. The researchers still found them comparable to traditional self-reported food diaries, without the effort.[1] Adding a few words about the meal helps a lot: in a second study, average error fell from about 31% with the photo alone to 24% with a short description.[2]
+
+So a modern calorie counter should treat AI as a very fast first draft. You see the estimate, fix the portion, and save. For packaged food, you scan the barcode instead. Our guide to [AI calorie tracking accuracy](https://fimbl.app/blog/ai-calorie-tracking-accuracy/) covers when to trust each method.
+
+A rough log you keep for three months beats a perfect one you abandon in a week.
+
+## What this looks like in Fimbl
+
+ 3 free, then Premium Snap your meal, know your calories Take a photo of your plate, or describe it in a few words, and get calories, protein, carbs and fat in seconds. Adjust any estimate before you save it. Your first three scans are free, and on iPhones with Apple Intelligence they stay free after that, read by Apple's own model on Private Cloud Compute.
+
+- Free barcode scanner, search and same as yesterday
+- Recipes from Reels, TikToks and Shorts in Premium
+
+ Free Log first, set up later Open Fimbl and log what's on your plate right now, with no account and no long questionnaire first. Six short questions then make your plan and show how that meal fits it. Your diary moves to your account whenever you make one.
+
+- Calories, macros and macro goals, free
+- Apple Health both ways, plus widgets and Shortcuts
+
+ Free · AI grades in Premium Numbers when you want them Switch to Graded meals and calories step back: each food gets a simple balance mark, and your diary keeps counting in the background. Premium adds an AI grade for each food, the reason behind it, tips and swaps. Our guide to [tracking food without counting calories](https://fimbl.app/blog/track-food-without-counting-calories/) explains the idea.
+
+Add your coach, a weight trend, private progress photos and your why on your Home Screen, and it's the modern calorie counter we wanted for ourselves. For how the pieces work together when your goal is losing weight, see our [weight loss app comparison](https://fimbl.app/blog/best-weight-loss-apps/).
+
+## Should you leave MyFitnessPal?
+
+Only if something is bothering you. If it works for you, keep it: the food database is enormous, it runs on Android and the web, and it now has an AI Coach in Premium.[3, 4] People usually look for a MyFitnessPal alternative for one of three reasons: barcode scanning is a paid feature, the free version shows ads, or the daily numbers have started to feel like a test.
+
+- For a free barcode scanner: Fimbl on iPhone, or Cronometer, Lifesum and YAZIO, which also run on Android.
+- For no ads: Fimbl's free version has none, and MacroFactor never uses them but has no free tier.
+- For the simplest logging: Cal AI, or Fimbl's photo scan.
+- For when numbers feel like a test: Fimbl's Graded meals, which no other app here documents.
+
+## Where Fimbl isn't the best choice
+
+- You use Android or want a web app. Fimbl is iPhone and iPad only.
+- You want a huge branded database. Fimbl builds on Open Food Facts, Fineli and USDA data. MyFitnessPal has more branded and restaurant items.
+- You track specific vitamins and minerals. Cronometer goes much deeper.
+- You want targets that adapt by themselves. MacroFactor's algorithm does this, and Fimbl doesn't.
+
+ Our pick
+
+### The modern calorie counter for iPhone
+
+Fimbl reads your plate in seconds, doesn't need an account to start, shows no ads and gives you a coach that knows why you eat the way you do. When the numbers wear you out, they step back.
+
+- 3 free photo scans and a free barcode scanner
+- Free macro goals and private progress photos
+- English, German and Finnish
+
+ [Get Fimbl free](https://apps.apple.com/app/id6443701726)
+
+## Questions, answered
+
+### What is the most modern calorie counter app?
+
+On iPhone, we'd pick Fimbl: photo, voice and text logging, a free barcode scanner, no account needed for your first meal, an AI coach that reads your own days, optional numbers with Graded meals, private progress photos and no ads. Cal AI is the simplest photo-first tracker, and MacroFactor is the most advanced on adaptive targets.
+
+### What is the best AI calorie counter?
+
+It depends on what you want around the scan. Fimbl pairs photo scans with a coach, check-ins and progress photos, with 3 free scans and free scans afterwards on iPhones with Apple Intelligence. Cal AI is built purely around the photo, though its scan results need a subscription. MacroFactor and MyFitnessPal offer AI logging on top of larger tracking tools.
+
+### How accurate are photo calorie counters?
+
+They're rough but useful. In a 2025 study, the best general-purpose AI models were off by about 36% per photo on average, comparable to traditional self-reported diaries, and they tended to underestimate large portions. Describing the meal in a few words improves the estimate, and for packaged food a barcode scan is more reliable.
+
+### Is there a calorie counter without ads?
+
+Yes. Fimbl has no ads in either its free or Premium version. MacroFactor never uses ads but has no free tier, and Lifesum and Cal AI list none. MyFitnessPal, Cronometer, Lose It! and YAZIO show ads in their free versions and remove them with a paid plan.
+
+### Can I use a calorie counter without making an account?
+
+Fimbl lets you log your first meal and use your diary without an account, and it moves to your account whenever you make one. The coach and weekly reflections need a free account so they can remember your weeks. We didn't find this documented for the other apps we compared.
+
+### What is the best modern alternative to MyFitnessPal?
+
+On iPhone, Fimbl is a good alternative if you want a free barcode scanner, no ads, photo logging and a coach. Cronometer suits people who want micronutrient detail and works on Android and the web. MacroFactor suits people who want adaptive targets. If MyFitnessPal's database matters most to you, it's still hard to beat.
+
+### Do I need to count calories to lose weight?
+
+No, though it helps many people see what they're really eating. If numbers wear you out, a calorie counter with a numbers-optional view, like Fimbl's Graded meals, keeps the record without the daily total. There are also other ways to track, such as the plate method and hunger scales, which we cover in our guide to tracking food without counting calories.
+
+## Sources
+
+- Fridolfsson J, Sjöberg E, Thiwång M et al. (2025). Performance evaluation of 3 large language models for nutritional content estimation from food images. Current Developments in Nutrition 9(10). https://pubmed.ncbi.nlm.nih.gov/41081011/
+- Rodríguez-Jiménez M et al. (2025). Image-based dietary energy and macronutrients estimation with ChatGPT-5: cross-source evaluation across escalating context scenarios. Nutrients 17(22). https://pubmed.ncbi.nlm.nih.gov/41305663/
+- MyFitnessPal Premium features. Checked November 2026. https://www.myfitnesspal.com/premium
+- 9to5Mac (June 2026): MyFitnessPal adds AI-powered Coach. https://9to5mac.com/2026/06/16/myfitnesspal-adds-ai-powered-coach-for-personalized-nutrition-guidance/
+- Cal AI App Store listing. Checked November 2026. https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616
+- MacroFactor app overview and pricing. Checked November 2026. https://macrofactor.com/macrofactor/
+- Lifesum App Store listing. Checked November 2026. https://apps.apple.com/us/app/lifesum-ai-calorie-counter/id286906691
+- Lifesum Premium features (Lifesum help center). Checked November 2026. https://help.lifesum.com/en/article/what-do-i-get-when-i-buy-premium-1vzq8pz/
+- Lose It! App Store listing. Checked November 2026. https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629
+- Cronometer App Store listing. Checked November 2026. https://apps.apple.com/us/app/cronometer-calorie-counter/id1145935738
+- Cronometer: Crono Coach. Checked November 2026. https://cronometer.com/blog/crono-coach/
+- YAZIO PRO features (YAZIO help center). Checked November 2026. https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals
+
+
+---
+
+# The best calorie tracker apps in 2026, compared side by side
+
+URL: https://fimbl.app/blog/best-calorie-tracker-apps/
+Published: 2026-10-17 · Updated: 2026-11-06 · By Kasper Koskenvirta
+
+> Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI side by side: what each one is genuinely best at, what's free, and how to pick the one you'll still open in a month.
+
+Almost every calorie tracker can count. Search a food, scan a barcode, watch a number go down. The real difference shows up later, on the Tuesday you skipped lunch and ate cereal for dinner. Some apps make that day feel like a failure. Others help you understand it. That difference decides whether you're still tracking in a month.
+
+ The short answer
+
+For most people on iPhone who want to lose weight and still be tracking in a month, Fimbl is our top pick: snap a meal for calories and macros, a free barcode scanner, free macro goals and private progress photos, no ads, check-ins on hunger and feelings at every meal, an AI coach that reads your own days (Premium), and Graded meals for when the numbers wear you out. If you need something specific, these are excellent:
+
+- Cronometer for micronutrient detail (95+ vitamins and minerals, free).
+- MacroFactor for adaptive calorie and macro targets.
+- MyFitnessPal for the biggest food database.
+- YAZIO or Lifesum for a free barcode scanner on Android too.
+- Cal AI if you only ever want to snap a photo.
+
+A note on bias. We make Fimbl, so we're not neutral observers. Here's how we approached it: every claim about another app was checked against that company's own website, help center or App Store listing in October 2026, each app gets credit for what it does better than ours, and all sources are listed at the end.
+
+## How we compared them
+
+Feature lists are easy to compare and tell you surprisingly little. So alongside the usual checks, we looked at what decides whether a tracker actually helps:
+
+- Speed: how many ways you can log a meal, and how fast each one is.
+- What's free: whether the basics (search, barcode, history) work without paying, and whether the free version shows ads.
+- The off days: how the app treats you when you go over, skip a day or eat a birthday cake.
+- Insight beyond calories: whether it helps you notice hunger, feelings and patterns, not just totals.
+- Privacy and reach: ads, data use, platforms and languages.
+
+The last three matter more than they sound. Reviews of weight-management research consistently find that people who keep logging tend to do better, but the evidence is about consistency.[13] The tracker that wins is the one you keep opening.
+
+## The apps at a glance
+
+| Feature | Our pick Fimbl | MyFitnessPal | Cronometer | MacroFactor | Lose It! | YAZIO | Lifesum | Cal AI |
+|---|---|---|---|---|---|---|---|---|
+| Barcode scanning | Available: Free | Paid plan only: Premium | Available: Free | Available: In subscription | Paid plan only: Premium | Available: Free | Available: Free | Available: In subscription |
+| No ads | Yes: Free & Premium | Paid plan only: Premium only | Paid plan only: Gold only | Yes: Never uses ads | Paid plan only: Paid only | Paid plan only: PRO only | Yes: None listed | Yes: None listed |
+| AI photo logging | Available: 3 free, then Premium or Apple Intelligence | Paid plan only: Premium | Paid plan only: Gold | Available: In subscription | Paid plan only: Premium | Paid plan only: PRO | Paid plan only: Premium | Available: Core feature |
+| Describe a meal by voice or text | Available: Text shares the free scans, voice in Premium | Paid plan only: Premium | Paid plan only: Gold | Available: In subscription | Paid plan only: Premium | Not documented | Paid plan only: Premium | Available: Text |
+| Recipe import from links or videos | Paid plan only: Premium · Reels, TikToks, Shorts, sites | Available: Web links | Paid plan only: Gold · web links | Available: Links, cookbook photos | Not documented | Not documented | Not documented | Not documented |
+| Hunger & feelings check-ins at meals | Available: Free | Not documented | Not at meals: Daily mood & energy | Not documented | Not documented | Not at meals: PRO mood diary | Not documented | Not documented |
+| Option to hide calorie numbers | Available: Graded meals, free | Not documented | Not documented | Not documented | Not documented | Not documented | Not documented | Not documented |
+| AI coach you can ask | Paid plan only: Premium, reads your meals and moods | Paid plan only: Premium, 5 countries | Paid plan only: Gold, Crono Coach | Not documented: Algorithm check-ins, no chat documented | Not documented | Not documented | Not documented | Not documented |
+| Progress photos | Available: Free, guided, stay on your iPhone | Available: One per weigh-in | Available: "Snapshots" | Paid plan only: In subscription | Not documented | Not documented | Not documented | Not documented |
+| Adaptive calorie targets | Not available | Not documented | Not documented | Available: Weekly updates | Not documented | Not documented | Not documented | Not documented |
+| Android or web | Not available: iPhone & iPad only | Available: Both | Available: Both | Available: Android | Available: Both | Available: Android | Available: Android | Available: Android |
+| Made in | Finland | USA | Canada | USA | USA | Germany | Sweden | USA |
+
+ Available Paid plan only Not available or not documented Checked against each provider's website, help center and App Store listing, October 2026. Apps change often, so check before you subscribe.
+
+Two rows stand out. Only Fimbl asks how you feel at the moment you eat, and only Fimbl documents a way to stop seeing calorie numbers without losing your history. Everyone else is, at heart, a very good counter. AI coaches have gone from rare to common in a year too, so it's worth asking what each one actually reads and coaches. We compare them in our [guide to AI fitness and nutrition coaches](https://fimbl.app/blog/best-ai-fitness-coach-apps/).
+
+## What each app is genuinely best at
+
+ Best for the biggest database
+
+### MyFitnessPal
+
+The default name in calorie counting, with more than 20 million foods and links to dozens of apps and devices. Since December 2025 it also owns Cal AI, and since June 2026 Premium includes an AI Coach in the US, UK, Canada, Australia and New Zealand.[17]
+
+Keep in mind: barcode scanning, ad-free use and custom macro goals are part of Premium, and the free version shows ads.
+
+ Best for micronutrients
+
+### Cronometer
+
+The precision tool. It tracks more than 95 vitamins and minerals for free from a curated, verified database, which makes it a favourite of dietitians and anyone managing specific nutrients. Gold adds photo and voice logging and an AI assistant, Crono Coach.
+
+Keep in mind: the free version shows ads, and the level of detail can feel like a lab report if you simply want to eat a little better.
+
+ Best for adaptive macros
+
+### MacroFactor
+
+Its algorithm estimates your energy expenditure from your weight trend and adjusts your targets every week, without scolding you for imperfect days. Great for training goals.
+
+Keep in mind: there's no free tier (a 7-day trial), no web app, and the app is in English and Japanese only.
+
+ Best for a simple calorie budget
+
+### Lose It!
+
+A straightforward daily budget that has been helping people count since 2008. Clean, familiar and easy to start.
+
+Keep in mind: its App Store listing puts barcode scanning and AI logging under Premium, and the free version shows ads.
+
+ Best for European foods
+
+### YAZIO
+
+A German app with a large food database, a free barcode scanner and popular fasting timers, available in 20 languages.
+
+Keep in mind: the free version shows ads, and photo logging, the mood diary and most fasting plans are part of PRO. There's no web version.
+
+ Best for meal plans
+
+### Lifesum
+
+A design-led Swedish app built around healthy eating, with diet programmes, recipes, a free barcode scanner and a simple "Life Score".
+
+Keep in mind: AI tracking, custom macro goals and meal plans are Premium, and micronutrient detail is limited.
+
+ Best for photo-only logging
+
+### Cal AI
+
+Point your camera, get calories and macros. If typing a single food name feels like too much, it's the fastest route from plate to log.
+
+Keep in mind: scan results require a subscription, and it tracks calories and macros only, with nothing on hunger or mood.
+
+ Best for a guided programme
+
+### Noom
+
+Less a tracker than a structured programme, with daily psychology lessons and coaching. Foods are sorted by a colour system based on calorie density.
+
+Keep in mind: it's built around a subscription programme, and its GLP-1 medication offering (Noom Med) is available in the US only.
+
+ Best for a habit that lasts, and understanding why you eat
+
+### Fimbl
+
+A modern photo calorie counter for iPhone and iPad that tracks calories and macros like the others, then adds the part they leave out: how hungry you were, how you felt, and a coach that connects the two. The free version is a complete diary with a barcode scanner, macro goals, private progress photos and no ads. More on why we rank it first below.
+
+Keep in mind: iPhone and iPad only, no micronutrient deep-dive, a smaller food database than MyFitnessPal, and photo scans beyond the free ones and the coach are part of Premium.
+
+## The question most comparisons skip
+
+Most "best calorie app" lists rank database size and AI accuracy. Those matter. But if you've tried tracking before, you probably didn't stop because a food was missing. You stopped because it started to feel like a test you kept failing.
+
+The research backs this up in both directions. Logging what you eat is one of the most reliable habits linked to weight-management success, and more consistent digital tracking goes with better results.[13, 14] Yet in one study, almost half of young adults using healthy-eating and fitness apps described negative experiences such as guilt and feeling controlled.[15] On the other hand, a randomised trial found that a month of calorie tracking didn't raise eating-disorder risk in low-risk students.[16] The takeaway isn't that tracking is bad. It's that how an app makes you feel is part of whether it works.
+
+The best tracker isn't the one with the most foods. It's the one you still open on the day you'd rather not.
+
+## Why Fimbl comes out on top for most people
+
+We built Fimbl around one idea: notice what you eat, understand why, and change one small thing at a time. Here's what that looks like in the app.
+
+ Free It asks how you feel, not just what you ate A ten-second check-in around your meals: how hungry were you, and what were you feeling? Craving, stressed, bored, satisfied. Pick as many as you like, or none. Over a few weeks, the patterns behind your eating start to show.
+
+- No other app in this comparison documents check-ins at meals
+- Daily mood and a hunger trend over time
+
+ Free & Premium Numbers when you want them, grades when you don't Switch to Graded meals and calorie numbers step back: each food gets a simple balance mark, for free. Premium adds an AI grade for every food, the reason behind it, tips and swaps. Fimbl keeps counting quietly in the background, so switching back loses nothing.
+
+- Treat days get context, not red numbers
+- The only numbers-optional mode we found
+
+ Free & Premium Logging in seconds, whichever way suits you Search by name or brand and scan barcodes for free, save your usual meals and log them in one tap, or ask Siri. Snap your plate or describe it in a few words: your first three are free, and on iPhones with Apple Intelligence they stay free. Premium adds photo scans for every meal, voice logging and nutrition label scans. You can adjust every estimate before you save.
+
+- Barcode scanning is free, with no ads
+- Wrong values on a product? Correct them once, Fimbl remembers
+
+-
+
+Recipes from Reels and TikToksShare a video or recipe link, get the recipe with nutrition per portion.
+
+-
+
+Lighter swaps in the aisleScan a product for a clear score and better-fitting alternatives.
+
+-
+
+A weekly reflection and a coachWins, patterns and one gentle focus, written about your week. Then ask your coach about it.
+
+ Free Progress photos that never leave your phone A guided camera lines you up the same way every time, front, side, back and face, so any two days compare fairly, right next to your weight change. Your photos stay on your iPhone: never uploaded to our servers, never used for AI and never included in iCloud backups. Shown with Fimbl's demo account. The person and photos are AI-generated examples.
+
+ Free A first week designed so you don't quit The start is often the hardest part of tracking. Fimbl's First Week turns it into seven small steps, from a first log to naming your mood, with one nudge at the time you choose. Miss a day? That's fine. Just don't miss two.
+
+Put together, that's the difference. Other apps are excellent at telling you what you ate. Fimbl is built to help you understand why, and it stays kind on the days that don't go to plan.
+
+## Where Fimbl isn't the best choice
+
+Every app has limits, Fimbl included. Choose something else if:
+
+- You use Android or want a web app. Fimbl is iPhone and iPad only. MyFitnessPal, Cronometer and Lose It! run on both, and YAZIO and Lifesum on Android.
+- You track specific vitamins and minerals. Cronometer's micronutrient detail is in a different league.
+- You're dialling in macros for training. MacroFactor's adaptive targets are built for exactly that.
+- You eat out at many US chains. MyFitnessPal's database is hard to beat for branded and restaurant items.
+- You need medical support. No app replaces a doctor or dietitian. Fimbl isn't a medical tool or a treatment for eating disorders.
+
+ Our pick
+
+### Fimbl: calorie tracking, made calm
+
+If you've tracked before and it felt like a test you kept failing, start here. You get everything a modern calorie counter does, plus the part that makes it stick: a coach that knows your days, grades when numbers get loud, private progress photos and a first week that meets you where you are.
+
+- Free diary, barcode scanner, macro goals and check-ins
+- No ads, no diet-culture noise
+- English, German and Finnish
+
+ [Get Fimbl free](https://apps.apple.com/app/id6443701726)
+
+## How to choose in two minutes
+
+-
+
+Start with your phone. On Android or the web, narrow it to MyFitnessPal, Cronometer, Lose It!, YAZIO or Lifesum. On iPhone, everything here is open to you.
+
+-
+
+Name what you're really after. Precision (micronutrients, macros for training) points to Cronometer or MacroFactor. A calmer relationship with food and habits that last points to Fimbl.
+
+-
+
+Notice how numbers make you feel. If seeing a calorie total every day motivates you, any counter works. If it makes you anxious, pick an app that lets you step back from numbers without losing track.
+
+-
+
+Check what's free before you commit. Make sure the basics you'll use daily, like barcode scanning, aren't behind a paywall, and that the free version doesn't fill your diary with ads.
+
+Then give it a real week. Not a perfect one, a real one. The right app is the one that's still on your home screen when the week is over.
+
+## Questions, answered
+
+### What is the best calorie tracker app in 2026?
+
+It depends on what you need. On iPhone, we recommend Fimbl for most people who want to lose weight and keep going, because it pairs photo calorie scans, free macro goals and private progress photos with hunger and feelings check-ins and an AI coach that reads your own days. Cronometer is the best choice for detailed micronutrients, MacroFactor for adaptive macro targets, and MyFitnessPal for the largest food database.
+
+### Which calorie counter has a free barcode scanner?
+
+As of October 2026, Fimbl, Cronometer, YAZIO and Lifesum include barcode scanning in their free versions. MyFitnessPal moved barcode scanning to Premium in 2022, and Lose It! lists it as a Premium feature in its App Store description.
+
+### Is there a calorie tracker without ads?
+
+Fimbl has no ads in either its free or Premium version. MacroFactor never uses ads but has no free tier, and Lifesum and Cal AI list no ads. MyFitnessPal, Cronometer, Lose It! and YAZIO show ads in their free versions and remove them with a paid plan.
+
+### Can I track what I eat without seeing calories?
+
+Yes. Fimbl's Graded meals view is free: calorie numbers step back and each food gets a simple balance mark, while Fimbl keeps counting in the background. Premium adds an AI grade for each food with the reason, tips and swaps. You can switch back to numbers at any time. None of the other apps in this comparison document a comparable mode.
+
+### What is a good alternative to MyFitnessPal?
+
+On iPhone, Fimbl is a good alternative if you want free barcode scanning, no ads and a calmer, feelings-aware diary. Cronometer suits people who want micronutrient detail, and YAZIO suits people who want a large European food database on Android as well as iPhone.
+
+### Is calorie counting bad for your mental health?
+
+For many people it's a useful, neutral tool. Some studies link calorie-tracking apps with more eating concern in certain users, while a randomised trial in low-risk students found no increase in eating-disorder risk. If tracking makes you anxious, a numbers-optional approach can help, and if food feels overwhelming, please talk to a healthcare professional.
+
+### Which calorie counter apps have an AI coach?
+
+As of November 2026, Fimbl (Premium), MyFitnessPal (Premium, in five countries) and Cronometer (Gold, called Crono Coach) all document an AI coach you can ask about your own logs. MacroFactor adjusts your targets with a weekly coaching algorithm rather than chat. See our full comparison of AI fitness and nutrition coaches.
+
+### Does Fimbl work on Android?
+
+No. Fimbl is built natively for iPhone and iPad running iOS or iPadOS 26 or later. If you need Android or a web app, MyFitnessPal, Cronometer, Lose It!, YAZIO and Lifesum are available there.
+
+## Sources
+
+- MyFitnessPal Premium features, including barcode scanning and ad-free use. https://www.myfitnesspal.com/premium
+- MyFitnessPal's acquisition of Cal AI (TechCrunch, March 2026). https://techcrunch.com/?p=3098039
+- Cronometer Gold features and prices. https://cronometer.com/gold/
+- Cronometer biometrics, including mood and energy. https://cronometer.com/blog/biometrics/
+- MacroFactor app overview and languages. https://macrofactor.com/macrofactor/
+- MacroFactor AI food logging. https://macrofactor.com/ai-food-logging/
+- Lose It! App Store listing, Premium plan features. https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629
+- YAZIO PRO features (YAZIO help center). https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals
+- Lifesum: how it works, including the free barcode scanner. https://lifesum.com/how-it-works
+- Lifesum Premium features (Lifesum help center). https://help.lifesum.com/en/article/what-do-i-get-when-i-buy-premium-1vzq8pz/
+- Cal AI App Store listing. https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616
+- How Noom's food colour system works. https://www.noom.com/support/faqs/using-the-app/logging-and-tracking/food-and-water/2025/10/how-nooms-food-color-system-works/
+- Burke LE, Wang J, Sevick MA (2011). Systematic review of self-monitoring in weight loss. Journal of the American Dietetic Association 111(1). https://pubmed.ncbi.nlm.nih.gov/21185970/
+- Patel ML, Wakayama LN, Bennett GG (2021). Systematic review of digital self-monitoring in weight-loss trials. Obesity 29(3). https://pubmed.ncbi.nlm.nih.gov/33624440/
+- Honary M et al. (2019). Young people's experiences of healthy-eating and fitness apps. JMIR mHealth and uHealth 7(6). https://pubmed.ncbi.nlm.nih.gov/31215514/
+- Hahn SL et al. (2021). Randomised trial of calorie-tracking app use and eating-disorder risk in college women. Journal of the Academy of Nutrition and Dietetics 121(12). https://pubmed.ncbi.nlm.nih.gov/34427188/
+- 9to5Mac (June 2026): MyFitnessPal adds AI-powered Coach for Premium and Premium+ subscribers. https://9to5mac.com/2026/06/16/myfitnesspal-adds-ai-powered-coach-for-personalized-nutrition-guidance/
+- Cronometer: Crono Coach, and the Cronometer App Store listing. Checked November 2026. https://cronometer.com/blog/crono-coach/
 
 
 ---
@@ -27,7 +981,7 @@ Fimbl is built around one loop: log what you eat in seconds, check in on how you
 # The best progress photo apps in 2026, compared
 
 URL: https://fimbl.app/blog/best-progress-photo-apps/
-Published: 2026-10-19 · Updated: 2026-10-19 · By Kasper Koskenvirta
+Published: 2026-10-19 · Updated: 2026-11-06 · By Kasper Koskenvirta
 
 > The scale can't tell fat from water or muscle. Photos can, if every one is taken the same way. We compared how Fimbl, Progress, Hevy, MacroFactor, MyFitnessPal and Cronometer help you capture, compare and protect your body transformation photos.
 
@@ -213,7 +1167,7 @@ Already living in a workout log? Hevy's photo and overlay will fit right into yo
 
 On Android? Fimbl and Progress are iPhone apps. Whatever you choose, look for two things: an overlay of your last photo, and a clear answer on where your photos are stored.
 
-Whichever you pick, the rule is the same: same spot, same light, same pose, every week or two. And if the scale and the mirror still disagree, remember the study above: six kilograms of change can look like three and a half on the scale. Our guide on [how to start a food diary](https://fimbl.app/blog/how-to-start-a-food-diary/) covers the eating side of the story, and our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/) looks at the apps beyond photos.
+Whichever you pick, the rule is the same: same spot, same light, same pose, every week or two. And if the scale and the mirror still disagree, remember the study above: six kilograms of change can look like three and a half on the scale. Our guide on [how to start a food diary](https://fimbl.app/blog/how-to-start-a-food-diary/) covers the eating side of the story, and our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/) looks at the apps beyond photos. If you're using photos to track weight loss, our [weight loss app comparison](https://fimbl.app/blog/best-weight-loss-apps/) shows how they fit with a calorie counter and a coach.
 
  Our pick
 
@@ -330,7 +1284,7 @@ A rough log you keep for three months tells you more than a perfect one you aban
 
 Errors also matter less than they look, because they tend to be consistent. If AI reads your usual breakfast low every time, your trend is still accurate: you'll still see that weekdays look different from weekends, and that the evening snack grew in November. And for the things where precision matters, you have a better tool.
 
- Premium A photo, an estimate, and you in charge Snap a plate, or describe it by text or voice, and Fimbl estimates the portion, calories and macros. Then you adjust: half, one and a half or double the portion, or fine-tune the details. Estimates can be a little off, so the final say is always yours.
+ 3 free, then Premium A photo, an estimate, and you in charge Snap a plate, or describe it by text or voice, and Fimbl estimates the portion, calories and macros. Then you adjust: half, one and a half or double the portion, or fine-tune the details. Estimates can be a little off, so the final say is always yours.
 
 - Photo scan, text or voice, and nutrition label scan
 - Recipes from Reels, TikToks, YouTube Shorts and recipe sites
@@ -369,7 +1323,7 @@ Home-cooked mixed dishesStews, salads and bowls that would take ten entries by h
 
 Busy momentsWhen the choice is a photo or nothing, take the photo.
 
-And when you have neither the time nor the energy, a quick add of a rough calorie number keeps the day in your diary. Close enough is good enough. The tracker that wins is the one you keep opening, which is the same conclusion we reached in our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/).
+And when you have neither the time nor the energy, a quick add of a rough calorie number keeps the day in your diary. Close enough is good enough. The tracker that wins is the one you keep opening, which is the same conclusion we reached in our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/). For what else to expect beyond the scan, see [what a modern calorie counter does](https://fimbl.app/blog/modern-calorie-counter-app/).
 
 ## Five ways to get better AI estimates
 
@@ -403,10 +1357,10 @@ In Fimbl, AI is optional. Everyone gets 3 free photo scans or meal descriptions,
 
 ### AI when it's easier, labels when it matters
 
-Fimbl's free diary gives you barcode scanning, search and saved meals. Premium adds photo, voice and text logging for the meals that don't come with a label. You choose, meal by meal.
+Fimbl's free diary gives you barcode scanning, search, saved meals and 3 photo scans to try. On iPhones with Apple Intelligence scans stay free, and Premium adds photo scans and voice logging for the meals that don't come with a label. You choose, meal by meal.
 
 - Free barcode scanner, no ads
-- Photo, voice and text logging with Premium
+- 3 free photo scans, more with Premium
 - Every estimate adjustable
 
  [Get Fimbl free](https://apps.apple.com/app/id6443701726)
@@ -455,7 +1409,7 @@ Only if you use an AI feature, which is optional. Your first 3 scans, and every 
 # How to track what you eat without counting calories
 
 URL: https://fimbl.app/blog/track-food-without-counting-calories/
-Published: 2026-10-19 · Updated: 2026-10-19 · By Kasper Koskenvirta
+Published: 2026-10-19 · Updated: 2026-11-06 · By Kasper Koskenvirta
 
 > The plate method, hand portions, a hunger scale, a photo diary and meal grades: five ways to stay aware of what you eat without adding up a single number, and how to tell whether numbers help you or hold you back.
 
@@ -467,7 +1421,7 @@ You can track what you eat without counting calories by changing what you measur
 
 - Five methods that work: the plate method, hand portions, a hunger scale, a photo food diary, and meal grades instead of numbers.
 - Start with one. The plate method or a hunger check-in takes seconds and needs no app, no scale and no maths.
-- In Fimbl, Calm mode (Premium) swaps calorie numbers for gentle grades, while the diary keeps counting quietly in the background.
+- In Fimbl, Graded meals (free) lets calorie numbers step back and gives each food a simple mark, while the diary keeps counting quietly in the background.
 
 ## Why some people track better without numbers
 
@@ -487,7 +1441,7 @@ Effort is the time per meal once the method is familiar. Most people combine two
 | 2. Hand portions | Portion sizes, using your hand | A glance | Eating out, travel | No: No tools needed |
 | 3. Hunger scale | Hunger before, fullness after | Ten seconds | Overeating, emotional eating | Yes: Meal check-ins, free |
 | 4. Photo food diary | A picture of each meal | Five seconds | Spotting patterns at a glance | Yes: Photo scan, Premium |
-| 5. Meal grades | How well a meal served you | Automatic | Stepping back from numbers | Yes: Calm mode, Premium |
+| 5. Meal grades | How well a meal served you | Automatic | Stepping back from numbers | Yes: Graded meals, free |
 
 ### 1. The plate method
 
@@ -512,13 +1466,13 @@ Rate your hunger from 1 (ravenous) to 10 (stuffed) before you eat, and check in 
 
 ### 4. A photo food diary
 
-Take a picture before every meal and snack, and look back at the end of the week. A photo is faster than writing and harder to fudge, and a week of plates side by side shows patterns instantly: how many meals had vegetables, how often dinner came from a box, how big the evening snacks got. Your camera roll works, or a dedicated album. In Fimbl, a photo scan (Premium) also logs the meal for you, and you can hide the numbers it produces with Calm mode.
+Take a picture before every meal and snack, and look back at the end of the week. A photo is faster than writing and harder to fudge, and a week of plates side by side shows patterns instantly: how many meals had vegetables, how often dinner came from a box, how big the evening snacks got. Your camera roll works, or a dedicated album. In Fimbl, a photo scan also logs the meal for you (three are free), and Graded meals keeps the numbers it produces out of sight.
 
 ### 5. Meal grades instead of numbers
 
-The newest approach replaces the number with a judgement about the meal itself: did it fit your goals, keep you full, leave you feeling good? It's the method we built Fimbl's Calm mode around, because it keeps the useful information and drops the part that makes people anxious.
+The newest approach replaces the number with a judgement about the meal itself: did it fit your goals, keep you full, leave you feeling good? It's the method we built Fimbl's Graded meals around, because it keeps the useful information and drops the part that makes people anxious.
 
- Premium Calm mode: grades, not guilt Each food and meal gets a gentle grade from A to F for how well it served your goals, hunger and mood, from "Great fit" to "Room to grow", with a short note and one idea for next time. Your day gets a grade too.
+ Free · AI grades in Premium Graded meals: grades, not guilt Each food gets a simple balance mark for free. With Premium, each food and meal gets an AI grade from A to F for how well it served your goals, hunger and mood, from "Great fit" to "Room to grow", with a short note and one idea for next time. Your day gets a grade too.
 
 - Calorie numbers are hidden, not deleted
 - The diary keeps counting in the background, so you can switch back any time
@@ -543,7 +1497,7 @@ You avoid foods you can't logTurning down a birthday cake because it has no barc
 
 You've quit tracking beforeBurn-out after a few weeks usually means the method asked too much.
 
-There's also a middle path: keep logging food so the record exists, but hide the totals. That's what Calm mode does, and it's why switching back never loses anything. If you'd like to see how other apps handle numbers, our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/) covers each one.
+There's also a middle path: keep logging food so the record exists, but hide the totals. That's what Graded meals does, and it's why switching back never loses anything. If you'd like to see how other apps handle numbers, our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/) covers each one.
 
 ## How to get started this week
 
@@ -569,10 +1523,10 @@ If food and numbers feel overwhelming, you deserve support. If you have a histor
 
 ### Keep the awareness, lose the arithmetic
 
-Start with Fimbl's free diary and meal check-ins. When numbers get loud, Calm mode swaps them for gentle grades, and switching back never loses a thing.
+Start with Fimbl's free diary and meal check-ins. When numbers get loud, Graded meals swaps them for a simple mark, and switching back never loses a thing.
 
 - Free hunger and feeling check-ins
-- Calm mode: grades instead of calories
+- Graded meals: grades instead of calories
 - No ads, no streak shame
 
  [Get Fimbl free](https://apps.apple.com/app/id6443701726)
@@ -597,7 +1551,7 @@ A common guide uses one palm for a portion of protein, a fist for carbohydrates 
 
 ### Is there a calorie tracker app that doesn't show calories?
 
-Yes. Fimbl for iPhone and iPad has Calm mode (part of Fimbl Premium), which hides calorie numbers and grades each meal from A to F for how well it served your goals, hunger and mood. The diary keeps counting in the background, so you can switch back at any time without losing anything.
+Yes. Fimbl for iPhone and iPad has Graded meals, a free view where calorie numbers step back and each food gets a simple balance mark. Premium adds an AI grade from A to F for how well each food served your goals, hunger and mood. The diary keeps counting in the background, so you can switch back at any time without losing anything.
 
 ### Will I still lose weight without counting calories?
 
@@ -617,7 +1571,7 @@ Many people do, because methods like the plate method, hand portions and hunger 
 # How to start a food diary: a 7-day plan for beginners
 
 URL: https://fimbl.app/blog/how-to-start-a-food-diary/
-Published: 2026-10-19 · Updated: 2026-10-19 · By Kasper Koskenvirta
+Published: 2026-10-19 · Updated: 2026-11-06 · By Kasper Koskenvirta
 
 > Most food diaries are abandoned by day four because day one asked for too much. Here's what to write down, a seven-day plan that adds one small step at a time, and the mistakes that quietly end diaries early.
 
@@ -772,7 +1726,7 @@ Give it at least one full week to build the habit, then two to four weeks to see
 
 ### Do I have to count calories in a food diary?
 
-No. A food diary can be as simple as what, when and how you felt. Calories are useful for some goals, but plenty of people get most of the benefit from noticing patterns alone. Fimbl's Calm mode (Premium) even replaces calorie numbers with gentle grades.
+No. A food diary can be as simple as what, when and how you felt. Calories are useful for some goals, but plenty of people get most of the benefit from noticing patterns alone. Fimbl's free Graded meals view even lets calorie numbers step back, with a simple balance mark for each food.
 
 ### Is a food diary app better than paper?
 
@@ -801,275 +1755,10 @@ Yes. Fimbl for iPhone and iPad is free to download and includes a guided First W
 
 ---
 
-# The best calorie tracker apps in 2026, compared side by side
-
-URL: https://fimbl.app/blog/best-calorie-tracker-apps/
-Published: 2026-10-17 · Updated: 2026-10-17 · By Kasper Koskenvirta
-
-> Fimbl, MyFitnessPal, Cronometer, MacroFactor, Lose It!, YAZIO, Lifesum and Cal AI side by side: what each one is genuinely best at, what's free, and how to pick the one you'll still open in a month.
-
-Almost every calorie tracker can count. Search a food, scan a barcode, watch a number go down. The real difference shows up later, on the Tuesday you skipped lunch and ate cereal for dinner. Some apps make that day feel like a failure. Others help you understand it. That difference decides whether you're still tracking in a month.
-
- The short answer
-
-For most people who want a habit that lasts, Fimbl is our top pick: fast logging with a free barcode scanner, no ads, check-ins on hunger and feelings at every meal, and an optional Calm mode that swaps calorie numbers for gentle grades. If you need something specific, these are excellent:
-
-- Cronometer for micronutrient detail (84 nutrients, free).
-- MacroFactor for adaptive calorie and macro targets.
-- MyFitnessPal for the biggest food database.
-- YAZIO or Lifesum for a free barcode scanner on Android too.
-- Cal AI if you only ever want to snap a photo.
-
-A note on bias. We make Fimbl, so we're not neutral observers. Here's how we approached it: every claim about another app was checked against that company's own website, help center or App Store listing in October 2026, each app gets credit for what it does better than ours, and all sources are listed at the end.
-
-## How we compared them
-
-Feature lists are easy to compare and tell you surprisingly little. So alongside the usual checks, we looked at what decides whether a tracker actually helps:
-
-- Speed: how many ways you can log a meal, and how fast each one is.
-- What's free: whether the basics (search, barcode, history) work without paying, and whether the free version shows ads.
-- The off days: how the app treats you when you go over, skip a day or eat a birthday cake.
-- Insight beyond calories: whether it helps you notice hunger, feelings and patterns, not just totals.
-- Privacy and reach: ads, data use, platforms and languages.
-
-The last three matter more than they sound. Reviews of weight-management research consistently find that people who keep logging tend to do better, but the evidence is about consistency.[13] The tracker that wins is the one you keep opening.
-
-## The apps at a glance
-
-| Feature | Our pick Fimbl | MyFitnessPal | Cronometer | MacroFactor | Lose It! | YAZIO | Lifesum | Cal AI |
-|---|---|---|---|---|---|---|---|---|
-| Barcode scanning | Available: Free | Paid plan only: Premium | Available: Free | Available: In subscription | Paid plan only: Premium | Available: Free | Available: Free | Available: In subscription |
-| No ads | Yes: Free & Premium | Paid plan only: Premium only | Paid plan only: Gold only | Yes: Never uses ads | Paid plan only: Paid only | Paid plan only: PRO only | Yes: None listed | Yes: None listed |
-| AI photo logging | Paid plan only: Premium | Paid plan only: Premium | Paid plan only: Gold | Available: In subscription | Paid plan only: Premium | Paid plan only: PRO | Paid plan only: Premium | Available: Core feature |
-| Describe a meal by voice or text | Paid plan only: Premium | Paid plan only: Premium | Paid plan only: Gold | Available: In subscription | Paid plan only: Premium | Not documented | Paid plan only: Premium | Available: Text |
-| Recipe import from links or videos | Paid plan only: Premium · Reels, TikToks, Shorts, sites | Available: Web links | Paid plan only: Gold · web links | Available: Links, cookbook photos | Not documented | Not documented | Not documented | Not documented |
-| Hunger & feelings check-ins at meals | Available: Free | Not documented | Not at meals: Daily mood & energy | Not documented | Not documented | Not at meals: PRO mood diary | Not documented | Not documented |
-| Option to hide calorie numbers | Paid plan only: Calm mode, Premium | Not documented | Not documented | Not documented | Not documented | Not documented | Not documented | Not documented |
-| Adaptive calorie targets | Not available | Not documented | Not documented | Available: Weekly updates | Not documented | Not documented | Not documented | Not documented |
-| Android or web | Not available: iPhone & iPad only | Available: Both | Available: Both | Available: Android | Available: Both | Available: Android | Available: Android | Available: Android |
-| Made in | Finland | USA | Canada | USA | USA | Germany | Sweden | USA |
-
- Available Paid plan only Not available or not documented Checked against each provider's website, help center and App Store listing, October 2026. Apps change often, so check before you subscribe.
-
-Two rows stand out. Only Fimbl asks how you feel at the moment you eat, and only Fimbl documents a way to stop seeing calorie numbers without losing your history. Everyone else is, at heart, a very good counter.
-
-## What each app is genuinely best at
-
- Best for the biggest database
-
-### MyFitnessPal
-
-The default name in calorie counting, with more than 20 million foods and links to dozens of apps and devices. Since December 2025 it also owns Cal AI.
-
-Keep in mind: barcode scanning, ad-free use and custom macro goals are part of Premium, and the free version shows ads.
-
- Best for micronutrients
-
-### Cronometer
-
-The precision tool. It tracks 84 nutrients for free from curated, lab-based data, which makes it a favourite of dietitians and anyone managing specific nutrients.
-
-Keep in mind: the free version shows ads, and the level of detail can feel like a lab report if you simply want to eat a little better.
-
- Best for adaptive macros
-
-### MacroFactor
-
-Its algorithm estimates your energy expenditure from your weight trend and adjusts your targets every week, without scolding you for imperfect days. Great for training goals.
-
-Keep in mind: there's no free tier (a 7-day trial), no web app, and the app is in English and Japanese only.
-
- Best for a simple calorie budget
-
-### Lose It!
-
-A straightforward daily budget that has been helping people count since 2008. Clean, familiar and easy to start.
-
-Keep in mind: its App Store listing puts barcode scanning and AI logging under Premium, and the free version shows ads.
-
- Best for European foods
-
-### YAZIO
-
-A German app with a large food database, a free barcode scanner and popular fasting timers, available in 20 languages.
-
-Keep in mind: the free version shows ads, and photo logging, the mood diary and most fasting plans are part of PRO. There's no web version.
-
- Best for meal plans
-
-### Lifesum
-
-A design-led Swedish app built around healthy eating, with diet programmes, recipes, a free barcode scanner and a simple "Life Score".
-
-Keep in mind: AI tracking, custom macro goals and meal plans are Premium, and micronutrient detail is limited.
-
- Best for photo-only logging
-
-### Cal AI
-
-Point your camera, get calories and macros. If typing a single food name feels like too much, it's the fastest route from plate to log.
-
-Keep in mind: scan results require a subscription, and it tracks calories and macros only, with nothing on hunger or mood.
-
- Best for a guided programme
-
-### Noom
-
-Less a tracker than a structured programme, with daily psychology lessons and coaching. Foods are sorted by a colour system based on calorie density.
-
-Keep in mind: it's built around a subscription programme, and its GLP-1 medication offering (Noom Med) is available in the US only.
-
- Best for a habit that lasts, and understanding why you eat
-
-### Fimbl
-
-A calm food diary for iPhone and iPad that tracks calories and macros like the others, then adds the part they leave out: how hungry you were, how you felt, and what that means for you. The free version is a complete diary with a free barcode scanner and no ads. More on why we rank it first below.
-
-Keep in mind: iPhone and iPad only, no micronutrient deep-dive, and macro goals and AI features are part of Premium.
-
-## The question most comparisons skip
-
-Most "best calorie app" lists rank database size and AI accuracy. Those matter. But if you've tried tracking before, you probably didn't stop because a food was missing. You stopped because it started to feel like a test you kept failing.
-
-The research backs this up in both directions. Logging what you eat is one of the most reliable habits linked to weight-management success, and more consistent digital tracking goes with better results.[13, 14] Yet in one study, almost half of young adults using healthy-eating and fitness apps described negative experiences such as guilt and feeling controlled.[15] On the other hand, a randomised trial found that a month of calorie tracking didn't raise eating-disorder risk in low-risk students.[16] The takeaway isn't that tracking is bad. It's that how an app makes you feel is part of whether it works.
-
-The best tracker isn't the one with the most foods. It's the one you still open on the day you'd rather not.
-
-## Why Fimbl comes out on top for most people
-
-We built Fimbl around one idea: notice what you eat, understand why, and change one small thing at a time. Here's what that looks like in the app.
-
- Free It asks how you feel, not just what you ate A ten-second check-in around your meals: how hungry were you, and what were you feeling? Craving, stressed, bored, satisfied. Pick as many as you like, or none. Over a few weeks, the patterns behind your eating start to show.
-
-- No other app in this comparison documents check-ins at meals
-- Daily mood and a hunger trend over time
-
- Premium Numbers when you want them, grades when you don't Calm mode replaces calorie numbers with gentle grades for how well each meal served your goals, your hunger and your mood, plus one idea for next time. Fimbl keeps counting quietly in the background, so switching back loses nothing.
-
-- Treat days get context, not red numbers
-- The only numbers-optional mode we found
-
- Free & Premium Logging in seconds, whichever way suits you Search by name or brand and scan barcodes for free, save your usual meals and log them in one tap, or ask Siri. With Premium, snap your plate, describe a meal by voice or text, or scan a nutrition label. You can adjust every estimate before you save.
-
-- Barcode scanning is free, with no ads
-- Wrong values on a product? Correct them once, Fimbl remembers
-
--
-
-Recipes from Reels and TikToksShare a video or recipe link, get the recipe with nutrition per portion.
-
--
-
-Lighter swaps in the aisleScan a product for a clear score and better-fitting alternatives.
-
--
-
-A weekly reflectionWins, patterns and one gentle focus, written about your week.
-
- Free Progress photos that never leave your phone A guided camera lines you up the same way every time, front, side, back and face, so any two days compare fairly, right next to your weight change. Your photos stay on your iPhone: never uploaded to our servers, never used for AI and never included in iCloud backups. Shown with Fimbl's demo account. The person and photos are AI-generated examples.
-
- Free A first week designed so you don't quit The start is often the hardest part of tracking. Fimbl's First Week turns it into seven small steps, from a first log to naming your mood, with one nudge at the time you choose. Miss a day? That's fine. Just don't miss two.
-
-Put together, that's the difference. Other apps are excellent at telling you what you ate. Fimbl is built to help you understand why, and it stays kind on the days that don't go to plan.
-
-## Where Fimbl isn't the best choice
-
-Every app has limits, Fimbl included. Choose something else if:
-
-- You use Android or want a web app. Fimbl is iPhone and iPad only. MyFitnessPal, Cronometer and Lose It! run on both, and YAZIO and Lifesum on Android.
-- You track specific vitamins and minerals. Cronometer's micronutrient detail is in a different league.
-- You're dialling in macros for training. MacroFactor's adaptive targets are built for exactly that.
-- You eat out at many US chains. MyFitnessPal's database is hard to beat for branded and restaurant items.
-- You need medical support. No app replaces a doctor or dietitian. Fimbl isn't a medical tool or a treatment for eating disorders.
-
- Our pick
-
-### Fimbl: calorie tracking, made calm
-
-If you've tracked before and it felt like a test you kept failing, start here. You get everything a good counter does, plus the part that makes it stick: noticing hunger and feelings, gentle grades when numbers get loud, and a first week that meets you where you are.
-
-- Free diary, barcode scanner and check-ins
-- No ads, no diet-culture noise
-- English, German and Finnish
-
- [Get Fimbl free](https://apps.apple.com/app/id6443701726)
-
-## How to choose in two minutes
-
--
-
-Start with your phone. On Android or the web, narrow it to MyFitnessPal, Cronometer, Lose It!, YAZIO or Lifesum. On iPhone, everything here is open to you.
-
--
-
-Name what you're really after. Precision (micronutrients, macros for training) points to Cronometer or MacroFactor. A calmer relationship with food and habits that last points to Fimbl.
-
--
-
-Notice how numbers make you feel. If seeing a calorie total every day motivates you, any counter works. If it makes you anxious, pick an app that lets you step back from numbers without losing track.
-
--
-
-Check what's free before you commit. Make sure the basics you'll use daily, like barcode scanning, aren't behind a paywall, and that the free version doesn't fill your diary with ads.
-
-Then give it a real week. Not a perfect one, a real one. The right app is the one that's still on your home screen when the week is over.
-
-## Questions, answered
-
-### What is the best calorie tracker app in 2026?
-
-It depends on what you need. For most people who want a lasting habit without guilt, we recommend Fimbl, because it pairs quick logging with hunger and feelings check-ins and an optional numbers-free Calm mode. Cronometer is the best choice for detailed micronutrients, MacroFactor for adaptive macro targets, and MyFitnessPal for the largest food database.
-
-### Which calorie counter has a free barcode scanner?
-
-As of October 2026, Fimbl, Cronometer, YAZIO and Lifesum include barcode scanning in their free versions. MyFitnessPal moved barcode scanning to Premium in 2022, and Lose It! lists it as a Premium feature in its App Store description.
-
-### Is there a calorie tracker without ads?
-
-Fimbl has no ads in either its free or Premium version. MacroFactor never uses ads but has no free tier, and Lifesum and Cal AI list no ads. MyFitnessPal, Cronometer, Lose It! and YAZIO show ads in their free versions and remove them with a paid plan.
-
-### Can I track what I eat without seeing calories?
-
-Yes. Fimbl's Calm mode (Premium) replaces calorie numbers with gentle A to C grades for how well each meal served your goals, hunger and mood, while it keeps counting quietly in the background. You can switch back to numbers at any time. None of the other apps in this comparison document a comparable mode.
-
-### What is a good alternative to MyFitnessPal?
-
-On iPhone, Fimbl is a good alternative if you want free barcode scanning, no ads and a calmer, feelings-aware diary. Cronometer suits people who want micronutrient detail, and YAZIO suits people who want a large European food database on Android as well as iPhone.
-
-### Is calorie counting bad for your mental health?
-
-For many people it's a useful, neutral tool. Some studies link calorie-tracking apps with more eating concern in certain users, while a randomised trial in low-risk students found no increase in eating-disorder risk. If tracking makes you anxious, a numbers-optional approach can help, and if food feels overwhelming, please talk to a healthcare professional.
-
-### Does Fimbl work on Android?
-
-No. Fimbl is built natively for iPhone and iPad running iOS or iPadOS 26 or later. If you need Android or a web app, MyFitnessPal, Cronometer, Lose It!, YAZIO and Lifesum are available there.
-
-## Sources
-
-- MyFitnessPal Premium features, including barcode scanning and ad-free use. https://www.myfitnesspal.com/premium
-- MyFitnessPal's acquisition of Cal AI (TechCrunch, March 2026). https://techcrunch.com/?p=3098039
-- Cronometer Gold features and prices. https://cronometer.com/gold/
-- Cronometer biometrics, including mood and energy. https://cronometer.com/blog/biometrics/
-- MacroFactor app overview and languages. https://macrofactor.com/macrofactor/
-- MacroFactor AI food logging. https://macrofactor.com/ai-food-logging/
-- Lose It! App Store listing, Premium plan features. https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629
-- YAZIO PRO features (YAZIO help center). https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals
-- Lifesum: how it works, including the free barcode scanner. https://lifesum.com/how-it-works
-- Lifesum Premium features (Lifesum help center). https://help.lifesum.com/en/article/what-do-i-get-when-i-buy-premium-1vzq8pz/
-- Cal AI App Store listing. https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616
-- How Noom's food colour system works. https://www.noom.com/support/faqs/using-the-app/logging-and-tracking/food-and-water/2025/10/how-nooms-food-color-system-works/
-- Burke LE, Wang J, Sevick MA (2011). Systematic review of self-monitoring in weight loss. Journal of the American Dietetic Association 111(1). https://pubmed.ncbi.nlm.nih.gov/21185970/
-- Patel ML, Wakayama LN, Bennett GG (2021). Systematic review of digital self-monitoring in weight-loss trials. Obesity 29(3). https://pubmed.ncbi.nlm.nih.gov/33624440/
-- Honary M et al. (2019). Young people's experiences of healthy-eating and fitness apps. JMIR mHealth and uHealth 7(6). https://pubmed.ncbi.nlm.nih.gov/31215514/
-- Hahn SL et al. (2021). Randomised trial of calorie-tracking app use and eating-disorder risk in college women. Journal of the Academy of Nutrition and Dietetics 121(12). https://pubmed.ncbi.nlm.nih.gov/34427188/
-
-
----
-
 # Why we built a calorie tracker that doesn't judge you
 
 URL: https://fimbl.app/blog/why-we-built-fimbl/
-Published: 2026-10-17 · Updated: 2026-10-17 · By Kasper Koskenvirta
+Published: 2026-10-17 · Updated: 2026-11-06 · By Kasper Koskenvirta
 
 > Most calorie apps are brilliant at counting and quietly bad at the days that don't go to plan. Here's what we changed, what we deliberately left out, and where we're taking Fimbl next.
 
@@ -1115,7 +1804,7 @@ Mindful eating research supports the first half of that loop most clearly. Revie
 Building a calm app is mostly a series of small refusals. These are the decisions we keep coming back to.
 
 - Feelings belong at the table Every meal can come with a quick check-in on hunger and feelings, and it's free. Craving, stressed, bored, satisfied: pick as many as you like, or none.
-- Numbers are optional Calm mode (Premium) swaps calorie numbers for gentle grades on how well a meal served your goals, hunger and mood, while counting quietly in the background.
+- Numbers are optional Graded meals (free) lets calorie numbers step back and gives each food a simple balance mark, while counting quietly in the background. Premium adds an AI grade with the reason, tips and swaps.
 - Free means a complete diary Search, barcode scanning, saved meals, check-ins, weight, goals, Apple Health activity and progress photos all work for free. No ads, ever.
 - AI with the lights on AI is optional, and the free tries and Premium features see only what a feature needs, never your name or email, and we don't train models on your data.[4]
 - Your photos are yours Progress photos stay on your iPhone. They're never uploaded to our servers, never used for AI and never included in iCloud backups.
@@ -1197,11 +1886,11 @@ Fimbl is designed and built by AppRise Ventures Oy, a small company in Espoo, Fi
 
 ### Is Fimbl a diet app?
 
-Not in the usual sense. You can set a calorie goal if it helps you, or switch to Calm mode and see grades instead of numbers. Fimbl is about balance, awareness and habits, and it's built to support a healthier relationship with food. It isn't a medical tool or a treatment for eating disorders.
+Fimbl is a calorie counter you can use to lose weight, keep it steady or gain, but it isn't a strict diet. Set a calorie goal if it helps you, or switch to Graded meals and see a simple mark instead of numbers. It's built to support a healthier relationship with food. It isn't a medical tool or a treatment for eating disorders.
 
 ### What's free in Fimbl, and what's Premium?
 
-The heart of the app is free and has no ads: the food diary, search and barcode scanning, saved meals, weight, mood and meal check-ins, Apple Health activity, goals and streaks, progress photos and the First Week journey. Premium adds macro goals, the AI features (photo scan, describing meals by voice or text, label scan, recipes from videos, weekly reflections and the coach, Calm mode and healthier swaps), widgets, extra meal slots and streak restore.
+The heart of the app is free and has no ads: the food diary, search and barcode scanning, saved meals, macros and macro goals, weight, mood and meal check-ins, Apple Health activity, goals and streaks, progress photos, Graded meals, Your story and the First Week journey, plus 3 photo scans and your first weekly reflection. Premium adds photo scans beyond the free ones, voice logging, recipes from videos, weekly reflections and the coach, AI grades and healthier swaps, more widgets and streak restore.
 
 ### Does Fimbl use my data to train AI?
 

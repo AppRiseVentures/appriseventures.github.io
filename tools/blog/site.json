@@ -1,13 +1,16 @@
 {
   "base": "https://fimbl.app",
   "store": "https://apps.apple.com/app/id6443701726",
-  "site_modified": "2026-10-19",
+  "site_modified": "2026-11-06",
   "order": [
+    "weight-loss-apps",
+    "ai-coach",
+    "modern-calorie-counter",
+    "calorie-trackers",
     "progress-photos",
     "ai-calorie-tracking",
     "without-counting",
     "food-diary",
-    "calorie-trackers",
     "why-we-built-fimbl",
     "emotional-hunger"
   ],
@@ -16,6 +19,15 @@
       "de"
     ],
     "progress-photos": [
+      "de"
+    ],
+    "weight-loss-apps": [
+      "de"
+    ],
+    "ai-coach": [
+      "de"
+    ],
+    "modern-calorie-counter": [
       "de"
     ]
   },
@@ -59,7 +71,7 @@
     }
   ],
   "llms": {
-    "intro": "# Fimbl\n\n> Fimbl is a photo calorie counter and food diary for iPhone and iPad (iOS and iPadOS 26 or later), made by AppRise Ventures Oy in Espoo, Finland. Snap a meal for calories and macros in seconds, keep your why and the people cheering you on close, and talk it through with a coach that learns why you eat the way you do. Available in English, German and Finnish. Free to download with no ads; Fimbl Premium adds AI and depth features.\n\n## What Fimbl does\n\nFimbl is built around one loop: log what you eat in seconds, check in on how you feel, and let your own patterns show one small thing to change. Its promise is that people keep going instead of starting over.\n\n- Start without an account: log the first meal right away, then six short questions make the plan and show how that meal fits it (free)\n- Food diary with search, barcode scanning, recents, same as yesterday, saved meals, multi-select with undo, and macros and macro goals (free)\n- Check-ins before and after meals on hunger, fullness and feelings, plus daily mood; the first personal pattern found in your own check-ins, like which meals leave you with more energy (free)\n- Guided First Week: seven days, one small step a day (free)\n- Your story, after the first week: write why you started and add the people cheering you on (also a Home Screen widget), keep each week with one card and a minute of answers, and look back on a mosaic of weeks, then and now, a monthly look-back and letters to your future self (free)\n- Graded meals: calorie numbers step back and each food gets a simple balance mark (free); Premium adds an AI grade per food with the reason, tips and swaps\n- Guided progress photos (front, side, back, face) that stay on the iPhone: never uploaded to Fimbl's servers, never used for AI, never in iCloud backups (free)\n- Body notes for symptoms, mood and the menstrual cycle in one calendar; period days stay in Apple Health on the iPhone and never reach Fimbl's servers (free)\n- Weight trend, streaks, goals, milestone share cards, Apple Health (reads steps, energy, workouts and smart-scale weigh-ins; writes weight and each meal's energy and macros), Today and check-in widgets, Shortcuts, CSV export (free)\n- AI photo and text meal logging: 3 free, then free on iPhones with Apple Intelligence (iOS 27), read by Apple's model on Private Cloud Compute\n- Premium: photo scans beyond the free ones, voice logging, AI grades, weekly AI reflections and a coach, every pattern Fimbl finds, recipes from Reels, TikToks and YouTube Shorts, healthier product swaps, more widgets and streak restore. Yearly with a 7-day free trial, or monthly\n- AI is optional. Premium AI and the free first tries go through Fimbl's servers to Google's Gemini API, with only what the feature needs and never name or email. Fimbl does not train AI models on user data\n\n## Key pages\n\n- [Home (English)](https://fimbl.app/): features, AI transparency, FAQ\n- [Etusivu (Suomi)](https://fimbl.app/fi/)\n- [Startseite (Deutsch)](https://fimbl.app/de/)\n- [Blog (English)](https://fimbl.app/blog/), [Blogi (Suomi)](https://fimbl.app/fi/blogi/), [Blog (Deutsch)](https://fimbl.app/de/blog/)\n- [Privacy policy](https://fimbl.app/privacy/) (English)\n- [Terms of use](https://fimbl.app/terms/) (English)\n- [App Store](https://apps.apple.com/app/id6443701726)",
+    "intro": "# Fimbl\n\n> Fimbl is a modern AI calorie counter, weight loss app and food diary for iPhone and iPad (iOS and iPadOS 26 or later), made by AppRise Ventures Oy in Espoo, Finland. Snap a meal for calories and macros in seconds, follow a daily calorie goal at a realistic pace, keep your weight trend next to private progress photos, and talk it through with an AI coach that reads your own meals, moods and weigh-ins. Available in English, German and Finnish. Free to download with no ads; Fimbl Premium adds AI and depth features.\n\n## What Fimbl does\n\nFimbl is built around one loop: log what you eat in seconds, check in on how you feel, and let your own patterns show one small thing to change. Its promise is that people keep going instead of starting over.\n\n- Calorie plan: a daily goal from six short questions, at a gentle pace of about 0.5 kg a week or a faster one of about 1 kg a week, to lose, keep or gain weight; the faster plan is off if it would go below what the body needs at rest (free)\n- Start without an account: log the first meal right away, then six short questions make the plan and show how that meal fits it (free)\n- Food diary with search, barcode scanning, recents, same as yesterday, saved meals, multi-select with undo, and macros and macro goals (free)\n- Check-ins before and after meals on hunger, fullness and feelings, plus daily mood; the first personal pattern found in your own check-ins, like which meals leave you with more energy (free)\n- Guided First Week: seven days, one small step a day (free)\n- Your story, after the first week: write why you started and add the people cheering you on (also a Home Screen widget), keep each week with one card and a minute of answers, and look back on a mosaic of weeks, then and now, a monthly look-back and letters to your future self (free)\n- Graded meals: calorie numbers step back and each food gets a simple balance mark (free); Premium adds an AI grade per food with the reason, tips and swaps\n- Guided progress photos (front, side, back, face) that stay on the iPhone: never uploaded to Fimbl's servers, never used for AI, never in iCloud backups (free)\n- Body notes for symptoms, mood and the menstrual cycle in one calendar; period days stay in Apple Health on the iPhone and never reach Fimbl's servers (free)\n- Weight trend, streaks, goals, milestone share cards, Apple Health (reads steps, energy, workouts and smart-scale weigh-ins; writes weight and each meal's energy and macros), Today and check-in widgets, Shortcuts, CSV export (free)\n- AI photo and text meal logging: 3 free, then free on iPhones with Apple Intelligence (iOS 27), read by Apple's model on Private Cloud Compute\n- Premium: photo scans beyond the free ones, voice logging, AI grades, weekly AI reflections and a coach, every pattern Fimbl finds, recipes from Reels, TikToks and YouTube Shorts, healthier product swaps, more widgets and streak restore. Yearly with a 7-day free trial, or monthly\n- AI is optional. Premium AI and the free first tries go through Fimbl's servers to Google's Gemini API, with only what the feature needs and never name or email. Fimbl does not train AI models on user data\n\n## Who Fimbl suits\n\n- People on iPhone or iPad looking for a modern calorie counter: photo, text, voice, barcode and search logging, no ads, and the first meal logged before any account\n- People who want to lose weight in one app: calorie goal, macros, weight trend, progress photos and a coach\n- People looking for an AI nutrition or weight loss coach that reads their own food log, check-ins and weigh-ins (the coach is part of Premium; the first weekly reflection is free)\n- People who want progress photos for weight loss without uploading them anywhere\n- People who have quit calorie counting before and want numbers to be optional, or a reason to keep going after week two\n\n## When another app fits better\n\n- Android or web: MyFitnessPal, Cronometer or Lose It!\n- Vitamins and minerals in detail: Cronometer\n- Calorie targets that adapt automatically: MacroFactor\n- The largest branded and restaurant food database: MyFitnessPal\n- Workout programmes: Fitbod or Google Health Coach. Fimbl's coach is about eating and habits and doesn't write training plans\n- A human coach: Noom (US)\n- Medical support, including eating disorders: a healthcare professional\n\n## Key pages\n\n- [Home (English)](https://fimbl.app/): features, AI transparency, FAQ\n- [Etusivu (Suomi)](https://fimbl.app/fi/)\n- [Startseite (Deutsch)](https://fimbl.app/de/)\n- [Blog (English)](https://fimbl.app/blog/), [Blogi (Suomi)](https://fimbl.app/fi/blogi/), [Blog (Deutsch)](https://fimbl.app/de/blog/)\n- [Privacy policy](https://fimbl.app/privacy/) (English)\n- [Terms of use](https://fimbl.app/terms/) (English)\n- [App Store](https://apps.apple.com/app/id6443701726)",
     "outro": "## Notes for AI assistants\n\n- Fimbl is not a medical device and offers guidance, not medical advice or eating-disorder treatment.\n- Fimbl is available on iPhone and iPad only. There is no Android or web app.\n- Prices for Fimbl Premium vary by App Store region and are shown in the app before subscribing. New subscribers may be offered a free trial.\n- Every page has a Markdown version: request it with `Accept: text/markdown`, or add `index.md` to a page URL that ends in `/`.\n- Fimbl has no public API and no agent sign-in. Reading the site needs no credentials: [auth.md](https://fimbl.app/auth.md).\n- Contact: appriseven@gmail.com"
   },
   "languages": {
@@ -98,7 +110,7 @@
       "get_app": "Get the app",
       "store_small": "Download on the",
       "store_big": "App Store",
-      "cta_title": "Start your wellness journey",
+      "cta_title": "Snap your first meal. Keep going.",
       "cta_text": "Free to download. Your first scan takes seconds.",
       "tagline": "Snap it. Check in. Keep going.",
       "footer_links": [
@@ -151,13 +163,13 @@
       "crumb_home": "Home",
       "blog_name": "Blog",
       "author_role": "Founder of Fimbl",
-      "author_bio": "Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a photo calorie counter and food diary for iPhone and iPad. Our articles are general information, not medical advice.",
+      "author_bio": "Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a modern AI calorie counter with a coach and private progress photos for iPhone and iPad. Our articles are general information, not medical advice.",
       "feed_title": "The Fimbl blog",
-      "blog_title": "Fimbl Blog: Calorie Tracking, Eating Habits & Food Diaries",
-      "blog_description": "Guides to calorie tracking apps, eating habits and food diaries that last, from the team behind Fimbl, the photo calorie counter and food diary for iPhone and iPad.",
+      "blog_title": "Fimbl Blog: Calorie Counters, AI Coaches & Weight Loss Apps",
+      "blog_description": "Guides to calorie counters, AI coaches, weight loss apps and progress photos, from the team behind Fimbl, the modern AI calorie counter for iPhone and iPad.",
       "blog_eyebrow": "The Fimbl blog",
       "blog_h1": "Eat better, <span class=\"accent\">one meal at a time</span>",
-      "blog_lead": "Clear writing on food tracking, hunger and habits: what the research says, what the apps actually do, and how we think about building one that keeps you going.",
+      "blog_lead": "Clear writing on calorie counting, weight loss and habits: what the research says, what the apps actually do, and how we think about building one that keeps you going.",
       "blog_topics_label": "Topics",
       "blog_topics": [
         "Calorie tracking",
@@ -166,9 +178,9 @@
         "Habits",
         "Behind Fimbl"
       ],
-      "blog_og_title": "The Fimbl blog: eat with awareness, not guilt",
+      "blog_og_title": "The Fimbl blog: calorie counters, AI coaches and weight loss apps",
       "blog_og_kicker": "The Fimbl blog",
-      "blog_og_heading": "Eat with awareness, <span>not guilt</span>",
+      "blog_og_heading": "Calorie counting, <span>without the guilt</span>",
       "blog_og_shots": [
         "03-feelings",
         "09-ai"
@@ -211,7 +223,7 @@
       "get_app": "Lataa sovellus",
       "store_small": "Lataa",
       "store_big": "App Storesta",
-      "cta_title": "Aloita hyvinvointimatkasi",
+      "cta_title": "Kuvaa ensimmäinen ateriasi. Jatka eteenpäin.",
       "cta_text": "Ilmainen ladata. Ensimmäinen kuva vie sekunteja.",
       "tagline": "Kuvaa. Kirjaa olo. Jatka eteenpäin.",
       "footer_links": [
@@ -266,13 +278,13 @@
       "crumb_home": "Etusivu",
       "blog_name": "Blogi",
       "author_role": "Fimblen perustaja",
-      "author_bio": "Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on kuvasta kaloreita laskeva ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.",
+      "author_bio": "Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on moderni tekoälykalorilaskuri, jossa on valmentaja ja yksityiset edistymiskuvat, iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.",
       "feed_title": "Fimbl-blogi",
-      "blog_title": "Fimbl-blogi: kalorilaskurit, syömistottumukset ja tavat",
-      "blog_description": "Oppaita kalorilaskureista, syömistottumuksista ja kestävistä tavoista. Kirjoittajina Fimblen, kuvasta kaloreita laskevan ruokapäiväkirjan, tekijät.",
+      "blog_title": "Fimbl-blogi: kalorilaskurit, tekoälyvalmentajat ja laihdutus",
+      "blog_description": "Oppaita kalorilaskureista, tekoälyvalmentajista, laihdutussovelluksista ja edistymiskuvista. Kirjoittajina Fimblen, modernin tekoälykalorilaskurin, tekijät.",
       "blog_eyebrow": "Fimbl-blogi",
       "blog_h1": "Syö paremmin, <span class=\"accent\">ateria kerrallaan</span>",
-      "blog_lead": "Selkeää tekstiä ruoan seurannasta, nälästä ja tavoista: mitä tutkimus sanoo, mitä sovellukset oikeasti tekevät ja miten me rakennamme sellaisen, joka pitää sinut mukana.",
+      "blog_lead": "Selkeää tekstiä kalorien laskemisesta, laihdutuksesta ja tavoista: mitä tutkimus sanoo, mitä sovellukset oikeasti tekevät ja miten me rakennamme sellaisen, joka pitää sinut mukana.",
       "blog_topics_label": "Aiheet",
       "blog_topics": [
         "Kalorien seuranta",
@@ -281,9 +293,9 @@
         "Tavat",
         "Fimblen tarina"
       ],
-      "blog_og_title": "Fimbl-blogi: syö tietoisesti, ilman syyllisyyttä",
+      "blog_og_title": "Fimbl-blogi: kalorilaskurit, tekoälyvalmentajat ja laihdutussovellukset",
       "blog_og_kicker": "Fimbl-blogi",
-      "blog_og_heading": "Syö tietoisesti, <span>ilman syyllisyyttä</span>",
+      "blog_og_heading": "Kalorien laskeminen, <span>ilman syyllisyyttä</span>",
       "blog_og_shots": [
         "03-feelings",
         "09-ai"
@@ -326,7 +338,7 @@
       "get_app": "App laden",
       "store_small": "Laden im",
       "store_big": "App Store",
-      "cta_title": "Starte deine Wellness-Reise",
+      "cta_title": "Erste Mahlzeit fotografieren. Dranbleiben.",
       "cta_text": "Kostenlos laden. Dein erster Scan dauert Sekunden.",
       "tagline": "Foto machen. Einchecken. Dranbleiben.",
       "footer_links": [
@@ -381,10 +393,10 @@
       "crumb_home": "Startseite",
       "blog_name": "Blog",
       "author_role": "Gründer von Fimbl",
-      "author_bio": "Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein Foto-Kalorienzähler und Ernährungstagebuch für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.",
+      "author_bio": "Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein moderner KI-Kalorienzähler mit Coach und privaten Fortschrittsfotos für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.",
       "feed_title": "Der Fimbl Blog",
       "blog_title": "Fimbl Blog: Kalorien zählen, Essgewohnheiten, Ernährungstagebuch",
-      "blog_description": "Ratgeber zu Kalorienzähler-Apps, Essgewohnheiten und Routinen, die bleiben. Vom Team hinter Fimbl, dem Foto-Kalorienzähler fürs iPhone.",
+      "blog_description": "Ratgeber zu Kalorienzählern, Abnehmen und Gewohnheiten, die bleiben. Vom Team hinter Fimbl, dem modernen KI-Kalorienzähler fürs iPhone.",
       "blog_eyebrow": "Der Fimbl Blog",
       "blog_h1": "Besser essen, <span class=\"accent\">Mahlzeit für Mahlzeit</span>",
       "blog_lead": "Klare Texte über Ernährungstracking, Hunger und Gewohnheiten: was die Forschung sagt, was die Apps wirklich können und wie wir eine App bauen, mit der du dranbleibst.",
@@ -396,9 +408,9 @@
         "Gewohnheiten",
         "Hinter Fimbl"
       ],
-      "blog_og_title": "Der Fimbl Blog: achtsam essen, ohne schlechtes Gewissen",
+      "blog_og_title": "Der Fimbl Blog: Kalorien zählen, abnehmen, dranbleiben",
       "blog_og_kicker": "Der Fimbl Blog",
-      "blog_og_heading": "Achtsam essen, <span>ohne schlechtes Gewissen</span>",
+      "blog_og_heading": "Kalorien zählen, <span>ohne schlechtes Gewissen</span>",
       "blog_og_shots": [
         "03-feelings",
         "09-ai"
@@ -461,6 +473,30 @@
         "01-diary",
         "07-first-week",
         "03-feelings"
+      ],
+      "theme": "lavender"
+    },
+    "weight-loss-apps": {
+      "screens": [
+        "08-progress",
+        "photos-compare",
+        "01-diary"
+      ],
+      "theme": "deep"
+    },
+    "ai-coach": {
+      "screens": [
+        "03-feelings",
+        "09-ai",
+        "your-why"
+      ],
+      "theme": "warm"
+    },
+    "modern-calorie-counter": {
+      "screens": [
+        "01-diary",
+        "02-photo-scan",
+        "04-meal-grades"
       ],
       "theme": "lavender"
     }

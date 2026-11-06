@@ -183,27 +183,27 @@ Kasper Koskenvirta
 
 Founder of Fimbl
 
-Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a photo calorie counter and food diary for iPhone and iPad. Our articles are general information, not medical advice.
+Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a modern AI calorie counter with a coach and private progress photos for iPhone and iPad. Our articles are general information, not medical advice.
 
 ## Keep reading
 
+Comparison 12 min read
+
+### [The best weight loss apps in 2026, compared](https://fimbl.app/blog/best-weight-loss-apps/)
+
+Fimbl, Noom, MyFitnessPal, Lose It!, MacroFactor, Cronometer and YAZIO compared for weight loss: calorie counting, AI coaches, progress photos and cost.
+
+November 6, 2026
+
 Comparison 11 min read
 
-### [The best progress photo apps in 2026, compared](https://fimbl.app/blog/best-progress-photo-apps/)
+### [The best AI fitness coach apps in 2026, and what each one really coaches](https://fimbl.app/blog/best-ai-fitness-coach-apps/)
 
-Fimbl, Progress, Hevy, MacroFactor, MyFitnessPal and Cronometer compared for progress photos: guided poses, overlays, compare, time-lapse and privacy.
+Fimbl, MyFitnessPal, Noom, Cronometer, Google Health Coach, WHOOP, Fitbod and MacroFactor compared: what each AI coach reads, coaches and costs to use.
 
-October 19, 2026
+November 6, 2026
 
-Calorie tracking 8 min read
-
-### [How accurate is AI calorie tracking, and does it matter?](https://fimbl.app/blog/ai-calorie-tracking-accuracy/)
-
-AI photo calorie estimates are off by about a third on average, much like manual logging. What studies show, when to trust AI and when to scan a barcode.
-
-October 19, 2026
-
-## Start your wellness journey
+## Snap your first meal. Keep going.
 
 Free to download. Your first scan takes seconds.
 

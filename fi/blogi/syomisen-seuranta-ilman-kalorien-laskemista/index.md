@@ -15,7 +15,7 @@ Tietoinen syöminen 8 min lukuaika
 
 Lautasmalli, käsimitat, nälkäasteikko, kuvaruokapäiväkirja ja aterioiden arvosanat: viisi tapaa pysyä tietoisena syömisestäsi laskematta yhtäkään numeroa, ja miten tunnistat, auttavatko numerot sinua vai jarruttavatko ne.
 
-**Kasper Koskenvirta** Fimblen perustaja · Julkaistu 19. lokakuuta 2026
+**Kasper Koskenvirta** Fimblen perustaja · Julkaistu 19. lokakuuta 2026 · Päivitetty 6. marraskuuta 2026
 
 ![Kolme Fimbl-sovelluksen näkymää iPhonessa](https://fimbl.app/assets/img/covers/fi-without-counting-1200.webp)
 
@@ -27,7 +27,7 @@ Voit seurata syömistäsi laskematta kaloreita vaihtamalla sen, **mitä mittaat*
 
 - **Viisi toimivaa tapaa:** lautasmalli, käsimitat, nälkäasteikko, kuvaruokapäiväkirja ja aterioiden arvosanat numeroiden sijaan.
 - **Aloita yhdestä.** Lautasmalli tai nälän kirjaus vie sekunteja eikä vaadi sovellusta, vaakaa tai laskemista.
-- **Fimblessä** Rauhallinen tila (Premium) vaihtaa kalorimäärät lempeisiin arvosanoihin, ja päiväkirja laskee taustalla hiljaa edelleen.
+- **Fimblessä** ateriat arvosanoin (ilmainen) antaa kalorilukujen väistyä ja jokaiselle ruoalle yksinkertaisen merkin, ja päiväkirja laskee taustalla hiljaa edelleen.
 
 ## Miksi joku seuraa paremmin ilman numeroita
 
@@ -47,7 +47,7 @@ Vaiva tarkoittaa aikaa ateriaa kohden, kun tapa on tuttu. Useimmat yhdistävät 
 | 2. Käsimitat | Annoskoot omalla kädellä | Vilkaisu | Ulkona syöminen, matkat | Ei tarvitse työkaluja |
 | 3. Nälkäasteikko | Nälkä ennen, kylläisyys jälkeen | Kymmenen sekuntia | Ylensyönti, tunnesyöminen | Tuntemusten kirjaus, ilmainen |
 | 4. Kuvaruokapäiväkirja | Kuva jokaisesta ateriasta | Viisi sekuntia | Kuvioiden huomaaminen yhdellä silmäyksellä | Kaloriskannaus, Premium |
-| 5. Aterioiden arvosanat | Miten hyvin ateria palveli sinua | Automaattinen | Etäisyyden ottaminen numeroihin | Rauhallinen tila, Premium |
+| 5. Aterioiden arvosanat | Miten hyvin ateria palveli sinua | Automaattinen | Etäisyyden ottaminen numeroihin | Ateriat arvosanoin, ilmainen |
 
 ### 1. Lautasmalli
 
@@ -74,15 +74,15 @@ Ilmainen Fimblessä **Nälkä ja tuntemukset sekunneissa** Fimbl kysyy aterioide
 
 ### 4. Kuvaruokapäiväkirja
 
-Ota kuva ennen jokaista ateriaa ja välipalaa ja katso kuvat viikon lopussa. Kuva on kirjoittamista nopeampi ja vaikeampi kaunistella, ja viikon lautaset rinnakkain näyttävät kuviot heti: kuinka monessa ateriassa oli kasviksia, kuinka usein päivällinen tuli paketista ja kuinka suuriksi iltapalat kasvoivat. Puhelimen kamerarulla käy, samoin oma albumi. Fimblessä kaloriskannaus (Premium) myös kirjaa aterian puolestasi, ja sen tuottamat numerot voit piilottaa Rauhallisella tilalla.
+Ota kuva ennen jokaista ateriaa ja välipalaa ja katso kuvat viikon lopussa. Kuva on kirjoittamista nopeampi ja vaikeampi kaunistella, ja viikon lautaset rinnakkain näyttävät kuviot heti: kuinka monessa ateriassa oli kasviksia, kuinka usein päivällinen tuli paketista ja kuinka suuriksi iltapalat kasvoivat. Puhelimen kamerarulla käy, samoin oma albumi. Fimblessä kaloriskannaus myös kirjaa aterian puolestasi (kolme on ilmaisia), ja ateriat arvosanoin pitää sen tuottamat numerot piilossa.
 
 ### 5. Aterioiden arvosanat numeroiden sijaan
 
-Uusin tapa korvaa numeron arviolla itse ateriasta: sopiko se tavoitteisiisi, pitikö se kylläisenä, jäikö hyvä olo? Sen ympärille rakensimme Fimblen Rauhallisen tilan, koska se säilyttää hyödyllisen tiedon ja jättää pois sen osan, joka saa ihmiset ahdistumaan.
+Uusin tapa korvaa numeron arviolla itse ateriasta: sopiko se tavoitteisiisi, pitikö se kylläisenä, jäikö hyvä olo? Sen ympärille rakensimme Fimblen aterioiden arvosanat, koska se säilyttää hyödyllisen tiedon ja jättää pois sen osan, joka saa ihmiset ahdistumaan.
 
-![Fimblen Rauhallinen tila antaa kaurahiutaleille arvosanan A ja kertoo, miten ateria tuki tavoitetta, nälkää ja tuntemuksia](https://fimbl.app/assets/img/app/fi/04-meal-grades.webp)
+![Fimblen tekoäly antaa kaurahiutaleille arvosanan A ja kertoo, miten ateria tuki tavoitetta, nälkää ja tuntemuksia](https://fimbl.app/assets/img/app/fi/04-meal-grades.webp)
 
-Premium **Rauhallinen tila: arvosanoja, ei syyllisyyttä** Jokainen ruoka ja ateria saa lempeän arvosanan A:sta F:ään sen mukaan, miten hyvin se tuki tavoitteitasi, nälkääsi ja mielialaasi, ”Osuu hienosti” -arvosanasta ”Kasvun paikkaan”, sekä lyhyen huomion ja yhden idean ensi kertaan. Myös päiväsi saa arvosanan.
+Ilmainen · tekoälyn arvosanat Premiumissa **Ateriat arvosanoin: arvosanoja, ei syyllisyyttä** Jokainen ruoka saa ilmaiseksi yksinkertaisen tasapainomerkin. Premiumilla jokainen ruoka ja ateria saa tekoälyn arvosanan A:sta F:ään sen mukaan, miten hyvin se tuki tavoitteitasi, nälkääsi ja mielialaasi, ”Osuu hienosti” -arvosanasta ”Kasvun paikkaan”, sekä lyhyen huomion ja yhden idean ensi kertaan. Myös päiväsi saa arvosanan.
 
 - Kalorimäärät piilotetaan, niitä ei poisteta
 - Päiväkirja laskee taustalla edelleen, joten voit vaihtaa takaisin milloin vain
@@ -107,7 +107,7 @@ Numeroista luopuminen ei ole kaikille parempi vaihtoehto. Se on valinta, ja on h
 
 **Olet lopettanut seurannan ennenkin**: Uupuminen muutamassa viikossa kertoo yleensä, että tapa pyysi liikaa.
 
-On myös keskitie: jatka ruoan kirjaamista, jotta tiedot ovat tallessa, mutta piilota summat. Juuri sitä Rauhallinen tila tekee, ja siksi takaisin vaihtaminen ei koskaan hävitä mitään. Jos haluat nähdä, miten muut sovellukset suhtautuvat numeroihin, [kalorilaskurivertailumme](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/) käy jokaisen läpi.
+On myös keskitie: jatka ruoan kirjaamista, jotta tiedot ovat tallessa, mutta piilota summat. Juuri sitä ateriat arvosanoin tekee, ja siksi takaisin vaihtaminen ei koskaan hävitä mitään. Jos haluat nähdä, miten muut sovellukset suhtautuvat numeroihin, [kalorilaskurivertailumme](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/) käy jokaisen läpi.
 
 ## Näin pääset alkuun tällä viikolla
 
@@ -122,10 +122,10 @@ Seuraa omalla tavallasi
 
 ### Pidä tietoisuus, jätä laskutoimitukset
 
-Aloita Fimblen ilmaisella päiväkirjalla ja tuntemusten kirjauksella. Kun numerot alkavat huutaa, Rauhallinen tila vaihtaa ne lempeisiin arvosanoihin, eikä takaisin vaihtaminen hävitä mitään.
+Aloita Fimblen ilmaisella päiväkirjalla ja tuntemusten kirjauksella. Kun numerot alkavat huutaa, ateriat arvosanoin vaihtaa ne yksinkertaiseen merkkiin, eikä takaisin vaihtaminen hävitä mitään.
 
 - Ilmainen nälän ja tuntemusten kirjaus
-- Rauhallinen tila: arvosanoja kalorien sijaan
+- Ateriat arvosanoin: arvosanoja kalorien sijaan
 - Ei mainoksia, ei putkesta syyllistämistä
 
 [Lataa Fimbl ilmaiseksi](https://apps.apple.com/app/id6443701726)
@@ -150,7 +150,7 @@ Yleinen ohje käyttää yhtä kämmentä proteiiniannoksena, nyrkkiä aterian hi
 
 ### Onko olemassa kalorilaskuria, joka ei näytä kaloreita?
 
-On. Fimblessä iPhonelle ja iPadille on Rauhallinen tila (osa Fimbl Premiumia), joka piilottaa kalorimäärät ja antaa jokaiselle aterialle arvosanan A:sta F:ään sen mukaan, miten hyvin se tuki tavoitteitasi, nälkääsi ja mielialaasi. Päiväkirja laskee taustalla edelleen, joten voit vaihtaa takaisin milloin vain menettämättä mitään.
+On. Fimblessä iPhonelle ja iPadille on ilmainen ateriat arvosanoin -näkymä, jossa kaloriluvut väistyvät ja jokainen ruoka saa yksinkertaisen tasapainomerkin. Premium tuo tekoälyn arvosanan A:sta F:ään sen mukaan, miten hyvin ruoka tuki tavoitteitasi, nälkääsi ja mielialaasi. Päiväkirja laskee taustalla edelleen, joten voit vaihtaa takaisin milloin vain menettämättä mitään.
 
 ### Laihdunko, jos en laske kaloreita?
 
@@ -169,7 +169,7 @@ Kasper Koskenvirta
 
 Fimblen perustaja
 
-Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on kuvasta kaloreita laskeva ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
+Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on moderni tekoälykalorilaskuri, jossa on valmentaja ja yksityiset edistymiskuvat, iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
 
 ## Lue seuraavaksi
 
@@ -189,7 +189,7 @@ Miten erotat tunnenälän fyysisestä nälästä? 7 merkkiä, nälkäasteikko 1�
 
  17. lokakuuta 2026
 
-## Aloita hyvinvointimatkasi
+## Kuvaa ensimmäinen ateriasi. Jatka eteenpäin.
 
 Ilmainen ladata. Ensimmäinen kuva vie sekunteja.
 

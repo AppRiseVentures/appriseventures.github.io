@@ -1,6 +1,6 @@
 ---
-title: "Fimbl – Foto-Kalorienzähler & KI-Coach fürs iPhone"
-description: "Fotografiere dein Essen und kenne deine Kalorien in Sekunden. Fimbl hält dein Warum und deinen Fanclub nah, und sein Coach lernt, warum du isst, wie du isst. Erste Mahlzeit ohne Konto. Kostenlos, ohne Werbung."
+title: "Fimbl – KI-Kalorienzähler & Coach zum Abnehmen fürs iPhone"
+description: "Moderner KI-Kalorienzähler fürs iPhone: Mahlzeit fotografieren, Kalorien sehen, abnehmen mit einem Coach, der deine Tage kennt, private Fortschrittsfotos. Kostenlos starten, ohne Werbung."
 url: "https://fimbl.app/de/"
 language: "de"
 ---
@@ -214,7 +214,7 @@ Aus dem Blog
 
 ## Besser essen, Mahlzeit für Mahlzeit
 
-Ratgeber zu Kalorien zählen, Hunger und Gewohnheiten, und wie wir ein Ernährungstagebuch bauen, mit dem du dranbleibst.
+Ratgeber zu Kalorien zählen, Abnehmen und Gewohnheiten, und wie wir eine App bauen, mit der du dranbleibst.
 
 Kalorien zählen
 
@@ -252,6 +252,22 @@ FAQ
 
 ## Deine Fragen, beantwortet
 
+### Was ist Fimbl?
+
+Fimbl ist ein moderner KI-Kalorienzähler und eine Abnehm-App für iPhone und iPad, entwickelt in Finnland. Fotografiere eine Mahlzeit und sieh Kalorien und Makros in Sekunden, oder nutze Suche und Barcode-Scanner. Fimbl setzt ein tägliches Kalorienziel in einem realistischen Tempo, zeigt deinen Gewichtstrend neben privaten Fortschrittsfotos und hat einen KI-Coach, der deine eigenen Mahlzeiten, Stimmungen und Wiegedaten liest. Der Download ist kostenlos und ohne Werbung, und Premium ergänzt Foto-Scans für jede Mahlzeit und den Coach.
+
+### Hilft Fimbl beim Abnehmen?
+
+Ja, wenn du iPhone oder iPad nutzt und selbst steuern möchtest. Sechs kurze Fragen ergeben ein tägliches Kalorienziel: ein sanftes Tempo von etwa 0,5 kg pro Woche oder ein schnelleres von etwa 1 kg pro Woche. Der schnellere Plan ist aus, wenn er unter das fallen würde, was dein Körper in Ruhe braucht. Dazu kommen Makro-Ziele, Gewichtstrend, geführte Fortschrittsfotos und ein Coach für die Wochen, in denen die Motivation nachlässt. Fimbl ist kein medizinisches Programm, sprich also vor großen Veränderungen mit deiner Ärztin oder deinem Arzt, wenn du eine Erkrankung hast.
+
+### Hat Fimbl einen KI-Coach?
+
+Ja. Der Coach in Fimbl kümmert sich um Essen und Gewohnheiten: Frag nach deinen Mahlzeiten, deiner Stimmung oder deinem Plan, und die Antworten kommen aus deinen eigenen Tagen, auch aus deinen Check-ins zu Hunger und Gefühlen, deinen Wiegedaten und, wenn du es erlaubst, deiner Aktivität aus Apple Health. Er findet Muster und schlägt eine kleine Sache zum Ausprobieren vor. Der Coach gehört zu Premium, dein erster Wochenrückblick ist kostenlos. Er schreibt keine Trainingspläne und gibt allgemeine Orientierung, keine medizinischen Ratschläge.
+
+### Was unterscheidet Fimbl von klassischen Kalorienzählern?
+
+Du trägst Mahlzeiten per Foto, Sprache, Text oder Barcode ein und kannst deine erste Mahlzeit ohne Konto festhalten. Barcode-Scanner, Makro-Ziele und private Fortschrittsfotos sind kostenlos, und es gibt keine Werbung. Dazu kommen Check-ins zu Hunger und Gefühlen und ein Coach, der deine eigenen Tage kennt. Wenn dich die Zahlen erschöpfen, treten sie mit Mahlzeiten mit Noten zurück. Fimbl gibt es nur für iPhone und iPad.
+
 ### Ist Fimbl kostenlos?
 
 Ja. Fimbl ist kostenlos, und das Herzstück ist es auch: dein Ernährungstagebuch mit Suche und Barcode-Scan, Check-ins vor und nach dem Essen, die begleitete erste Woche, deine Geschichte, dein erstes Muster, Mahlzeiten mit Noten, Makros und Makro-Ziele, Stimmung, Körpernotizen, Gewicht, Serien, private Fortschrittsfotos, Aktivität aus Apple Health sowie das Heute- und das Check-in-Widget. Dazu bekommst du 3 Foto-Scans und deinen ersten Wochenrückblick, um die KI auszuprobieren, und auf iPhones mit Apple Intelligence bleiben Foto-Scans und Mahlzeitbeschreibungen danach kostenlos. Fimbl Premium ergänzt Foto-Scans über die kostenlosen hinaus, Erfassen per Sprache, KI-Noten mit Tipps und Alternativen, KI-Wochenrückblicke und den Coach, jedes Muster, das Fimbl findet, Rezepte aus Videos, gesündere Produktalternativen, weitere Widgets und Serien-Wiederherstellung. Premium gibt es jährlich mit 7 Tagen gratis zum Testen oder monatlich, und die Preise siehst du immer vor dem Abschluss.
@@ -266,7 +282,7 @@ Den meisten von uns geht irgendwo um Woche zwei die Motivation aus. Deine Geschi
 
 ### Ist Fimbl eine Diät-App?
 
-Nicht im üblichen Sinn. Du kannst ein Kalorienziel setzen, wenn es dir hilft, oder zu Mahlzeiten mit Noten wechseln, wo die Zahlen zurücktreten und jedes Lebensmittel ein einfaches Balance-Zeichen bekommt. Bei Fimbl geht es um Balance, Bewusstsein und Gewohnheiten, und es soll eine gesündere Beziehung zum Essen unterstützen, dir aber nie ein schlechtes Gefühl geben. Fimbl ist kein Medizinprodukt und keine Behandlung von Essstörungen. Wenn dich das Thema Essen einmal überfordert, kann dir eine Fachperson helfen.
+Fimbl ist ein Kalorienzähler, mit dem du abnehmen, dein Gewicht halten oder zunehmen kannst, aber keine strenge Diät. Setz dir ein Kalorienziel, wenn es dir hilft, oder wechsle zu Mahlzeiten mit Noten, wo die Zahlen zurücktreten und jedes Lebensmittel ein einfaches Balance-Zeichen bekommt. Fimbl soll eine gesündere Beziehung zum Essen unterstützen, dir aber nie ein schlechtes Gefühl geben. Fimbl ist kein Medizinprodukt und keine Behandlung von Essstörungen. Wenn dich das Thema Essen einmal überfordert, kann dir eine Fachperson helfen.
 
 ### Sind meine Fortschrittsfotos privat?
 

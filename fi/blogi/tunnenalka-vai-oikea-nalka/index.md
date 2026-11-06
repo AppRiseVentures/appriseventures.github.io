@@ -183,27 +183,27 @@ Kasper Koskenvirta
 
 Fimblen perustaja
 
-Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on kuvasta kaloreita laskeva ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
+Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on moderni tekoälykalorilaskuri, jossa on valmentaja ja yksityiset edistymiskuvat, iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
 
 ## Lue seuraavaksi
 
 Vertailu 12 min lukuaika
 
-### [Parhaat sovellukset edistymiskuviin vuonna 2026, vertailussa](https://fimbl.app/fi/blogi/parhaat-edistymiskuva-sovellukset/)
+### [Parhaat laihdutussovellukset vuonna 2026, vertailussa](https://fimbl.app/fi/blogi/parhaat-laihdutussovellukset/)
 
-Fimbl, Progress, Hevy, MacroFactor, MyFitnessPal ja Cronometer vertailussa edistymiskuville: opastetut asennot, päällekkäiskuva, vertailu ja yksityisyys.
+Fimbl, Noom, MyFitnessPal, Lose It!, MacroFactor, Cronometer ja YAZIO vertailussa laihdutukseen: kalorit, tekoälyvalmentajat, edistymiskuvat ja hinta.
 
- 19. lokakuuta 2026
+ 6. marraskuuta 2026
 
-Kalorien seuranta 8 min lukuaika
+Vertailu 11 min lukuaika
 
-### [Kuinka tarkka tekoälykalorilaskuri on, ja onko sillä väliä?](https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/)
+### [Parhaat tekoälyvalmentajat vuonna 2026, ja mitä kukin oikeasti valmentaa](https://fimbl.app/fi/blogi/parhaat-tekoalyvalmentaja-sovellukset/)
 
-Tekoälyn kuvasta tekemät kaloriarviot heittävät keskimäärin noin kolmanneksen, kuten käsin kirjauskin. Mitä tutkimukset sanovat ja milloin skannata viivakoodi.
+Fimbl, MyFitnessPal, Noom, Cronometer, Google Health Coach, WHOOP, Fitbod ja MacroFactor vertailussa: mitä kukin tekoälyvalmentaja näkee ja mitä se maksaa.
 
- 19. lokakuuta 2026
+ 6. marraskuuta 2026
 
-## Aloita hyvinvointimatkasi
+## Kuvaa ensimmäinen ateriasi. Jatka eteenpäin.
 
 Ilmainen ladata. Ensimmäinen kuva vie sekunteja.
 

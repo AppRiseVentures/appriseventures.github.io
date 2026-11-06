@@ -15,7 +15,7 @@ Habits 9 min read
 
 Most food diaries are abandoned by day four because day one asked for too much. Here's what to write down, a seven-day plan that adds one small step at a time, and the mistakes that quietly end diaries early.
 
-**Kasper Koskenvirta** Founder of Fimbl · Published October 19, 2026
+**Kasper Koskenvirta** Founder of Fimbl · Published October 19, 2026 · Updated November 6, 2026
 
 ![Three Fimbl app screens on iPhone](https://fimbl.app/assets/img/covers/en-food-diary-1200.webp)
 
@@ -154,7 +154,7 @@ Give it at least one full week to build the habit, then two to four weeks to see
 
 ### Do I have to count calories in a food diary?
 
-No. A food diary can be as simple as what, when and how you felt. Calories are useful for some goals, but plenty of people get most of the benefit from noticing patterns alone. Fimbl's Calm mode (Premium) even replaces calorie numbers with gentle grades.
+No. A food diary can be as simple as what, when and how you felt. Calories are useful for some goals, but plenty of people get most of the benefit from noticing patterns alone. Fimbl's free Graded meals view even lets calorie numbers step back, with a simple balance mark for each food.
 
 ### Is a food diary app better than paper?
 
@@ -184,11 +184,11 @@ Kasper Koskenvirta
 
 Founder of Fimbl
 
-Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a photo calorie counter and food diary for iPhone and iPad. Our articles are general information, not medical advice.
+Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a modern AI calorie counter with a coach and private progress photos for iPhone and iPad. Our articles are general information, not medical advice.
 
 ## Keep reading
 
-Mindful eating 7 min read
+Mindful eating 8 min read
 
 ### [How to track what you eat without counting calories](https://fimbl.app/blog/track-food-without-counting-calories/)
 
@@ -204,7 +204,7 @@ How to tell emotional hunger from physical hunger: 7 key differences, a 1–10 h
 
 October 17, 2026
 
-## Start your wellness journey
+## Snap your first meal. Keep going.
 
 Free to download. Your first scan takes seconds.
 

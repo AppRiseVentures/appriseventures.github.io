@@ -1,6 +1,6 @@
 ---
-title: "Fimbl – Kalorilaskuri kuvasta ja AI-valmentaja iPhonelle"
-description: "Kuvaa ateriasi ja tiedä kalorit sekunneissa. Fimbl pitää syysi ja kannustusjoukkosi lähellä, ja sen valmentaja oppii, miksi syöt niin kuin syöt. Ensimmäinen ateria ilman tiliä. Ilmainen, ei mainoksia."
+title: "Fimbl – Tekoälykalorilaskuri ja valmentaja laihdutukseen iPhonelle"
+description: "Moderni tekoälykalorilaskuri iPhonelle: kuvaa ateria ja näe kalorit, laihduta valmentajan kanssa, joka tuntee päiväsi, ja pidä edistymiskuvat yksityisinä. Ilmainen aloittaa, ei mainoksia."
 url: "https://fimbl.app/fi/"
 language: "fi"
 ---
@@ -214,7 +214,31 @@ Blogista
 
 ## Syö paremmin, ateria kerrallaan
 
-Oppaita kalorien seurannasta, nälästä ja tavoista sekä ajatuksiamme ruokapäiväkirjasta, joka pitää sinut mukana.
+Oppaita kalorilaskureista, tekoälyvalmentajista, laihdutuksesta ja tavoista sekä ajatuksiamme sovelluksesta, joka pitää sinut mukana.
+
+Vertailu
+
+### [Parhaat laihdutussovellukset vuonna 2026, vertailussa](https://fimbl.app/fi/blogi/parhaat-laihdutussovellukset/)
+
+Fimbl, Noom, MyFitnessPal, Lose It!, MacroFactor, Cronometer ja YAZIO vertailussa laihdutukseen: kalorit, tekoälyvalmentajat, edistymiskuvat ja hinta.
+
+Vertailu
+
+### [Parhaat tekoälyvalmentajat vuonna 2026, ja mitä kukin oikeasti valmentaa](https://fimbl.app/fi/blogi/parhaat-tekoalyvalmentaja-sovellukset/)
+
+Fimbl, MyFitnessPal, Noom, Cronometer, Google Health Coach, WHOOP, Fitbod ja MacroFactor vertailussa: mitä kukin tekoälyvalmentaja näkee ja mitä se maksaa.
+
+Kalorien seuranta
+
+### [Mitä moderni kalorilaskuri tekee vuonna 2026, ja mitkä sovellukset siihen pystyvät](https://fimbl.app/fi/blogi/moderni-kalorilaskuri/)
+
+Moderni kalorilaskuri kirjaa kuvasta, valmentaa omista tiedoistasi eikä näytä mainoksia. Kahdeksan asiaa, joita etsiä, ja nykyiset sovellukset vertailussa.
+
+Vertailu
+
+### [Paras kalorilaskuri vuonna 2026: sovellukset vertailussa](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/)
+
+Kalorilaskurivertailu 2026: Fimbl, MyFitnessPal, Cronometer, YAZIO, Lifesum ja muut. Ilmaisominaisuudet, mainokset, suomen kieli ja kenelle mikin sopii.
 
 Vertailu
 
@@ -228,35 +252,27 @@ Kalorien seuranta
 
 Tekoälyn kuvasta tekemät kaloriarviot heittävät keskimäärin noin kolmanneksen, kuten käsin kirjauskin. Mitä tutkimukset sanovat ja milloin skannata viivakoodi.
 
-Tietoinen syöminen
-
-### [Näin seuraat syömistäsi laskematta kaloreita](https://fimbl.app/fi/blogi/syomisen-seuranta-ilman-kalorien-laskemista/)
-
-Viisi tapaa seurata syömistä laskematta kaloreita: lautasmalli, käsimitat, nälkäasteikko, kuvaruokapäiväkirja ja aterioiden arvosanat numeroiden sijaan.
-
-Tavat
-
-### [Näin aloitat ruokapäiväkirjan: 7 päivän suunnitelma aloittelijalle](https://fimbl.app/fi/blogi/ruokapaivakirjan-aloittaminen/)
-
-Näin aloitat ruokapäiväkirjan, joka kestää: mitä kirjata, 7 päivän suunnitelma aloittelijalle yksi askel päivässä ja viisi virhettä, jotka lopettavat sen.
-
-Vertailu
-
-### [Paras kalorilaskuri vuonna 2026: sovellukset vertailussa](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/)
-
-Kalorilaskurivertailu 2026: Fimbl, MyFitnessPal, Cronometer, YAZIO, Lifesum ja muut. Ilmaisominaisuudet, mainokset, suomen kieli ja kenelle mikin sopii.
-
-Fimblen tarina
-
-### [Miksi teimme kalorilaskurin, joka ei tuomitse](https://fimbl.app/fi/blogi/miksi-teimme-fimblen/)
-
-Fimblen tarina: miksi pelkkä kalorien laskeminen ei riitä, kuusi päätöstä sovelluksen takana, mitä jätimme pois ja tavoitteemme näyttää omat syömisen kuviosi.
-
 [Kaikki artikkelit](https://fimbl.app/fi/blogi/)
 
 UKK
 
 ## Kysymyksiä ja vastauksia
+
+### Mikä Fimbl on?
+
+Fimbl on moderni tekoälykalorilaskuri ja laihdutussovellus iPhonelle ja iPadille, suomalaista tekoa. Kuvaa ateria ja näe kalorit ja makrot sekunneissa, tai käytä hakua ja viivakoodinlukijaa. Fimbl asettaa päivän kaloritavoitteen realistiseen tahtiin, näyttää painotrendisi yksityisten edistymiskuvien vieressä, ja sen tekoälyvalmentaja lukee omat ateriasi, mielialasi ja punnituksesi. Lataaminen on ilmaista eikä mainoksia ole, ja Premium tuo kuvaskannaukset jokaiselle aterialle ja valmentajan.
+
+### Sopiiko Fimbl laihdutukseen?
+
+Sopii, jos käytät iPhonea tai iPadia ja haluat ohjata tekemistäsi itse. Kuusi lyhyttä kysymystä asettaa päivän kaloritavoitteen: lempeä tahti on noin 0,5 kg viikossa ja nopeampi noin 1 kg viikossa, eikä nopeampi suunnitelma ole käytössä, jos se veisi alle sen, mitä kehosi tarvitsee levossa. Mukana ovat myös makrotavoitteet, painotrendi, opastetut edistymiskuvat ja valmentaja niihin viikkoihin, kun motivaatio notkahtaa. Fimbl ei ole lääketieteellinen ohjelma, joten puhu lääkärin kanssa ennen isoja muutoksia, jos sinulla on jokin sairaus. [Laihdutussovellusten vertailumme](https://fimbl.app/fi/blogi/parhaat-laihdutussovellukset/) näyttää, miten se pärjää.
+
+### Onko Fimblessä tekoälyvalmentaja?
+
+On. Fimblen valmentaja keskittyy syömiseen ja tapoihin: kysy aterioistasi, mielialastasi tai suunnitelmastasi, niin vastaukset tulevat omista päivistäsi, myös nälän ja tuntemusten kirjauksista, punnituksista ja, jos sallit, Terveys-apin aktiivisuudesta. Se etsii kuvioita ja ehdottaa yhtä pientä kokeiltavaa asiaa. Valmentaja kuuluu Premiumiin, ja ensimmäinen viikkokatsauksesi on ilmainen. Se ei tee treeniohjelmia, ja se antaa yleistä ohjausta, ei lääketieteellisiä neuvoja. [Tekoälyvalmentajien vertailumme](https://fimbl.app/fi/blogi/parhaat-tekoalyvalmentaja-sovellukset/) kertoo lisää.
+
+### Onko Fimbl hyvä vaihtoehto MyFitnessPalille?
+
+iPhonella voi olla, varsinkin jos haluat ilmaisen viivakoodinlukijan, ei mainoksia, kalorit kuvasta, ilmaiset makrotavoitteet ja yksityiset edistymiskuvat suomeksi. MyFitnessPalissa on yhä suurempi ruokatietokanta, ja se toimii myös Androidilla ja verkossa. Vertailemme ne [kalorilaskurivertailussamme](https://fimbl.app/fi/blogi/paras-kalorilaskuri-sovellus/).
 
 ### Onko Fimbl ilmainen?
 
@@ -272,7 +288,7 @@ Useimmilta meistä motivaatio hiipuu jossain toisen viikon kohdalla. Oma tarinas
 
 ### Onko Fimbl dieettisovellus?
 
-Ei tavallisessa mielessä. Voit asettaa kaloritavoitteen, jos se auttaa, tai vaihtaa aterioihin arvosanoin, jolloin numerot väistyvät ja jokainen ruoka saa yksinkertaisen tasapainomerkin. Fimbl keskittyy tasapainoon, tietoisuuteen ja tapoihin, ja se on tehty tukemaan terveempää suhdetta ruokaan, ei koskaan saamaan sinua tuntemaan oloasi huonoksi. Se ei ole lääkinnällinen työkalu eikä syömishäiriöiden hoitoa, ja jos ruoka tuntuu joskus ylivoimaiselta, terveydenhuollon ammattilainen voi auttaa.
+Fimbl on kalorilaskuri, jolla voit laihtua, pitää painosi ennallaan tai lisätä sitä, mutta se ei ole tiukka dieetti. Aseta kaloritavoite, jos se auttaa, tai vaihda aterioihin arvosanoin, jolloin numerot väistyvät ja jokainen ruoka saa yksinkertaisen tasapainomerkin. Se on tehty tukemaan terveempää suhdetta ruokaan, ei koskaan saamaan sinua tuntemaan oloasi huonoksi. Se ei ole lääkinnällinen työkalu eikä syömishäiriöiden hoitoa, ja jos ruoka tuntuu joskus ylivoimaiselta, terveydenhuollon ammattilainen voi auttaa.
 
 ### Ovatko edistymiskuvani yksityisiä?
 

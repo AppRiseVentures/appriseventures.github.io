@@ -9,13 +9,13 @@ language: "de"
 2. [Blog](https://fimbl.app/de/blog/)
 3. So hältst du fest, was du isst, ohne Kalorien zu zählen
 
-Achtsam essen 8 Min. Lesezeit
+Achtsam essen 9 Min. Lesezeit
 
 # So hältst du fest, was du isst, ohne Kalorien zu zählen
 
 Tellermethode, Hand als Maß, Hungerskala, Foto-Tagebuch und Noten für Mahlzeiten: fünf Wege, aufmerksam zu essen, ohne eine einzige Zahl zu addieren. Und woran du merkst, ob Zahlen dir helfen oder dich bremsen.
 
-**Kasper Koskenvirta** Gründer von Fimbl · Veröffentlicht am 19. Oktober 2026
+**Kasper Koskenvirta** Gründer von Fimbl · Veröffentlicht am 19. Oktober 2026 · Aktualisiert am 6. November 2026
 
 ![Drei Ansichten der Fimbl-App auf dem iPhone](https://fimbl.app/assets/img/covers/de-without-counting-1200.webp)
 
@@ -27,7 +27,7 @@ Du kannst festhalten, was du isst, ohne Kalorien zu zählen, indem du **etwas an
 
 - **Fünf Methoden, die funktionieren:** die Tellermethode, Portionen mit der Hand, eine Hungerskala, ein Foto-Ernährungstagebuch und Noten statt Zahlen.
 - **Fang mit einer an.** Die Tellermethode oder ein Hunger-Check-in dauert Sekunden und braucht keine App, keine Waage und keine Mathematik.
-- **In Fimbl** tauscht der ruhige Modus (Premium) Kalorienzahlen gegen sanfte Noten, während das Tagebuch im Hintergrund leise weiterzählt.
+- **In Fimbl** treten mit Mahlzeiten mit Noten (kostenlos) die Kalorienzahlen zurück, und jedes Lebensmittel bekommt ein einfaches Zeichen, während das Tagebuch im Hintergrund leise weiterzählt.
 
 ## Warum manche ohne Zahlen besser dranbleiben
 
@@ -47,7 +47,7 @@ Aufwand bedeutet die Zeit pro Mahlzeit, sobald dir die Methode vertraut ist. Die
 | 2. Hand als Maß | Portionsgrößen, gemessen mit der Hand | Ein Blick | Auswärts essen, Reisen | Kein Hilfsmittel nötig |
 | 3. Hungerskala | Hunger vorher, Sättigung nachher | Zehn Sekunden | Zu viel essen, emotionales Essen | Check-ins zu Mahlzeiten, kostenlos |
 | 4. Foto-Tagebuch | Ein Bild von jeder Mahlzeit | Fünf Sekunden | Muster auf einen Blick erkennen | Kalorien-Scan, Premium |
-| 5. Noten für Mahlzeiten | Wie gut dir eine Mahlzeit getan hat | Automatisch | Abstand von Zahlen gewinnen | Ruhiger Modus, Premium |
+| 5. Noten für Mahlzeiten | Wie gut dir eine Mahlzeit getan hat | Automatisch | Abstand von Zahlen gewinnen | Mahlzeiten mit Noten, kostenlos |
 
 ### 1. Die Tellermethode
 
@@ -74,15 +74,15 @@ In Fimbl kostenlos **Hunger und Gefühle, in Sekunden eingetragen** Fimbl fragt 
 
 ### 4. Ein Foto-Ernährungstagebuch
 
-Mach vor jeder Mahlzeit und jedem Snack ein Foto und schau dir die Bilder am Ende der Woche an. Ein Foto geht schneller als Schreiben und lässt sich schwerer schönen, und eine Woche voller Teller nebeneinander zeigt Muster sofort: wie viele Mahlzeiten Gemüse hatten, wie oft das Abendessen aus der Packung kam, wie groß die Snacks am Abend wurden. Deine Fotomediathek reicht dafür, oder ein eigenes Album. In Fimbl trägt ein Kalorien-Scan (Premium) die Mahlzeit gleich für dich ein, und die Zahlen dazu kannst du mit dem ruhigen Modus ausblenden.
+Mach vor jeder Mahlzeit und jedem Snack ein Foto und schau dir die Bilder am Ende der Woche an. Ein Foto geht schneller als Schreiben und lässt sich schwerer schönen, und eine Woche voller Teller nebeneinander zeigt Muster sofort: wie viele Mahlzeiten Gemüse hatten, wie oft das Abendessen aus der Packung kam, wie groß die Snacks am Abend wurden. Deine Fotomediathek reicht dafür, oder ein eigenes Album. In Fimbl trägt ein Kalorien-Scan die Mahlzeit gleich für dich ein (drei sind kostenlos), und Mahlzeiten mit Noten hält die Zahlen dazu aus dem Blick.
 
 ### 5. Noten statt Zahlen
 
-Der neueste Ansatz ersetzt die Zahl durch eine Einschätzung der Mahlzeit selbst: Passte sie zu deinen Zielen, hat sie dich satt gemacht, ging es dir danach gut? Um genau diese Methode haben wir den ruhigen Modus in Fimbl gebaut, weil er die nützlichen Informationen behält und den Teil weglässt, der viele unter Druck setzt.
+Der neueste Ansatz ersetzt die Zahl durch eine Einschätzung der Mahlzeit selbst: Passte sie zu deinen Zielen, hat sie dich satt gemacht, ging es dir danach gut? Um genau diese Methode haben wir Mahlzeiten mit Noten in Fimbl gebaut, weil er die nützlichen Informationen behält und den Teil weglässt, der viele unter Druck setzt.
 
-![Ruhiger Modus in Fimbl bewertet Haferflocken mit der Note A: langsame, stetige Energie am Morgen, passt super, mit Hinweisen zu Ziel, Hunger und Gefühlen und einem Tipp für das nächste Mal](https://fimbl.app/assets/img/app/de/04-meal-grades.webp)
+![Die KI-Note in Fimbl bewertet Haferflocken mit der Note A: langsame, stetige Energie am Morgen, passt super, mit Hinweisen zu Ziel, Hunger und Gefühlen und einem Tipp für das nächste Mal](https://fimbl.app/assets/img/app/de/04-meal-grades.webp)
 
-Premium **Ruhiger Modus: Noten statt Schuldgefühle** Jedes Lebensmittel und jede Mahlzeit bekommt eine sanfte Note von A bis F dafür, wie gut sie zu deinen Zielen, deinem Hunger und deiner Stimmung gepasst hat, von „Passt super“ bis „Luft nach oben“, mit einer kurzen Notiz und einer Idee für das nächste Mal. Auch dein Tag bekommt eine Note.
+Kostenlos · KI-Noten in Premium **Mahlzeiten mit Noten: Noten statt Schuldgefühle** Jedes Lebensmittel und jede Mahlzeit bekommt eine sanfte Note von A bis F dafür, wie gut sie zu deinen Zielen, deinem Hunger und deiner Stimmung gepasst hat, von „Passt super“ bis „Luft nach oben“, mit einer kurzen Notiz und einer Idee für das nächste Mal. Auch dein Tag bekommt eine Note.
 
 - Kalorienzahlen werden ausgeblendet, nicht gelöscht
 - Das Tagebuch zählt im Hintergrund weiter, du kannst jederzeit zurückwechseln
@@ -107,7 +107,7 @@ Ohne Zahlen ist nicht für alle besser. Es ist eine Entscheidung, und es hilft z
 
 **Du schon einmal aufgehört hast**: Wer nach ein paar Wochen ausbrennt, hatte meist eine Methode, die zu viel verlangt hat.
 
-Es gibt auch einen Mittelweg: Du trägst dein Essen weiter ein, damit das Protokoll existiert, blendest aber die Summen aus. Genau das macht der ruhige Modus, und deshalb geht beim Zurückwechseln nichts verloren.
+Es gibt auch einen Mittelweg: Du trägst dein Essen weiter ein, damit das Protokoll existiert, blendest aber die Summen aus. Genau das macht Mahlzeiten mit Noten, und deshalb geht beim Zurückwechseln nichts verloren.
 
 ## So legst du diese Woche los
 
@@ -122,10 +122,10 @@ Auf deine Art
 
 ### Aufmerksam bleiben, ohne zu rechnen
 
-Starte mit dem kostenlosen Tagebuch und den Check-ins zu Mahlzeiten in Fimbl. Wenn Zahlen zu laut werden, tauscht der ruhige Modus sie gegen sanfte Noten, und beim Zurückwechseln geht nichts verloren.
+Starte mit dem kostenlosen Tagebuch und den Check-ins zu Mahlzeiten in Fimbl. Wenn Zahlen zu laut werden, tauscht Mahlzeiten mit Noten sie gegen ein einfaches Zeichen, und beim Zurückwechseln geht nichts verloren.
 
 - Kostenlose Check-ins zu Hunger und Gefühlen
-- Ruhiger Modus: Noten statt Kalorien
+- Mahlzeiten mit Noten: Noten statt Kalorien
 - Keine Werbung, kein Druck durch Serien
 
 [Fimbl kostenlos laden](https://apps.apple.com/app/id6443701726)
@@ -150,7 +150,7 @@ Eine verbreitete Übersicht nutzt eine Handfläche für eine Portion Eiweiß, ei
 
 ### Gibt es einen Kalorienzähler, der keine Kalorien anzeigt?
 
-Ja. Fimbl für iPhone und iPad hat den ruhigen Modus (Teil von Fimbl Premium). Er blendet Kalorienzahlen aus und bewertet jede Mahlzeit mit einer Note von A bis F dafür, wie gut sie zu deinen Zielen, deinem Hunger und deiner Stimmung gepasst hat. Das Tagebuch zählt im Hintergrund weiter, du kannst also jederzeit zurückwechseln, ohne etwas zu verlieren.
+Ja. Fimbl für iPhone und iPad hat Mahlzeiten mit Noten, eine kostenlose Ansicht, in der Kalorienzahlen zurücktreten und jedes Lebensmittel ein einfaches Balance-Zeichen bekommt. Premium ergänzt eine KI-Note von A bis F dafür, wie gut ein Lebensmittel zu deinen Zielen, deinem Hunger und deiner Stimmung gepasst hat. Das Tagebuch zählt im Hintergrund weiter, du kannst also jederzeit zurückwechseln, ohne etwas zu verlieren.
 
 ### Nehme ich ohne Kalorienzählen trotzdem ab?
 
@@ -168,7 +168,7 @@ Kasper Koskenvirta
 
 Gründer von Fimbl
 
-Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein Foto-Kalorienzähler und Ernährungstagebuch für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.
+Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein moderner KI-Kalorienzähler mit Coach und privaten Fortschrittsfotos für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.
 
 ## Weiterlesen
 
@@ -188,7 +188,7 @@ Emotionaler oder echter Hunger? 7 Unterschiede, eine Hungerskala von 1 bis 10 un
 
  17. Oktober 2026
 
-## Starte deine Wellness-Reise
+## Erste Mahlzeit fotografieren. Dranbleiben.
 
 Kostenlos laden. Dein erster Scan dauert Sekunden.
 

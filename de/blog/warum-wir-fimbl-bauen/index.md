@@ -15,7 +15,7 @@ Hinter Fimbl 9 Min. Lesezeit
 
 Die meisten Kalorien-Apps zählen brillant und lassen dich an Tagen, die nicht nach Plan laufen, im Stich. Hier erfährst du, was wir anders machen, was wir bewusst weglassen und wohin sich Fimbl entwickelt.
 
-**Kasper Koskenvirta** Gründer von Fimbl · Veröffentlicht am 17. Oktober 2026
+**Kasper Koskenvirta** Gründer von Fimbl · Veröffentlicht am 17. Oktober 2026 · Aktualisiert am 6. November 2026
 
 ![Drei Ansichten der Fimbl-App auf dem iPhone](https://fimbl.app/assets/img/covers/de-why-we-built-fimbl-1200.webp)
 
@@ -61,13 +61,13 @@ Die Forschung zum achtsamen Essen stützt vor allem die erste Hälfte dieses Kre
 Eine ruhige App zu bauen heißt vor allem, an vielen kleinen Stellen Nein zu sagen. Auf diese Entscheidungen kommen wir immer wieder zurück.
 
 - **Gefühle gehören mit an den Tisch** Zu jeder Mahlzeit gibt es auf Wunsch einen kurzen Check-in zu Hunger und Gefühlen, kostenlos. Heißhunger, gestresst, gelangweilt, zufrieden: Wähle so viele, wie du magst, oder keine.
-- **Zahlen sind optional** Der Ruhige Modus (Premium) ersetzt Kalorienzahlen durch sanfte Noten dafür, wie gut eine Mahlzeit zu deinen Zielen, deinem Hunger und deiner Stimmung gepasst hat. Im Hintergrund wird weiter gezählt.
+- **Zahlen sind optional** Mit Mahlzeiten mit Noten (kostenlos) treten Kalorienzahlen zurück, und jedes Lebensmittel bekommt ein einfaches Balance-Zeichen. Im Hintergrund wird weiter gezählt. Premium ergänzt eine KI-Note mit dem Grund dafür, Tipps und Alternativen.
 - **Kostenlos heißt vollständig** Suche, Barcode-Scanner, gespeicherte Mahlzeiten, Check-ins, Gewicht, Ziele, Aktivität aus Apple Health und Fortschrittsfotos funktionieren kostenlos. Ohne Werbung, immer.
 - **KI mit offenen Karten** KI ist optional. Die kostenlosen Versuche und die Premium-Funktionen sehen nur, was eine Funktion braucht, nie deinen Namen oder deine E-Mail-Adresse, und wir trainieren keine Modelle mit deinen Daten.[4]
 - **Deine Fotos gehören dir** Fortschrittsfotos bleiben auf deinem iPhone. Sie werden nie auf unsere Server hochgeladen, nie für KI genutzt und nie in iCloud-Backups gespeichert.
 - **Dranbleiben statt perfekt sein** Serien belohnen das Dranbleiben, nicht makellose Tage. Unsere Faustregel steht direkt in der App: Einen Tag verpasst? Nur nicht zwei hintereinander.
 
-![Ruhiger Modus in Fimbl bewertet Haferflocken mit der Note A: langsame, stetige Energie am Morgen, passt super, mit Hinweisen zu Ziel, Hunger und Gefühlen und einem Tipp für das nächste Mal](https://fimbl.app/assets/img/app/de/04-meal-grades.webp)
+![Die KI-Note in Fimbl bewertet Haferflocken mit der Note A: langsame, stetige Energie am Morgen, passt super, mit Hinweisen zu Ziel, Hunger und Gefühlen und einem Tipp für das nächste Mal](https://fimbl.app/assets/img/app/de/04-meal-grades.webp)
 
 Premium **So sieht eine Note aus** Statt „223 kcal“ siehst du, was die Mahlzeit für dich getan hat: langsame, stetige Energie am Morgen, passt super zu deinem Ziel, danach ein ruhiger Check-in. Dazu eine Idee für das nächste Mal. Auch ein Genussmoment bekommt eine Note, mit Zusammenhang statt roter Zahl.
 
@@ -145,11 +145,11 @@ Fimbl wird von AppRise Ventures Oy entworfen und entwickelt, einem kleinen Unter
 
 ### Ist Fimbl eine Diät-App?
 
-Nicht im üblichen Sinn. Du kannst ein Kalorienziel festlegen, wenn es dir hilft, oder in den Ruhigen Modus wechseln und Noten statt Zahlen sehen. Bei Fimbl geht es um Balance, Achtsamkeit und Gewohnheiten, und die App soll ein entspannteres Verhältnis zum Essen unterstützen. Sie ist kein Medizinprodukt und keine Behandlung von Essstörungen.
+Fimbl ist ein Kalorienzähler, mit dem du abnehmen, dein Gewicht halten oder zunehmen kannst, aber keine strenge Diät. Setz dir ein Kalorienziel, wenn es dir hilft, oder wechsle zu Mahlzeiten mit Noten und sieh ein einfaches Zeichen statt Zahlen. Die App soll ein entspannteres Verhältnis zum Essen unterstützen. Sie ist kein Medizinprodukt und keine Behandlung von Essstörungen.
 
 ### Was ist bei Fimbl kostenlos und was gehört zu Premium?
 
-Das Herz der App ist kostenlos und werbefrei: das Ernährungstagebuch, Suche und Barcode-Scanner, gespeicherte Mahlzeiten, Gewicht, Stimmung und Check-ins zu Mahlzeiten, Aktivität aus Apple Health, Ziele und Serien, Fortschrittsfotos und Deine erste Woche. Premium ergänzt Makro-Ziele, die KI-Funktionen (Foto-Scan, Mahlzeiten per Sprache oder Text beschreiben, Etiketten-Scan, Rezepte aus Videos, Wochenrückblicke und den Coach, den Ruhigen Modus und gesündere Alternativen), Widgets, zusätzliche Mahlzeiten und Serie wiederherstellen.
+Das Herz der App ist kostenlos und werbefrei: das Ernährungstagebuch, Suche und Barcode-Scanner, gespeicherte Mahlzeiten, Makros und Makro-Ziele, Gewicht, Stimmung und Check-ins zu Mahlzeiten, Aktivität aus Apple Health, Ziele und Serien, Fortschrittsfotos, Mahlzeiten mit Noten, deine Geschichte und Deine erste Woche, dazu 3 Foto-Scans und dein erster Wochenrückblick. Premium ergänzt weitere Foto-Scans, Eintragen per Sprache, Rezepte aus Videos, Wochenrückblicke und den Coach, KI-Noten und gesündere Alternativen, mehr Widgets und Serie wiederherstellen.
 
 ### Nutzt Fimbl meine Daten für KI-Training?
 
@@ -174,7 +174,7 @@ Kasper Koskenvirta
 
 Gründer von Fimbl
 
-Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein Foto-Kalorienzähler und Ernährungstagebuch für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.
+Kasper entwirft und entwickelt Fimbl bei AppRise Ventures in Espoo, Finnland. Fimbl ist ein moderner KI-Kalorienzähler mit Coach und privaten Fortschrittsfotos für iPhone und iPad. Unsere Artikel dienen der allgemeinen Information und ersetzen keine medizinische Beratung.
 
 ## Weiterlesen
 
@@ -186,7 +186,7 @@ KI-Kalorienschätzungen per Foto liegen im Schnitt um etwa ein Drittel daneben, 
 
  19. Oktober 2026
 
-Achtsam essen 8 Min. Lesezeit
+Achtsam essen 9 Min. Lesezeit
 
 ### [So hältst du fest, was du isst, ohne Kalorien zu zählen](https://fimbl.app/de/blog/essen-tracken-ohne-kalorien-zaehlen/)
 
@@ -194,7 +194,7 @@ Essen tracken ohne Kalorienzählen: Tellermethode, Portionen mit der Hand, Hunge
 
  19. Oktober 2026
 
-## Starte deine Wellness-Reise
+## Erste Mahlzeit fotografieren. Dranbleiben.
 
 Kostenlos laden. Dein erster Scan dauert Sekunden.
 

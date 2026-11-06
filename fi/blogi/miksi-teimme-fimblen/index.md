@@ -15,7 +15,7 @@ Fimblen tarina 8 min lukuaika
 
 Useimmat kalorilaskurit ovat loistavia laskemaan ja hiljaa huonoja niinä päivinä, jotka eivät mene suunnitelman mukaan. Tässä kerromme, mitä teimme toisin, mitä jätimme tarkoituksella pois ja mihin olemme viemässä Fimbleä.
 
-**Kasper Koskenvirta** Fimblen perustaja · Julkaistu 17. lokakuuta 2026
+**Kasper Koskenvirta** Fimblen perustaja · Julkaistu 17. lokakuuta 2026 · Päivitetty 6. marraskuuta 2026
 
 ![Kolme Fimbl-sovelluksen näkymää iPhonessa](https://fimbl.app/assets/img/covers/fi-why-we-built-fimbl-1200.webp)
 
@@ -61,13 +61,13 @@ Tietoisen syömisen tutkimus tukee selvimmin kehän ensimmäistä puoliskoa. Kat
 Rauhallisen sovelluksen rakentaminen on enimmäkseen sarja pieniä kieltäytymisiä. Näihin päätöksiin palaamme yhä uudelleen.
 
 - **Tunteet kuuluvat ruokapöytään** Jokaiseen ateriaan voi liittää nopean kirjauksen nälästä ja tunteista, ja se on ilmainen. Mieliteko, stressi, tylsyys, kylläisyys: valitse niin monta kuin haluat, tai ei yhtään.
-- **Numerot ovat vapaaehtoisia** Rauhallinen tila (Premium) vaihtaa kalorimäärät lempeisiin arvosanoihin siitä, miten hyvin ateria tuki tavoitteitasi, nälkääsi ja mielialaasi. Laskenta jatkuu hiljaa taustalla.
+- **Numerot ovat vapaaehtoisia** Ateriat arvosanoin (ilmainen) antaa kalorilukujen väistyä ja jokaiselle ruoalle yksinkertaisen tasapainomerkin. Laskenta jatkuu hiljaa taustalla. Premium tuo tekoälyn arvosanan syineen, vinkkeineen ja vaihtoehtoineen.
 - **Ilmainen tarkoittaa kokonaista päiväkirjaa** Haku, viivakoodiskannaus, tallennetut ateriat, tuntemusten kirjaukset, paino, tavoitteet, aktiivisuus Terveys-apista ja edistymiskuvat toimivat ilmaiseksi. Ei mainoksia, ei koskaan.
 - **Tekoäly, valot päällä** Tekoäly on vapaaehtoinen. Ilmaiset kokeilut ja Premium-ominaisuudet näkevät vain sen, mitä toiminto tarvitsee, ei koskaan nimeäsi tai sähköpostiasi, emmekä kouluta malleja tiedoillasi.[4]
 - **Kuvasi ovat sinun** Edistymiskuvat pysyvät iPhonessasi. Niitä ei koskaan ladata palvelimillemme, käytetä tekoälyyn eikä tallenneta iCloud-varmuuskopioihin.
 - **Johdonmukaisuus, ei täydellisyys** Putket palkitsevat paikalle tulemisesta, eivät virheettömistä päivistä. Peukalosääntömme lukee suoraan sovelluksessa: jäikö päivä väliin? Kunhan kahta ei jää peräkkäin.
 
-![Fimblen rauhallinen tila antaa kaurahiutaleille arvosanan A: tasaista energiaa aamuun ja sopii erinomaisesti, huomioineen tavoitteista, nälästä ja tuntemuksista sekä vinkillä ensi kertaan](https://fimbl.app/assets/img/app/fi/04-meal-grades.webp)
+![Fimblen tekoäly antaa kaurahiutaleille arvosanan A: tasaista energiaa aamuun ja sopii erinomaisesti, huomioineen tavoitteista, nälästä ja tuntemuksista sekä vinkillä ensi kertaan](https://fimbl.app/assets/img/app/fi/04-meal-grades.webp)
 
 Premium **Tältä arvosana näyttää** "223 kcal" sijaan näet, mitä ateria teki sinulle: tasaista energiaa aamuun, erinomainen sopivuus tavoitteeseesi ja rauhallinen olo aterian jälkeen. Sitten yksi idea ensi kertaan. Myös herkku saa arvosanan, ja punaisen luvun sijaan asiayhteyden.
 
@@ -149,7 +149,7 @@ Ei tavallisessa mielessä. Voit asettaa kaloritavoitteen, jos siitä on sinulle 
 
 ### Mitä Fimblessä saa ilmaiseksi ja mitä Premiumilla?
 
-Sovelluksen ydin on ilmainen ja ilman mainoksia: ruokapäiväkirja, haku ja viivakoodiskannaus, tallennetut ateriat, paino, mieliala ja aterioiden tuntemusten kirjaukset, aktiivisuus Terveys-apista, tavoitteet ja putket, edistymiskuvat sekä Ensimmäinen viikkosi -opastus. Premium tuo makrotavoitteet, tekoälyominaisuudet (kuvaskannaus, aterian kuvailu äänellä tai tekstillä, ravintoarvomerkinnän skannaus, reseptit videoista, viikon pohdinnat ja valmentaja, rauhallinen tila sekä terveellisemmät vaihtoehdot), widgetit, lisää ateriapaikkoja ja putken palautuksen.
+Sovelluksen ydin on ilmainen ja ilman mainoksia: ruokapäiväkirja, haku ja viivakoodiskannaus, tallennetut ateriat, makrot ja makrotavoitteet, paino, mieliala ja aterioiden tuntemusten kirjaukset, aktiivisuus Terveys-apista, tavoitteet ja putket, edistymiskuvat, ateriat arvosanoin, oma tarinasi ja Ensimmäinen viikkosi -opastus sekä 3 kuvaskannausta ja ensimmäinen viikon pohdintasi. Premium tuo lisää kuvaskannauksia, äänikirjauksen, reseptit videoista, viikon pohdinnat ja valmentajan, tekoälyn arvosanat ja terveellisemmät vaihtoehdot, lisää widgettejä ja putken palautuksen.
 
 ### Käytetäänkö tietojani tekoälyn kouluttamiseen?
 
@@ -174,27 +174,27 @@ Kasper Koskenvirta
 
 Fimblen perustaja
 
-Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on kuvasta kaloreita laskeva ruokapäiväkirja iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
+Kasper suunnittelee ja rakentaa Fimbleä AppRise Venturesissa Espoossa. Fimbl on moderni tekoälykalorilaskuri, jossa on valmentaja ja yksityiset edistymiskuvat, iPhonelle ja iPadille. Artikkelimme ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.
 
 ## Lue seuraavaksi
 
 Vertailu 12 min lukuaika
 
-### [Parhaat sovellukset edistymiskuviin vuonna 2026, vertailussa](https://fimbl.app/fi/blogi/parhaat-edistymiskuva-sovellukset/)
+### [Parhaat laihdutussovellukset vuonna 2026, vertailussa](https://fimbl.app/fi/blogi/parhaat-laihdutussovellukset/)
 
-Fimbl, Progress, Hevy, MacroFactor, MyFitnessPal ja Cronometer vertailussa edistymiskuville: opastetut asennot, päällekkäiskuva, vertailu ja yksityisyys.
+Fimbl, Noom, MyFitnessPal, Lose It!, MacroFactor, Cronometer ja YAZIO vertailussa laihdutukseen: kalorit, tekoälyvalmentajat, edistymiskuvat ja hinta.
 
- 19. lokakuuta 2026
+ 6. marraskuuta 2026
 
-Kalorien seuranta 8 min lukuaika
+Vertailu 11 min lukuaika
 
-### [Kuinka tarkka tekoälykalorilaskuri on, ja onko sillä väliä?](https://fimbl.app/fi/blogi/tekoaly-kalorilaskuri-tarkkuus/)
+### [Parhaat tekoälyvalmentajat vuonna 2026, ja mitä kukin oikeasti valmentaa](https://fimbl.app/fi/blogi/parhaat-tekoalyvalmentaja-sovellukset/)
 
-Tekoälyn kuvasta tekemät kaloriarviot heittävät keskimäärin noin kolmanneksen, kuten käsin kirjauskin. Mitä tutkimukset sanovat ja milloin skannata viivakoodi.
+Fimbl, MyFitnessPal, Noom, Cronometer, Google Health Coach, WHOOP, Fitbod ja MacroFactor vertailussa: mitä kukin tekoälyvalmentaja näkee ja mitä se maksaa.
 
- 19. lokakuuta 2026
+ 6. marraskuuta 2026
 
-## Aloita hyvinvointimatkasi
+## Kuvaa ensimmäinen ateriasi. Jatka eteenpäin.
 
 Ilmainen ladata. Ensimmäinen kuva vie sekunteja.
 

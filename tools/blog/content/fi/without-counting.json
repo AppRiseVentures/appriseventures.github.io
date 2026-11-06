@@ -10,7 +10,7 @@
   "og_title": "Näin seuraat syömistäsi laskematta kaloreita",
   "og_kicker": "Tietoisen syömisen opas",
   "og_heading": "Seuraa syömistäsi <span>ilman numeroita</span>",
-  "og_alt": "Fimblen Rauhallisen tilan aterian arvosana ja tuntemusten kirjaus sekä otsikko: seuraa syömistäsi ilman numeroita",
+  "og_alt": "Fimblen aterian arvosana ja tuntemusten kirjaus sekä otsikko: seuraa syömistäsi ilman numeroita",
   "keywords": [
     "syömisen seuranta ilman kaloreita",
     "ruokapäiväkirja ilman kaloreita",
@@ -29,7 +29,7 @@
     "Fimbl"
   ],
   "published": "2026-10-19",
-  "modified": "2026-10-19",
+  "modified": "2026-11-06",
   "related": [
     "food-diary",
     "emotional-hunger"
@@ -40,7 +40,7 @@
     "01-diary"
   ],
   "cover_alt": [
-    "Fimblen Rauhallinen tila antaa kaurahiutaleille arvosanan A tasaisesta aamun energiasta",
+    "Fimblen tekoäly antaa kaurahiutaleille arvosanan A tasaisesta aamun energiasta",
     "Fimblen aamiaisen tuntemukset -kirjaus, jossa kysytään ennen ateriaa koettuja tunteita"
   ],
   "chips": [
@@ -74,7 +74,7 @@
     },
     {
       "q": "Onko olemassa kalorilaskuria, joka ei näytä kaloreita?",
-      "a": "On. Fimblessä iPhonelle ja iPadille on Rauhallinen tila (osa Fimbl Premiumia), joka piilottaa kalorimäärät ja antaa jokaiselle aterialle arvosanan A:sta F:ään sen mukaan, miten hyvin se tuki tavoitteitasi, nälkääsi ja mielialaasi. Päiväkirja laskee taustalla edelleen, joten voit vaihtaa takaisin milloin vain menettämättä mitään."
+      "a": "On. Fimblessä iPhonelle ja iPadille on ilmainen ateriat arvosanoin -näkymä, jossa kaloriluvut väistyvät ja jokainen ruoka saa yksinkertaisen tasapainomerkin. Premium tuo tekoälyn arvosanan A:sta F:ään sen mukaan, miten hyvin ruoka tuki tavoitteitasi, nälkääsi ja mielialaasi. Päiväkirja laskee taustalla edelleen, joten voit vaihtaa takaisin milloin vain menettämättä mitään."
     },
     {
       "q": "Laihdunko, jos en laske kaloreita?",

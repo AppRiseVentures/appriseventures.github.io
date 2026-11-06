@@ -67,7 +67,7 @@ Errors also matter less than they look, because they tend to be consistent. If A
 
 ![Fimbl photo calorie scan of an açaí bowl estimated at 380 g and 460 kcal, with portion buttons from half to double and a carbs, fat and protein breakdown](https://fimbl.app/assets/img/app/en/02-photo-scan.webp)
 
-Premium **A photo, an estimate, and you in charge** Snap a plate, or describe it by text or voice, and Fimbl estimates the portion, calories and macros. Then you adjust: half, one and a half or double the portion, or fine-tune the details. Estimates can be a little off, so the final say is always yours.
+ 3 free, then Premium **A photo, an estimate, and you in charge** Snap a plate, or describe it by text or voice, and Fimbl estimates the portion, calories and macros. Then you adjust: half, one and a half or double the portion, or fine-tune the details. Estimates can be a little off, so the final say is always yours.
 
 - Photo scan, text or voice, and nutrition label scan
 - Recipes from Reels, TikToks, YouTube Shorts and recipe sites
@@ -106,7 +106,7 @@ For anything that comes in a package, you don't need an estimate. The nutrition 
 
 **Busy moments**: When the choice is a photo or nothing, take the photo.
 
-And when you have neither the time nor the energy, a quick add of a rough calorie number keeps the day in your diary. Close enough is good enough. The tracker that wins is the one you keep opening, which is the same conclusion we reached in our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/).
+And when you have neither the time nor the energy, a quick add of a rough calorie number keeps the day in your diary. Close enough is good enough. The tracker that wins is the one you keep opening, which is the same conclusion we reached in our [calorie tracker comparison](https://fimbl.app/blog/best-calorie-tracker-apps/). For what else to expect beyond the scan, see [what a modern calorie counter does](https://fimbl.app/blog/modern-calorie-counter-app/).
 
 ## Five ways to get better AI estimates
 
@@ -126,10 +126,10 @@ The best of both
 
 ### AI when it's easier, labels when it matters
 
-Fimbl's free diary gives you barcode scanning, search and saved meals. Premium adds photo, voice and text logging for the meals that don't come with a label. You choose, meal by meal.
+Fimbl's free diary gives you barcode scanning, search, saved meals and 3 photo scans to try. On iPhones with Apple Intelligence scans stay free, and Premium adds photo scans and voice logging for the meals that don't come with a label. You choose, meal by meal.
 
 - Free barcode scanner, no ads
-- Photo, voice and text logging with Premium
+- 3 free photo scans, more with Premium
 - Every estimate adjustable
 
 [Get Fimbl free](https://apps.apple.com/app/id6443701726)
@@ -176,11 +176,11 @@ Kasper Koskenvirta
 
 Founder of Fimbl
 
-Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a photo calorie counter and food diary for iPhone and iPad. Our articles are general information, not medical advice.
+Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a modern AI calorie counter with a coach and private progress photos for iPhone and iPad. Our articles are general information, not medical advice.
 
 ## Keep reading
 
-Comparison 11 min read
+Comparison 12 min read
 
 ### [The best calorie tracker apps in 2026, compared side by side](https://fimbl.app/blog/best-calorie-tracker-apps/)
 
@@ -196,7 +196,7 @@ How to start a food diary that lasts: what to write down, a 7-day beginner plan 
 
 October 19, 2026
 
-## Start your wellness journey
+## Snap your first meal. Keep going.
 
 Free to download. Your first scan takes seconds.
 

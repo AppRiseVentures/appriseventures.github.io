@@ -10,7 +10,7 @@
   "og_title": "So hältst du fest, was du isst, ohne Kalorien zu zählen",
   "og_kicker": "Ratgeber achtsam essen",
   "og_heading": "Bewusst essen, <span>ohne Zahlen</span>",
-  "og_alt": "Fimbl-Screens mit einer Note im ruhigen Modus und einem Check-in neben der Überschrift: Bewusst essen, ohne Zahlen",
+  "og_alt": "Fimbl-Screens mit einer Mahlzeiten-Note und einem Check-in neben der Überschrift: Bewusst essen, ohne Zahlen",
   "keywords": [
     "ohne Kalorien zählen abnehmen",
     "Essen tracken ohne Kalorien",
@@ -29,7 +29,7 @@
     "Fimbl"
   ],
   "published": "2026-10-19",
-  "modified": "2026-10-19",
+  "modified": "2026-11-06",
   "related": [
     "food-diary",
     "emotional-hunger"
@@ -40,7 +40,7 @@
     "01-diary"
   ],
   "cover_alt": [
-    "Ruhiger Modus in Fimbl bewertet Haferflocken mit der Note A für langsame, stetige Energie am Morgen",
+    "Die KI-Note in Fimbl bewertet Haferflocken mit der Note A für langsame, stetige Energie am Morgen",
     "Fimbl-Check-in mit der Frage, welche Gefühle du vor dem Frühstück hattest"
   ],
   "chips": [
@@ -74,7 +74,7 @@
     },
     {
       "q": "Gibt es einen Kalorienzähler, der keine Kalorien anzeigt?",
-      "a": "Ja. Fimbl für iPhone und iPad hat den ruhigen Modus (Teil von Fimbl Premium). Er blendet Kalorienzahlen aus und bewertet jede Mahlzeit mit einer Note von A bis F dafür, wie gut sie zu deinen Zielen, deinem Hunger und deiner Stimmung gepasst hat. Das Tagebuch zählt im Hintergrund weiter, du kannst also jederzeit zurückwechseln, ohne etwas zu verlieren."
+      "a": "Ja. Fimbl für iPhone und iPad hat Mahlzeiten mit Noten, eine kostenlose Ansicht, in der Kalorienzahlen zurücktreten und jedes Lebensmittel ein einfaches Balance-Zeichen bekommt. Premium ergänzt eine KI-Note von A bis F dafür, wie gut ein Lebensmittel zu deinen Zielen, deinem Hunger und deiner Stimmung gepasst hat. Das Tagebuch zählt im Hintergrund weiter, du kannst also jederzeit zurückwechseln, ohne etwas zu verlieren."
     },
     {
       "q": "Nehme ich ohne Kalorienzählen trotzdem ab?",

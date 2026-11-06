@@ -28,14 +28,14 @@
     "Fimbl"
   ],
   "published": "2026-10-17",
-  "modified": "2026-10-17",
+  "modified": "2026-11-06",
   "cover": [
     "04-meal-grades",
     "09-ai",
     "goals"
   ],
   "cover_alt": [
-    "Fimbl Calm mode grading rolled oats with an A for slow, steady morning energy",
+    "Fimbl AI grade for rolled oats with an A for slow, steady morning energy",
     "Fimbl weekly reflection titled Mornings that carried you"
   ],
   "chips": [
@@ -57,11 +57,11 @@
     },
     {
       "q": "Is Fimbl a diet app?",
-      "a": "Not in the usual sense. You can set a calorie goal if it helps you, or switch to Calm mode and see grades instead of numbers. Fimbl is about balance, awareness and habits, and it's built to support a healthier relationship with food. It isn't a medical tool or a treatment for eating disorders."
+      "a": "Fimbl is a calorie counter you can use to lose weight, keep it steady or gain, but it isn't a strict diet. Set a calorie goal if it helps you, or switch to Graded meals and see a simple mark instead of numbers. It's built to support a healthier relationship with food. It isn't a medical tool or a treatment for eating disorders."
     },
     {
       "q": "What's free in Fimbl, and what's Premium?",
-      "a": "The heart of the app is free and has no ads: the food diary, search and barcode scanning, saved meals, weight, mood and meal check-ins, Apple Health activity, goals and streaks, progress photos and the First Week journey. Premium adds macro goals, the AI features (photo scan, describing meals by voice or text, label scan, recipes from videos, weekly reflections and the coach, Calm mode and healthier swaps), widgets, extra meal slots and streak restore."
+      "a": "The heart of the app is free and has no ads: the food diary, search and barcode scanning, saved meals, macros and macro goals, weight, mood and meal check-ins, Apple Health activity, goals and streaks, progress photos, Graded meals, Your story and the First Week journey, plus 3 photo scans and your first weekly reflection. Premium adds photo scans beyond the free ones, voice logging, recipes from videos, weekly reflections and the coach, AI grades and healthier swaps, more widgets and streak restore."
     },
     {
       "q": "Does Fimbl use my data to train AI?",

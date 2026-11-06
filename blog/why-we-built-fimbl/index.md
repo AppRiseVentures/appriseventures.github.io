@@ -9,13 +9,13 @@ language: "en"
 2. [Blog](https://fimbl.app/blog/)
 3. Why we built a calorie tracker that doesn't judge you
 
-Behind Fimbl 7 min read
+Behind Fimbl 8 min read
 
 # Why we built a calorie tracker that doesn't judge you
 
 Most calorie apps are brilliant at counting and quietly bad at the days that don't go to plan. Here's what we changed, what we deliberately left out, and where we're taking Fimbl next.
 
-**Kasper Koskenvirta** Founder of Fimbl · Published October 17, 2026
+**Kasper Koskenvirta** Founder of Fimbl · Published October 17, 2026 · Updated November 6, 2026
 
 ![Three Fimbl app screens on iPhone](https://fimbl.app/assets/img/covers/en-why-we-built-fimbl-1200.webp)
 
@@ -61,13 +61,13 @@ Mindful eating research supports the first half of that loop most clearly. Revie
 Building a calm app is mostly a series of small refusals. These are the decisions we keep coming back to.
 
 - **Feelings belong at the table** Every meal can come with a quick check-in on hunger and feelings, and it's free. Craving, stressed, bored, satisfied: pick as many as you like, or none.
-- **Numbers are optional** Calm mode (Premium) swaps calorie numbers for gentle grades on how well a meal served your goals, hunger and mood, while counting quietly in the background.
+- **Numbers are optional** Graded meals (free) lets calorie numbers step back and gives each food a simple balance mark, while counting quietly in the background. Premium adds an AI grade with the reason, tips and swaps.
 - **Free means a complete diary** Search, barcode scanning, saved meals, check-ins, weight, goals, Apple Health activity and progress photos all work for free. No ads, ever.
 - **AI with the lights on** AI is optional, and the free tries and Premium features see only what a feature needs, never your name or email, and we don't train models on your data.[4]
 - **Your photos are yours** Progress photos stay on your iPhone. They're never uploaded to our servers, never used for AI and never included in iCloud backups.
 - **Consistency, not perfection** Streaks reward showing up, not flawless days. Our rule of thumb is printed right in the app: miss a day? That's fine. Just don't miss two.
 
-![Fimbl Calm mode grading rolled oats with an A: slow, steady morning energy, a great fit, with notes on goals, hunger and feelings and a tip for next time](https://fimbl.app/assets/img/app/en/04-meal-grades.webp)
+![Fimbl AI grade for rolled oats with an A: slow, steady morning energy, a great fit, with notes on goals, hunger and feelings and a tip for next time](https://fimbl.app/assets/img/app/en/04-meal-grades.webp)
 
 Premium **What a grade looks like** Instead of "223 kcal", you see what the meal did for you: slow, steady morning energy, a great fit for your goal, and a calm check-in afterwards. Then one idea for next time. A treat gets a grade too, with context instead of a red number.
 
@@ -145,11 +145,11 @@ Fimbl is designed and built by AppRise Ventures Oy, a small company in Espoo, Fi
 
 ### Is Fimbl a diet app?
 
-Not in the usual sense. You can set a calorie goal if it helps you, or switch to Calm mode and see grades instead of numbers. Fimbl is about balance, awareness and habits, and it's built to support a healthier relationship with food. It isn't a medical tool or a treatment for eating disorders.
+Fimbl is a calorie counter you can use to lose weight, keep it steady or gain, but it isn't a strict diet. Set a calorie goal if it helps you, or switch to Graded meals and see a simple mark instead of numbers. It's built to support a healthier relationship with food. It isn't a medical tool or a treatment for eating disorders.
 
 ### What's free in Fimbl, and what's Premium?
 
-The heart of the app is free and has no ads: the food diary, search and barcode scanning, saved meals, weight, mood and meal check-ins, Apple Health activity, goals and streaks, progress photos and the First Week journey. Premium adds macro goals, the AI features (photo scan, describing meals by voice or text, label scan, recipes from videos, weekly reflections and the coach, Calm mode and healthier swaps), widgets, extra meal slots and streak restore.
+The heart of the app is free and has no ads: the food diary, search and barcode scanning, saved meals, macros and macro goals, weight, mood and meal check-ins, Apple Health activity, goals and streaks, progress photos, Graded meals, Your story and the First Week journey, plus 3 photo scans and your first weekly reflection. Premium adds photo scans beyond the free ones, voice logging, recipes from videos, weekly reflections and the coach, AI grades and healthier swaps, more widgets and streak restore.
 
 ### Does Fimbl use my data to train AI?
 
@@ -174,27 +174,27 @@ Kasper Koskenvirta
 
 Founder of Fimbl
 
-Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a photo calorie counter and food diary for iPhone and iPad. Our articles are general information, not medical advice.
+Kasper designs and builds Fimbl at AppRise Ventures in Espoo, Finland. Fimbl is a modern AI calorie counter with a coach and private progress photos for iPhone and iPad. Our articles are general information, not medical advice.
 
 ## Keep reading
 
+Comparison 12 min read
+
+### [The best weight loss apps in 2026, compared](https://fimbl.app/blog/best-weight-loss-apps/)
+
+Fimbl, Noom, MyFitnessPal, Lose It!, MacroFactor, Cronometer and YAZIO compared for weight loss: calorie counting, AI coaches, progress photos and cost.
+
+November 6, 2026
+
 Comparison 11 min read
 
-### [The best progress photo apps in 2026, compared](https://fimbl.app/blog/best-progress-photo-apps/)
+### [The best AI fitness coach apps in 2026, and what each one really coaches](https://fimbl.app/blog/best-ai-fitness-coach-apps/)
 
-Fimbl, Progress, Hevy, MacroFactor, MyFitnessPal and Cronometer compared for progress photos: guided poses, overlays, compare, time-lapse and privacy.
+Fimbl, MyFitnessPal, Noom, Cronometer, Google Health Coach, WHOOP, Fitbod and MacroFactor compared: what each AI coach reads, coaches and costs to use.
 
-October 19, 2026
+November 6, 2026
 
-Calorie tracking 8 min read
-
-### [How accurate is AI calorie tracking, and does it matter?](https://fimbl.app/blog/ai-calorie-tracking-accuracy/)
-
-AI photo calorie estimates are off by about a third on average, much like manual logging. What studies show, when to trust AI and when to scan a barcode.
-
-October 19, 2026
-
-## Start your wellness journey
+## Snap your first meal. Keep going.
 
 Free to download. Your first scan takes seconds.
 
